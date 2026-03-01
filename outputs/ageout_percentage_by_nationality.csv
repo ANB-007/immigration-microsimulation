@@ -1,0 +1,7 @@
+Scenario,Nationality,Total_Children_Created,Total_Children_Aged_Out,Ageout_Percentage
+Uncapped,India,894649,65716,7.35
+Uncapped,China,233612,13276,5.68
+Uncapped,ROW,1421150,87301,6.14
+Capped,India,894649,148029,16.55
+Capped,China,233612,16334,6.99
+Capped,ROW,1421150,42870,3.02

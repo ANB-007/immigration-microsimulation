@@ -1,0 +1,101 @@
+"""
+Historical EB-4 approvals and nationality splits for SIJS and other EB-4 cases.
+
+Provides annual EB-4 approval totals for FY2009-FY2024, decomposed into
+Special Immigrant Juveniles (SIJS) and all other EB-4 pathways, along with
+empirical nationality distributions used to assign SIJS and Other_EB4
+petitioners by country of birth in the microsimulation.
+"""
+
+
+EB4_ANNUAL_TOTALS_BY_YEAR = {
+    2009: {
+        "SIJS": 1212,  # https://www.federalregister.gov/documents/2011/09/06/2011-22625/special-immigrant-juvenile-petitions
+        "Other_EB4": 3504,  # no data; use 2012 proportion as proxy
+    },
+    2010: {
+        "SIJS": 1591,
+        "Other_EB4": 4600,  # no data; use 2012 proportion as proxy
+    },
+    2011: {
+        "SIJS": 1869,
+        "Other_EB4": 5403,  # no data; use 2012 proportion as proxy
+    },
+    2012: {
+        "SIJS": 2724,
+        "Other_EB4": 7875,
+    },
+    2013: {
+        "SIJS": 3418,
+        "Other_EB4": 14953,
+    },
+    2014: {
+        "SIJS": 4581,
+        "Other_EB4": 12269,
+    },
+    2015: {
+        "SIJS": 8672,
+        "Other_EB4": 17685,
+    },
+    2016: {
+        "SIJS": 14977,
+        "Other_EB4": 16352,
+    },
+    2017: {
+        "SIJS": 11470,
+        "Other_EB4": 10709,
+    },
+    2018: {
+        "SIJS": 4710,
+        "Other_EB4": 8536,
+    },
+    2019: {
+        "SIJS": 23145,
+        "Other_EB4": 11652,
+    },
+    2020: {
+        "SIJS": 39745,
+        "Other_EB4": 11217,
+    },
+    2021: {
+        "SIJS": 15924,
+        "Other_EB4": 13232,
+    },
+    2022: {
+        "SIJS": 18681,
+        "Other_EB4": 21245,
+    },
+    2023: {
+        "SIJS": 53205,
+        "Other_EB4": 14949,
+    },
+    2024: {
+        "SIJS": 70859,
+        "Other_EB4": 15164,
+    },
+}
+
+SIJS_NATIONALITY_DISTRIBUTION = {
+    "ROW": 0.992,  # Primarily Central American
+    "India": 0.006,
+    "China": 0.002,
+}
+
+OTHER_EB4_NATIONALITY_DISTRIBUTION_BY_YEAR = {
+    2009: {"China": 0.003, "India": 0.0536, "ROW": 0.9434},
+    2010: {"China": 0.0021, "India": 0.0499, "ROW": 0.948},
+    2011: {"China": 0.002, "India": 0.0447, "ROW": 0.9533},
+    2012: {"China": 0.0018, "India": 0.0542, "ROW": 0.9439},
+    2013: {"China": 0.0024, "India": 0.0623, "ROW": 0.9353},
+    2014: {"China": 0.0034, "India": 0.0567, "ROW": 0.9399},
+    2015: {"China": 0.0039, "India": 0.072, "ROW": 0.9241},
+    2016: {"China": 0.0052, "India": 0.0561, "ROW": 0.9386},
+    2017: {"China": 0.0053, "India": 0.059, "ROW": 0.9356},
+    2018: {"China": 0.0049, "India": 0.059, "ROW": 0.9361},
+    2019: {"China": 0.005, "India": 0.0559, "ROW": 0.939},
+    2020: {"China": 0.0038, "India": 0.0614, "ROW": 0.9348},
+    2021: {"China": 0.0013, "India": 0.0413, "ROW": 0.9574},
+    2022: {"China": 0.0028, "India": 0.064, "ROW": 0.9332},
+    2023: {"China": 0.0026, "India": 0.0879, "ROW": 0.9095},
+    2024: {"China": 0.0046, "India": 0.0776, "ROW": 0.9178},
+}
