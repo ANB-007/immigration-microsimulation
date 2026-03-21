@@ -1,5 +1,5 @@
 Loading data...
-Model data: 576 rows
+Model data: 288 rows
 Actual data: 288 rows
 
 ####################################################################################################
@@ -7,9 +7,9 @@ Validation Summary Statistics
 ####################################################################################################
 
 Total Visas (2009-2024):
-  Model:         5,249,356
+  Model:         2,571,036
   Actual:        2,571,033
-  Difference:    2,678,323 (+104.17%)
+  Difference:            3 (+0.00%)
 
 Mean Absolute Error (MAE): 1
 Root Mean Square Error (RMSE): 1
