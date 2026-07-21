@@ -11,6 +11,7 @@ generation of standard visualizations for downstream analysis.
 
 import argparse
 import csv
+import logging
 import sys
 import time
 import textwrap
@@ -26,6 +27,7 @@ from .empirical_params import COUNTRIES
 from .models import EBCategory
 from .sim import Simulation
 from .states import SimulationConfig
+from .ci_runner import run_ci_analysis, print_ci_summary, save_ci_results_to_csv
 from .visa_consumption_exporter import VisaConsumptionExporter
 from .visualization import SimulationVisualizer
 
@@ -573,6 +575,58 @@ def print_comprehensive_comparison_summary(
     print("#" * 100)
 
 
+def run_ci_pipeline(config: SimulationConfig, n_runs: int) -> None:
+    """
+    Run Monte Carlo CI analysis and export all CI artifacts.
+
+    Executes N paired (uncapped, capped) simulation runs, aggregates 95%
+    empirical confidence intervals (2.5th-97.5th percentile across runs),
+    prints a console summary, and persists the raw per-run data
+    (ci_raw_scalars.csv, ci_raw_timeseries.csv, ci_raw_cohorts.csv) plus the
+    aggregated summaries (ci_scalars.csv, ci_timeseries.csv) under outputs/ci/.
+
+    Kept separate from run_comparative_analysis so the deterministic run and
+    the Monte Carlo run can be invoked independently or together.
+
+    Args:
+        config: Base SimulationConfig. country_cap_enabled is ignored
+                (overridden per scenario inside run_ci_analysis).
+        n_runs: Number of paired Monte Carlo iterations.
+
+    CI artifacts always land in outputs/ci/ (anchored to the project root),
+    kept separate from the standard run's --output for clean archival.
+    """
+    print("\n" + "=" * 80)
+    print("CI PIPELINE: Monte Carlo Confidence Intervals")
+    print("=" * 80)
+
+    start_time = time.perf_counter()
+
+    ci_output_dir = Path(__file__).resolve().parent.parent / "outputs" / "ci"
+    ci_output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Step 1: Run N paired simulations and aggregate empirical CIs
+    ci = run_ci_analysis(config, n_runs=n_runs)
+
+    # Step 2: Print human-readable console summary
+    print_ci_summary(ci)
+
+    # Step 3: Persist aggregated CI CSVs for reproducible downstream analysis
+    print("\n[CI] Exporting CI CSVs...")
+    try:
+        ci_csv_files = save_ci_results_to_csv(ci, ci_output_dir)
+        for label, path in ci_csv_files.items():
+            print(f"  {label}  ->  {path}")
+    except Exception as e:
+        print(f"  CI CSV export failed: {e}")
+
+    elapsed = time.perf_counter() - start_time
+    print(f"\n{'=' * 80}")
+    print(f"CI pipeline complete - {n_runs} runs in {elapsed:.1f}s")
+    print(f"CI outputs: {ci_output_dir}/")
+    print(f"{'=' * 80}\n")
+
+
 def main():
     """
     Main CLI entry point for immigration simulation.
@@ -588,16 +642,16 @@ def main():
             """
             Examples:
               # Run historical reconstruction only (2009-2024)
-              python -m src.simulation --reconstruction
+              python -m simulation --reconstruction
 
               # Run 2009 + 30 years (2009-2039)
-              python -m src.simulation --years 30
+              python -m simulation --years 30
 
               # With reproducible seed
-              python -m src.simulation --years 30 --seed 12345
+              python -m simulation --years 30 --seed 12345
 
               # Enable debug logging
-              python -m src.simulation --years 30 --debug
+              python -m simulation --years 30 --debug
         """
         ).strip(),
     )
@@ -628,8 +682,29 @@ def main():
         action="store_true",
         help="Enable detailed debug logging",
     )
+    parser.add_argument(
+        "--quiet",
+        action="store_true",
+        help="Suppress per-year INFO and WARNING logging (faster; recommended for full runs)",
+    )
+    parser.add_argument(
+        "--ci",
+        action="store_true",
+        help="After the standard run, run N paired Monte Carlo iterations and "
+        "export 95 percent empirical confidence intervals to outputs/ci/",
+    )
+    parser.add_argument(
+        "--ci-runs",
+        type=int,
+        default=50,
+        help="Number of paired Monte Carlo iterations for --ci "
+        "(default: 50, matching the published intervals; must be >= 2)",
+    )
 
     args = parser.parse_args()
+
+    if args.quiet and not args.debug:
+        logging.disable(logging.WARNING)
 
     ##############################
     # Determine simulation period
@@ -687,6 +762,20 @@ def main():
 
         traceback.print_exc()
         sys.exit(1)
+
+    # Optional Stage 2: Monte Carlo CI analysis (runs only when --ci is passed)
+    if args.ci:
+        if args.ci_runs < 2:
+            print(f"--ci-runs must be >= 2 to compute CI bounds; got {args.ci_runs}.")
+            sys.exit(1)
+        try:
+            run_ci_pipeline(config, n_runs=args.ci_runs)
+        except Exception as e:
+            print(f"\nCI pipeline failed: {e}")
+            import traceback
+
+            traceback.print_exc()
+            sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -81,7 +81,7 @@ df["INCWAGE_REAL"] = df["INCWAGE"] * df["YEAR"].map(CPI_DEFLATORS)
 ###########################
 
 # Base filters shared across all professional pathways (EB-1/2/3/EB-5)
-# EB-4 does not use this base mask — defined separately below
+# EB-4 does not use this base mask -- defined separately below
 _base = (
     (df["RELATE"] == 1)
     & (df["BPLD"] >= 15000)
@@ -191,7 +191,7 @@ for pathway in PATHWAYS:
     is_pooled = pathway in POOLED_NATIONALITY_PATHWAYS
 
     for nationality in MAJOR_NATIONALITIES:
-        # Full proxy — both married and unmarried — so the distribution reflects
+        # Full proxy -- both married and unmarried -- so the distribution reflects
         # the genuine spouse presence probability
         nat_data = get_nat_data(df_proxy, pathway, nationality)
 
@@ -239,7 +239,7 @@ def extract_child_count_distributions(pathway_to_proxy: dict) -> dict:
             child_counts = nat_data["NCHILD_FOREIGN_BORN"].values
             weights = nat_data["PERWT"].values
 
-            # Cap at 5 — counts above this are extremely rare and unreliable to estimate
+            # Cap at 5 -- counts above this are extremely rare and unreliable to estimate
             max_count = min(5, int(child_counts.max())) if len(child_counts) > 0 else 0
             count_bins = np.arange(0, max_count + 1)
             weighted_freq = np.zeros(len(count_bins))

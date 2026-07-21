@@ -1,1 +1,31 @@
+# Large IPUMS ACS microdata input (not needed to reproduce paper outputs;
+# the estimated empirical distributions are cached under simulation/distributions/)
 demographics/acs_2014-2024.csv
+
+# Python bytecode and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS, editor, and tooling artifacts
+.DS_Store
+.ipynb_checkpoints/
+.claude/
+
+# Manuscript / paper build (not required to run or reproduce results)
+paper/
+
+# Documents and submission bundles (kept locally, not pushed)
+*.pdf
+*.zip
+
+# Editor / restyle backups
+*.bak
+*.bak_restyle

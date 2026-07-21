@@ -1,6 +1,6 @@
 # Employment-Based Immigration Microsimulation
 
-This repository implements a petitioner-level microsimulation of the U.S. employment-based (EB) immigration system. It reconstructs the EB green card queue from FY2009–FY2024 and projects outcomes through FY2040 under two policy regimes:
+This repository implements a petitioner-level microsimulation of the U.S. employment-based (EB) immigration system. It reconstructs the EB green card queue from FY2009-FY2024 and projects outcomes through FY2040 under two policy regimes:
 
 - **Capped scenario**: Current law with a 7% per-country cap.
 - **Uncapped scenario**: Counterfactual that removes the per-country cap while holding total EB visas constant.
@@ -9,11 +9,37 @@ The model is designed to quantify how statutory rules—especially the per-count
 
 ---
 
+## Quick Start
+
+```bash
+git clone https://github.com/ANB-007/immigration-microsimulation.git
+cd immigration-microsimulation
+pip install .                 # numpy, pandas, matplotlib, seaborn (pinned; Python >= 3.10)
+python reproduce.py all       # regenerate every figure, table, and dataset behind the paper
+```
+
+The repository **ships all precomputed outputs under `outputs/`**, so every result can be inspected immediately without re-running anything. `reproduce.py all` regenerates them; see [Reproducing the Paper](#reproducing-the-paper-replication-package) for individual stages and runtimes. No external data download is required (see [Data Availability](#data-availability)).
+
+## Repository Layout
+
+```
+simulation/      core microsimulation engine + Monte Carlo / cohort / sensitivity modules
+validation/      model-vs-DOS validation (metrics.py, plots.py); real_data/ + model_data/ inputs
+demographics/    IPUMS ACS extractors (ages/, counts/) that build the cached distributions
+outputs/         precomputed paper outputs: figures, tables, datasets
+reproduce.py     one-command reproduction driver
+pyproject.toml   package metadata + pinned dependencies
+CITATION.cff     citation metadata
+LICENSE          MIT
+```
+
+---
+
 ## Key Features
 
 - **Petitioner-level agent-based model** of EB-1 through EB-5 queues with nationality- and category-specific first-in-first-out queues.
-- **Hybrid reconstruction–projection design**:
-  - 2009–2024: Historical reconstruction calibrated to DOS/USCIS data with caps always enforced.
+- **Hybrid reconstruction-projection design**:
+  - 2009-2024: Historical reconstruction calibrated to DOS/USCIS data with caps always enforced.
   - 2025+: Scenario-specific projections with capped vs. uncapped allocation.
 - **End-to-end family modeling**:
   - Empirical spouse presence and child count distributions by nationality and EB category.
@@ -24,27 +50,42 @@ The model is designed to quantify how statutory rules—especially the per-count
 - **Validation against DOS data**:
   - Visa issuance by nationality and EB category, with quantitative fit metrics and comparison plots.
 - **Rich outputs for analysis**:
-  - Yearly state snapshots, backlog decompositions, visa consumption by category–nationality cell, and age-out cohorts by entry year.
+  - Yearly state snapshots, backlog decompositions, visa consumption by category-nationality cell, and age-out cohorts by entry year.
 
 ---
 
-## Data Inputs
+## Data Availability
 
-### IPUMS ACS Microdata (age_extractor.py, counts_extractor.py)
+**Everything required to reproduce the paper ships with this repository—no downloads are needed.** External microdata is required only to rebuild the cached empirical distributions from source (the optional step at the end).
 
-The empirical family and age distributions are estimated from IPUMS ACS microdata (FY2014–FY2024, skipping FY2020) using the following variables:
+### Shipped with the repository
 
-`YEAR, SAMPLE, SERIAL, CBSERIAL, HHWT, CLUSTER, STRATA, GQ, PERNUM, PERWT, MOMLOC, POPLOC, NCHILD, NCHLT5, RELATE, RELATED, SEX, AGE, MARST, BPL, BPLD, CITIZEN, YRNATUR, YRIMMIG, YRSUSA1, EDUC, EDUCD, CLASSWKR, CLASSWKRD, OCC, OCC2010, IND, WKSWORK2, UHRSWORK, INCWAGE`
+| Data | Location | Source |
+|---|---|---|
+| Cached empirical distributions (principal age, child entry-age, spouse presence, child counts) | `simulation/distributions/*.json` | Estimated from IPUMS ACS (below); these are the inputs the model consumes |
+| DOS employment-based visa issuances, FY2009-FY2024 | `validation/real_data/dos_visa_consumption_data.csv` | U.S. Department of State, *Report of the Visa Office* (`dos_visaoffice2024`) |
+| USCIS petition approvals: I-140 (EB-1/2/3), I-360 (EB-4), I-526/I-526E (EB-5) | `validation/real_data/<year>/*.pdf` | USCIS employment-based petition statistics (`uscisEB5`, `uscis_data`) |
+| Model visa issuances used for validation | `validation/model_data/visa_consumption.csv` | This model (the paper's run) |
+| Precomputed paper outputs (all figures, tables, datasets) | `outputs/` | This model |
 
-These files are **not** included in the repository and must be obtained separately from IPUMS.
+Because the ACS-derived distributions are cached under `simulation/distributions/`, the simulation runs end-to-end **without any IPUMS download**. Full bibliographic citations for the DOS and USCIS sources are in the paper's References.
 
-The extractors:
+### Optional: regenerating the empirical distributions from IPUMS ACS
 
-- `age_extractor.py`  
-  Builds empirical principal age distributions and child entry-age distributions by EB-like category (EB-1, EB-2, EB-3, Other_EB4, EB-5) and nationality (India, China, ROW), and writes them to JSON for use by the simulation.
+The distributions in `simulation/distributions/` were estimated from **IPUMS USA American Community Survey (ACS)** microdata. This is needed only to rebuild them from scratch—not to reproduce any published result.
 
-- `counts_extractor.py`  
-  Derives nationality- and category-specific distributions for spouse presence (married vs. unmarried) and the number of foreign-born dependent children per married principal, and writes them to JSON for use by the simulation. 
+1. At <https://usa.ipums.org/usa/>, create a free account and build an extract of the **ACS 1-year samples for 2014-2024, excluding 2020**, with these variables:
+
+   `YEAR, SAMPLE, SERIAL, CBSERIAL, HHWT, CLUSTER, STRATA, GQ, PERNUM, PERWT, MOMLOC, POPLOC, NCHILD, NCHLT5, RELATE, RELATED, SEX, AGE, MARST, BPL, BPLD, CITIZEN, YRNATUR, YRIMMIG, YRSUSA1, EDUC, EDUCD, CLASSWKR, CLASSWKRD, OCC, OCC2010, IND, WKSWORK2, UHRSWORK, INCWAGE`
+
+2. Save the extract as `demographics/acs_2014-2024.csv` (several GB; **gitignored**—it is never committed and must not be included in a release archive).
+
+3. Rebuild the four distribution JSONs, then copy them into `simulation/distributions/` (each script reads `../acs_2014-2024.csv` and writes its JSON next to itself):
+
+   ```bash
+   cd demographics/ages   && python age_extractor.py      # principal-age + child-entry-age distributions
+   cd ../counts           && python counts_extractor.py   # spouse-presence + child-count distributions
+   ```
 
 ---
 
@@ -107,7 +148,7 @@ Implements the **main microsimulation engine**:
 
 - Initializes:
   - RNG streams for worker creation, queue exits, child generation, and visa allocation.
-  - Category–nationality first-in-first-out queues for EB-1 through EB-5 and {India, China, ROW}.
+  - Category-nationality first-in-first-out queues for EB-1 through EB-5 and {India, China, ROW}.
 - Annual step logic:
   1. Add new workers by pathway (using `get_pathway_totals` and nationality distributions).
   2. Allocate visas via `VisaProcessor` (capped or uncapped, depending on period and scenario).
@@ -118,9 +159,17 @@ Implements the **main microsimulation engine**:
   7. Aggregate statistics into a `SimulationState` snapshot.
 - Supports:
   - A **hybrid reconstruction-projection** regime:
-    - 2009–2024 always enforce caps for realism.
+    - 2009-2024 always enforce caps for realism.
     - 2025+ toggles caps based on scenario configuration.
   - Rich time-series outputs for both capped and uncapped runs.
+
+### `visa_processor.py`
+
+Implements the **visa allocation engine** invoked each simulated year:
+
+- Applies statutory category shares (28.6% for EB-1/2/3, 7.1% for EB-4/5) and the 7% per-country ceiling.
+- Runs the two-pass allocation: a first per-country-limited pass, then a spillover/cascade pass (EB-4/5 → EB-1 → EB-2 → EB-3) that redistributes unused numbers, honoring historical demand constraints during the reconstruction period.
+- Returns per category-nationality allocations that `sim.py` uses to convert principals and their families.
 
 ### `states.py`
 
@@ -134,7 +183,7 @@ Defines typed **configuration and state containers**:
     - New entries and conversions.
     - Children aged out, saved, and at risk.
     - Backlogs by EB category and nationality.
-    - Visa consumption by category–nationality cell.
+    - Visa consumption by category-nationality cell.
     - Queue exits by EB category and nationality.
     - Pass 2 allocations for oversubscribed countries.
 
@@ -146,7 +195,7 @@ Constructs **end-of-horizon backlog statistics** from completed simulation runs:
   - Principal-only backlogs by:
     - Nationality.
     - EB category.
-    - Category–nationality pairs (e.g., EB-2 India).
+    - Category-nationality pairs (e.g., EB-2 India).
   - Family-adjusted backlogs (principals + spouses + children) with the same breakdowns.
 
 ### `visa_consumption_exporter.py`
@@ -172,7 +221,7 @@ Creates **publication-quality plots** from simulation outputs:
 - Applicant type composition:
   - Principals vs. spouses vs. children over time.
 
-### `metrics.py`
+### `validation/metrics.py`
 
 Computes **quantitative fit metrics** comparing model outputs to DOS data:
 
@@ -184,7 +233,7 @@ Computes **quantitative fit metrics** comparing model outputs to DOS data:
   - Loads model-generated `visa_consumption.csv` and DOS reference data.
   - Writes a validation report to `results/validation_metrics_report.txt`.
 
-### `plots.py`
+### `validation/plots.py`
 
 Generates **visual validation plots** comparing simulated and actual DOS series:
 
@@ -211,4 +260,129 @@ Provides the **command-line entry point**:
 - Usage (from the project root) could look like:
 
 ```bash
-python -m src.simulation --years 32 --seed 12345 --output outputs/ --debug
+python -m simulation --years 32 --seed 12345 --output outputs/ --debug
+```
+
+Add `--ci` (with optional `--ci-runs N`, default 50) to append a Monte Carlo confidence-interval pass after the standard run; see the Monte Carlo modules and the Replication section below.
+
+---
+
+## Monte Carlo, Cohort, and Sensitivity Modules
+
+These modules implement the Monte Carlo confidence intervals, the long-horizon (FY2061) cohort-resolution run, and the robustness analysis reported in the paper.
+
+### `ci_runner.py`
+
+Monte Carlo **confidence-interval engine**. Runs `N` paired *(uncapped, capped)* simulations using common random numbers—each pair `i` draws from the same seed (`base_seed + i`), so the capped-uncapped difference is a tight matched-pairs estimate—and aggregates **empirical 2.5th-97.5th percentile** confidence intervals (no normality assumption) for every headline metric by year, nationality, and EB category. Invoked via `python -m simulation --ci --ci-runs N`. Writes per-run raw data (`ci_raw_scalars.csv`, `ci_raw_timeseries.csv`, `ci_raw_cohorts.csv`) and aggregated CIs (`ci_scalars.csv`, `ci_timeseries.csv`) to `outputs/ci/`.
+
+### `mc_calc.py`
+
+Reads `outputs/ci/ci_raw_timeseries.csv` and computes **publication summary statistics** (means with 95% CIs) for backlog, visas, queue exits, and age-outs across the reconstruction (2009-2024), projection (2025-2040), and full (2009-2040) windows, disaggregated by nationality and EB category. Writes `ci_summary_stats.csv` and `ci_annual_table.csv`.
+
+### `ci_figures.py`
+
+Renders the **CI-backed policy figures** (annual and cumulative age-outs with confidence bands, totals, capped-uncapped differential, backlog, EB-category) from `outputs/ci/` into `outputs/ci/policy_figures/`, including `annual_age_outs_by_scenario.png` used in the paper. It also reads `outputs/cohorts/children_aged_out_segmentation.csv` (produced by the `cohorts` stage), so run `cohorts` before `montecarlo` when running stages individually; `reproduce.py all` already orders them correctly.
+
+### `densities.py`
+
+100% stacked-area **cohort-outcome density charts** (Saved / Aged Out / Exited / Still Dependent) by entry year, computed from the long-horizon (FY2061) run and clipped to entry cohorts ≤ FY2040. Reads `outputs/cohorts/outcomes_by_entry_year.csv`, writes `outputs/cohorts/entry_year_density/`. Produces the per-category-nationality figures (e.g., `eb2_india_capped.png`) used in the paper. The FY2061 horizon lets every cohort present through FY2040 fully resolve (age out or convert) before its outcome shares are tallied.
+
+### `sensitivity.py`
+
+**Robustness analysis.** Aggregates cohort age-outs (FY2025-2040) across parameter-varied scenarios—India attrition, child entry ages, spouse probability, visa allocation, and uniform EB exit rates—stored under `outputs/sensitivity/scenarios/`, and reports capped vs. uncapped totals, the differential, and nationality composition per scenario. Confirms capped age-outs exceed uncapped in **every** scenario. Writes `outputs/sensitivity/sensitivity_ageout_summary.csv`.
+
+### `sensitivity_runner.py`
+
+**Ceteris-paribus scenario generator.** Regenerates each sensitivity scenario by varying **exactly one** structural parameter from the published baseline while holding all others at their standard state, exporting each scenario's cohort segmentation for `sensitivity.py` to aggregate. Each scenario is a paired (uncapped, capped) run at seed 2014, so the only difference within a pair is the per-country cap and the only difference across scenarios is the one varied parameter. Overrides are applied to live `empirical_params` values and restored after each run: India emigration multiplier (0.4 / 1.0), EB multipliers flattened to 1.0, spouse-probability multiplier (0.8 / 1.2), child entry-age multiplier (0.8 / 1.2), and projection visa supply (140,000 / 200,000). Run with `python -m simulation.sensitivity_runner`.
+
+---
+
+## Reproducing the Paper (Replication Package)
+
+### Environment
+
+```bash
+pip install .        # numpy, pandas, matplotlib, seaborn (versions pinned in pyproject.toml)
+# or, for a live checkout:  pip install -e .
+```
+
+Developed and validated with Python 3.10.18; the pinned dependencies require Python >= 3.10. Dependencies and their pinned versions are declared in `pyproject.toml`; IPUMS ACS microdata are **not** needed to reproduce the paper outputs—the estimated empirical distributions are cached under `simulation/distributions/`.
+
+### One-command reproduction
+
+The `reproduce.py` driver runs the whole pipeline (or any single stage) with one command:
+
+```bash
+python reproduce.py all            # standard + validation + cohorts + montecarlo + sensitivity
+python reproduce.py standard       # FY2009-FY2040 paired run           -> outputs/
+python reproduce.py validation     # model-vs-DOS fit metrics + figures -> validation/results/
+python reproduce.py cohorts        # FY2061 cohort-resolution run       -> outputs/cohorts/
+python reproduce.py montecarlo     # 50 paired MC runs + CI stats/figs  -> outputs/ci/
+python reproduce.py sensitivity    # regenerate scenarios + robustness  -> outputs/sensitivity/
+python reproduce.py montecarlo --ci-runs 100   # more runs -> tighter CI bands
+```
+
+Each stage is just a thin wrapper over the underlying commands, which can also be run directly:
+
+```bash
+# standard
+python -m simulation --years 32 --seed 2014 --quiet --output outputs/
+# validation: model-vs-DOS fit metrics + figures (scripts use paths relative to validation/)
+cd validation && python metrics.py && python plots.py && cd ..
+# cohort-resolution run to FY2061 (lets cohorts through FY2040 fully resolve), then density figures
+python -m simulation --years 53 --seed 2014 --quiet --output outputs/cohorts
+python simulation/densities.py
+# Monte Carlo 50 paired runs, then CI summary stats and CI figures
+python -m simulation --years 32 --seed 2014 --quiet --ci --ci-runs 50 --output outputs/montecarlo
+python simulation/mc_calc.py
+python simulation/ci_figures.py
+# sensitivity: regenerate ceteris-paribus scenarios, then the robustness table
+python -m simulation.sensitivity_runner --quiet
+python simulation/sensitivity.py
+```
+
+**Runtime.** The model is compute-intensive in the projection years (the queue exceeds ~1.5M by the 2030s): a single 32-year paired run takes several minutes; `montecarlo` (50 runs) and `sensitivity` (10 scenarios) can each take 1-2 hours on a laptop. **The repository ships the exact outputs behind the paper under `outputs/`, so every figure and table can be inspected without re-running.** Regenerating from the clean engine reproduces the published findings within Monte-Carlo / seed tolerance (roughly +/-1% on totals at seed 2014).
+
+### Output layout
+
+```
+outputs/
+  age_outs/, conversions/       standard-run figures
+  *.csv                         standard-run datasets (states, backlog, outcomes, ...)
+  ci/                           Monte Carlo confidence-interval artifacts
+    ci_raw_timeseries.csv         per-run annual metrics, 50 runs (paper data)
+    ci_raw_scalars.csv            per-run end-state scalars, 50 runs
+    ci_timeseries.csv             aggregated per-year 95% CIs
+    ci_summary_stats.csv          headline means + 95% CIs (mc_calc)
+    ci_annual_table.csv           annual age-outs table with CIs
+    policy_figures/               CI-backed figures (incl. annual_age_outs_by_scenario.png)
+  cohorts/                      cohort-resolution run (FY2061 horizon)
+    outcomes_by_entry_year.csv
+    entry_year_density/           cohort-outcome density figures
+  sensitivity/
+    scenarios/<name>/             parameter-varied scenario outputs
+    sensitivity_ageout_summary.csv
+```
+
+### Which command produces each paper figure
+
+| Paper figure(s) | `reproduce.py` stage (underlying script) |
+|---|---|
+| `india/china/row_validation.png` | `validation` (`validation/plots.py`) |
+| `applicant_type_{capped,uncapped}.png`, `{capped,uncapped}_by_nationality.png` | `standard` (`visualization.py`) |
+| `annual_age_outs_by_scenario.png` | `montecarlo` (`ci_figures.py`) |
+| `eb2_india`, `eb3_india`, `eb2_china`, `eb4_other_{capped,uncapped}.png` | `cohorts` (`densities.py`) |
+
+### Note on Monte Carlo provenance
+
+The 95% intervals reported in the paper are the 2.5th-97.5th percentiles across **50 paired Monte Carlo runs**. `outputs/ci/ci_raw_timeseries.csv` is the exact 50-run set underlying the paper; regenerating via step 3 above produces statistically equivalent results.
+
+---
+
+## Citation
+
+If you use this software or its outputs, please cite it using the metadata in [`CITATION.cff`](CITATION.cff) (archived at [doi:10.5281/zenodo.17765763](https://doi.org/10.5281/zenodo.17765763)). If the accompanying paper has been published, please cite the published article instead.
+
+## License
+
+Released under the MIT License—see [`LICENSE`](LICENSE). Copyright (c) 2026 Adhithiya Narayanan Balamurugan.

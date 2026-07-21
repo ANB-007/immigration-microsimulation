@@ -26,7 +26,7 @@ PLOT_DPI = 400
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-sns.set_theme(style="white", context="talk")
+sns.set_theme(style="white", context="paper")
 plt.rcParams["figure.dpi"] = 100
 plt.rcParams["savefig.dpi"] = 400
 plt.rcParams["axes.facecolor"] = "#FFFFFF"
@@ -36,16 +36,30 @@ plt.rcParams["font.sans-serif"] = ["Arial", "Helvetica", "DejaVu Sans"]
 plt.rcParams["axes.spines.top"] = False
 plt.rcParams["axes.spines.right"] = False
 
-SCENARIO_COLORS = {"Uncapped": "#00897B", "Capped": "#C62828"}
+# Colour palettes: Okabe-Ito colour-blind-safe hues, validated for CVD separation.
+# Greyscale/print legibility never relies on colour alone: bar and stacked-area
+# fills also carry a hatch pattern (the *_HATCH maps) and line series carry a
+# distinct linestyle + marker, so every figure stays readable in black-and-white.
+SCENARIO_COLORS = {"Uncapped": "#56B4E9", "Capped": "#D55E00"}
+SCENARIO_HATCH = {"Uncapped": "", "Capped": "///"}
 
-NATIONALITY_COLORS = {"India": "#1E88E5", "China": "#8E24AA", "ROW": "#616161"}
+NATIONALITY_COLORS = {"India": "#0072B2", "China": "#E69F00", "ROW": "#009E73"}
+NATIONALITY_HATCH = {"India": "", "China": "///", "ROW": ".."}
 
 EB_COLORS = {
-    "EB-1": "#5E35B1",
-    "EB-2": "#039BE5",
-    "EB-3": "#00897B",
-    "EB-4": "#F57C00",
-    "EB-5": "#D81B60",
+    "EB-1": "#0072B2",
+    "EB-2": "#E69F00",
+    "EB-3": "#009E73",
+    "EB-4": "#CC79A7",
+    "EB-5": "#D55E00",
+}
+
+EB_HATCH = {
+    "EB-1": "",
+    "EB-2": "///",
+    "EB-3": "..",
+    "EB-4": "xx",
+    "EB-5": "\\\\",
 }
 
 EB_LINE_STYLES = {
@@ -65,10 +79,11 @@ EB_MARKERS = {
 }
 
 APPLICANT_COLORS = {
-    "principals": "#1E3A8A",
-    "spouses": "#D97706",
-    "children": "#059669",
+    "principals": "#0072B2",
+    "spouses": "#E69F00",
+    "children": "#009E73",
 }
+APPLICANT_HATCH = {"principals": "", "spouses": "///", "children": ".."}
 
 
 class SimulationVisualizer:
@@ -108,7 +123,7 @@ class SimulationVisualizer:
         eb_data_capped = eb_data_capped[eb_data_capped["Year"] >= 2025]
 
         # Uncapped by Nationality
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         pivot_data = nat_data_uncapped.pivot(index="Year", columns="Nationality", values="Count")
         pivot_data.plot(
             kind="bar",
@@ -119,14 +134,17 @@ class SimulationVisualizer:
             edgecolor="white",
             linewidth=1.5,
         )
+        for _container, _col in zip(ax.containers, pivot_data.columns):
+            for _bar in _container:
+                _bar.set_hatch(NATIONALITY_HATCH.get(_col, ""))
         ax.set_title(
             "Distribution of Age-Outs by Nationality (Uncapped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Children Aged Out", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Children Aged Out", fontsize=13, weight="medium", labelpad=10)
 
         legend = ax.legend(
             title="Nationality",
@@ -135,13 +153,13 @@ class SimulationVisualizer:
             edgecolor="#DADADA",
             loc="upper left",
             fontsize=12,
-            title_fontsize=13,
+            title_fontsize=12,
         )
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        plt.xticks(rotation=45, ha="right", fontsize=11)
-        plt.yticks(fontsize=11)
+        plt.xticks(rotation=45, ha="right", fontsize=12)
+        plt.yticks(fontsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -163,7 +181,7 @@ class SimulationVisualizer:
         chart_files["uncapped_by_nationality"] = str(chart_file)
 
         # Uncapped by EB Category
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         pivot_data = eb_data_uncapped.pivot(index="Year", columns="Category", values="Count")
         pivot_data.plot(
             kind="bar",
@@ -174,14 +192,17 @@ class SimulationVisualizer:
             edgecolor="white",
             linewidth=1.5,
         )
+        for _container, _col in zip(ax.containers, pivot_data.columns):
+            for _bar in _container:
+                _bar.set_hatch(EB_HATCH.get(_col, ""))
         ax.set_title(
             "Distribution of Age-Outs by EB Category (Uncapped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Children Aged Out", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Children Aged Out", fontsize=13, weight="medium", labelpad=10)
 
         legend = ax.legend(
             title="EB Category",
@@ -190,13 +211,13 @@ class SimulationVisualizer:
             edgecolor="#DADADA",
             loc="upper left",
             fontsize=12,
-            title_fontsize=13,
+            title_fontsize=12,
         )
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        plt.xticks(rotation=45, ha="right", fontsize=11)
-        plt.yticks(fontsize=11)
+        plt.xticks(rotation=45, ha="right", fontsize=12)
+        plt.yticks(fontsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -218,7 +239,7 @@ class SimulationVisualizer:
         chart_files["uncapped_by_eb_category"] = str(chart_file)
 
         # Capped by Nationality
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         pivot_data = nat_data_capped.pivot(index="Year", columns="Nationality", values="Count")
         pivot_data.plot(
             kind="bar",
@@ -229,14 +250,17 @@ class SimulationVisualizer:
             edgecolor="white",
             linewidth=1.5,
         )
+        for _container, _col in zip(ax.containers, pivot_data.columns):
+            for _bar in _container:
+                _bar.set_hatch(NATIONALITY_HATCH.get(_col, ""))
         ax.set_title(
             "Distribution of Age-Outs by Nationality (Capped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Children Aged Out", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Children Aged Out", fontsize=13, weight="medium", labelpad=10)
 
         legend = ax.legend(
             title="Nationality",
@@ -245,13 +269,13 @@ class SimulationVisualizer:
             edgecolor="#DADADA",
             loc="upper left",
             fontsize=12,
-            title_fontsize=13,
+            title_fontsize=12,
         )
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        plt.xticks(rotation=45, ha="right", fontsize=11)
-        plt.yticks(fontsize=11)
+        plt.xticks(rotation=45, ha="right", fontsize=12)
+        plt.yticks(fontsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -273,7 +297,7 @@ class SimulationVisualizer:
         chart_files["capped_by_nationality"] = str(chart_file)
 
         # Capped by EB Category
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         pivot_data = eb_data_capped.pivot(index="Year", columns="Category", values="Count")
         pivot_data.plot(
             kind="bar",
@@ -284,14 +308,17 @@ class SimulationVisualizer:
             edgecolor="white",
             linewidth=1.5,
         )
+        for _container, _col in zip(ax.containers, pivot_data.columns):
+            for _bar in _container:
+                _bar.set_hatch(EB_HATCH.get(_col, ""))
         ax.set_title(
             "Distribution of Age-Outs by EB Category (Capped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Children Aged Out", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Children Aged Out", fontsize=13, weight="medium", labelpad=10)
 
         legend = ax.legend(
             title="EB Category",
@@ -300,13 +327,13 @@ class SimulationVisualizer:
             edgecolor="#DADADA",
             loc="upper left",
             fontsize=12,
-            title_fontsize=13,
+            title_fontsize=12,
         )
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        plt.xticks(rotation=45, ha="right", fontsize=11)
-        plt.yticks(fontsize=11)
+        plt.xticks(rotation=45, ha="right", fontsize=12)
+        plt.yticks(fontsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -336,7 +363,7 @@ class SimulationVisualizer:
             }
         )
 
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         x = np.arange(len(annual_df))
         width = 0.35
 
@@ -346,6 +373,7 @@ class SimulationVisualizer:
             width,
             label="Uncapped",
             color=SCENARIO_COLORS["Uncapped"],
+            hatch=SCENARIO_HATCH["Uncapped"],
             edgecolor="white",
             linewidth=1.5,
             alpha=0.9,
@@ -356,6 +384,7 @@ class SimulationVisualizer:
             width,
             label="Capped",
             color=SCENARIO_COLORS["Capped"],
+            hatch=SCENARIO_HATCH["Capped"],
             edgecolor="white",
             linewidth=1.5,
             alpha=0.9,
@@ -363,18 +392,18 @@ class SimulationVisualizer:
 
         ax.set_title(
             "Annual Age-Outs by Scenario",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Children Aged Out", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Children Aged Out", fontsize=13, weight="medium", labelpad=10)
         ax.set_xticks(x[:: max(1, len(x) // 10)])
         ax.set_xticklabels(
             annual_df["Year"].iloc[:: max(1, len(x) // 10)],
             rotation=45,
             ha="right",
-            fontsize=11,
+            fontsize=12,
         )
 
         legend = ax.legend(
@@ -387,7 +416,7 @@ class SimulationVisualizer:
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        plt.yticks(fontsize=11)
+        plt.yticks(fontsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -418,7 +447,7 @@ class SimulationVisualizer:
             }
         )
 
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
 
         sns.lineplot(
             data=cumulative_df,
@@ -442,6 +471,7 @@ class SimulationVisualizer:
             markersize=9,
             label="Capped",
             color=SCENARIO_COLORS["Capped"],
+            linestyle="--",
             markevery=max(1, len(cumulative_df) // 15),
             ax=ax,
             markeredgewidth=0,
@@ -457,12 +487,12 @@ class SimulationVisualizer:
 
         ax.set_title(
             "Cumulative Age Outs by Scenario",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Total Children Aged Out", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Total Children Aged Out", fontsize=13, weight="medium", labelpad=10)
 
         legend = ax.legend(
             frameon=True,
@@ -476,7 +506,7 @@ class SimulationVisualizer:
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        ax.tick_params(axis="both", labelsize=11)
+        ax.tick_params(axis="both", labelsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -514,7 +544,7 @@ class SimulationVisualizer:
         capped_df = self._prepare_conversion_data(states_capped)
 
         # Uncapped Conversions
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         for category in sorted(uncapped_df["Category"].unique()):
             cat_data = uncapped_df[uncapped_df["Category"] == category]
             ax.plot(
@@ -532,14 +562,14 @@ class SimulationVisualizer:
 
         ax.set_title(
             "EB Category Conversions Over Time (Uncapped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
         ax.set_ylabel(
             "Annual Conversions",
-            fontsize=14,
+            fontsize=13,
             weight="medium",
             labelpad=10,
         )
@@ -551,13 +581,13 @@ class SimulationVisualizer:
             edgecolor="#DADADA",
             loc="best",
             fontsize=12,
-            title_fontsize=13,
+            title_fontsize=12,
             handlelength=2.5,
         )
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        ax.tick_params(axis="both", labelsize=11)
+        ax.tick_params(axis="both", labelsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -578,7 +608,7 @@ class SimulationVisualizer:
         chart_files["uncapped_by_eb_category"] = str(chart_file)
 
         # Capped Conversions
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         for category in sorted(capped_df["Category"].unique()):
             cat_data = capped_df[capped_df["Category"] == category]
             ax.plot(
@@ -596,14 +626,14 @@ class SimulationVisualizer:
 
         ax.set_title(
             "EB Category Conversions Over Time (Capped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
         ax.set_ylabel(
             "Annual Conversions",
-            fontsize=14,
+            fontsize=13,
             weight="medium",
             labelpad=10,
         )
@@ -615,13 +645,13 @@ class SimulationVisualizer:
             edgecolor="#DADADA",
             loc="best",
             fontsize=12,
-            title_fontsize=13,
+            title_fontsize=12,
             handlelength=2.5,
         )
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        ax.tick_params(axis="both", labelsize=11)
+        ax.tick_params(axis="both", labelsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -656,7 +686,7 @@ class SimulationVisualizer:
         chart_files = {}
 
         # Uncapped by Applicant Type
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         principals_uncapped = [state.converted_temps for state in states_uncapped]
         spouses_uncapped = [state.converted_spouses for state in states_uncapped]
         children_uncapped = [state.children_saved_this_year for state in states_uncapped]
@@ -676,6 +706,8 @@ class SimulationVisualizer:
             alpha=0.85,
             linewidth=0,
         )
+        for _poly, _h in zip(ax.collections, APPLICANT_HATCH.values()):
+            _poly.set_hatch(_h)
 
         final_principals = principals_uncapped[-1]
         final_spouses = spouses_uncapped[-1]
@@ -701,7 +733,7 @@ class SimulationVisualizer:
             0.97,
             proportion_text,
             transform=ax.transAxes,
-            fontsize=10,
+            fontsize=11,
             verticalalignment="top",
             horizontalalignment="right",
             family="monospace",
@@ -716,12 +748,12 @@ class SimulationVisualizer:
 
         ax.set_title(
             "Conversions by Applicant Type (Uncapped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Annual Conversions", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Annual Conversions", fontsize=13, weight="medium", labelpad=10)
 
         legend = ax.legend(
             frameon=True,
@@ -733,7 +765,7 @@ class SimulationVisualizer:
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        ax.tick_params(axis="both", labelsize=11)
+        ax.tick_params(axis="both", labelsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -752,7 +784,7 @@ class SimulationVisualizer:
         logger.info(f"Saved {chart_file}")
 
         # Capped by Applicant Type
-        fig, ax = plt.subplots(figsize=(14, 8))
+        fig, ax = plt.subplots(figsize=(6.5, 3.7))
         principals_capped = [state.converted_temps for state in states_capped]
         spouses_capped = [state.converted_spouses for state in states_capped]
         children_capped = [state.children_saved_this_year for state in states_capped]
@@ -772,6 +804,8 @@ class SimulationVisualizer:
             alpha=0.85,
             linewidth=0,
         )
+        for _poly, _h in zip(ax.collections, APPLICANT_HATCH.values()):
+            _poly.set_hatch(_h)
 
         final_principals = principals_capped[-1]
         final_spouses = spouses_capped[-1]
@@ -795,7 +829,7 @@ class SimulationVisualizer:
             0.97,
             proportion_text,
             transform=ax.transAxes,
-            fontsize=10,
+            fontsize=11,
             verticalalignment="top",
             horizontalalignment="right",
             family="monospace",
@@ -810,12 +844,12 @@ class SimulationVisualizer:
 
         ax.set_title(
             "Conversions by Applicant Type (Capped)",
-            fontsize=19,
+            fontsize=14,
             weight="bold",
             pad=15,
         )
-        ax.set_xlabel("Year", fontsize=14, weight="medium", labelpad=10)
-        ax.set_ylabel("Annual Conversions", fontsize=14, weight="medium", labelpad=10)
+        ax.set_xlabel("Year", fontsize=13, weight="medium", labelpad=10)
+        ax.set_ylabel("Annual Conversions", fontsize=13, weight="medium", labelpad=10)
 
         legend = ax.legend(
             frameon=True,
@@ -827,7 +861,7 @@ class SimulationVisualizer:
         legend.get_frame().set_linewidth(1.5)
 
         ax.yaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x):,}"))
-        ax.tick_params(axis="both", labelsize=11)
+        ax.tick_params(axis="both", labelsize=12)
         ax.grid(True, alpha=0.2, linewidth=0.8, color="#CCCCCC", linestyle="-")
         ax.set_axisbelow(True)
 
@@ -876,7 +910,7 @@ class SimulationVisualizer:
             x_val + x_offset,
             y_text,
             "Policy shift",
-            fontsize=10,
+            fontsize=11,
             color="#444444",
             va="top",
             ha="left",

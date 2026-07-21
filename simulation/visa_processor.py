@@ -186,7 +186,7 @@ class VisaProcessor:
             child_processor: Processor tracking dependent children
 
         Returns:
-            Dictionary mapping worker_id → total visa cost for family
+            Dictionary mapping worker_id -> total visa cost for family
         """
         # Build a lookup table counting children per parent
         children_by_parent = defaultdict(int)
@@ -339,10 +339,10 @@ class VisaProcessor:
         artificial throttling of any particular country.
 
         Processing order:
-        1. EB-4 (spillover → EB-1)
-        2. EB-5 (spillover → EB-1)
-        3. EB-1 (gets EB-4/EB-5 spillover, spillover → EB-2)
-        4. EB-2 (gets EB-1 spillover, spillover → EB-3)
+        1. EB-4 (spillover -> EB-1)
+        2. EB-5 (spillover -> EB-1)
+        3. EB-1 (gets EB-4/EB-5 spillover, spillover -> EB-2)
+        4. EB-2 (gets EB-1 spillover, spillover -> EB-3)
         5. EB-3 (gets EB-2 spillover, no further cascade)
 
         Args:
@@ -368,7 +368,7 @@ class VisaProcessor:
         # This increases as unused visas cascade down from higher categories
         available_visas = {cat: annual_eb_caps.get(cat, 0) for cat in EBCategory}
 
-        # Process categories in cascade order (EB-4/EB-5 → EB-1 → EB-2 → EB-3)
+        # Process categories in cascade order (EB-4/EB-5 -> EB-1 -> EB-2 -> EB-3)
         for eb_category in CASCADE_PROCESSING_ORDER:
             # Stop if we've exhausted the entire annual visa pool
             if total_visas_consumed >= annual_limit:
@@ -444,7 +444,7 @@ class VisaProcessor:
                 logger.debug(f"  {unused_visas:,} unused visas from {eb_category.value}")
 
                 # Apply cascade flow rules
-                # Example: EB-4 unused → EB-1, EB-5 unused → EB-1, etc.
+                # Example: EB-4 unused -> EB-1, EB-5 unused -> EB-1, etc.
                 flows = CASCADE_FLOWS.get(eb_category, {})
                 for receiving_category in flows.get("sends_to", []):
                     available_visas[receiving_category] += unused_visas
@@ -492,10 +492,10 @@ class VisaProcessor:
         - Pass 2: Process overflow from oversubscribed countries without cap
 
         Processing order:
-        1. EB-4 (spillover → EB-1)
-        2. EB-5 (spillover → EB-1)
-        3. EB-1 (gets EB-4/EB-5 spillover, spillover → EB-2)
-        4. EB-2 (gets EB-1 spillover, spillover → EB-3)
+        1. EB-4 (spillover -> EB-1)
+        2. EB-5 (spillover -> EB-1)
+        3. EB-1 (gets EB-4/EB-5 spillover, spillover -> EB-2)
+        4. EB-2 (gets EB-1 spillover, spillover -> EB-3)
         5. EB-3 (gets EB-2 spillover, no further cascade)
 
         Args:
@@ -526,7 +526,7 @@ class VisaProcessor:
         # This persists across Pass 1 and Pass 2 to maintain accurate country caps
         cumulative_visas_by_country_category = defaultdict(lambda: defaultdict(int))
 
-        # Process categories in cascade order (EB-4/EB-5 → EB-1 → EB-2 → EB-3)
+        # Process categories in cascade order (EB-4/EB-5 -> EB-1 -> EB-2 -> EB-3)
         for eb_category in CASCADE_PROCESSING_ORDER:
             # Stop if we've exhausted the entire annual visa pool
             if total_visas_consumed >= annual_limit:
@@ -684,7 +684,7 @@ class VisaProcessor:
                 logger.debug(f"  {unused_visas:,} unused visas from {eb_category.value}")
 
                 # Apply cascade flow rules
-                # Example: EB-4 unused → EB-1, EB-5 unused → EB-1, etc.
+                # Example: EB-4 unused -> EB-1, EB-5 unused -> EB-1, etc.
                 flows = CASCADE_FLOWS.get(eb_category, {})
                 for receiving_category in flows.get("sends_to", []):
                     available_visas[receiving_category] += unused_visas

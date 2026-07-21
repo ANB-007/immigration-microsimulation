@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "immigration-microsimulation"
+version = "2.0.0"
+description = "A petitioner-level microsimulation of United States employment-based immigration that quantifies how the 7% per-country cap redistributes wait times and child age-out risk across nationalities and EB preference categories."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  { name = "Adhithiya Narayanan Balamurugan", email = "adhithiya.balamurugan@gmail.com" },
+]
+keywords = [
+  "employment-based-immigration", "per-country-cap", "child-age-out", "microsimulation",
+]
+
+dependencies = [
+  "numpy==2.2.6",
+  "pandas==2.3.3",
+  "matplotlib==3.10.7",
+  "seaborn==0.13.2",
+]
+
+[project.urls]
+Repository = "https://github.com/ANB-007/immigration-microsimulation"
+Issues = "https://github.com/ANB-007/immigration-microsimulation/issues"
+Archive = "https://doi.org/10.5281/zenodo.17765763"
+
+[tool.hatch.build.targets.wheel]
+packages = ["simulation"]

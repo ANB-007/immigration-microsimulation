@@ -173,7 +173,7 @@ class Simulation:
 
         Args:
             worker: Worker object to modify (will set worker.spouse_count)
-            pathway: Petition pathway—used to detect SIJS override
+            pathway: Petition pathway--used to detect SIJS override
             rng: Random number generator for this pathway (ensures reproducibility)
         """
         # Fetch empirical marriage probability for this nationality/pathway combination
@@ -506,7 +506,7 @@ class Simulation:
 
     def step(self) -> SimulationState:
         """
-        Execute one simulation year—the main event loop.
+        Execute one simulation year--the main event loop.
 
         Order of operations:
 

@@ -252,7 +252,7 @@ def sample_child_entry_age(nationality: str, pathway: str = None, rng: np.random
 
     Args:
         nationality: Country of birth (e.g., "China", "India", "ROW")
-        pathway: Immigration pathway (e.g., "EB-1", "EB-2") — required for lookup
+        pathway: Immigration pathway (e.g., "EB-1", "EB-2") -- required for lookup
         rng: Random number generator (required)
 
     Returns:

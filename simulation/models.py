@@ -157,9 +157,9 @@ class DependentChild:
 
     Tracks a child from when their parent enters the queue until one of
     three outcomes occurs:
-    - Parent converts → child becomes SavedChild (gets green card)
-    - Parent leaves system → child becomes ExitedChild (leaves with parent)
-    - Child turns 21 → child becomes AgedOutChild (loses eligibility)
+    - Parent converts -> child becomes SavedChild (gets green card)
+    - Parent leaves system -> child becomes ExitedChild (leaves with parent)
+    - Child turns 21 -> child becomes AgedOutChild (loses eligibility)
     """
 
     child_id: int  # Unique identifier for this child

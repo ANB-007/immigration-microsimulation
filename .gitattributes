@@ -1,0 +1,25 @@
+# Keep the repository clean and prevent binary corruption on commit/checkout.
+
+# Auto-normalize line endings for text files.
+* text=auto
+
+# Source / text
+*.py    text diff=python
+*.md    text
+*.tex   text
+*.bib   text
+*.cff   text
+*.toml  text
+*.csv   text
+*.json  text
+*.txt   text
+
+# Binary assets: never EOL/whitespace-normalize, never diff as text.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.pdf   binary
+*.xlsx  binary
+*.xls   binary
+*.dta   binary
+*.zip   binary

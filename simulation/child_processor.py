@@ -146,7 +146,7 @@ class ChildProcessor:
         # This is the denominator for entry-year cohort outcome percentages
         self.children_created_by_entry_year_nationality: Dict[Tuple[int, str], int] = defaultdict(int)
 
-        # This is the denominator for the nationality × EB-category breakdown
+        # This is the denominator for the nationality x EB-category breakdown
         self.children_created_by_entry_year_nationality_eb: Dict[Tuple[int, str, str], int] = defaultdict(int)
 
     def create_children_for_worker(
@@ -591,7 +591,7 @@ class ChildProcessor:
             for key, count in self.children_created_by_entry_year_nationality.items()
         }
 
-        # Tally each terminal outcome — one pass per list
+        # Tally each terminal outcome -- one pass per list
         for child in self.aged_out_children:
             key = (child.entry_year, child.nationality)
             if key in results:

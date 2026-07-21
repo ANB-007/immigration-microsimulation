@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: "A Microsimulation of Age-Out Dynamics in United States Employment-Based Immigration"
+message: >-
+  If you use this microsimulation, its shipped outputs, or this code, please
+  cite it using the metadata from this file. If the accompanying paper is
+  published in the International Journal of Microsimulation, please cite the
+  published article instead (see preferred-citation).
+type: software
+authors:
+  - given-names: Adhithiya Narayanan
+    family-names: Balamurugan
+    email: adhithiya.balamurugan@gmail.com
+    orcid: "https://orcid.org/0009-0006-5135-7570"
+repository-code: "https://github.com/ANB-007/immigration-microsimulation"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17765763
+license: MIT
+version: 2.0.0
+date-released: "2026-07-20"
+keywords:
+  - employment-based immigration
+  - per-country cap
+  - child age-out
+  - microsimulation
+abstract: >-
+  A petitioner-level microsimulation of the United States employment-based (EB)
+  immigration system. It reconstructs the EB green-card queue from FY2009-FY2024,
+  assigns dependents using nationality-specific demographic profiles, allocates
+  visas under the statutory 7% per-country cap, and projects outcomes through
+  FY2040 under the current capped system and an uncapped counterfactual. The
+  model quantifies how the per-country cap amplifies and redistributes child
+  age-out risk (loss of derivative eligibility at age 21) across national-origin
+  groups and EB preference categories. 
+preferred-citation:
+  type: article
+  title: "A Microsimulation of Age-Out Dynamics in United States Employment-Based Immigration"
+  authors:
+    - given-names: Adhithiya Narayanan
+      family-names: Balamurugan
+      email: adhithiya.balamurugan@gmail.com
+      orcid: "https://orcid.org/0009-0006-5135-7570"
+  year: 2026
+  notes: "Manuscript under submission to the International Journal of Microsimulation."
