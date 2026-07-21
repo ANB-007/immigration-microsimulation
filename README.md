@@ -381,7 +381,7 @@ The 95% intervals reported in the paper are the 2.5th-97.5th percentiles across 
 
 ## Citation
 
-If you use this software or its outputs, please cite it using the metadata in [`CITATION.cff`](CITATION.cff) (archived at [doi:10.5281/zenodo.17765763](https://doi.org/10.5281/zenodo.17765763)). If the accompanying paper has been published, please cite the published article instead.
+If you use this microsimulation, its outputs, or this code, please cite the accompanying SSRN preprint: Balamurugan, A. N. (2026). *A Microsimulation of Age-Out Dynamics in United States Employment-Based Immigration.* SSRN. [doi:10.2139/ssrn.5841103](https://doi.org/10.2139/ssrn.5841103). To cite the software specifically, use the metadata in [`CITATION.cff`](CITATION.cff) (archived at [doi:10.5281/zenodo.21465739](https://doi.org/10.5281/zenodo.21465739)). If the article is published in the *International Journal of Microsimulation*, please cite the published version instead.
 
 ## License
 
