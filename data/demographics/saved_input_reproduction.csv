@@ -1,0 +1,16 @@
+category,nationality,max_child_pmf_abs_difference,spouse_probability_abs_difference
+EB-1,China,0.0,0.0
+EB-1,India,0.0,0.0
+EB-1,ROW,0.0,0.0
+EB-2,China,0.0,0.0
+EB-2,India,0.0,0.0
+EB-2,ROW,0.0,0.0
+EB-3,China,0.0,0.0
+EB-3,India,0.0,0.0
+EB-3,ROW,0.0,0.0
+EB-5,China,0.0,0.0
+EB-5,India,0.0,0.0
+EB-5,ROW,0.0,0.0
+Other_EB4,China,0.0,0.0
+Other_EB4,India,0.0,0.0
+Other_EB4,ROW,0.0,0.0

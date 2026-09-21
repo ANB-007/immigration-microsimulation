@@ -1,0 +1,43 @@
+dimension,group,quantity,policy,n,mean,sd_across_runs,mcse_mean,mean_ci95_low,mean_ci95_high,positive_runs,zero_runs,negative_runs,mean_baseline,mean_replay
+category,EB-1,age21_events_2009_2024,Historical,1,0.0,,,,,0,1,0,0.0,0.0
+category,EB-1,principal_backlog_2024,Historical,1,620.0,,,,,1,0,0,31461.0,32081.0
+category,EB-1,principal_exits_2009_2024,Historical,1,365.0,,,,,1,0,0,2318.0,2683.0
+category,EB-2,age21_events_2009_2024,Historical,1,-1729.0,,,,,0,0,1,6356.0,4627.0
+category,EB-2,principal_backlog_2024,Historical,1,-9713.0,,,,,0,0,1,507411.0,497698.0
+category,EB-2,principal_exits_2009_2024,Historical,1,-288.0,,,,,0,0,1,68863.0,68575.0
+category,EB-3,age21_events_2009_2024,Historical,1,-1120.0,,,,,0,0,1,9677.0,8557.0
+category,EB-3,principal_backlog_2024,Historical,1,5622.0,,,,,1,0,0,287922.0,293544.0
+category,EB-3,principal_exits_2009_2024,Historical,1,4244.0,,,,,1,0,0,85079.0,89323.0
+category,EB-4,age21_events_2009_2024,Historical,1,-143.0,,,,,0,0,1,7122.0,6979.0
+category,EB-4,principal_backlog_2024,Historical,1,-1002.0,,,,,0,0,1,301955.0,300953.0
+category,EB-4,principal_exits_2009_2024,Historical,1,108.0,,,,,1,0,0,81452.0,81560.0
+category,EB-5,age21_events_2009_2024,Historical,1,57.0,,,,,1,0,0,199.0,256.0
+category,EB-5,principal_backlog_2024,Historical,1,1864.0,,,,,1,0,0,19753.0,21617.0
+category,EB-5,principal_exits_2009_2024,Historical,1,56.0,,,,,1,0,0,2034.0,2090.0
+joint,EB-1 / China,principal_backlog_2024,Historical,1,-318.0,,,,,0,0,1,12800.0,12482.0
+joint,EB-1 / India,principal_backlog_2024,Historical,1,-1951.0,,,,,0,0,1,18661.0,16710.0
+joint,EB-1 / ROW,principal_backlog_2024,Historical,1,2889.0,,,,,1,0,0,0.0,2889.0
+joint,EB-2 / China,principal_backlog_2024,Historical,1,-4633.0,,,,,0,0,1,71764.0,67131.0
+joint,EB-2 / India,principal_backlog_2024,Historical,1,-19728.0,,,,,0,0,1,391142.0,371414.0
+joint,EB-2 / ROW,principal_backlog_2024,Historical,1,14648.0,,,,,1,0,0,44505.0,59153.0
+joint,EB-3 / China,principal_backlog_2024,Historical,1,-4045.0,,,,,0,0,1,40454.0,36409.0
+joint,EB-3 / India,principal_backlog_2024,Historical,1,-5562.0,,,,,0,0,1,173239.0,167677.0
+joint,EB-3 / ROW,principal_backlog_2024,Historical,1,15229.0,,,,,1,0,0,74229.0,89458.0
+joint,EB-4 / China,principal_backlog_2024,Historical,1,179.0,,,,,1,0,0,0.0,179.0
+joint,EB-4 / India,principal_backlog_2024,Historical,1,104.0,,,,,1,0,0,7289.0,7393.0
+joint,EB-4 / ROW,principal_backlog_2024,Historical,1,-1285.0,,,,,0,0,1,294666.0,293381.0
+joint,EB-5 / China,principal_backlog_2024,Historical,1,-2493.0,,,,,0,0,1,17601.0,15108.0
+joint,EB-5 / India,principal_backlog_2024,Historical,1,906.0,,,,,1,0,0,2152.0,3058.0
+joint,EB-5 / ROW,principal_backlog_2024,Historical,1,3451.0,,,,,1,0,0,0.0,3451.0
+nationality,China,age21_events_2009_2024,Historical,1,-403.0,,,,,0,0,1,2108.0,1705.0
+nationality,China,principal_backlog_2024,Historical,1,-11310.0,,,,,0,0,1,142619.0,131309.0
+nationality,China,principal_exits_2009_2024,Historical,1,-1392.0,,,,,0,0,1,32512.0,31120.0
+nationality,India,age21_events_2009_2024,Historical,1,-2685.0,,,,,0,0,1,14239.0,11554.0
+nationality,India,principal_backlog_2024,Historical,1,-26231.0,,,,,0,0,1,592483.0,566252.0
+nationality,India,principal_exits_2009_2024,Historical,1,-5838.0,,,,,0,0,1,96415.0,90577.0
+nationality,ROW,age21_events_2009_2024,Historical,1,153.0,,,,,1,0,0,7007.0,7160.0
+nationality,ROW,principal_backlog_2024,Historical,1,34932.0,,,,,1,0,0,413400.0,448332.0
+nationality,ROW,principal_exits_2009_2024,Historical,1,11715.0,,,,,1,0,0,110819.0,122534.0
+overall,All,age21_events_2009_2024,Historical,1,-2935.0,,,,,0,0,1,23354.0,20419.0
+overall,All,principal_backlog_2024,Historical,1,-2609.0,,,,,0,0,1,1148502.0,1145893.0
+overall,All,principal_exits_2009_2024,Historical,1,4485.0,,,,,1,0,0,239746.0,244231.0

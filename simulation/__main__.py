@@ -129,24 +129,24 @@ def run_comparative_analysis(config: SimulationConfig) -> None:
             visualizer.generate_eb_conversion_charts(states_uncapped, states_capped)
             print("EB conversion charts done")
         except Exception as e:
-            print(f"EB conversion charts skipped ({e})")
+            raise RuntimeError("Required publication artifact failed: EB conversion charts") from e
 
         # Children aged-out analysis
         try:
             visualizer.generate_age_out_charts(states_uncapped, states_capped)
             print("Age-out charts done")
         except Exception as e:
-            print(f"Age-out charts skipped ({e})")
+            raise RuntimeError("Required publication artifact failed: Age-out charts") from e
 
         # Applicant type conversion charts
         try:
             visualizer.generate_applicant_type_charts(states_uncapped, states_capped)
             print("Applicant type charts done")
         except Exception as e:
-            print(f"Applicant type charts skipped ({e})")
+            raise RuntimeError("Required publication artifact failed: Applicant type charts") from e
 
     except Exception as e:
-        print(f"Visualization error: {e}")
+        raise RuntimeError("Required publication artifact failed: Visualization") from e
 
     ##################################
     # STEP 6: Export all CSV datasets
@@ -160,7 +160,7 @@ def run_comparative_analysis(config: SimulationConfig) -> None:
         print("Wrote states_uncapped.csv")
         print("Wrote states_capped.csv")
     except Exception as e:
-        print(f"Yearly states skipped ({e})")
+        raise RuntimeError("Required publication artifact failed: Yearly states") from e
 
     # Export visa consumption by nationality
     try:
@@ -168,42 +168,42 @@ def run_comparative_analysis(config: SimulationConfig) -> None:
         exporter.export_visa_consumption(states_uncapped, states_capped)
         print("Wrote visa_consumption.csv")
     except Exception as e:
-        print(f"Visa consumption skipped ({e})")
+        raise RuntimeError("Required publication artifact failed: Visa consumption") from e
 
     # Export children aged-out segmentation
     try:
         export_children_aged_out_segmentation_csv(states_uncapped, states_capped, output_dir)
         print("Wrote children_aged_out_segmentation.csv")
     except Exception as e:
-        print(f"Children aged-out segmentation skipped ({e})")
+        raise RuntimeError("Required publication artifact failed: Children aged-out segmentation") from e
 
     # Export exited data (queue exits)
     try:
         export_exited_data_csv(states_uncapped, states_capped, output_dir)
         print("Wrote exited_data.csv")
     except Exception as e:
-        print(f"Exited data skipped ({e})")
+        raise RuntimeError("Required publication artifact failed: Exited data") from e
 
     # Export pass 2 visa allocation (spillover)
     try:
         export_pass2_visa_allocation_csv(states_uncapped, states_capped, output_dir)
         print("Wrote pass2_visa_allocations.csv")
     except Exception as e:
-        print(f"Pass 2 allocation skipped ({e})")
+        raise RuntimeError("Required publication artifact failed: Pass 2 allocation") from e
 
     # Export age-out percentages
     try:
         export_ageout_percentage_csv(states_uncapped, states_capped, output_dir)
         print("Wrote ageout_percentage_by_nationality.csv")
     except Exception as e:
-        print(f"Age-out percentage skipped ({e})")
+        raise RuntimeError("Required publication artifact failed: Age-out percentage") from e
 
     # Export child outcomes by entry-year cohort
     try:
         export_outcomes_by_entry_year_csv(sim_uncapped, sim_capped, output_dir)
         print("Wrote outcomes_by_entry_year.csv")
     except Exception as e:
-        print(f"Outcomes by entry year skipped ({e})")
+        raise RuntimeError("Required publication artifact failed: Outcomes by entry year") from e
 
     elapsed = time.perf_counter() - start_time
     print(f"\n{'#'*100}")
@@ -575,7 +575,7 @@ def print_comprehensive_comparison_summary(
     print("#" * 100)
 
 
-def run_ci_pipeline(config: SimulationConfig, n_runs: int) -> None:
+def run_ci_pipeline(config: SimulationConfig, n_runs: int, workers: int = 1) -> None:
     """
     Run Monte Carlo CI analysis and export all CI artifacts.
 
@@ -593,20 +593,20 @@ def run_ci_pipeline(config: SimulationConfig, n_runs: int) -> None:
                 (overridden per scenario inside run_ci_analysis).
         n_runs: Number of paired Monte Carlo iterations.
 
-    CI artifacts always land in outputs/ci/ (anchored to the project root),
-    kept separate from the standard run's --output for clean archival.
+    Ensemble artifacts use the explicitly selected output directory. Use a new
+    directory for a new model specification; per-seed provenance guards resumption.
     """
     print("\n" + "=" * 80)
-    print("CI PIPELINE: Monte Carlo Confidence Intervals")
+    print("PAIRED ENSEMBLE: conditional Monte Carlo simulation intervals")
     print("=" * 80)
 
     start_time = time.perf_counter()
 
-    ci_output_dir = Path(__file__).resolve().parent.parent / "outputs" / "ci"
+    ci_output_dir = Path(config.output_path)
     ci_output_dir.mkdir(parents=True, exist_ok=True)
 
     # Step 1: Run N paired simulations and aggregate empirical CIs
-    ci = run_ci_analysis(config, n_runs=n_runs)
+    ci = run_ci_analysis(config, n_runs=n_runs, workers=workers)
 
     # Step 2: Print human-readable console summary
     print_ci_summary(ci)
@@ -618,7 +618,7 @@ def run_ci_pipeline(config: SimulationConfig, n_runs: int) -> None:
         for label, path in ci_csv_files.items():
             print(f"  {label}  ->  {path}")
     except Exception as e:
-        print(f"  CI CSV export failed: {e}")
+        raise RuntimeError("Required CI CSV export failed") from e
 
     elapsed = time.perf_counter() - start_time
     print(f"\n{'=' * 80}")
@@ -644,8 +644,8 @@ def main():
               # Run historical reconstruction only (2009-2024)
               python -m simulation --reconstruction
 
-              # Run 2009 + 30 years (2009-2039)
-              python -m simulation --years 30
+              # Run the full 32-year window (2009-2040)
+              python -m simulation --years 32
 
               # With reproducible seed
               python -m simulation --years 30 --seed 12345
@@ -674,8 +674,8 @@ def main():
     parser.add_argument(
         "--output",
         type=str,
-        default="outputs/",
-        help="Output directory for results (default: outputs/)",
+        default="outputs/exploratory",
+        help="Output directory for this exploratory run (default: outputs/exploratory)",
     )
     parser.add_argument(
         "--debug",
@@ -691,17 +691,21 @@ def main():
         "--ci",
         action="store_true",
         help="After the standard run, run N paired Monte Carlo iterations and "
-        "export 95 percent empirical confidence intervals to outputs/ci/",
+        "export conditional 95 percent simulation intervals to --output",
     )
     parser.add_argument(
         "--ci-runs",
         type=int,
         default=50,
         help="Number of paired Monte Carlo iterations for --ci "
-        "(default: 50, matching the published intervals; must be >= 2)",
+        "(legacy default: 50; must be >= 2). The revised paper uses python -m study build.",
     )
 
+    parser.add_argument("--ci-only", action="store_true", help="Run resumable paired ensemble without redundant standard run/figures")
+    parser.add_argument("--workers", type=int, default=1, help="Isolated simultaneous paired jobs; size according to available RAM")
     args = parser.parse_args()
+    if args.workers < 1:
+        parser.error("--workers must be positive")
 
     if args.quiet and not args.debug:
         logging.disable(logging.WARNING)
@@ -755,7 +759,8 @@ def main():
     # Standard single-seed comparative analysis
     ############################################
     try:
-        run_comparative_analysis(config)
+        if not args.ci_only:
+            run_comparative_analysis(config)
     except Exception as e:
         print(f"\nComparative analysis failed: {e}")
         import traceback
@@ -764,12 +769,12 @@ def main():
         sys.exit(1)
 
     # Optional Stage 2: Monte Carlo CI analysis (runs only when --ci is passed)
-    if args.ci:
+    if args.ci or args.ci_only:
         if args.ci_runs < 2:
             print(f"--ci-runs must be >= 2 to compute CI bounds; got {args.ci_runs}.")
             sys.exit(1)
         try:
-            run_ci_pipeline(config, n_runs=args.ci_runs)
+            run_ci_pipeline(config, n_runs=args.ci_runs, workers=args.workers)
         except Exception as e:
             print(f"\nCI pipeline failed: {e}")
             import traceback

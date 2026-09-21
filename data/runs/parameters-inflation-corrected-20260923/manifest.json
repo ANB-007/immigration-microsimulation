@@ -1,0 +1,26 @@
+{
+  "pairs": 10,
+  "files": {
+    "base/run_metadata.json": "f131c9cff7dc94ed92829010762daa7084afc3ca9fabd0d0d2b3fd39afda1099",
+    "base/children_aged_out_segmentation.csv": "db3711d2c563eb54370968a03d85bb612edbe80d21e5d034e16a52e67ce568a1",
+    "low_attrition_india/run_metadata.json": "05a1c70f4342f5afd0476e487efcb1500bd8e47e7d0aeac225f6c717d556e1b5",
+    "low_attrition_india/children_aged_out_segmentation.csv": "a0434488f26eff919c6559741f2ae7ce4ff067b2524556c8d2d232e217f876d1",
+    "high_attrition_india/run_metadata.json": "183aaefd608254f1acf9b9faba721b2b7fcd98d8d8e2772e1995ee69cfdf781e",
+    "high_attrition_india/children_aged_out_segmentation.csv": "03eb69709cd6f6c7321175e85ea84588dc0ad6f485186b35f266c0c9eab3f9b7",
+    "low_child_ages/run_metadata.json": "424e92aea0805fbcff2ace3ce72f8f701ad6e2579fb50d33f4c566cc0b6c5bfc",
+    "low_child_ages/children_aged_out_segmentation.csv": "34b7abeb4523331484bbfa865a50f9f295266e90ba9d92c942d6665251d68e1b",
+    "high_child_ages/run_metadata.json": "015d951334610f3a3c0bc355fb1654823a569c6d5b841d15da67865e739c0fd9",
+    "high_child_ages/children_aged_out_segmentation.csv": "450c663b8add7def5eb552050dfc3bcc0ad6a08534f521ea20c70ccaeef53b50",
+    "low_spouse_prob/run_metadata.json": "268d489d911a212786b38e79b6a64fb647fea9f4dfffad9f65c901bc5a8307c8",
+    "low_spouse_prob/children_aged_out_segmentation.csv": "487256419489f8e3ef3f497339603505bc6207666f317d36cd9559c759f86c93",
+    "high_spouse_prob/run_metadata.json": "ab447e377199fdf3eec1a36a7541a55bf6348dd1d793e41a01776b2ec576c41d",
+    "high_spouse_prob/children_aged_out_segmentation.csv": "a0b8f8937c730ce6297cfb913c7cbcb0fc036ba2fe24edcd0c3b803e32e2674c",
+    "low_allocation/run_metadata.json": "b7ee2b6652673ba55976c21151506774b5cd2e7912ed3ef32c9ba28dbe32ae5e",
+    "low_allocation/children_aged_out_segmentation.csv": "806bdbb446cc0d3ff33095e3d519e58319dac0d561e2a84cfce5a239000180a8",
+    "high_allocation/run_metadata.json": "fa5255d1e54d3b64388abbb3ee851b25e06e60589ff4f033d9904549e3c8f472",
+    "high_allocation/children_aged_out_segmentation.csv": "43b5e43501a671907c6982aac9adc5a816bde817434175b2c5548e9ff89da50c",
+    "uniform_eb_exit_rates/run_metadata.json": "fa3d9831195759b85d5d557c719196f82f95c095e7b1b30ef08c82b47418e8b1",
+    "uniform_eb_exit_rates/children_aged_out_segmentation.csv": "d6e03bb8e16e2ac58e0ba6d64bd5be57b6c9852ac8cee5421b973ce595078505"
+  },
+  "primary_manifest_sha256": "be10d3d5b7a38a9c9a2b771e9322f5f1b95917dc8ac8287f1c1956f3a3e212a3"
+}

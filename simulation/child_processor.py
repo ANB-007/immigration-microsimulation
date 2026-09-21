@@ -127,6 +127,8 @@ class ChildProcessor:
 
         # 3. Aged out: Turned 21 while parent still waiting
         self.aged_out_children: List[AgedOutChild] = []
+        self.aged_out_by_nationality: Dict[str, int] = defaultdict(int)
+        self.aged_out_by_eb_category: Dict[EBCategory, int] = defaultdict(int)
 
         # 4. Exited: Parent left queue (marriage, death, voluntary emigration, etc.)
         self.exited_children: List[ExitedChild] = []
@@ -390,13 +392,28 @@ class ChildProcessor:
                 )
 
                 self.aged_out_children.append(aged_out_child)
+                self.aged_out_by_nationality[child.nationality] += 1
+                if parent_worker.eb_category:
+                    self.aged_out_by_eb_category[parent_worker.eb_category] += 1
                 children_aged_out_this_year += 1
+
+                # These indexes describe active children only. Leaving an aged
+                # child here retained obsolete objects and inflated the count
+                # returned when that child's parent subsequently exited.
+                parent_children = self.children_by_parent_id[child.parent_worker_id]
+                parent_children.remove(child.child_id)
+                if not parent_children:
+                    del self.children_by_parent_id[child.parent_worker_id]
             else:
                 # Child still under 21 - remains dependent and at risk
                 still_dependent.append(child)
 
         # Update dependent list to exclude newly aged-out children
         self.dependent_children = still_dependent
+
+        for birth_year in list(self.children_by_birth_year):
+            if current_year - birth_year >= CHILD_AGEOUT_AGE:
+                del self.children_by_birth_year[birth_year]
 
         return children_aged_out_this_year
 
@@ -511,13 +528,7 @@ class ChildProcessor:
         Returns:
             Dictionary mapping each nationality to cumulative aged-out count
         """
-        aged_out_by_nat = defaultdict(int)
-
-        # Loop through all aged-out children and tally by nationality
-        for child in self.aged_out_children:
-            aged_out_by_nat[child.nationality] += 1
-
-        return dict(aged_out_by_nat)
+        return dict(self.aged_out_by_nationality)
 
     def get_ageout_percentage_by_nationality(self, countries: List[str]) -> Dict[str, float]:
         """
@@ -541,10 +552,10 @@ class ChildProcessor:
             total_created = self.children_created_total_by_nationality.get(nationality, 0)
 
             # Get total children who aged out for this nationality
-            total_aged_out = sum(1 for child in self.aged_out_children if child.nationality == nationality)
+            total_aged_out = self.aged_out_by_nationality.get(nationality, 0)
 
             # Calculate percentage
-            ageout_percentage[nationality] = (total_aged_out / total_created) * 100
+            ageout_percentage[nationality] = (total_aged_out / total_created) * 100 if total_created else 0.0
 
         return ageout_percentage
 

@@ -1,0 +1,11 @@
+scenario,parameter_varied,capped_total,uncapped_total,differential_cap_minus_unc,capped_India_pct,uncapped_India_pct,capped_EB-1,capped_EB-2,capped_EB-3,capped_EB-4,capped_EB-5
+Base Case,Published parameterization (no change),266481,199802,66679,72.6,36.8,2559,149764,63613,49489,1056
+Low India Attrition,NATIONALITY_EMIGRATION_MULTIPLIERS['India'] decreased,288259,216244,72015,74.5,39.9,2713,162925,71146,50394,1081
+High India Attrition,NATIONALITY_EMIGRATION_MULTIPLIERS['India'] increased,247442,185277,62165,70.6,33.9,2389,138349,56578,49066,1060
+Younger Child Ages,Derivative-child entry-age distribution shifted younger,216807,124224,92583,80.1,38.8,271,131805,51921,32805,5
+Older Child Ages,Derivative-child entry-age distribution shifted older,330876,285366,45510,64.1,34.7,7301,172073,82069,65099,4334
+Low Spouse Probability,Spouse-presence probability decreased (fewer children),194777,130768,64009,73.9,33.9,145,110527,45970,38106,29
+High Spouse Probability,Spouse-presence probability increased (more children),344818,277693,67125,70.0,37.9,8557,189539,81084,61701,3937
+Low Visa Allocation,Total annual visa allocation decreased,283920,225371,58549,69.8,38.9,7499,153035,68170,51786,3430
+High Visa Allocation,Total annual visa allocation increased,255022,174279,80743,74.7,34.5,250,147856,59168,47395,353
+Uniform EB Exit Rates,CATEGORY_EMIGRATION_MULTIPLIERS flattened to 1.0,226599,158196,68403,71.1,32.3,1085,120350,55251,49883,30

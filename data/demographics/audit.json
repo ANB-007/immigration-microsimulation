@@ -1,0 +1,36 @@
+{
+  "source": "archive/development-history/demographics/acs_2014-2024.csv",
+  "source_bytes": 4500952415,
+  "extractor_sha256": "5639211c06aaf9f2c67836621e8b9da892bc82da31361e6509343039069ca338",
+  "raw_rows": 32534908,
+  "sample_year_rows": {
+    "(2014, 201401)": 3132610,
+    "(2015, 201501)": 3147005,
+    "(2016, 201601)": 3156487,
+    "(2017, 201701)": 3190040,
+    "(2018, 201801)": 3214539,
+    "(2019, 201901)": 3239553,
+    "(2021, 202101)": 3252599,
+    "(2022, 202201)": 3373378,
+    "(2023, 202301)": 3405809,
+    "(2024, 202401)": 3422888
+  },
+  "unique_principal_records": 23935,
+  "category_principal_records": 42141,
+  "matched_under21_relationship3or4_records": 19711,
+  "runtime_seconds": 71.190351625,
+  "checks": {
+    "principal_category_keys_unique": true,
+    "child_keys_unique": true,
+    "max_pmf_difference": 0.0,
+    "max_spouse_difference": 0.0
+  },
+  "notes": [
+    "Pooled ACS person-year records, not unique longitudinal persons.",
+    "Category proxy definitions overlap; category totals must not be added.",
+    "Parent PERWT reproduces the model's family-count weighting; no design-based confidence intervals.",
+    "Original child definition exactly retains RELATE 3 or 4 and no child-marital-status filter.",
+    "own_unmarried is a definition sensitivity: RELATE 3 and child MARST 6.",
+    "No simulation inputs or source microdata were changed."
+  ]
+}

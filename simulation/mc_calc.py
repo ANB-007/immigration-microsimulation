@@ -1,21 +1,31 @@
 import pandas as pd
 import numpy as np
 import os
+import argparse
+import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-FILEPATH = str(PROJECT_ROOT / "outputs" / "ci" / "ci_raw_timeseries.csv")
-OUTPATH = str(PROJECT_ROOT / "outputs" / "ci" / "ci_summary_stats.csv")
+SOURCE_ROOT = Path(__file__).resolve().parents[1]
+if str(SOURCE_ROOT) not in sys.path:
+    sys.path.insert(0, str(SOURCE_ROOT))
+from simulation.result_schema import normalize_nationality_columns, check_annual_exit_partitions
+EXPLORATORY_OUTPUT = Path.cwd() / "outputs" / "exploratory"
+FILEPATH = str(EXPLORATORY_OUTPUT / "ci" / "ci_raw_timeseries.csv")
+OUTPATH = str(EXPLORATORY_OUTPUT / "ci" / "ci_summary_stats.csv")
 
 
 def compute_all_stats(filepath):
-    df = pd.read_csv(filepath)
+    df = normalize_nationality_columns(pd.read_csv(filepath))
+    check_annual_exit_partitions(df)
+    if df.duplicated(["run_index", "year"]).any():
+        raise ValueError("Duplicate run/year rows")
+    expected_years = set(range(2009, 2041))
+    if any(set(group["year"]) != expected_years for _, group in df.groupby("run_index")):
+        raise ValueError("Paper summaries require complete FY2009–FY2040 runs")
 
-    # NOTE: annual_exited_{nat/eb}_{sc} columns in the raw timeseries are already
-    # true per-year counts (ci_runner exports them as np.diff of the cumulative
-    # counters). They are summed directly over the reporting window below; do not
-    # apply any cumulative transformation to them, or per-nationality / per-EB
-    # queue-exit totals will be inflated.
+    # Current-schema subgroup exits are annual flows. Legacy archived exports
+    # were first-differenced incorrectly and require an explicit migration;
+    # the accounting check above rejects them rather than silently changing data.
 
     RECON = (2009, 2024)
     PROJ = (2025, 2040)
@@ -69,7 +79,7 @@ def compute_all_stats(filepath):
     results["exited_total_proj_diff"] = pct(diff_ex_proj, "Total_Queue_Exits_2025_2040_Cap_minus_Unc")
 
     # 3. Nationality exits 2009-2040 and 2025-2040
-    for nat in ["India", "China", "Other"]:
+    for nat in ["India", "China", "ROW"]:
         for sc, tag in [("unc", "Uncapped"), ("cap", "Capped")]:
             s_full = df.groupby("run_index")[f"annual_exited_{nat}_{sc}"].sum()
             results[f"exits_{nat}_{sc}"] = pct(s_full, f"Exits_{nat}_2009_2040_{tag}")
@@ -143,7 +153,7 @@ def compute_all_stats(filepath):
     results["annual"] = annual_rows
 
     # 6. Nationality age-outs (full and projection)
-    for nat in ["India", "China", "Other"]:
+    for nat in ["India", "China", "ROW"]:
         for pname, (y0, y1) in [("full", FULL), ("proj", PROJ)]:
             plbl = period_label[pname]
             sub = period(df, y0, y1)
@@ -203,7 +213,7 @@ def print_and_save(results, outpath):
     print("=" * 100)
     print("2. NATIONALITY EXITS (2009-2040 AND 2025-2040)")
     print("=" * 100)
-    for nat in ["India", "China", "Other"]:
+    for nat in ["India", "China", "ROW"]:
         for sfx in ["unc", "cap", "diff", "proj_unc", "proj_cap", "proj_diff"]:
             print(fmt(results[f"exits_{nat}_{sfx}"]))
         print()
@@ -255,7 +265,7 @@ def print_and_save(results, outpath):
     print("=" * 100)
     print("5. NATIONALITY AGE-OUTS -- FULL (2009-2040) AND PROJECTION (2025-2040)")
     print("=" * 100)
-    for nat in ["India", "China", "Other"]:
+    for nat in ["India", "China", "ROW"]:
         for pname in ["full", "proj"]:
             for sfx in ["unc", "cap", "diff"]:
                 print(fmt(results[f"ageout_{nat}_{pname}_{sfx}"]))
@@ -295,5 +305,9 @@ def print_and_save(results, outpath):
 
 
 if __name__ == "__main__":
-    results = compute_all_stats(FILEPATH)
-    print_and_save(results, OUTPATH)
+    parser = argparse.ArgumentParser(description="Summarize complete paired runs with accounting checks")
+    parser.add_argument("--input", default=FILEPATH)
+    parser.add_argument("--output", default=OUTPATH)
+    args = parser.parse_args()
+    results = compute_all_stats(args.input)
+    print_and_save(results, args.output)

@@ -4,7 +4,7 @@ Ceteris-paribus sensitivity scenario runner.
 Regenerates each sensitivity scenario by varying EXACTLY ONE structural
 parameter from the published baseline while holding every other parameter at
 its standard state, then exporting cohort age-out segmentation to
-    outputs/sensitivity/scenarios/<name>/children_aged_out_segmentation.csv
+    outputs/exploratory/sensitivity/scenarios/<name>/children_aged_out_segmentation.csv
 which simulation/sensitivity.py aggregates into the robustness table.
 
 Each scenario is run as a paired (uncapped, capped) simulation with the same
@@ -27,9 +27,9 @@ Scenario grid (paper Appendix values):
     low/high_allocation           projection visa supply-> 140,000 / 200,000
 
 Runtime: one paired 32-year run per scenario (several minutes each); the full
-sweep of 10 scenarios takes roughly 1-1.5 hours. The repository already ships
-precomputed, paper-matching scenario outputs, so referees can run
-simulation/sensitivity.py directly without regenerating.
+sweep of 10 scenarios takes roughly 1-1.5 hours. The exit specification is
+loaded from the primary case in data/experiment.json. Historical submitted
+results cannot substitute for this current-model sweep.
 
 Usage:
     python -m simulation.sensitivity_runner                 # regenerate all scenarios
@@ -41,7 +41,9 @@ from __future__ import annotations
 import argparse
 import contextlib
 import copy
+import json
 import logging
+import shlex
 from pathlib import Path
 
 import simulation.empirical_params as ep
@@ -50,12 +52,13 @@ from simulation.models import EBCategory
 from simulation.sim import Simulation
 from simulation.states import SimulationConfig
 from simulation.__main__ import export_children_aged_out_segmentation_csv
+from simulation.campaign import experiment_cases
+from simulation.experiments import parameter_override, source_fingerprint, atomic_json, validate_states
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_DEST = PROJECT_ROOT / "outputs" / "sensitivity" / "scenarios"
+DEFAULT_DEST = PROJECT_ROOT / "outputs" / "exploratory" / "sensitivity" / "scenarios"
 YEARS = 32          # FY2009-FY2040
 START_YEAR = 2009
-SEED = 2014
 PROJECTION_YEARS = range(2025, START_YEAR + YEARS + 22)  # cover long tails safely
 
 
@@ -149,24 +152,41 @@ SCENARIOS = {
 
 def _run_scenario(name: str, dest_root: Path) -> str:
     override_factory, desc = SCENARIOS[name]
+    declaration = json.loads((PROJECT_ROOT / "data/experiment.json").read_text())
+    primary = next(case for case in experiment_cases(
+        declaration, PROJECT_ROOT / "data/validation/dos_visa_consumption_reconciled.csv"
+    ) if case["role"] == "primary")
+    fingerprint = source_fingerprint()
     out_dir = dest_root / name
+    if out_dir.exists() and any(out_dir.iterdir()):
+        raise ValueError(f"Preserving existing scenario results; choose a new --dest: {out_dir}")
     out_dir.mkdir(parents=True, exist_ok=True)
     print(f"\n[sensitivity] {name}: {desc}")
-    with override_factory():
+    # Apply multipliers before the catchall context snapshots its rate table.
+    with override_factory(), parameter_override(primary["overrides"]):
         states = {}
         for label, capped in [("uncapped", False), ("capped", True)]:
             cfg = SimulationConfig(
                 years=YEARS,
-                seed=SEED,
+                seed=declaration["seed"],
                 output_path=str(out_dir),
                 country_cap_enabled=capped,
                 debug=False,
-                start_year=START_YEAR,
+                start_year=declaration["start_year"],
             )
             states[label] = Simulation(cfg).run()
+            validate_states(states[label])
+        if source_fingerprint() != fingerprint:
+            raise RuntimeError("Sources or inputs changed during the sensitivity run")
         csv_path = export_children_aged_out_segmentation_csv(
             states["uncapped"], states["capped"], out_dir
         )
+    atomic_json(out_dir / "run_metadata.json", {
+        "complete": True, "scenario": name, "parameter_varied": desc,
+        "seed": declaration["seed"], "start_year": declaration["start_year"],
+        "years": YEARS, "primary_overrides": primary["overrides"],
+        "source_fingerprint": fingerprint,
+    })
     print(f"[sensitivity] {name}: wrote {csv_path}")
     return csv_path
 
@@ -186,7 +206,9 @@ def main():
     print(f"Regenerating {len(names)} scenario(s) into {dest_root}")
     for name in names:
         _run_scenario(name, dest_root)
-    print("\nDone. Now run:  python simulation/sensitivity.py")
+    print("\nDone. Summarize this sweep with: python -m simulation.sensitivity --scenarios "
+          + shlex.quote(str(dest_root)) + " --output "
+          + shlex.quote(str(dest_root.parent / "sensitivity_ageout_summary.csv")))
 
 
 if __name__ == "__main__":

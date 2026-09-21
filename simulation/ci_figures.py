@@ -2,7 +2,7 @@
 CI-backed policy figures for the aged-out paper.
 Styling is identical to visualization.py.
 
-Output: outputs/ci/policy_figures/
+Output: outputs/exploratory/ci/policy_figures/
   annual_aged_out/   overall.png, india.png, china.png, other.png
   cumulative/        overall.png, india.png, china.png, other.png
   totals/            overall.png, india.png, china.png, other.png
@@ -12,6 +12,8 @@ Output: outputs/ci/policy_figures/
 """
 
 from pathlib import Path
+import argparse
+import sys
 
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
@@ -20,11 +22,26 @@ import pandas as pd
 import seaborn as sns
 
 # Paths
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-CI_RAW_TS = PROJECT_ROOT / "outputs" / "ci" / "ci_raw_timeseries.csv"
-CI_RAW_SC = PROJECT_ROOT / "outputs" / "ci" / "ci_raw_scalars.csv"
-SEG_CSV = PROJECT_ROOT / "outputs" / "cohorts" / "children_aged_out_segmentation.csv"
-BASE_OUT = PROJECT_ROOT / "outputs" / "ci" / "policy_figures"
+SOURCE_ROOT = Path(__file__).resolve().parents[1]
+if str(SOURCE_ROOT) not in sys.path:
+    sys.path.insert(0, str(SOURCE_ROOT))
+from simulation.result_schema import normalize_nationality_columns
+PROJECT_ROOT = Path.cwd()
+EXPLORATORY_OUTPUT = PROJECT_ROOT / "outputs" / "exploratory"
+CI_RAW_TS = EXPLORATORY_OUTPUT / "ci" / "ci_raw_timeseries.csv"
+CI_RAW_SC = EXPLORATORY_OUTPUT / "ci" / "ci_raw_scalars.csv"
+SEG_CSV = EXPLORATORY_OUTPUT / "cohorts" / "children_aged_out_segmentation.csv"
+BASE_OUT = EXPLORATORY_OUTPUT / "ci" / "policy_figures"
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--input-dir", type=Path, default=CI_RAW_TS.parent)
+parser.add_argument("--output", type=Path, default=None)
+parser.add_argument("--segmentation", type=Path, default=SEG_CSV)
+args = parser.parse_args()
+CI_RAW_TS = args.input_dir / "ci_raw_timeseries.csv"
+CI_RAW_SC = args.input_dir / "ci_raw_scalars.csv"
+SEG_CSV = args.segmentation
+BASE_OUT = args.output or args.input_dir / "policy_figures"
+
 
 # Global style -- mirrors visualization.py exactly
 PLOT_DPI = 400
@@ -54,7 +71,7 @@ EB_COLORS = {
 }
 DIFF_COLOR = "#CC79A7"
 
-NATS = ["India", "China", "Other"]
+NATS = ["India", "China", "ROW"]
 POLICY_YEAR = 2024
 
 BAR_WIDTH = 0.35
@@ -146,13 +163,15 @@ def _save(fig, folder: Path, filename: str) -> None:
     p = folder / filename
     fig.savefig(p, dpi=PLOT_DPI, bbox_inches="tight", facecolor="white", edgecolor="none")
     plt.close(fig)
-    print(f"  [OK]  {p.relative_to(PROJECT_ROOT)}")
+    print(f"  [OK]  {p}")
 
 # Load data
 print("Loading data ...")
-df = pd.read_csv(CI_RAW_TS)
-sc = pd.read_csv(CI_RAW_SC)
+df = normalize_nationality_columns(pd.read_csv(CI_RAW_TS))
+N_RUNS = df["run_index"].nunique()
+sc = normalize_nationality_columns(pd.read_csv(CI_RAW_SC))
 seg = pd.read_csv(SEG_CSV)
+seg["Nationality"] = seg["Nationality"].replace({"Other": "ROW"})
 
 by_year = df.groupby("year")
 years = sorted(df["year"].unique())
@@ -168,7 +187,7 @@ annual_groups = [
     ("overall", "annual_aged_out_unc", "annual_aged_out_cap", "Children Aged Out Per Year: Policy Comparison"),
     ("india", "annual_aged_out_India_unc", "annual_aged_out_India_cap", "Children Aged Out Per Year -- India: Policy Comparison"),
     ("china", "annual_aged_out_China_unc", "annual_aged_out_China_cap", "Children Aged Out Per Year -- China: Policy Comparison"),
-    ("other", "annual_aged_out_Other_unc", "annual_aged_out_Other_cap", "Children Aged Out Per Year -- Other Nationalities: Policy Comparison"),
+    ("other", "annual_aged_out_ROW_unc", "annual_aged_out_ROW_cap", "Children Aged Out Per Year -- Other Nationalities: Policy Comparison"),
 ]
 
 # Clip the annual aged-out charts (incl. Figure 5, overall.png) to the post-policy
@@ -217,7 +236,7 @@ for fname, uc_col, cc_col, title in annual_groups:
         zorder=3,
     )
 
-    _style_ts(ax, annual_years, "Children Aged Out", f"{title}\nMean +/- 95% CI  (50 paired Monte Carlo runs)")
+    _style_ts(ax, annual_years, "Children Aged Out", f"{title}\nMean; conditional 95% simulation interval ({N_RUNS} pairs)")
 
     if POLICY_YEAR in annual_years:
         _add_shift_annotation(ax, list(annual_years).index(POLICY_YEAR) + 0.5)
@@ -274,7 +293,7 @@ ax.bar(
     error_kw=ERR_KW,
     zorder=3,
 )
-_style_ts(ax, years, "Cumulative Children Aged Out", "Cumulative Children Aged Out: Policy Comparison\n" "Mean +/- 95% CI  (50 paired MC runs)  --  Scenarios identical <= 2024")
+_style_ts(ax, years, "Cumulative Children Aged Out", "Cumulative Children Aged Out: Policy Comparison\n" f"Mean; conditional 95% simulation interval ({N_RUNS} pairs); identical through 2024")
 if POLICY_YEAR in years:
     _add_shift_annotation(ax, list(years).index(POLICY_YEAR) + 0.5)
 fig.tight_layout()
@@ -326,7 +345,7 @@ for nat in NATS:
         error_kw=ERR_KW,
         zorder=3,
     )
-    _style_ts(ax, years, "Cumulative Children Aged Out", f"Cumulative Children Aged Out -- {nat}: Policy Comparison\n" f"Mean +/- 95% CI  (50 paired MC runs, {yr_min}-{yr_max})")
+    _style_ts(ax, years, "Cumulative Children Aged Out", f"Cumulative Children Aged Out -- {nat}: Policy Comparison\n" f"Mean; conditional 95% simulation interval ({N_RUNS} pairs, {yr_min}-{yr_max})")
     if POLICY_YEAR in years:
         _add_shift_annotation(ax, list(years).index(POLICY_YEAR) + 0.5)
     fig.tight_layout()
@@ -385,7 +404,7 @@ def _total_chart(unc_col, cap_col, group_label, fname, ylabel, title_prefix):
     ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{int(v):,}"))
     ax.set_ylabel(ylabel, fontsize=13, weight="medium", labelpad=10)
     ax.set_title(
-        f"{title_prefix} ({yr_min}-{yr_max}): {group_label}\n" "Mean +/- 95% CI  (50 paired Monte Carlo runs)",
+        f"{title_prefix} ({yr_min}-{yr_max}): {group_label}\n" f"Mean; conditional 95% simulation interval ({N_RUNS} pairs)",
         fontsize=14,
         weight="bold",
         pad=15,
@@ -452,13 +471,13 @@ def _diff_chart(diff_col, group_label, fname, ylabel, title_prefix, mean_overrid
         ci_y_ax = 0.94
 
     ax.text(0, mean_y_ax, f"{m:+,.0f}", transform=tr, ha="center", va="center", fontsize=14, fontweight="bold", color=DIFF_COLOR)
-    ax.text(0, ci_y_ax, f"95% CI: [{lo:,.0f}, {hi:,.0f}]", transform=tr, ha="center", va="center", fontsize=11, color="#444444")
+    ax.text(0, ci_y_ax, f"Simulation interval: [{lo:,.0f}, {hi:,.0f}]", transform=tr, ha="center", va="center", fontsize=11, color="#444444")
 
     ax.set_xticks([])
     ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:+,.0f}"))
     ax.set_ylabel(ylabel, fontsize=13, weight="medium", labelpad=10)
     ax.set_title(
-        f"{title_prefix}: {group_label}\n" "Mean +/- 95% CI  (50 paired Monte Carlo runs)",
+        f"{title_prefix}: {group_label}\n" f"Mean; conditional 95% simulation interval ({N_RUNS} pairs)",
         fontsize=14,
         weight="bold",
         pad=15,
@@ -538,7 +557,7 @@ def _backlog_chart(unc_col, cap_col, group_label, fname):
     ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{int(v):,}"))
     ax.set_ylabel("Queue Backlog (Principals Only)", fontsize=13, weight="medium", labelpad=10)
     ax.set_title(
-        f"Final-Year Queue Backlog ({yr_max}): {group_label}\n" "Mean +/- 95% CI  (50 paired Monte Carlo runs)",
+        f"Final-Year Queue Backlog ({yr_max}): {group_label}\n" f"Mean; conditional 95% simulation interval ({N_RUNS} pairs)",
         fontsize=14,
         weight="bold",
         pad=15,
@@ -602,7 +621,7 @@ for cat in eb_cats:
         zorder=3,
     )
 
-    _style_ts(ax, years, "Children Aged Out (Annual)", f"Children Aged Out Per Year -- {cat}: Policy Comparison\n" f"Mean +/- 95% CI  (50 paired Monte Carlo runs)")
+    _style_ts(ax, years, "Children Aged Out (Annual)", f"Children Aged Out Per Year -- {cat}: Policy Comparison\n" f"Mean; conditional 95% simulation interval ({N_RUNS} pairs)")
 
     if POLICY_YEAR in years:
         _add_shift_annotation(ax, list(years).index(POLICY_YEAR) + 0.5)
@@ -612,7 +631,7 @@ for cat in eb_cats:
 
 print(
     f"""
-[OK]  All figures saved -> outputs/ci/policy_figures/
+[OK]  All figures saved -> outputs/exploratory/ci/policy_figures/
    annual_aged_out/      {len(annual_groups)} files
    cumulative/           {1 + len(NATS)} files
    totals/               {1 + len(NATS)} files

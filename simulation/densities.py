@@ -2,8 +2,8 @@
 100% stacked area charts of cohort Child Outcome Proportions by entry year.
 Styling mirrors visualization.py exactly.
 
-Reads:  outputs/cohorts/outcomes_by_entry_year.csv
-Output: outputs/cohorts/entry_year_density/
+Reads:  outputs/exploratory/cohorts/outcomes_by_entry_year.csv
+Output: outputs/exploratory/cohorts/entry_year_density/
   overall/                  uncapped.png, capped.png
   by_nationality/           <nat>_uncapped.png, <nat>_capped.png
   by_eb_category/           <eb>_uncapped.png, <eb>_capped.png
@@ -20,9 +20,10 @@ import pandas as pd
 import seaborn as sns
 
 # Paths
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-INPUT_CSV = PROJECT_ROOT / "outputs" / "cohorts" / "outcomes_by_entry_year.csv"
-BASE_OUT = PROJECT_ROOT / "outputs" / "cohorts" / "entry_year_density"
+PROJECT_ROOT = Path.cwd()
+EXPLORATORY_OUTPUT = PROJECT_ROOT / "outputs" / "exploratory"
+INPUT_CSV = EXPLORATORY_OUTPUT / "cohorts" / "outcomes_by_entry_year.csv"
+BASE_OUT = EXPLORATORY_OUTPUT / "cohorts" / "entry_year_density"
 
 # Global style -- mirrors visualization.py exactly
 PLOT_DPI = 400
@@ -342,7 +343,7 @@ n_pairs   = len(eb_categories) * len(nationalities) * len(scenarios)
 
 print(
     f"""
-[OK]  All figures saved -> outputs/cohorts/entry_year_density/
+[OK]  All figures saved -> outputs/exploratory/cohorts/entry_year_density/
    overall/                  {n_overall} files
    by_nationality/           {n_nat} files
    by_eb_category/           {n_eb} files

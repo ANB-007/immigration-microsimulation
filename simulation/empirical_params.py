@@ -11,7 +11,11 @@ from typing import Dict
 import logging
 import json
 import numpy as np
-from pathlib import Path
+from functools import lru_cache
+from bisect import bisect_right
+from math import fsum
+from fractions import Fraction
+from numbers import Integral
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +23,8 @@ logger = logging.getLogger(__name__)
 from .models import EBCategory
 
 # Import petition data
-from .petition_data import (
+from .input_data import (
+    DATA_DIR,
     I140_ANNUAL_APPROVALS,
     COUNTRY_APPROVALS,
     EB4_ANNUAL_TOTALS_BY_YEAR,
@@ -33,9 +38,9 @@ from .petition_data import (
 # Simulation period parameters
 ###############################
 
-# Last year of historical data we have from USCIS
-# Years <= 2024: Use actual historical data
-# Years > 2024: Use 2024 values for projection
+# Last entry-cohort year used in historical reconstruction.
+# Years <= 2024: Use the mixed source series and stated initialization assumptions.
+# Years > 2024: Repeat 2024 inputs by default; isolated experiments may override them.
 RECONSTRUCTION_END_YEAR = 2024
 
 #############################
@@ -155,11 +160,8 @@ COUNTRIES = [
 # Child age-out threshold
 ##########################
 
-# Child ages out at 21 years old (loses dependent status)
-# Children who turn 21 while parent is still in queue must either:
-# 1. Return to home country
-# 2. Obtain their own visa (H-1B, F-1, etc.)
-# 3. Become undocumented if they stay
+# Chronological age-21 threshold used by the simulation.
+# This proxy does not implement CSPA or determine a child's actual legal status.
 CHILD_AGEOUT_AGE = 21
 
 ################################
@@ -167,7 +169,7 @@ CHILD_AGEOUT_AGE = 21
 ################################
 
 # Load empirical spouse presence distributions from JSON file
-_SPOUSE_DIST_PATH = Path(__file__).parent / "distributions" / "spouse_presence_empirical_distributions.json"
+_SPOUSE_DIST_PATH = DATA_DIR / "demographics" / "spouse_presence_empirical_distributions.json"
 with open(_SPOUSE_DIST_PATH, "r") as f:
     SPOUSE_PRESENCE_EMPIRICAL = json.load(f)
 
@@ -193,10 +195,33 @@ def get_spouse_probability(nationality: str, pathway: str = None) -> float:
 
 # Load empirical children count distribution from JSON file
 _CHILDREN_COUNT_MARRIED_DIST_PATH = (
-    Path(__file__).parent / "distributions" / "children_count_empirical_distributions_married.json"
+    DATA_DIR / "demographics" / "children_count_empirical_distributions_married.json"
 )
 with open(_CHILDREN_COUNT_MARRIED_DIST_PATH, "r") as f:
     CHILDREN_COUNT_EMPIRICAL_MARRIED = json.load(f)
+
+
+@lru_cache(maxsize=256)
+def _sampling_arrays(values: tuple, probabilities: tuple):
+    """Reuse a validated CDF; content keys also respect in-place overrides.
+
+    The CDF and right-sided lookup follow NumPy 2.2.6 Generator.choice's
+    replace=True, p-specified scalar branch, preserving one uniform draw and
+    its exact selection boundaries. Reference:
+    https://github.com/numpy/numpy/blob/v2.2.6/numpy/random/_generator.pyx
+    """
+    support = np.asarray(values)
+    probs = np.asarray(probabilities, dtype=np.float64)
+    if (support.ndim != 1 or probs.ndim != 1 or len(support) != len(probs)
+            or not len(probs) or not np.all(np.isfinite(probs))
+            or np.any(probs < 0)
+            or abs(fsum(probabilities) - 1.0) > np.sqrt(np.finfo(np.float64).eps)):
+        raise ValueError("Empirical distribution requires matching support and valid probabilities summing to one")
+    cdf = probs.cumsum()
+    cdf /= cdf[-1]
+    support.flags.writeable = False
+    probs.flags.writeable = False
+    return support, probs, tuple(cdf.tolist())
 
 
 def sample_children_count(
@@ -228,10 +253,8 @@ def sample_children_count(
 
     dist = CHILDREN_COUNT_EMPIRICAL_MARRIED[pathway][nationality]
 
-    counts = np.array(dist["counts"])
-    probs = np.array(dist["probabilities"])
-
-    return int(rng.choice(counts, p=probs))
+    counts, _, cdf = _sampling_arrays(tuple(dist["counts"]), tuple(dist["probabilities"]))
+    return int(counts[bisect_right(cdf, rng.random())])
 
 
 ################################
@@ -240,7 +263,7 @@ def sample_children_count(
 
 # Load empirical child entry-age distributions from JSON file
 _CHILD_ENTRY_AGE_DIST_PATH = (
-    Path(__file__).parent / "distributions" / "child_entry_age_empirical_distributions.json"
+    DATA_DIR / "demographics" / "child_entry_age_empirical_distributions.json"
 )
 with open(_CHILD_ENTRY_AGE_DIST_PATH, "r") as f:
     CHILD_ENTRY_AGE_EMPIRICAL = json.load(f)
@@ -260,10 +283,8 @@ def sample_child_entry_age(nationality: str, pathway: str = None, rng: np.random
     """
 
     dist = CHILD_ENTRY_AGE_EMPIRICAL[pathway][nationality]
-    ages = np.array(dist["ages"])
-    probs = np.array(dist["probabilities"])
-
-    return int(rng.choice(ages, p=probs))
+    ages, _, cdf = _sampling_arrays(tuple(dist["ages"]), tuple(dist["probabilities"]))
+    return int(ages[bisect_right(cdf, rng.random())])
 
 
 #########################
@@ -297,6 +318,21 @@ CATEGORY_EMIGRATION_MULTIPLIERS = {
 }
 
 
+# The legacy age mechanism is a probability floor, not a multiplier. These
+# explicit parameters preserve the submitted defaults and allow its influence
+# to be examined separately from nationality/category emigration multipliers.
+AGE_EXIT_ENABLED = True
+AGE_EXIT_MIN_AGE = 45
+AGE_EXIT_SLOPE = 0.5
+AGE_EXIT_MIDPOINT = 55.0
+
+
+@lru_cache(maxsize=1024)
+def _age_exit_probability(age: int, slope: float, midpoint: float) -> float:
+    """Cache repeated logistic evaluations without changing floating arithmetic."""
+    return 1.0 / (1 + np.exp(-slope * (age - midpoint)))
+
+
 ###################
 # Helper functions
 ###################
@@ -304,35 +340,36 @@ CATEGORY_EMIGRATION_MULTIPLIERS = {
 
 def get_total_eb_visa_pool(year: int) -> int:
     """
-    Get total EB visa pool for a given year.
+    Get the model's total EB visa budget for a given year.
 
-    For 2009-2024: uses actual historical USCIS data
-    For 2025+: uses 2024 value (167,394) for projections
+    For 2009-2024: uses the stored historical reconstruction series.
+    For 2025+: repeats the 2024 model budget (167,394).
 
     Args:
         year: Fiscal year
 
     Returns:
-        Total EB visas available for that year
+        Total visa budget supplied to the model for that year
     """
     return HISTORICAL_EB_VISA_POOL.get(year, HISTORICAL_EB_VISA_POOL[2024])
 
 
 def get_pathway_totals(year: int) -> Dict[str, int]:
     """
-    Get petition approval totals for all pathways in a specific year.
+    Get synthetic principal-entry totals for each pathway and model year.
 
-    Historical period (2009-2024): Heterogeneous petition approval counts
-    Projection period (2025+): Uses 2024 values as steady-state baseline
+    Historical period (2009-2024): mixed source series and initialization additions.
+    EB-1/2/3 use approved-status receipt cohorts, not annual adjudication flows.
+    Projection period (2025+): repeats 2024 inputs by default.
 
     Args:
         year: Fiscal year
 
     Returns:
-        Dictionary mapping pathway name to total petition approvals
+        Dictionary mapping pathway name to modeled principal entries
 
     Raises:
-        ValueError: If year is before 2009 (no data available)
+        ValueError: If year is before the configured input series starts in 2009
     """
     if year < 2009:
         raise ValueError(f"No data available for year {year} (earliest: 2009)")
@@ -376,7 +413,7 @@ def get_nationality_distribution_for_pathway(pathway: str, year: int) -> Dict[st
     if pathway == "EB-5":
         return EB5_NATIONALITY_DISTRIBUTION_BY_YEAR[lookup_year]
 
-    # EB-1/2/3: Calculate from I-140 approval counts
+    # EB-1/2/3: Calculate from approved-status I-140 receipt-cohort counts.
     if pathway in ["EB-1", "EB-2", "EB-3"]:
         total_approvals = I140_ANNUAL_APPROVALS[pathway][lookup_year]
         india_count = COUNTRY_APPROVALS["India"][pathway][lookup_year]
@@ -403,14 +440,15 @@ def get_queue_exit_rate(
     Calculate annual queue exit probability for an applicant.
 
     Formula:
-        tenure_base_rate x nationality_multiplier x category_multiplier
-        x age_adjustments (logistic curve for ages 45+)
+        max(tenure_base_rate * nationality_multiplier * category_multiplier,
+            age_logistic_probability) when the age floor is enabled and applies.
 
     Args:
         nationality: Country of birth
         eb_category: EB category (EB1-EB-5)
         current_year: Unused (retained for future updates; changes based on political situation, etc.)
-        years_in_us: Years since priority date
+        years_in_us: Compatibility name for years since synthetic model entry,
+            not observed US residence or elapsed time since a legal priority date
         age: Current age of principal applicant
 
     Returns:
@@ -434,13 +472,8 @@ def get_queue_exit_rate(
     exit_rate = base_rate * nationality_multiplier * category_multiplier
 
     # Age-based adjustment: logistic curve
-    if age >= 45:
-        L = 1.0  # Certain exit assumption
-        k = 0.5  # Steepness
-        midpoint = 55  # Inflection at age
-
-        # Calculate age-based exit probability
-        age_exit_prob = L / (1 + np.exp(-k * (age - midpoint)))
+    if AGE_EXIT_ENABLED and age >= AGE_EXIT_MIN_AGE:
+        age_exit_prob = _age_exit_probability(age, AGE_EXIT_SLOPE, AGE_EXIT_MIDPOINT)
 
         # Take max of base rate and age-based probability
         exit_rate = max(exit_rate, age_exit_prob)
@@ -454,18 +487,33 @@ def calculate_annual_eb_caps(
     """
     Calculate annual EB category visa allocation based on statutory shares.
 
-    These are BASE allocations before cascade spillover.
+    These are BASE allocations before cascade spillover. Largest-remainder
+    apportionment preserves the supplied integer pool exactly; equal remainders
+    are resolved in EB-1, EB-2, EB-3, EB-4, EB-5 order. This is the model's
+    numerical rounding convention, not a claim about agency rounding practice.
 
     Args:
-        annual_cap: Total annual employment-based visa allocation. Defaults to TOTAL_EB_VISA_POOL (167,394 visas/year).
+        annual_cap: Nonnegative integer employment-based visa pool.
 
     Returns:
-        Dictionary mapping EBCategory enum to base annual visa allocation.
+        Nonnegative integer category allocations summing exactly to annual_cap.
     """
-    eb_caps = {}
-    for category, share in EB_CATEGORY_STATUTORY_SHARES.items():
-        eb_caps[category] = max(1, round(annual_cap * share))
-
+    if isinstance(annual_cap, bool) or not isinstance(annual_cap, Integral) or annual_cap < 0:
+        raise ValueError("annual_cap must be a nonnegative integer visa pool")
+    annual_cap = int(annual_cap)
+    categories = list(EBCategory)
+    shares = {category: Fraction(str(EB_CATEGORY_STATUTORY_SHARES[category])) for category in categories}
+    if any(share < 0 for share in shares.values()) or sum(shares.values()) != 1:
+        raise ValueError("EB category shares must be nonnegative and sum exactly to one")
+    quotas = {category: annual_cap * shares[category] for category in categories}
+    eb_caps = {category: quota.numerator // quota.denominator for category, quota in quotas.items()}
+    remainder_order = sorted(
+        categories,
+        key=lambda category: (-(quotas[category] - eb_caps[category]), categories.index(category)),
+    )
+    remaining = annual_cap - sum(eb_caps.values())
+    for category in remainder_order[:remaining]:
+        eb_caps[category] += 1
     return eb_caps
 
 

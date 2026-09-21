@@ -1,0 +1,100 @@
+dimension,group,quantity,policy,n,mean,sd_across_runs,mcse_mean,mean_ci95_low,mean_ci95_high,positive_runs,zero_runs,negative_runs
+category,EB-1,age21_events_2025_2040,Capped,1,31.0,,,,,1,0,0
+category,EB-1,age21_events_2025_2040,Capped minus uncapped,1,19.0,,,,,1,0,0
+category,EB-1,age21_events_2025_2040,Uncapped,1,12.0,,,,,1,0,0
+category,EB-1,principal_backlog_2040,Capped,1,519.0,,,,,1,0,0
+category,EB-1,principal_backlog_2040,Capped minus uncapped,1,54.0,,,,,1,0,0
+category,EB-1,principal_backlog_2040,Uncapped,1,465.0,,,,,1,0,0
+category,EB-1,principal_exits_2025_2040,Capped,1,123.0,,,,,1,0,0
+category,EB-1,principal_exits_2025_2040,Capped minus uncapped,1,-72.0,,,,,0,0,1
+category,EB-1,principal_exits_2025_2040,Uncapped,1,195.0,,,,,1,0,0
+category,EB-2,age21_events_2025_2040,Capped,1,-7270.0,,,,,0,0,1
+category,EB-2,age21_events_2025_2040,Capped minus uncapped,1,-3496.0,,,,,0,0,1
+category,EB-2,age21_events_2025_2040,Uncapped,1,-3774.0,,,,,0,0,1
+category,EB-2,principal_backlog_2040,Capped,1,-1570.0,,,,,0,0,1
+category,EB-2,principal_backlog_2040,Capped minus uncapped,1,6068.0,,,,,1,0,0
+category,EB-2,principal_backlog_2040,Uncapped,1,-7638.0,,,,,0,0,1
+category,EB-2,principal_exits_2025_2040,Capped,1,-7795.0,,,,,0,0,1
+category,EB-2,principal_exits_2025_2040,Capped minus uncapped,1,-6990.0,,,,,0,0,1
+category,EB-2,principal_exits_2025_2040,Uncapped,1,-805.0,,,,,0,0,1
+category,EB-3,age21_events_2025_2040,Capped,1,-1096.0,,,,,0,0,1
+category,EB-3,age21_events_2025_2040,Capped minus uncapped,1,-1972.0,,,,,0,0,1
+category,EB-3,age21_events_2025_2040,Uncapped,1,876.0,,,,,1,0,0
+category,EB-3,principal_backlog_2040,Capped,1,4170.0,,,,,1,0,0
+category,EB-3,principal_backlog_2040,Capped minus uncapped,1,1109.0,,,,,1,0,0
+category,EB-3,principal_backlog_2040,Uncapped,1,3061.0,,,,,1,0,0
+category,EB-3,principal_exits_2025_2040,Capped,1,905.0,,,,,1,0,0
+category,EB-3,principal_exits_2025_2040,Capped minus uncapped,1,-2189.0,,,,,0,0,1
+category,EB-3,principal_exits_2025_2040,Uncapped,1,3094.0,,,,,1,0,0
+category,EB-4,age21_events_2025_2040,Capped,1,-88.0,,,,,0,0,1
+category,EB-4,age21_events_2025_2040,Capped minus uncapped,1,146.0,,,,,1,0,0
+category,EB-4,age21_events_2025_2040,Uncapped,1,-234.0,,,,,0,0,1
+category,EB-4,principal_backlog_2040,Capped,1,-1375.0,,,,,0,0,1
+category,EB-4,principal_backlog_2040,Capped minus uncapped,1,-828.0,,,,,0,0,1
+category,EB-4,principal_backlog_2040,Uncapped,1,-547.0,,,,,0,0,1
+category,EB-4,principal_exits_2025_2040,Capped,1,65.0,,,,,1,0,0
+category,EB-4,principal_exits_2025_2040,Capped minus uncapped,1,726.0,,,,,1,0,0
+category,EB-4,principal_exits_2025_2040,Uncapped,1,-661.0,,,,,0,0,1
+category,EB-5,age21_events_2025_2040,Capped,1,541.0,,,,,1,0,0
+category,EB-5,age21_events_2025_2040,Capped minus uncapped,1,420.0,,,,,1,0,0
+category,EB-5,age21_events_2025_2040,Uncapped,1,121.0,,,,,1,0,0
+category,EB-5,principal_backlog_2040,Capped,1,1566.0,,,,,1,0,0
+category,EB-5,principal_backlog_2040,Capped minus uncapped,1,-277.0,,,,,0,0,1
+category,EB-5,principal_backlog_2040,Uncapped,1,1843.0,,,,,1,0,0
+category,EB-5,principal_exits_2025_2040,Capped,1,559.0,,,,,1,0,0
+category,EB-5,principal_exits_2025_2040,Capped minus uncapped,1,197.0,,,,,1,0,0
+category,EB-5,principal_exits_2025_2040,Uncapped,1,362.0,,,,,1,0,0
+joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,1,13.0,,,,,1,0,0
+joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1,17.0,,,,,1,0,0
+joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-11.0,,,,,0,0,1
+joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,1,-48.0,,,,,0,0,1
+joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,1,-1322.0,,,,,0,0,1
+joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-2126.0,,,,,0,0,1
+joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,1,-576.0,,,,,0,0,1
+joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,1,-1109.0,,,,,0,0,1
+joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-287.0,,,,,0,0,1
+joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,1,-6.0,,,,,0,0,1
+joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,1,-106.0,,,,,0,0,1
+joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,1,258.0,,,,,1,0,0
+joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,1,534.0,,,,,1,0,0
+joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,1,32.0,,,,,1,0,0
+joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-146.0,,,,,0,0,1
+nationality,China,age21_events_2025_2040,Capped,1,-854.0,,,,,0,0,1
+nationality,China,age21_events_2025_2040,Capped minus uncapped,1,-83.0,,,,,0,0,1
+nationality,China,age21_events_2025_2040,Uncapped,1,-771.0,,,,,0,0,1
+nationality,China,principal_backlog_2040,Capped,1,-3639.0,,,,,0,0,1
+nationality,China,principal_backlog_2040,Capped minus uncapped,1,-4148.0,,,,,0,0,1
+nationality,China,principal_backlog_2040,Uncapped,1,509.0,,,,,1,0,0
+nationality,China,principal_exits_2025_2040,Capped,1,-2903.0,,,,,0,0,1
+nationality,China,principal_exits_2025_2040,Capped minus uncapped,1,-1479.0,,,,,0,0,1
+nationality,China,principal_exits_2025_2040,Uncapped,1,-1424.0,,,,,0,0,1
+nationality,India,age21_events_2025_2040,Capped,1,-8679.0,,,,,0,0,1
+nationality,India,age21_events_2025_2040,Capped minus uncapped,1,-2488.0,,,,,0,0,1
+nationality,India,age21_events_2025_2040,Uncapped,1,-6191.0,,,,,0,0,1
+nationality,India,principal_backlog_2040,Capped,1,-8617.0,,,,,0,0,1
+nationality,India,principal_backlog_2040,Capped minus uncapped,1,-5539.0,,,,,0,0,1
+nationality,India,principal_backlog_2040,Uncapped,1,-3078.0,,,,,0,0,1
+nationality,India,principal_exits_2025_2040,Capped,1,-15200.0,,,,,0,0,1
+nationality,India,principal_exits_2025_2040,Capped minus uncapped,1,-9472.0,,,,,0,0,1
+nationality,India,principal_exits_2025_2040,Uncapped,1,-5728.0,,,,,0,0,1
+nationality,ROW,age21_events_2025_2040,Capped,1,1651.0,,,,,1,0,0
+nationality,ROW,age21_events_2025_2040,Capped minus uncapped,1,-2312.0,,,,,0,0,1
+nationality,ROW,age21_events_2025_2040,Uncapped,1,3963.0,,,,,1,0,0
+nationality,ROW,principal_backlog_2040,Capped,1,15566.0,,,,,1,0,0
+nationality,ROW,principal_backlog_2040,Capped minus uncapped,1,15813.0,,,,,1,0,0
+nationality,ROW,principal_backlog_2040,Uncapped,1,-247.0,,,,,0,0,1
+nationality,ROW,principal_exits_2025_2040,Capped,1,11960.0,,,,,1,0,0
+nationality,ROW,principal_exits_2025_2040,Capped minus uncapped,1,2623.0,,,,,1,0,0
+nationality,ROW,principal_exits_2025_2040,Uncapped,1,9337.0,,,,,1,0,0
+overall,All,age21_events_2025_2040,Capped,1,-7882.0,,,,,0,0,1
+overall,All,age21_events_2025_2040,Capped minus uncapped,1,-4883.0,,,,,0,0,1
+overall,All,age21_events_2025_2040,Uncapped,1,-2999.0,,,,,0,0,1
+overall,All,principal_backlog_2040,Capped,1,3310.0,,,,,1,0,0
+overall,All,principal_backlog_2040,Capped minus uncapped,1,6126.0,,,,,1,0,0
+overall,All,principal_backlog_2040,Uncapped,1,-2816.0,,,,,0,0,1
+overall,All,principal_conversions_2025_2040,Capped,1,224.0,,,,,1,0,0
+overall,All,principal_conversions_2025_2040,Capped minus uncapped,1,2202.0,,,,,1,0,0
+overall,All,principal_conversions_2025_2040,Uncapped,1,-1978.0,,,,,0,0,1
+overall,All,principal_exits_2025_2040,Capped,1,-6143.0,,,,,0,0,1
+overall,All,principal_exits_2025_2040,Capped minus uncapped,1,-8328.0,,,,,0,0,1
+overall,All,principal_exits_2025_2040,Uncapped,1,2185.0,,,,,1,0,0

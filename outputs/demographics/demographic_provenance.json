@@ -1,0 +1,16 @@
+{
+  "raw_rows": 32534908,
+  "retained_rows": 608848,
+  "old_reproduction_exact": true,
+  "seconds": 45.7856904999353,
+  "hashes": {
+    "data/demographics/counts.py": "c5d2b9f4ee906fb4a39400c0a854252795d8e91fe5a552cb798fe57fc462f70e",
+    "data/demographics/ages.py": "f39588841d2d213872ee37d52bd61193fd92f177003b8985ecd93c62be6f6636",
+    "data/demographics/income_adjustment.py": "8e32f80ac085c69957d6dc89ab1a79f3c6daf0746a27f7ca16af7a4706893a3c",
+    "data/demographics/spouse_presence_empirical_distributions.json": "3ea8b03ee956ad1d3df14eb2674b7a81502d6ee1cd3086976b770681a92e9468",
+    "data/demographics/children_count_empirical_distributions_married.json": "2d35fabfe679417ca0a241d63cbd927b05340cbc6b5debfb0db953a682ad1487",
+    "data/demographics/principal_age_empirical_distributions.json": "2dd75a1d83ae0002ee7f8b8751326e09f8a8d630a7a90d93614667f177ae56e5",
+    "data/demographics/child_entry_age_empirical_distributions.json": "53ff57bd8672ddaee6fc8073e08ec60957c66f788c67a5b5bb7c317d8c926a16"
+  },
+  "raw_acs_sha256": "61a4d1777eef9247f6fd6591cfe03855beea32b81ecdb985b180b9f47c5370e3"
+}

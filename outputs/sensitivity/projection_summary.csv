@@ -1,0 +1,298 @@
+case,role,dimension,group,quantity,policy,n,mean,sd_across_runs,mcse_mean,mean_ci95_low,mean_ci95_high,positive_runs,zero_runs,negative_runs
+catchall_60_65,primary,overall,All,age21_events_2025_2040,Capped,50,266684.3,587.251858147728,83.04995423213178,266517.4048685304,266851.1951314696,50,0,0
+catchall_60_65,primary,overall,All,age21_events_2025_2040,Uncapped,50,199826.34,492.952190006955,69.71396727093546,199686.24453769028,199966.43546230972,50,0,0
+catchall_60_65,primary,overall,All,age21_events_2025_2040,Capped minus uncapped,50,66857.96,508.1552856024566,71.86400966905677,66713.54386572825,67002.37613427176,50,0,0
+catchall_60_65,primary,overall,All,principal_exits_2025_2040,Capped,50,1092999.42,865.5788458409476,122.41133430915185,1092753.4252138282,1093245.4147861716,50,0,0
+catchall_60_65,primary,overall,All,principal_exits_2025_2040,Uncapped,50,1071919.44,910.4727670786407,128.76029353739736,1071660.6865025817,1072178.1934974182,50,0,0
+catchall_60_65,primary,overall,All,principal_exits_2025_2040,Capped minus uncapped,50,21079.98,627.520533528585,88.74480491837254,20901.640637612174,21258.319362387825,50,0,0
+catchall_60_65,primary,overall,All,principal_conversions_2025_2040,Capped,50,1263126.32,556.8912047047888,78.75630944598039,1262968.0532707698,1263284.5867292304,50,0,0
+catchall_60_65,primary,overall,All,principal_conversions_2025_2040,Uncapped,50,1266851.14,484.85436525848064,68.56876191243417,1266713.34591402,1266988.9340859798,50,0,0
+catchall_60_65,primary,overall,All,principal_conversions_2025_2040,Capped minus uncapped,50,-3724.82,472.52658666157697,66.82535074386678,-3859.1105700673506,-3590.5294299326497,0,0,50
+catchall_60_65,primary,overall,All,principal_backlog_2040,Capped,50,2774292.16,1139.203165124014,161.1076566416737,2773968.402042701,2774615.9179572994,50,0,0
+catchall_60_65,primary,overall,All,principal_backlog_2040,Uncapped,50,2791647.32,1252.433996631506,177.1209144013415,2791291.3821964413,2792003.2578035584,50,0,0
+catchall_60_65,primary,overall,All,principal_backlog_2040,Capped minus uncapped,50,-17355.16,793.5264963491536,112.22159332393773,-17580.67773501497,-17129.64226498503,0,0,50
+catchall_60_65,primary,nationality,India,age21_events_2025_2040,Capped,50,193500.98,489.8328115442106,69.27282053811669,193361.7710552405,193640.18894475952,50,0,0
+catchall_60_65,primary,nationality,India,age21_events_2025_2040,Uncapped,50,73477.4,325.69586414071546,46.060350827662475,73384.83825956324,73569.96174043675,50,0,0
+catchall_60_65,primary,nationality,India,age21_events_2025_2040,Capped minus uncapped,50,120023.58,321.6149992694713,45.483229382949936,119932.17802852736,120114.98197147265,50,0,0
+catchall_60_65,primary,nationality,India,principal_exits_2025_2040,Capped,50,334790.4,597.8077979294901,84.54278955242795,334620.50490363763,334960.2950963624,50,0,0
+catchall_60_65,primary,nationality,India,principal_exits_2025_2040,Uncapped,50,187123.36,382.87909105531855,54.147280331951464,187014.546966287,187232.17303371298,50,0,0
+catchall_60_65,primary,nationality,India,principal_exits_2025_2040,Capped minus uncapped,50,147667.04,600.6742116750382,84.94816167186063,147496.3302778646,147837.74972213543,50,0,0
+catchall_60_65,primary,nationality,India,principal_backlog_2040,Capped,50,1077734.08,986.3823375944884,139.49552795114022,1077453.7532413392,1078014.406758661,50,0,0
+catchall_60_65,primary,nationality,India,principal_backlog_2040,Uncapped,50,750339.62,794.8003700070008,112.40174626430546,750113.7402340971,750565.4997659029,50,0,0
+catchall_60_65,primary,nationality,India,principal_backlog_2040,Capped minus uncapped,50,327394.46,628.7301815759204,88.91587498579652,327215.7768594409,327573.14314055914,50,0,0
+catchall_60_65,primary,nationality,China,age21_events_2025_2040,Capped,50,18742.12,173.5967224368488,24.550283925370934,18692.78435735908,18791.455642640918,50,0,0
+catchall_60_65,primary,nationality,China,age21_events_2025_2040,Uncapped,50,14679.26,145.87271639259723,20.62951739026151,14637.803432698604,14720.716567301397,50,0,0
+catchall_60_65,primary,nationality,China,age21_events_2025_2040,Capped minus uncapped,50,4062.86,111.3672010485482,15.749700612638803,4031.2097916566418,4094.5102083433585,50,0,0
+catchall_60_65,primary,nationality,China,principal_exits_2025_2040,Capped,50,104532.28,307.81958935687754,43.5322638032613,104444.79864064479,104619.76135935521,50,0,0
+catchall_60_65,primary,nationality,China,principal_exits_2025_2040,Uncapped,50,95361.24,331.4758316058284,46.87776166558627,95267.03561098479,95455.44438901522,50,0,0
+catchall_60_65,primary,nationality,China,principal_exits_2025_2040,Capped minus uncapped,50,9171.04,312.8531610966449,44.24411834541699,9082.128115384436,9259.951884615566,50,0,0
+catchall_60_65,primary,nationality,China,principal_backlog_2040,Capped,50,341614.54,497.1564944763369,70.30854571103004,341473.2496875805,341755.83031241945,50,0,0
+catchall_60_65,primary,nationality,China,principal_backlog_2040,Uncapped,50,286737.7,426.28883807740937,60.28634562973406,286616.5500526855,286858.84994731453,50,0,0
+catchall_60_65,primary,nationality,China,principal_backlog_2040,Capped minus uncapped,50,54876.84,415.4809536635138,58.757879957864866,54758.76161945046,54994.918380549534,50,0,0
+catchall_60_65,primary,nationality,ROW,age21_events_2025_2040,Capped,50,54441.2,310.5582202474526,43.91956469803982,54352.94033035732,54529.459669642674,50,0,0
+catchall_60_65,primary,nationality,ROW,age21_events_2025_2040,Uncapped,50,111669.68,417.46428125343726,59.03836483549472,111551.03796398597,111788.32203601401,50,0,0
+catchall_60_65,primary,nationality,ROW,age21_events_2025_2040,Capped minus uncapped,50,-57228.48,398.6157804304331,56.372784286065425,-57341.765351349306,-57115.1946486507,0,0,50
+catchall_60_65,primary,nationality,ROW,principal_exits_2025_2040,Capped,50,653676.74,766.7320211422618,108.43228230051213,653458.8371705834,653894.6428294166,50,0,0
+catchall_60_65,primary,nationality,ROW,principal_exits_2025_2040,Uncapped,50,789434.84,802.6551438818541,113.5125790386246,789206.7279320613,789662.9520679386,50,0,0
+catchall_60_65,primary,nationality,ROW,principal_exits_2025_2040,Capped minus uncapped,50,-135758.1,670.9855149140626,94.8916815347362,-135948.79197342176,-135567.40802657825,0,0,50
+catchall_60_65,primary,nationality,ROW,principal_backlog_2040,Capped,50,1354943.54,1059.3656594435008,149.81692830973162,1354642.4716107661,1355244.608389234,50,0,0
+catchall_60_65,primary,nationality,ROW,principal_backlog_2040,Uncapped,50,1754570.0,1002.0766193362701,141.71503456023345,1754285.212975819,1754854.787024181,50,0,0
+catchall_60_65,primary,nationality,ROW,principal_backlog_2040,Capped minus uncapped,50,-399626.46,954.1553206466792,134.9379395068983,-399897.62794178235,-399355.2920582177,0,0,50
+catchall_60_65,primary,category,EB-1,age21_events_2025_2040,Capped,50,2513.86,63.49289209776773,8.979250911895463,2495.8155197194847,2531.9044802805156,50,0,0
+catchall_60_65,primary,category,EB-1,age21_events_2025_2040,Uncapped,50,749.94,32.23030010561427,4.558052752871469,740.7802500583008,759.0997499416993,50,0,0
+catchall_60_65,primary,category,EB-1,age21_events_2025_2040,Capped minus uncapped,50,1763.92,64.39921409078067,9.107424197335055,1745.6179458590038,1782.2220541409963,50,0,0
+catchall_60_65,primary,category,EB-1,principal_exits_2025_2040,Capped,50,15781.78,127.79117052952495,18.072400651438716,15745.46215117539,15818.097848824611,50,0,0
+catchall_60_65,primary,category,EB-1,principal_exits_2025_2040,Uncapped,50,16534.0,136.6477670688327,19.32491254567428,16495.165134288523,16572.834865711477,50,0,0
+catchall_60_65,primary,category,EB-1,principal_exits_2025_2040,Capped minus uncapped,50,-752.22,118.07681519127404,16.698583344532125,-785.7770595843106,-718.6629404156895,0,0,50
+catchall_60_65,primary,category,EB-1,principal_backlog_2040,Capped,50,129345.56,327.7745093499368,46.35431565228674,129252.4075151311,129438.7124848689,50,0,0
+catchall_60_65,primary,category,EB-1,principal_backlog_2040,Uncapped,50,125335.5,322.10425806130615,45.552421024842246,125243.95898271719,125427.04101728281,50,0,0
+catchall_60_65,primary,category,EB-1,principal_backlog_2040,Capped minus uncapped,50,4010.06,190.56590375371294,26.950088561438672,3955.901769388493,4064.218230611507,50,0,0
+catchall_60_65,primary,category,EB-2,age21_events_2025_2040,Capped,50,149846.08,404.2582948803794,57.170756332165446,149731.19106378692,149960.96893621306,50,0,0
+catchall_60_65,primary,category,EB-2,age21_events_2025_2040,Uncapped,50,108480.26,344.84973420850054,48.76911710984185,108382.2547899194,108578.26521008059,50,0,0
+catchall_60_65,primary,category,EB-2,age21_events_2025_2040,Capped minus uncapped,50,41365.82,352.1097167830806,49.7958336917982,41265.751525700754,41465.888474299245,50,0,0
+catchall_60_65,primary,category,EB-2,principal_exits_2025_2040,Capped,50,309215.96,532.7671298924864,75.34465006805426,309064.5492569731,309367.37074302696,50,0,0
+catchall_60_65,primary,category,EB-2,principal_exits_2025_2040,Uncapped,50,282662.88,431.7029704482905,61.05201957247239,282540.19137329044,282785.5686267096,50,0,0
+catchall_60_65,primary,category,EB-2,principal_exits_2025_2040,Capped minus uncapped,50,26553.08,607.0916563284933,85.85572539833012,26380.54646027375,26725.613539726255,50,0,0
+catchall_60_65,primary,category,EB-2,principal_backlog_2040,Capped,50,1041792.14,645.4909857256422,91.2862106402781,1041608.6934916059,1041975.5865083941,50,0,0
+catchall_60_65,primary,category,EB-2,principal_backlog_2040,Uncapped,50,1059789.0,607.0168944964231,85.84515247864397,1059616.4877073513,1059961.5122926487,50,0,0
+catchall_60_65,primary,category,EB-2,principal_backlog_2040,Capped minus uncapped,50,-17996.86,712.9208677500395,100.82223600709015,-18199.46986883185,-17794.25013116815,0,0,50
+catchall_60_65,primary,category,EB-3,age21_events_2025_2040,Capped,50,63563.84,264.77686871039475,37.44510387329206,63488.5912465045,63639.088753495496,50,0,0
+catchall_60_65,primary,category,EB-3,age21_events_2025_2040,Uncapped,50,40211.84,229.95947824052186,32.521181292398666,40146.4862393926,40277.19376060739,50,0,0
+catchall_60_65,primary,category,EB-3,age21_events_2025_2040,Capped minus uncapped,50,23352.0,282.27045939116255,39.9190711928266,23271.779623041697,23432.220376958303,50,0,0
+catchall_60_65,primary,category,EB-3,principal_exits_2025_2040,Capped,50,244833.04,452.4934528785573,63.992237794588675,244704.44278355953,244961.6372164405,50,0,0
+catchall_60_65,primary,category,EB-3,principal_exits_2025_2040,Uncapped,50,249870.64,389.93232065818495,55.14475762824197,249759.8224606128,249981.45753938722,50,0,0
+catchall_60_65,primary,category,EB-3,principal_exits_2025_2040,Capped minus uncapped,50,-5037.6,431.68970337500525,61.05014332497509,-5160.284856249061,-4914.91514375094,0,0,50
+catchall_60_65,primary,category,EB-3,principal_backlog_2040,Capped,50,552546.68,492.7853546061264,69.69037318228189,552406.6319517867,552686.7280482134,50,0,0
+catchall_60_65,primary,category,EB-3,principal_backlog_2040,Uncapped,50,558386.9,508.1070612718206,71.85718971881458,558242.4975709314,558531.3024290686,50,0,0
+catchall_60_65,primary,category,EB-3,principal_backlog_2040,Capped minus uncapped,50,-5840.22,513.7448064189545,72.65448728364257,-5986.22465851153,-5694.215341488471,0,0,50
+catchall_60_65,primary,category,EB-4,age21_events_2025_2040,Capped,50,49638.32,287.0287221637214,40.591991167455376,49556.74733972411,49719.89266027589,50,0,0
+catchall_60_65,primary,category,EB-4,age21_events_2025_2040,Uncapped,50,49807.56,241.6991856141237,34.18142663100258,49738.869851472584,49876.25014852741,50,0,0
+catchall_60_65,primary,category,EB-4,age21_events_2025_2040,Capped minus uncapped,50,-169.24,206.55587374749678,29.211411804153467,-227.94252980321158,-110.53747019678845,12,0,38
+catchall_60_65,primary,category,EB-4,principal_exits_2025_2040,Capped,50,519360.08,617.3433814436216,87.30553826788366,519184.6329522326,519535.5270477674,50,0,0
+catchall_60_65,primary,category,EB-4,principal_exits_2025_2040,Uncapped,50,519465.12,556.6348834464004,78.72006014598665,519306.9261164653,519623.3138835347,50,0,0
+catchall_60_65,primary,category,EB-4,principal_exits_2025_2040,Capped minus uncapped,50,-105.04,563.0094050760446,79.62155364021498,-265.0455025371335,54.965502537133474,21,0,29
+catchall_60_65,primary,category,EB-4,principal_backlog_2040,Capped,50,1023905.42,668.6364769942984,94.55947740627028,1023715.3956157685,1024095.4443842316,50,0,0
+catchall_60_65,primary,category,EB-4,principal_backlog_2040,Uncapped,50,1021519.32,597.942234599938,84.56180176869073,1021349.3866971586,1021689.2533028413,50,0,0
+catchall_60_65,primary,category,EB-4,principal_backlog_2040,Capped minus uncapped,50,2386.1,590.5618995015317,83.51806476958828,2218.2641651860795,2553.9358348139203,50,0,0
+catchall_60_65,primary,category,EB-5,age21_events_2025_2040,Capped,50,1122.2,49.79181147333283,7.0416255080711565,1108.0493237498426,1136.3506762501574,50,0,0
+catchall_60_65,primary,category,EB-5,age21_events_2025_2040,Uncapped,50,576.74,27.54055265996539,3.894822308697347,568.9130615354233,584.5669384645768,50,0,0
+catchall_60_65,primary,category,EB-5,age21_events_2025_2040,Capped minus uncapped,50,545.46,44.77390366027505,6.331986179674734,532.7353973714811,558.184602628519,50,0,0
+catchall_60_65,primary,category,EB-5,principal_exits_2025_2040,Capped,50,3808.56,57.075374438955194,8.071676860909312,3792.3393580582074,3824.7806419417925,50,0,0
+catchall_60_65,primary,category,EB-5,principal_exits_2025_2040,Uncapped,50,3386.8,47.31570046194055,6.691450530645924,3373.3530267131387,3400.2469732868617,50,0,0
+catchall_60_65,primary,category,EB-5,principal_exits_2025_2040,Capped minus uncapped,50,421.76,57.8684503941518,8.183834738092415,405.31396836557144,438.20603163442854,50,0,0
+catchall_60_65,primary,category,EB-5,principal_backlog_2040,Capped,50,26702.36,113.51899238741093,16.054009862120466,26670.098259324455,26734.621740675546,50,0,0
+catchall_60_65,primary,category,EB-5,principal_backlog_2040,Uncapped,50,26616.6,110.37098849806871,15.608814882649364,26585.23291213089,26647.967087869107,50,0,0
+catchall_60_65,primary,category,EB-5,principal_backlog_2040,Capped minus uncapped,50,85.76,79.15589371742372,11.19433384369439,63.26414391155399,108.25585608844602,44,0,6
+catchall_60_65,primary,joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,50,1428.06,42.83638068516155,6.057979052793236,1415.886035308459,1440.233964691541,50,0,0
+catchall_60_65,primary,joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,50,924.9,34.37740715133967,4.861699543264638,915.1300489874928,934.6699510125071,50,0,0
+catchall_60_65,primary,joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,50,-589.04,28.421004017939886,4.019336933843081,-597.1171599719299,-580.96284002807,0,0,50
+catchall_60_65,primary,joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,50,75505.98,283.43933519307774,40.08437519400642,75425.42743221432,75586.53256778567,50,0,0
+catchall_60_65,primary,joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,50,457.14,75.99946562647796,10.747947502207298,435.54119084959916,478.7388091504008,50,0,0
+catchall_60_65,primary,joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,50,-34597.3,247.27166337897287,34.9694939941098,-34667.57382918551,-34527.0261708145,0,0,50
+catchall_60_65,primary,joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,50,43713.04,226.73692028518022,32.06544277580092,43648.602080230165,43777.47791976984,50,0,0
+catchall_60_65,primary,joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,50,2192.76,73.29213561397391,10.365073220057003,2171.930605525942,2213.5893944740583,50,0,0
+catchall_60_65,primary,joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,50,-22553.8,175.5171949248441,24.821879749239667,-22603.68143488307,-22503.91856511693,0,0,50
+catchall_60_65,primary,joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,50,-800.38,58.060099052971104,8.210937951343702,-816.8804975806249,-783.8795024193751,0,0,50
+catchall_60_65,primary,joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,50,-130.04,13.1272578232921,1.8564746050468002,-133.77072539466133,-126.30927460533866,0,0,50
+catchall_60_65,primary,joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,50,761.18,203.31343953088185,28.752862359729527,703.3989598053021,818.9610401946978,50,0,0
+catchall_60_65,primary,joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,50,176.88,11.961912344553253,1.6916698669585357,173.48046212596242,180.27953787403757,50,0,0
+catchall_60_65,primary,joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,50,618.1,38.731019051074476,5.477393242656024,607.0927661755394,629.1072338244606,50,0,0
+catchall_60_65,primary,joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,50,-249.52,17.500134110273297,2.4748927002096512,-254.49348308489326,-244.54651691510676,0,0,50
+catchall_55_60,sensitivity,overall,All,age21_events_2025_2040,Capped,1,213441.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,age21_events_2025_2040,Uncapped,1,163257.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,age21_events_2025_2040,Capped minus uncapped,1,50184.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_exits_2025_2040,Capped,1,1300623.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_exits_2025_2040,Uncapped,1,1240691.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_exits_2025_2040,Capped minus uncapped,1,59932.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_conversions_2025_2040,Capped,1,1269312.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_conversions_2025_2040,Uncapped,1,1272090.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_conversions_2025_2040,Capped minus uncapped,1,-2778.0,,,,,0,0,1
+catchall_55_60,sensitivity,overall,All,principal_backlog_2040,Capped,1,2515665.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_backlog_2040,Uncapped,1,2572819.0,,,,,1,0,0
+catchall_55_60,sensitivity,overall,All,principal_backlog_2040,Capped minus uncapped,1,-57154.0,,,,,0,0,1
+catchall_55_60,sensitivity,nationality,India,age21_events_2025_2040,Capped,1,155073.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,age21_events_2025_2040,Uncapped,1,59910.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,age21_events_2025_2040,Capped minus uncapped,1,95163.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,principal_exits_2025_2040,Capped,1,473198.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,principal_exits_2025_2040,Uncapped,1,247127.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,principal_exits_2025_2040,Capped minus uncapped,1,226071.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,principal_backlog_2040,Capped,1,917335.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,principal_backlog_2040,Uncapped,1,683420.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,India,principal_backlog_2040,Capped minus uncapped,1,233915.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,age21_events_2025_2040,Capped,1,16042.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,age21_events_2025_2040,Uncapped,1,12673.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,age21_events_2025_2040,Capped minus uncapped,1,3369.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,principal_exits_2025_2040,Capped,1,128967.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,principal_exits_2025_2040,Uncapped,1,114325.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,principal_exits_2025_2040,Capped minus uncapped,1,14642.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,principal_backlog_2040,Capped,1,311425.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,principal_backlog_2040,Uncapped,1,259657.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,China,principal_backlog_2040,Capped minus uncapped,1,51768.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,ROW,age21_events_2025_2040,Capped,1,42326.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,ROW,age21_events_2025_2040,Uncapped,1,90674.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,ROW,age21_events_2025_2040,Capped minus uncapped,1,-48348.0,,,,,0,0,1
+catchall_55_60,sensitivity,nationality,ROW,principal_exits_2025_2040,Capped,1,698458.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,ROW,principal_exits_2025_2040,Uncapped,1,879239.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,ROW,principal_exits_2025_2040,Capped minus uncapped,1,-180781.0,,,,,0,0,1
+catchall_55_60,sensitivity,nationality,ROW,principal_backlog_2040,Capped,1,1286905.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,ROW,principal_backlog_2040,Uncapped,1,1629742.0,,,,,1,0,0
+catchall_55_60,sensitivity,nationality,ROW,principal_backlog_2040,Capped minus uncapped,1,-342837.0,,,,,0,0,1
+catchall_55_60,sensitivity,category,EB-1,age21_events_2025_2040,Capped,1,2102.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-1,age21_events_2025_2040,Uncapped,1,544.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-1,age21_events_2025_2040,Capped minus uncapped,1,1558.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-1,principal_exits_2025_2040,Capped,1,23315.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-1,principal_exits_2025_2040,Uncapped,1,26396.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-1,principal_exits_2025_2040,Capped minus uncapped,1,-3081.0,,,,,0,0,1
+catchall_55_60,sensitivity,category,EB-1,principal_backlog_2040,Capped,1,120821.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-1,principal_backlog_2040,Uncapped,1,114165.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-1,principal_backlog_2040,Capped minus uncapped,1,6656.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,age21_events_2025_2040,Capped,1,121748.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,age21_events_2025_2040,Uncapped,1,90568.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,age21_events_2025_2040,Capped minus uncapped,1,31180.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,principal_exits_2025_2040,Capped,1,434785.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,principal_exits_2025_2040,Uncapped,1,378558.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,principal_exits_2025_2040,Capped minus uncapped,1,56227.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,principal_backlog_2040,Capped,1,903154.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,principal_backlog_2040,Uncapped,1,952063.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-2,principal_backlog_2040,Capped minus uncapped,1,-48909.0,,,,,0,0,1
+catchall_55_60,sensitivity,category,EB-3,age21_events_2025_2040,Capped,1,50820.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,age21_events_2025_2040,Uncapped,1,33266.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,age21_events_2025_2040,Capped minus uncapped,1,17554.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,principal_exits_2025_2040,Capped,1,295725.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,principal_exits_2025_2040,Uncapped,1,288107.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,principal_exits_2025_2040,Capped minus uncapped,1,7618.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,principal_backlog_2040,Capped,1,488259.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,principal_backlog_2040,Uncapped,1,507457.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-3,principal_backlog_2040,Capped minus uncapped,1,-19198.0,,,,,0,0,1
+catchall_55_60,sensitivity,category,EB-4,age21_events_2025_2040,Capped,1,38340.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-4,age21_events_2025_2040,Uncapped,1,38713.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-4,age21_events_2025_2040,Capped minus uncapped,1,-373.0,,,,,0,0,1
+catchall_55_60,sensitivity,category,EB-4,principal_exits_2025_2040,Capped,1,539535.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-4,principal_exits_2025_2040,Uncapped,1,540199.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-4,principal_exits_2025_2040,Capped minus uncapped,1,-664.0,,,,,0,0,1
+catchall_55_60,sensitivity,category,EB-4,principal_backlog_2040,Capped,1,983090.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-4,principal_backlog_2040,Uncapped,1,979534.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-4,principal_backlog_2040,Capped minus uncapped,1,3556.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,age21_events_2025_2040,Capped,1,431.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,age21_events_2025_2040,Uncapped,1,166.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,age21_events_2025_2040,Capped minus uncapped,1,265.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,principal_exits_2025_2040,Capped,1,7263.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,principal_exits_2025_2040,Uncapped,1,7431.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,principal_exits_2025_2040,Capped minus uncapped,1,-168.0,,,,,0,0,1
+catchall_55_60,sensitivity,category,EB-5,principal_backlog_2040,Capped,1,20341.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,principal_backlog_2040,Uncapped,1,19600.0,,,,,1,0,0
+catchall_55_60,sensitivity,category,EB-5,principal_backlog_2040,Capped minus uncapped,1,741.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1,1233.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,1,742.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-417.0,,,,,0,0,1
+catchall_55_60,sensitivity,joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,1,59706.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,1,738.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-29264.0,,,,,0,0,1
+catchall_55_60,sensitivity,joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,1,34824.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,1,1821.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-19091.0,,,,,0,0,1
+catchall_55_60,sensitivity,joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,1,-806.0,,,,,0,0,1
+catchall_55_60,sensitivity,joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,1,-95.0,,,,,0,0,1
+catchall_55_60,sensitivity,joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,1,528.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,1,206.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,1,163.0,,,,,1,0,0
+catchall_55_60,sensitivity,joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-104.0,,,,,0,0,1
+catchall_65_70,sensitivity,overall,All,age21_events_2025_2040,Capped,1,292179.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,age21_events_2025_2040,Uncapped,1,217247.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,age21_events_2025_2040,Capped minus uncapped,1,74932.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,principal_exits_2025_2040,Capped,1,969763.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,principal_exits_2025_2040,Uncapped,1,984733.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,principal_exits_2025_2040,Capped minus uncapped,1,-14970.0,,,,,0,0,1
+catchall_65_70,sensitivity,overall,All,principal_conversions_2025_2040,Capped,1,1258886.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,principal_conversions_2025_2040,Uncapped,1,1262995.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,principal_conversions_2025_2040,Capped minus uncapped,1,-4109.0,,,,,0,0,1
+catchall_65_70,sensitivity,overall,All,principal_backlog_2040,Capped,1,2911756.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,principal_backlog_2040,Uncapped,1,2892677.0,,,,,1,0,0
+catchall_65_70,sensitivity,overall,All,principal_backlog_2040,Capped minus uncapped,1,19079.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,age21_events_2025_2040,Capped,1,210635.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,age21_events_2025_2040,Uncapped,1,78805.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,age21_events_2025_2040,Capped minus uncapped,1,131830.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,principal_exits_2025_2040,Capped,1,246890.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,principal_exits_2025_2040,Uncapped,1,163205.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,principal_exits_2025_2040,Capped minus uncapped,1,83685.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,principal_backlog_2040,Capped,1,1168949.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,principal_backlog_2040,Uncapped,1,775176.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,India,principal_backlog_2040,Capped minus uncapped,1,393773.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,age21_events_2025_2040,Capped,1,20723.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,age21_events_2025_2040,Uncapped,1,15806.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,age21_events_2025_2040,Capped minus uncapped,1,4917.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,principal_exits_2025_2040,Capped,1,91554.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,principal_exits_2025_2040,Uncapped,1,84597.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,principal_exits_2025_2040,Capped minus uncapped,1,6957.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,principal_backlog_2040,Capped,1,356575.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,principal_backlog_2040,Uncapped,1,297876.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,China,principal_backlog_2040,Capped minus uncapped,1,58699.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,ROW,age21_events_2025_2040,Capped,1,60821.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,ROW,age21_events_2025_2040,Uncapped,1,122636.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,ROW,age21_events_2025_2040,Capped minus uncapped,1,-61815.0,,,,,0,0,1
+catchall_65_70,sensitivity,nationality,ROW,principal_exits_2025_2040,Capped,1,631319.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,ROW,principal_exits_2025_2040,Uncapped,1,736931.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,ROW,principal_exits_2025_2040,Capped minus uncapped,1,-105612.0,,,,,0,0,1
+catchall_65_70,sensitivity,nationality,ROW,principal_backlog_2040,Capped,1,1386232.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,ROW,principal_backlog_2040,Uncapped,1,1819625.0,,,,,1,0,0
+catchall_65_70,sensitivity,nationality,ROW,principal_backlog_2040,Capped minus uncapped,1,-433393.0,,,,,0,0,1
+catchall_65_70,sensitivity,category,EB-1,age21_events_2025_2040,Capped,1,2613.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-1,age21_events_2025_2040,Uncapped,1,735.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-1,age21_events_2025_2040,Capped minus uncapped,1,1878.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-1,principal_exits_2025_2040,Capped,1,13646.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-1,principal_exits_2025_2040,Uncapped,1,15186.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-1,principal_exits_2025_2040,Capped minus uncapped,1,-1540.0,,,,,0,0,1
+catchall_65_70,sensitivity,category,EB-1,principal_backlog_2040,Capped,1,131381.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-1,principal_backlog_2040,Uncapped,1,126374.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-1,principal_backlog_2040,Capped minus uncapped,1,5007.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,age21_events_2025_2040,Capped,1,163133.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,age21_events_2025_2040,Uncapped,1,116188.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,age21_events_2025_2040,Capped minus uncapped,1,46945.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,principal_exits_2025_2040,Capped,1,236706.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,principal_exits_2025_2040,Uncapped,1,237085.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,principal_exits_2025_2040,Capped minus uncapped,1,-379.0,,,,,0,0,1
+catchall_65_70,sensitivity,category,EB-2,principal_backlog_2040,Capped,1,1116915.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,principal_backlog_2040,Uncapped,1,1107968.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-2,principal_backlog_2040,Capped minus uncapped,1,8947.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,age21_events_2025_2040,Capped,1,68507.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,age21_events_2025_2040,Uncapped,1,43083.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,age21_events_2025_2040,Capped minus uncapped,1,25424.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,principal_exits_2025_2040,Capped,1,216218.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,principal_exits_2025_2040,Uncapped,1,229259.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,principal_exits_2025_2040,Capped minus uncapped,1,-13041.0,,,,,0,0,1
+catchall_65_70,sensitivity,category,EB-3,principal_backlog_2040,Capped,1,584510.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,principal_backlog_2040,Uncapped,1,581868.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-3,principal_backlog_2040,Capped minus uncapped,1,2642.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,age21_events_2025_2040,Capped,1,56405.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,age21_events_2025_2040,Uncapped,1,56537.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,age21_events_2025_2040,Capped minus uncapped,1,-132.0,,,,,0,0,1
+catchall_65_70,sensitivity,category,EB-4,principal_exits_2025_2040,Capped,1,500955.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,principal_exits_2025_2040,Uncapped,1,500796.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,principal_exits_2025_2040,Capped minus uncapped,1,159.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,principal_backlog_2040,Capped,1,1050336.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,principal_backlog_2040,Uncapped,1,1048444.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-4,principal_backlog_2040,Capped minus uncapped,1,1892.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,age21_events_2025_2040,Capped,1,1521.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,age21_events_2025_2040,Uncapped,1,704.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,age21_events_2025_2040,Capped minus uncapped,1,817.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,principal_exits_2025_2040,Capped,1,2238.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,principal_exits_2025_2040,Uncapped,1,2407.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,principal_exits_2025_2040,Capped minus uncapped,1,-169.0,,,,,0,0,1
+catchall_65_70,sensitivity,category,EB-5,principal_backlog_2040,Capped,1,28614.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,principal_backlog_2040,Uncapped,1,28023.0,,,,,1,0,0
+catchall_65_70,sensitivity,category,EB-5,principal_backlog_2040,Capped minus uncapped,1,591.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1,1490.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,1,958.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-570.0,,,,,0,0,1
+catchall_65_70,sensitivity,joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,1,83698.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,1,482.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-37235.0,,,,,0,0,1
+catchall_65_70,sensitivity,joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,1,47252.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,1,2682.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-24510.0,,,,,0,0,1
+catchall_65_70,sensitivity,joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,1,-799.0,,,,,0,0,1
+catchall_65_70,sensitivity,joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,1,-119.0,,,,,0,0,1
+catchall_65_70,sensitivity,joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,1,786.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,1,189.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,1,914.0,,,,,1,0,0
+catchall_65_70,sensitivity,joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,1,-286.0,,,,,0,0,1

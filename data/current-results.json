@@ -1,0 +1,5 @@
+{
+  "records": "data/runs/inflation-corrected-20260923",
+  "manifest_sha256": "be10d3d5b7a38a9c9a2b771e9322f5f1b95917dc8ac8287f1c1956f3a3e212a3",
+  "description": "Corrected annual CPI demographic inputs, common age schedule across all EB categories, 55 paired runs"
+}

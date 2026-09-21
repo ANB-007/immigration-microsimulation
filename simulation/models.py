@@ -43,7 +43,7 @@ class EBCategory(Enum):
     EB5 = "EB-5"
 
 
-@dataclass
+@dataclass(slots=True)
 class Worker:
     """
     Individual worker in green card queue.
@@ -58,8 +58,8 @@ class Worker:
     id: int  # Unique identifier for this worker
     status: WorkerStatus  # Current immigration status
     nationality: str  # Country of birth
-    age: int  # Age when entering the queue
-    entry_year: int  # Year the worker entered the queue (priority date)
+    age: int  # Modeled age, initialized at creation and updated while queued
+    entry_year: int  # Synthetic model entry year, not an observed legal priority date
     eb_category: EBCategory  # EB category of the worker's petition
     pathway: str  # Petition pathway
     conversion_year: Optional[int] = None  # Year converted to permanent (if converted)
@@ -83,7 +83,9 @@ class Worker:
 
     def years_in_system(self, current_year: int) -> int:
         """
-        Calculate how long this worker has been waiting in the queue.
+        Calculate elapsed years since synthetic model entry.
+
+        This clock is not observed US residence or a legal priority date.
 
         Args:
             current_year: Current simulation year
@@ -150,7 +152,7 @@ class Worker:
         return visa_cost
 
 
-@dataclass
+@dataclass(slots=True)
 class DependentChild:
     """
     Dependent child of a worker still in queue.
@@ -159,7 +161,9 @@ class DependentChild:
     three outcomes occurs:
     - Parent converts -> child becomes SavedChild (gets green card)
     - Parent leaves system -> child becomes ExitedChild (leaves with parent)
-    - Child turns 21 -> child becomes AgedOutChild (loses eligibility)
+    - Child turns 21 -> child becomes AgedOutChild (modeled chronological threshold)
+
+    This model does not determine actual legal eligibility under CSPA.
     """
 
     child_id: int  # Unique identifier for this child
@@ -197,7 +201,7 @@ class DependentChild:
         return year - self.entry_year
 
 
-@dataclass
+@dataclass(slots=True)
 class AgedOutChild:
     """
     Child who aged out (turned 21) while parent was still in queue.
@@ -217,7 +221,7 @@ class AgedOutChild:
     parent_years_in_queue: int
 
 
-@dataclass
+@dataclass(slots=True)
 class SavedChild:
     """
     Child whose parent converted to permanent status before aging out.
@@ -234,7 +238,7 @@ class SavedChild:
     parent_years_in_queue: int
 
 
-@dataclass
+@dataclass(slots=True)
 class ExitedChild:
     """
     Child whose parent left the queue system without converting.

@@ -1,0 +1,7 @@
+case,role,policy,n,mean,sd_across_runs,mcse_mean,mean_ci95_low,mean_ci95_high,positive_runs,zero_runs,negative_runs
+catchall_60_65,primary,Capped,50,72.55810482387538,0.1158010797258695,0.01637674574857727,72.52519452115428,72.59101512659649,50,0,0
+catchall_60_65,primary,Uncapped,50,36.77068047729673,0.14929822763140405,0.021113957835459714,36.728250390472795,36.81311056412066,50,0,0
+catchall_55_60,sensitivity,Capped,1,72.65380128466414,,,,,1,0,0
+catchall_55_60,sensitivity,Uncapped,1,36.69674194674654,,,,,1,0,0
+catchall_65_70,sensitivity,Capped,1,72.09108115230732,,,,,1,0,0
+catchall_65_70,sensitivity,Uncapped,1,36.27437893273555,,,,,1,0,0

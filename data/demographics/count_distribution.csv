@@ -1,0 +1,220 @@
+category,nationality,marital_group,children,sample_principals,weight
+EB-1,All,Married,0,2983,323785.0
+EB-1,All,Married,1,1339,143066.0
+EB-1,All,Married,2,1114,115267.0
+EB-1,All,Married,3,190,18491.0
+EB-1,All,Married,4,32,3545.0
+EB-1,All,Married,5,3,234.0
+EB-1,All,Unmarried,0,1238,155235.0
+EB-1,All,Unmarried,1,31,3531.0
+EB-1,All,Unmarried,2,12,1471.0
+EB-1,All,Unmarried,3,2,171.0
+EB-1,India,Married,0,1126,131486.0
+EB-1,India,Married,1,555,64300.0
+EB-1,India,Married,2,314,36809.0
+EB-1,India,Married,3,8,883.0
+EB-1,India,Married,4,1,88.0
+EB-1,India,Married,5,1,84.0
+EB-1,India,Unmarried,0,220,31306.0
+EB-1,India,Unmarried,1,7,752.0
+EB-1,India,Unmarried,2,1,50.0
+EB-1,China,Married,0,313,31168.0
+EB-1,China,Married,1,135,13212.0
+EB-1,China,Married,2,25,2353.0
+EB-1,China,Married,3,1,119.0
+EB-1,China,Married,4,1,84.0
+EB-1,China,Unmarried,0,115,14202.0
+EB-1,China,Unmarried,1,5,561.0
+EB-1,ROW,Married,0,1544,161131.0
+EB-1,ROW,Married,1,649,65554.0
+EB-1,ROW,Married,2,775,76105.0
+EB-1,ROW,Married,3,181,17489.0
+EB-1,ROW,Married,4,30,3373.0
+EB-1,ROW,Married,5,2,150.0
+EB-1,ROW,Unmarried,0,903,109727.0
+EB-1,ROW,Unmarried,1,19,2218.0
+EB-1,ROW,Unmarried,2,11,1421.0
+EB-1,ROW,Unmarried,3,2,171.0
+EB-2,All,Married,0,8166,941370.0
+EB-2,All,Married,1,3589,404959.0
+EB-2,All,Married,2,2498,276767.0
+EB-2,All,Married,3,401,39471.0
+EB-2,All,Married,4,51,5768.0
+EB-2,All,Married,5,7,625.0
+EB-2,All,Married,6,1,144.0
+EB-2,All,Unmarried,0,4614,583763.0
+EB-2,All,Unmarried,1,68,8118.0
+EB-2,All,Unmarried,2,25,2559.0
+EB-2,All,Unmarried,3,5,665.0
+EB-2,All,Unmarried,4,1,79.0
+EB-2,India,Married,0,3675,452366.0
+EB-2,India,Married,1,1952,240360.0
+EB-2,India,Married,2,852,105212.0
+EB-2,India,Married,3,21,1963.0
+EB-2,India,Married,4,1,88.0
+EB-2,India,Married,5,1,84.0
+EB-2,India,Unmarried,0,1225,168793.0
+EB-2,India,Unmarried,1,10,1131.0
+EB-2,India,Unmarried,2,2,99.0
+EB-2,China,Married,0,662,70026.0
+EB-2,China,Married,1,257,24155.0
+EB-2,China,Married,2,60,5861.0
+EB-2,China,Married,3,2,222.0
+EB-2,China,Married,4,2,196.0
+EB-2,China,Unmarried,0,637,76702.0
+EB-2,China,Unmarried,1,8,916.0
+EB-2,China,Unmarried,2,1,112.0
+EB-2,ROW,Married,0,3829,418978.0
+EB-2,ROW,Married,1,1380,140444.0
+EB-2,ROW,Married,2,1586,165694.0
+EB-2,ROW,Married,3,378,37286.0
+EB-2,ROW,Married,4,48,5484.0
+EB-2,ROW,Married,5,6,541.0
+EB-2,ROW,Married,6,1,144.0
+EB-2,ROW,Unmarried,0,2752,338268.0
+EB-2,ROW,Unmarried,1,50,6071.0
+EB-2,ROW,Unmarried,2,22,2348.0
+EB-2,ROW,Unmarried,3,5,665.0
+EB-2,ROW,Unmarried,4,1,79.0
+EB-3,All,Married,0,4890,591894.0
+EB-3,All,Married,1,2201,263084.0
+EB-3,All,Married,2,1248,142950.0
+EB-3,All,Married,3,194,18604.0
+EB-3,All,Married,4,27,2936.0
+EB-3,All,Married,5,4,391.0
+EB-3,All,Married,6,1,53.0
+EB-3,All,Unmarried,0,2580,334949.0
+EB-3,All,Unmarried,1,53,6676.0
+EB-3,All,Unmarried,2,16,1820.0
+EB-3,All,Unmarried,3,5,610.0
+EB-3,All,Unmarried,4,2,218.0
+EB-3,India,Married,0,2436,306213.0
+EB-3,India,Married,1,1373,174762.0
+EB-3,India,Married,2,428,54243.0
+EB-3,India,Married,3,10,794.0
+EB-3,India,Unmarried,0,579,80368.0
+EB-3,India,Unmarried,1,7,1093.0
+EB-3,China,Married,0,165,17876.0
+EB-3,China,Married,1,102,9985.0
+EB-3,China,Married,2,32,3058.0
+EB-3,China,Married,3,2,132.0
+EB-3,China,Unmarried,0,155,19908.0
+EB-3,China,Unmarried,1,2,218.0
+EB-3,China,Unmarried,2,1,112.0
+EB-3,ROW,Married,0,2289,267805.0
+EB-3,ROW,Married,1,726,78337.0
+EB-3,ROW,Married,2,788,85649.0
+EB-3,ROW,Married,3,182,17678.0
+EB-3,ROW,Married,4,27,2936.0
+EB-3,ROW,Married,5,4,391.0
+EB-3,ROW,Married,6,1,53.0
+EB-3,ROW,Unmarried,0,1846,234673.0
+EB-3,ROW,Unmarried,1,44,5365.0
+EB-3,ROW,Unmarried,2,15,1708.0
+EB-3,ROW,Unmarried,3,5,610.0
+EB-3,ROW,Unmarried,4,2,218.0
+EB-5,All,Married,0,1501,157664.0
+EB-5,All,Married,1,861,88153.0
+EB-5,All,Married,2,960,97375.0
+EB-5,All,Married,3,212,20110.0
+EB-5,All,Married,4,32,3670.0
+EB-5,All,Married,5,4,311.0
+EB-5,All,Married,6,1,80.0
+EB-5,All,Unmarried,0,541,67103.0
+EB-5,All,Unmarried,1,26,3617.0
+EB-5,All,Unmarried,2,14,1560.0
+EB-5,All,Unmarried,3,2,190.0
+EB-5,India,Married,0,353,38051.0
+EB-5,India,Married,1,241,26516.0
+EB-5,India,Married,2,151,15411.0
+EB-5,India,Married,3,4,429.0
+EB-5,India,Married,5,1,84.0
+EB-5,India,Unmarried,0,41,4769.0
+EB-5,India,Unmarried,1,1,140.0
+EB-5,India,Unmarried,2,1,50.0
+EB-5,China,Married,0,99,9586.0
+EB-5,China,Married,1,91,8734.0
+EB-5,China,Married,2,18,1497.0
+EB-5,China,Married,4,1,84.0
+EB-5,China,Unmarried,0,20,2059.0
+EB-5,China,Unmarried,1,5,521.0
+EB-5,China,Unmarried,2,2,133.0
+EB-5,ROW,Married,0,1049,110027.0
+EB-5,ROW,Married,1,529,52903.0
+EB-5,ROW,Married,2,791,80467.0
+EB-5,ROW,Married,3,208,19681.0
+EB-5,ROW,Married,4,31,3586.0
+EB-5,ROW,Married,5,3,227.0
+EB-5,ROW,Married,6,1,80.0
+EB-5,ROW,Unmarried,0,480,60275.0
+EB-5,ROW,Unmarried,1,20,2956.0
+EB-5,ROW,Unmarried,2,11,1377.0
+EB-5,ROW,Unmarried,3,2,190.0
+Other_EB4,All,Married,0,124,13012.0
+Other_EB4,All,Married,1,68,7255.0
+Other_EB4,All,Married,2,61,6404.0
+Other_EB4,All,Married,3,22,2367.0
+Other_EB4,All,Married,4,9,1471.0
+Other_EB4,All,Married,5,1,84.0
+Other_EB4,All,Unmarried,0,110,11548.0
+Other_EB4,All,Unmarried,2,1,73.0
+Other_EB4,India,Married,0,14,1435.0
+Other_EB4,India,Married,1,7,1087.0
+Other_EB4,India,Married,2,7,1417.0
+Other_EB4,India,Married,3,1,115.0
+Other_EB4,India,Married,4,1,283.0
+Other_EB4,India,Unmarried,0,21,2973.0
+Other_EB4,China,Married,0,5,593.0
+Other_EB4,China,Married,1,4,211.0
+Other_EB4,China,Married,2,3,307.0
+Other_EB4,China,Married,4,1,88.0
+Other_EB4,China,Unmarried,0,3,188.0
+Other_EB4,ROW,Married,0,105,10984.0
+Other_EB4,ROW,Married,1,57,5957.0
+Other_EB4,ROW,Married,2,51,4680.0
+Other_EB4,ROW,Married,3,21,2252.0
+Other_EB4,ROW,Married,4,7,1100.0
+Other_EB4,ROW,Married,5,1,84.0
+Other_EB4,ROW,Unmarried,0,86,8387.0
+Other_EB4,ROW,Unmarried,2,1,73.0
+Unique proxy union (not EB mix),All,Married,0,10030,1171143.0
+Unique proxy union (not EB mix),All,Married,1,4358,499536.0
+Unique proxy union (not EB mix),All,Married,2,2959,329491.0
+Unique proxy union (not EB mix),All,Married,3,499,49130.0
+Unique proxy union (not EB mix),All,Married,4,79,9366.0
+Unique proxy union (not EB mix),All,Married,5,9,786.0
+Unique proxy union (not EB mix),All,Married,6,3,277.0
+Unique proxy union (not EB mix),All,Unmarried,0,5849,747191.0
+Unique proxy union (not EB mix),All,Unmarried,1,101,13383.0
+Unique proxy union (not EB mix),All,Unmarried,2,37,4186.0
+Unique proxy union (not EB mix),All,Unmarried,3,9,1059.0
+Unique proxy union (not EB mix),All,Unmarried,4,2,218.0
+Unique proxy union (not EB mix),India,Married,0,4474,556735.0
+Unique proxy union (not EB mix),India,Married,1,2354,293492.0
+Unique proxy union (not EB mix),India,Married,2,960,119454.0
+Unique proxy union (not EB mix),India,Married,3,26,2473.0
+Unique proxy union (not EB mix),India,Married,4,2,371.0
+Unique proxy union (not EB mix),India,Married,5,1,84.0
+Unique proxy union (not EB mix),India,Unmarried,0,1529,214034.0
+Unique proxy union (not EB mix),India,Unmarried,1,14,1845.0
+Unique proxy union (not EB mix),India,Unmarried,2,2,99.0
+Unique proxy union (not EB mix),China,Married,0,708,75590.0
+Unique proxy union (not EB mix),China,Married,1,283,26719.0
+Unique proxy union (not EB mix),China,Married,2,67,6419.0
+Unique proxy union (not EB mix),China,Married,3,3,251.0
+Unique proxy union (not EB mix),China,Married,4,3,284.0
+Unique proxy union (not EB mix),China,Unmarried,0,690,84193.0
+Unique proxy union (not EB mix),China,Unmarried,1,10,1073.0
+Unique proxy union (not EB mix),China,Unmarried,2,3,245.0
+Unique proxy union (not EB mix),ROW,Married,0,4848,538818.0
+Unique proxy union (not EB mix),ROW,Married,1,1721,179325.0
+Unique proxy union (not EB mix),ROW,Married,2,1932,203618.0
+Unique proxy union (not EB mix),ROW,Married,3,470,46406.0
+Unique proxy union (not EB mix),ROW,Married,4,74,8711.0
+Unique proxy union (not EB mix),ROW,Married,5,8,702.0
+Unique proxy union (not EB mix),ROW,Married,6,3,277.0
+Unique proxy union (not EB mix),ROW,Unmarried,0,3630,448964.0
+Unique proxy union (not EB mix),ROW,Unmarried,1,77,10465.0
+Unique proxy union (not EB mix),ROW,Unmarried,2,32,3842.0
+Unique proxy union (not EB mix),ROW,Unmarried,3,9,1059.0
+Unique proxy union (not EB mix),ROW,Unmarried,4,2,218.0

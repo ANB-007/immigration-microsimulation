@@ -1,0 +1,7 @@
+case,seed,nationality,value,arm
+catchall_60_65,2014,China,-1725.5625,Matched primary
+catchall_60_65,2014,India,-4746.5625,Matched primary
+catchall_60_65,2014,ROW,6472.125,Matched primary
+historical_replay,2014,China,-156.1875,Historical replay
+historical_replay,2014,India,-107.6875,Historical replay
+historical_replay,2014,ROW,-26.875,Historical replay

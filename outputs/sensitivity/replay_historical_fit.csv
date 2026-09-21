@@ -1,0 +1,7 @@
+arm,nationality,n,mean,sd_across_runs,mcse_mean,mean_ci95_low,mean_ci95_high,positive_runs,zero_runs,negative_runs
+Matched primary,China,1,-1725.5625,,,,,0,0,1
+Matched primary,India,1,-4746.5625,,,,,0,0,1
+Matched primary,ROW,1,6472.125,,,,,1,0,0
+Historical replay,China,1,-156.1875,,,,,0,0,1
+Historical replay,India,1,-107.6875,,,,,0,0,1
+Historical replay,ROW,1,-26.875,,,,,0,0,1

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "immigration-microsimulation"
-version = "2.0.0"
+version = "2.1.0"
 description = "A petitioner-level microsimulation of United States employment-based immigration that quantifies how the 7% per-country cap redistributes wait times and child age-out risk across nationalities and EB preference categories."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -21,12 +21,21 @@ dependencies = [
   "pandas==2.3.3",
   "matplotlib==3.10.7",
   "seaborn==0.13.2",
+  "scipy==1.15.3",
 ]
 
 [project.urls]
 Repository = "https://github.com/ANB-007/immigration-microsimulation"
 Issues = "https://github.com/ANB-007/immigration-microsimulation/issues"
-Archive = "https://doi.org/10.5281/zenodo.21465739"
+"Previous release" = "https://doi.org/10.5281/zenodo.21465739"
 
 [tool.hatch.build.targets.wheel]
 packages = ["simulation"]
+
+# Keep model inputs at the same relative location in an installed model.
+[tool.hatch.build.targets.wheel.force-include]
+"data/petitions" = "data/petitions"
+"data/demographics/spouse_presence_empirical_distributions.json" = "data/demographics/spouse_presence_empirical_distributions.json"
+"data/demographics/children_count_empirical_distributions_married.json" = "data/demographics/children_count_empirical_distributions_married.json"
+"data/demographics/principal_age_empirical_distributions.json" = "data/demographics/principal_age_empirical_distributions.json"
+"data/demographics/child_entry_age_empirical_distributions.json" = "data/demographics/child_entry_age_empirical_distributions.json"

@@ -11,24 +11,26 @@ across a wide range of structural parameterizations.
 Each scenario is a full simulation run in which ONE structural assumption was
 varied from the base (published) parameterization, with all cohort outcomes
 exported to
-    outputs/sensitivity/scenarios/<name>/children_aged_out_segmentation.csv
+    outputs/exploratory/sensitivity/scenarios/<name>/children_aged_out_segmentation.csv
 
-Parameter varied per scenario (see SCENARIOS below). To regenerate a scenario,
-apply the corresponding change in simulation/empirical_params.py, re-run
-    python -m simulation --years 32 --output outputs/sensitivity/scenarios/<name>
-and then re-run this script.
+Generate scenarios with simulation.sensitivity_runner, which selects the
+current primary exit specification and applies each parameter change in
+isolation. Use --scenarios to analyze a custom sweep directory.
 
-Reads:  outputs/sensitivity/scenarios/<name>/children_aged_out_segmentation.csv
-Writes: outputs/sensitivity/sensitivity_ageout_summary.csv
+Reads:  outputs/exploratory/sensitivity/scenarios/<name>/children_aged_out_segmentation.csv
+Writes: outputs/exploratory/sensitivity/sensitivity_ageout_summary.csv
 """
 
+import argparse
+import json
 from pathlib import Path
 
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SCEN_DIR = PROJECT_ROOT / "outputs" / "sensitivity" / "scenarios"
-OUT_CSV = PROJECT_ROOT / "outputs" / "sensitivity" / "sensitivity_ageout_summary.csv"
+EXPLORATORY_OUTPUT = PROJECT_ROOT / "outputs" / "exploratory"
+SCEN_DIR = EXPLORATORY_OUTPUT / "sensitivity" / "scenarios"
+OUT_CSV = EXPLORATORY_OUTPUT / "sensitivity" / "sensitivity_ageout_summary.csv"
 
 REPORT_WINDOW = (2025, 2040)  # projection period reported in the paper
 EB_CATS = ["EB-1", "EB-2", "EB-3", "EB-4", "EB-5"]
@@ -63,8 +65,8 @@ def summarise(df_sub):
     return out
 
 
-def load_scenario(dir_name):
-    path = SCEN_DIR / dir_name / "children_aged_out_segmentation.csv"
+def load_scenario(dir_name, root=SCEN_DIR):
+    path = root / dir_name / "children_aged_out_segmentation.csv"
     if not path.exists():
         return None
     df = pd.read_csv(path)
@@ -78,15 +80,31 @@ def _pct(part, whole):
     return round(100.0 * part / whole, 1) if whole else 0.0
 
 
-def main():
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--scenarios", type=Path, default=SCEN_DIR)
+    parser.add_argument("--output", type=Path, default=OUT_CSV)
+    args = parser.parse_args(argv)
     rows, missing = [], []
     robustness_holds = True
+    common_identity = None
 
     for dir_name, label, knob in SCENARIOS:
-        df = load_scenario(dir_name)
+        df = load_scenario(dir_name, args.scenarios)
         if df is None:
             missing.append(dir_name)
             continue
+        metadata = json.loads((args.scenarios / dir_name / "run_metadata.json").read_text())
+        if metadata.get("complete") is not True or metadata.get("scenario") != dir_name:
+            raise ValueError(f"Incomplete sensitivity provenance: {dir_name}")
+        identity = {key: metadata[key] for key in
+                    ("source_fingerprint", "primary_overrides", "seed", "start_year", "years")}
+        if identity["primary_overrides"].get("exit_specification") != "catchall_retention":
+            raise ValueError("Historical exit-model results cannot supply the current sensitivity summary")
+        if common_identity is None:
+            common_identity = identity
+        elif identity != common_identity:
+            raise ValueError("Sensitivity scenarios use different sources, inputs or primary settings")
         cap = summarise(df[df["Scenario"] == "Capped"])
         unc = summarise(df[df["Scenario"] == "Uncapped"])
         diff = cap["total"] - unc["total"]
@@ -105,14 +123,17 @@ def main():
             row[f"capped_{c}"] = cap[c]
         rows.append(row)
 
+    if missing:
+        raise FileNotFoundError(f"Required scenario directories missing: {', '.join(missing)}")
     summary = pd.DataFrame(rows)
-    OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    summary.to_csv(OUT_CSV, index=False)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    summary.to_csv(args.output, index=False)
+    args.output.with_suffix(".metadata.json").write_text(json.dumps(common_identity, indent=2) + "\n")
 
     pd.set_option("display.width", 200)
     pd.set_option("display.max_columns", 40)
     print("=" * 100)
-    print("SENSITIVITY / ROBUSTNESS ANALYSIS  (cohort age-outs, FY2025-FY2040)")
+    print("SENSITIVITY / ROBUSTNESS ANALYSIS  (age-out events, FY2025-FY2040)")
     print("=" * 100)
     cols = [
         "scenario", "parameter_varied", "capped_total", "uncapped_total",
@@ -121,13 +142,11 @@ def main():
     if not summary.empty:
         print(summary[cols].to_string(index=False))
     print()
-    if missing:
-        print(f"WARNING: {len(missing)} scenario dir(s) missing, skipped: {', '.join(missing)}")
     print(
         "Robustness check - capped age-outs exceed uncapped in EVERY scenario: "
         f"{'PASS' if robustness_holds and not summary.empty else 'FAIL'}"
     )
-    print(f"\nSaved: {OUT_CSV}")
+    print(f"\nSaved: {args.output}")
 
 
 if __name__ == "__main__":

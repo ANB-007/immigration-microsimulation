@@ -1,0 +1,9 @@
+seed,dimension,group,quantity,policy,value_replay,value_baseline,value
+2014,nationality,China,age21_events_2009_2024,Historical,1705.0,2108.0,-403.0
+2014,nationality,China,principal_backlog_2024,Historical,131309.0,142619.0,-11310.0
+2014,nationality,India,age21_events_2009_2024,Historical,11554.0,14239.0,-2685.0
+2014,nationality,India,principal_backlog_2024,Historical,566252.0,592483.0,-26231.0
+2014,nationality,ROW,age21_events_2009_2024,Historical,7160.0,7007.0,153.0
+2014,nationality,ROW,principal_backlog_2024,Historical,448332.0,413400.0,34932.0
+2014,overall,All,age21_events_2009_2024,Historical,20419.0,23354.0,-2935.0
+2014,overall,All,principal_backlog_2024,Historical,1145893.0,1148502.0,-2609.0

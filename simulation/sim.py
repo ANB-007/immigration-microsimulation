@@ -17,7 +17,7 @@ from collections import defaultdict, deque
 import numpy as np
 
 import json
-from pathlib import Path
+from .input_data import DATA_DIR
 
 from .models import Worker, WorkerStatus, EBCategory
 from .states import SimulationConfig, SimulationState
@@ -111,7 +111,7 @@ class Simulation:
         # Load empirical principal age distributions from JSON file
         # Structure: pathway -> nationality -> {ages, probabilities}
         parent_age_dist_path = (
-            Path(__file__).parent / "distributions" / "principal_age_empirical_distributions.json"
+            DATA_DIR / "demographics" / "principal_age_empirical_distributions.json"
         )  
         with open(parent_age_dist_path, "r") as f:
             self.parent_age_distributions = json.load(f)
@@ -189,7 +189,7 @@ class Simulation:
         Args:
             current_year: The simulation year we're processing (e.g., 2020)
         """
-        # Get year-specific petition approvals broken down by pathway
+        # Get synthetic entry totals by pathway; EB-1/2/3 use receipt-cohort inputs.
         # Returns something like: {"EB-1": 40070, "EB-2": 80345, "EB-3": 35000, ...}
         pathway_totals = get_pathway_totals(current_year)
 
@@ -220,11 +220,11 @@ class Simulation:
             ages = np.zeros(total_entries, dtype=int)
 
             # Process each nationality group separately to match ages to nationalities
-            for nationality in nationalities:
+            for nationality_index, nationality in enumerate(nationalities):
                 # Create boolean mask: True at positions where worker is this nationality
                 # Example: if nat_list = ["India", "China", "India"], and nationality = "India"
                 #          then mask = [True, False, True]
-                mask = np.array([nat_list[i] == nationality for i in range(total_entries)])
+                mask = nat_indices == nationality_index
 
                 # Count how many workers belong to this nationality
                 # Example: mask.sum() = 2 (two Indian workers in this example)
@@ -414,6 +414,7 @@ class Simulation:
             worker_lookup=self.worker_lookup,
             child_processor=self.child_processor,
             current_year=current_year,
+            active_worker_ids=self.temp_worker_ids,
         )
 
         # Move workers from temporary status to permanent status
@@ -510,7 +511,7 @@ class Simulation:
 
         Order of operations:
 
-        1. Add new workers: Process this year's petition approvals
+        1. Add new workers using this year's synthetic entry totals
 
         2. Convert to green cards: Allocate visas via two-pass algorithm
            Must happen BEFORE saving children so we know which children were saved
@@ -534,8 +535,8 @@ class Simulation:
         """
         t_total_start = time.perf_counter()  # Start total timer for performance monitoring
 
-        # Get year-specific visa pool (varies annually based on statutory formula)
-        # Historical years use actual USCIS data; future years use 2024 baseline (~167K visas)
+        # Get the model visa budget from the stored historical reconstruction series.
+        # Future years repeat the 2024 model budget (~167K visas).
         total_visa_pool_this_year = get_total_eb_visa_pool(self.current_year)
 
         # Calculate how visas are split across categories and countries this year
@@ -543,10 +544,11 @@ class Simulation:
         # Per-country cap: 7% of each category's allocation per country
         annual_eb_caps = calculate_annual_eb_caps(total_visa_pool_this_year)
         per_country_caps_by_category = calculate_per_country_caps_by_category(annual_eb_caps)
-        annual_sim_cap = sum(annual_eb_caps.values())
+        # The global budget is authoritative even if category calculations change.
+        annual_sim_cap = total_visa_pool_this_year
 
         ##############################################################
-        # Step 1: Add new workers from this year's petition approvals
+        # Step 1: Add new workers using this year's synthetic entry totals
         ##############################################################
         t1 = time.perf_counter()
         self._add_new_workers_by_pathway(self.current_year)
@@ -656,6 +658,7 @@ class Simulation:
             worker.update_age()
 
         # Age all children and process age-outs
+        previous_ageouts = len(self.child_processor.aged_out_children)
         children_aged_out_this_year = self.child_processor.process_child_aging(
             self.current_year, self.worker_lookup
         )
@@ -667,11 +670,7 @@ class Simulation:
         # Step 7: Build list of children who aged out this year
         ########################################################
         t7 = time.perf_counter()
-        children_aged_out_this_year_list = [
-            child
-            for child in self.child_processor.aged_out_children
-            if child.aged_out_year == self.current_year
-        ]
+        children_aged_out_this_year_list = self.child_processor.aged_out_children[previous_ageouts:]
         t_aged_out_list = time.perf_counter() - t7
 
         ###########################################################
@@ -704,17 +703,19 @@ class Simulation:
         # Calculate worker counts across different statuses
         n_temps = len(self.temp_worker_ids)  # Still waiting in queue
         n_perms = len(self.perm_worker_ids)  # Got green cards
-        n_exited = sum(1 for w in self.worker_lookup.values() if w.is_exited)  # Left without converting
+        n_exited = self.cumulative_queue_exits
         n_total = len(self.worker_lookup)  # Everyone who ever entered
 
         # Calculate what fraction are still temporary (in queue)
         temporary_share = n_temps / n_total if n_total else 0.0
 
         # Get child age-out statistics from child processor
-        child_stats = ChildAgeoutStatistics.calculate(
-            self.child_processor.aged_out_children,
-            self.child_processor.dependent_children,
-            children_aged_out_this_year,
+        child_stats = ChildAgeoutStatistics(
+            total_aged_out=len(self.child_processor.aged_out_children),
+            aged_out_this_year=children_aged_out_this_year,
+            children_at_risk=len(self.child_processor.dependent_children),
+            aged_out_by_nationality=dict(self.child_processor.aged_out_by_nationality),
+            aged_out_by_eb_category=dict(self.child_processor.aged_out_by_eb_category),
         )
 
         # Package everything into a comprehensive state snapshot

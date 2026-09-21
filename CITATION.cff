@@ -13,12 +13,8 @@ authors:
     email: adhithiya.balamurugan@gmail.com
     orcid: "https://orcid.org/0009-0006-5135-7570"
 repository-code: "https://github.com/ANB-007/immigration-microsimulation"
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.21465739
 license: MIT
-version: 2.0.0
-date-released: "2026-07-20"
+version: 2.1.0
 keywords:
   - employment-based immigration
   - per-country cap

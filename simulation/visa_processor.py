@@ -11,7 +11,7 @@ nationality clustering.
 """
 
 import logging
-from typing import List, Dict, Tuple, Set, Deque, TYPE_CHECKING
+from typing import List, Dict, Tuple, Set, Deque, TYPE_CHECKING, Iterable, Optional
 from collections import defaultdict, deque
 import numpy as np
 
@@ -172,6 +172,7 @@ class VisaProcessor:
         self,
         worker_lookup: Dict[int, Worker],
         child_processor: "ChildProcessor",
+        active_worker_ids: Optional[Iterable[int]] = None,
     ) -> Dict[int, int]:
         """
         Pre-compute visa costs for all workers to avoid repeated lookups.
@@ -188,17 +189,17 @@ class VisaProcessor:
         Returns:
             Dictionary mapping worker_id -> total visa cost for family
         """
-        # Build a lookup table counting children per parent
-        children_by_parent = defaultdict(int)
-        for child in child_processor.dependent_children:
-            children_by_parent[child.parent_worker_id] += 1
+        # The processor maintains this index through every terminal event, so
+        # there is no need to rescan all children or allocate a second index.
+        children_by_parent = child_processor.children_by_parent_id
 
         # Pre-compute visa costs for every temporary worker
         visa_cost_cache = {}
-        for worker_id, worker in worker_lookup.items():
-            if worker.is_temporary:
-                visa_cost = 1 + worker.spouse_count + children_by_parent.get(worker_id, 0)
-                visa_cost_cache[worker_id] = visa_cost
+        if active_worker_ids is None:
+            active_worker_ids = (wid for wid, worker in worker_lookup.items() if worker.is_temporary)
+        for worker_id in active_worker_ids:
+            worker = worker_lookup[worker_id]
+            visa_cost_cache[worker_id] = 1 + worker.spouse_count + len(children_by_parent.get(worker_id, ()))
 
         return visa_cost_cache
 
@@ -211,6 +212,7 @@ class VisaProcessor:
         worker_lookup: Dict[int, Worker],
         child_processor: "ChildProcessor",
         current_year: int,
+        active_worker_ids: Optional[Iterable[int]] = None,
     ) -> Tuple[
         int,
         Dict[str, int],
@@ -242,7 +244,7 @@ class VisaProcessor:
                      total_visas, spouse_count, detailed_consumption, pass2_visas_by_category)
         """
         # Pre-compute all visa costs once for the year
-        visa_cost_cache = self._build_visa_cost_cache(worker_lookup, child_processor)
+        visa_cost_cache = self._build_visa_cost_cache(worker_lookup, child_processor, active_worker_ids)
 
         # Determine capping policy based on period
         is_reconstruction = current_year <= RECONSTRUCTION_END_YEAR
@@ -861,6 +863,11 @@ class VisaProcessor:
                 # This family is too big for remaining category budget
                 # No point in sending to Pass 2 since the category limit still applies there
                 # Smaller families might still fit, so continue
+                continue
+
+            # The global budget remains authoritative if category budgets are
+            # inconsistent with it, just as in Pass 2 and uncapped processing.
+            if visas_allocated + visa_cost > remaining_annual_budget:
                 continue
 
             # All checks passed - convert this worker and their family

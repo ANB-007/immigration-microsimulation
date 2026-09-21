@@ -1,0 +1,46 @@
+{
+  "source_fingerprint": {
+    "files": {
+      "data/demographics/child_entry_age_empirical_distributions.json": "53ff57bd8672ddaee6fc8073e08ec60957c66f788c67a5b5bb7c317d8c926a16",
+      "data/demographics/children_count_empirical_distributions_married.json": "2d35fabfe679417ca0a241d63cbd927b05340cbc6b5debfb0db953a682ad1487",
+      "data/demographics/principal_age_empirical_distributions.json": "2dd75a1d83ae0002ee7f8b8751326e09f8a8d630a7a90d93614667f177ae56e5",
+      "data/demographics/spouse_presence_empirical_distributions.json": "3ea8b03ee956ad1d3df14eb2674b7a81502d6ee1cd3086976b770681a92e9468",
+      "data/petitions/eb123.json": "77902749b5c3d19e975193ac1862152a9bbbbc5c1161d9c9a5626569f6dac36c",
+      "data/petitions/eb4.json": "59df466b15da03931bcc7579b6c299cb4dd9c23d30a46a9d06ca6a3a2beaaf09",
+      "data/petitions/eb5.json": "7877112b5a83943615e8d9159e0e21f0745719ea607c4d9e9191c19780966660",
+      "simulation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "simulation/child_processor.py": "c74d0a9ea64b9a7c03444eb31eccce2632d6b4a00c9e2cf513ce624f7be1c40a",
+      "simulation/ci_runner.py": "c46f406fc9bbebb7b03d920d28c555d6f0ec3163fdb937f6e3df778612ea9a1e",
+      "simulation/empirical_params.py": "80dd28c262d0242ec3682c3c63436519afaa4122a201240c337ed5c1bea665ea",
+      "simulation/experiments.py": "ccf84d9bb08dea02510cddbde46910daa3c0bd891659ccf092f839e196eaed64",
+      "simulation/historical_replay.py": "63df5478343a2617fd9a21b098a2f935f656ef50a8b4cbf37758e7ddf44c9770",
+      "simulation/input_data.py": "92f2671bc184fb214d4492ba05bda7bd537d4b3f823b4f68572f0b4ed45918ea",
+      "simulation/models.py": "e5ce9fc558e043ea6e6f019e65e60905134559aa6c5232f924ccc9f523c061c7",
+      "simulation/retirement.py": "657327e18ec087358d8df61317379a395d515e4b3a419e0a00194beb5909cf8a",
+      "simulation/sensitivity_runner.py": "c77d19eb9b9cb5aef35005eb519861f9dfa92c238742ee2e198a390d5d487e87",
+      "simulation/sim.py": "282f937150c4212b95099985270cf927fade53d5f90b5dafffe8e7d03cc1763a",
+      "simulation/states.py": "50bc64bec768d1dbc2955d7f1eac50c08748730480e4b7f6592f12e1d4198645",
+      "simulation/visa_processor.py": "9865d4d125eeb53054f281d3382f2458ff850b92f6022efb397d475c9c3cbca8"
+    },
+    "numpy": "2.2.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.10.18",
+    "schema_version": 2
+  },
+  "primary_overrides": {
+    "catchall_categories": [
+      "EB-1",
+      "EB-2",
+      "EB-3",
+      "EB-4",
+      "EB-5"
+    ],
+    "catchall_median_age": 60,
+    "catchall_near_zero_age": 65,
+    "catchall_tail_probability": 0.05,
+    "exit_specification": "catchall_retention"
+  },
+  "seed": 2014,
+  "start_year": 2009,
+  "years": 32
+}

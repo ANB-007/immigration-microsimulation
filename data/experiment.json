@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "study": "IJM integrated scientific revision",
+  "primary_case": "catchall_60_65",
+  "seed": 2014,
+  "start_year": 2009,
+  "event_years": [
+    2025,
+    2040
+  ],
+  "cohort_entry_end_year": 2040,
+  "cohort_followup_end_year": 2061,
+  "primary_pairs": 50,
+  "sensitivity_pairs": 1,
+  "cohort_pairs": 2,
+  "replay_pairs": 1,
+  "mean_mcse_target_children": 100,
+  "sample_size_rule": "Fixed counts: 50 primary pairs, one pair per alternative age schedule and historical replay using seed 2014, and two long-follow-up pairs.",
+  "exit_specification": "catchall_retention",
+  "catchall_tail_probability": 0.05,
+  "catchall_categories": [
+    "EB-1",
+    "EB-2",
+    "EB-3",
+    "EB-4",
+    "EB-5"
+  ],
+  "cases": [
+    {
+      "name": "catchall_60_65",
+      "median_age": 60,
+      "near_zero_age": 65,
+      "role": "primary"
+    },
+    {
+      "name": "catchall_55_60",
+      "median_age": 55,
+      "near_zero_age": 60,
+      "role": "sensitivity"
+    },
+    {
+      "name": "catchall_65_70",
+      "median_age": 65,
+      "near_zero_age": 70,
+      "role": "sensitivity"
+    }
+  ],
+  "modifier_interpretation": "One catchall annual probability max(base tenure/nationality/category rate, conditional age-retention hazard) in all five EB categories; no independent mortality draw or legacy age floor.",
+  "uncertainty_scope": "Student-t intervals describe numerical uncertainty in fixed-input simulation means. Age schedules and historical replay are separate sensitivity experiments, not probability bounds.",
+  "sensitivity_budget_rationale": "Fifty paired replications support primary means and subgroup summaries. Age-schedule comparisons and historical replay use seed 2014, consistent with the parameter sensitivities. The two long-follow-up pairs remain a separate diagnostic."
+}

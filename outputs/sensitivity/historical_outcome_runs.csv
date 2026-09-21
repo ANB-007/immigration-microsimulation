@@ -1,0 +1,2143 @@
+dimension,group,quantity,policy,value,case,role,seed
+overall,All,age21_events_2009_2024,Historical,23354.0,catchall_60_65,primary,2014
+overall,All,principal_exits_2009_2024,Historical,239746.0,catchall_60_65,primary,2014
+nationality,India,age21_events_2009_2024,Historical,14239.0,catchall_60_65,primary,2014
+nationality,India,principal_exits_2009_2024,Historical,96415.0,catchall_60_65,primary,2014
+nationality,China,age21_events_2009_2024,Historical,2108.0,catchall_60_65,primary,2014
+nationality,China,principal_exits_2009_2024,Historical,32512.0,catchall_60_65,primary,2014
+nationality,ROW,age21_events_2009_2024,Historical,7007.0,catchall_60_65,primary,2014
+nationality,ROW,principal_exits_2009_2024,Historical,110819.0,catchall_60_65,primary,2014
+category,EB-1,age21_events_2009_2024,Historical,0.0,catchall_60_65,primary,2014
+category,EB-1,principal_exits_2009_2024,Historical,2318.0,catchall_60_65,primary,2014
+category,EB-2,age21_events_2009_2024,Historical,6356.0,catchall_60_65,primary,2014
+category,EB-2,principal_exits_2009_2024,Historical,68863.0,catchall_60_65,primary,2014
+category,EB-3,age21_events_2009_2024,Historical,9677.0,catchall_60_65,primary,2014
+category,EB-3,principal_exits_2009_2024,Historical,85079.0,catchall_60_65,primary,2014
+category,EB-4,age21_events_2009_2024,Historical,7122.0,catchall_60_65,primary,2014
+category,EB-4,principal_exits_2009_2024,Historical,81452.0,catchall_60_65,primary,2014
+category,EB-5,age21_events_2009_2024,Historical,199.0,catchall_60_65,primary,2014
+category,EB-5,principal_exits_2009_2024,Historical,2034.0,catchall_60_65,primary,2014
+overall,All,principal_backlog_2024,Historical,1148502.0,catchall_60_65,primary,2014
+nationality,India,principal_backlog_2024,Historical,592483.0,catchall_60_65,primary,2014
+nationality,China,principal_backlog_2024,Historical,142619.0,catchall_60_65,primary,2014
+nationality,ROW,principal_backlog_2024,Historical,413400.0,catchall_60_65,primary,2014
+category,EB-1,principal_backlog_2024,Historical,31461.0,catchall_60_65,primary,2014
+category,EB-2,principal_backlog_2024,Historical,507411.0,catchall_60_65,primary,2014
+category,EB-3,principal_backlog_2024,Historical,287922.0,catchall_60_65,primary,2014
+category,EB-4,principal_backlog_2024,Historical,301955.0,catchall_60_65,primary,2014
+category,EB-5,principal_backlog_2024,Historical,19753.0,catchall_60_65,primary,2014
+joint,EB-1 / India,principal_backlog_2024,Historical,18661.0,catchall_60_65,primary,2014
+joint,EB-1 / China,principal_backlog_2024,Historical,12800.0,catchall_60_65,primary,2014
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2014
+joint,EB-2 / India,principal_backlog_2024,Historical,391142.0,catchall_60_65,primary,2014
+joint,EB-2 / China,principal_backlog_2024,Historical,71764.0,catchall_60_65,primary,2014
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44505.0,catchall_60_65,primary,2014
+joint,EB-3 / India,principal_backlog_2024,Historical,173239.0,catchall_60_65,primary,2014
+joint,EB-3 / China,principal_backlog_2024,Historical,40454.0,catchall_60_65,primary,2014
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74229.0,catchall_60_65,primary,2014
+joint,EB-4 / India,principal_backlog_2024,Historical,7289.0,catchall_60_65,primary,2014
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2014
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294666.0,catchall_60_65,primary,2014
+joint,EB-5 / India,principal_backlog_2024,Historical,2152.0,catchall_60_65,primary,2014
+joint,EB-5 / China,principal_backlog_2024,Historical,17601.0,catchall_60_65,primary,2014
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2014
+overall,All,age21_events_2009_2024,Historical,23064.0,catchall_60_65,primary,2015
+overall,All,principal_exits_2009_2024,Historical,240172.0,catchall_60_65,primary,2015
+nationality,India,age21_events_2009_2024,Historical,14172.0,catchall_60_65,primary,2015
+nationality,India,principal_exits_2009_2024,Historical,96676.0,catchall_60_65,primary,2015
+nationality,China,age21_events_2009_2024,Historical,2053.0,catchall_60_65,primary,2015
+nationality,China,principal_exits_2009_2024,Historical,32304.0,catchall_60_65,primary,2015
+nationality,ROW,age21_events_2009_2024,Historical,6839.0,catchall_60_65,primary,2015
+nationality,ROW,principal_exits_2009_2024,Historical,111192.0,catchall_60_65,primary,2015
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2015
+category,EB-1,principal_exits_2009_2024,Historical,2321.0,catchall_60_65,primary,2015
+category,EB-2,age21_events_2009_2024,Historical,6337.0,catchall_60_65,primary,2015
+category,EB-2,principal_exits_2009_2024,Historical,68562.0,catchall_60_65,primary,2015
+category,EB-3,age21_events_2009_2024,Historical,9482.0,catchall_60_65,primary,2015
+category,EB-3,principal_exits_2009_2024,Historical,84938.0,catchall_60_65,primary,2015
+category,EB-4,age21_events_2009_2024,Historical,7046.0,catchall_60_65,primary,2015
+category,EB-4,principal_exits_2009_2024,Historical,82442.0,catchall_60_65,primary,2015
+category,EB-5,age21_events_2009_2024,Historical,197.0,catchall_60_65,primary,2015
+category,EB-5,principal_exits_2009_2024,Historical,1909.0,catchall_60_65,primary,2015
+overall,All,principal_backlog_2024,Historical,1148760.0,catchall_60_65,primary,2015
+nationality,India,principal_backlog_2024,Historical,594189.0,catchall_60_65,primary,2015
+nationality,China,principal_backlog_2024,Historical,142745.0,catchall_60_65,primary,2015
+nationality,ROW,principal_backlog_2024,Historical,411826.0,catchall_60_65,primary,2015
+category,EB-1,principal_backlog_2024,Historical,31615.0,catchall_60_65,primary,2015
+category,EB-2,principal_backlog_2024,Historical,507812.0,catchall_60_65,primary,2015
+category,EB-3,principal_backlog_2024,Historical,288273.0,catchall_60_65,primary,2015
+category,EB-4,principal_backlog_2024,Historical,301029.0,catchall_60_65,primary,2015
+category,EB-5,principal_backlog_2024,Historical,20031.0,catchall_60_65,primary,2015
+joint,EB-1 / India,principal_backlog_2024,Historical,18717.0,catchall_60_65,primary,2015
+joint,EB-1 / China,principal_backlog_2024,Historical,12898.0,catchall_60_65,primary,2015
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2015
+joint,EB-2 / India,principal_backlog_2024,Historical,392328.0,catchall_60_65,primary,2015
+joint,EB-2 / China,principal_backlog_2024,Historical,71864.0,catchall_60_65,primary,2015
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43620.0,catchall_60_65,primary,2015
+joint,EB-3 / India,principal_backlog_2024,Historical,173833.0,catchall_60_65,primary,2015
+joint,EB-3 / China,principal_backlog_2024,Historical,40104.0,catchall_60_65,primary,2015
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74336.0,catchall_60_65,primary,2015
+joint,EB-4 / India,principal_backlog_2024,Historical,7159.0,catchall_60_65,primary,2015
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2015
+joint,EB-4 / ROW,principal_backlog_2024,Historical,293870.0,catchall_60_65,primary,2015
+joint,EB-5 / India,principal_backlog_2024,Historical,2152.0,catchall_60_65,primary,2015
+joint,EB-5 / China,principal_backlog_2024,Historical,17879.0,catchall_60_65,primary,2015
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2015
+overall,All,age21_events_2009_2024,Historical,23452.0,catchall_60_65,primary,2016
+overall,All,principal_exits_2009_2024,Historical,239793.0,catchall_60_65,primary,2016
+nationality,India,age21_events_2009_2024,Historical,14415.0,catchall_60_65,primary,2016
+nationality,India,principal_exits_2009_2024,Historical,96152.0,catchall_60_65,primary,2016
+nationality,China,age21_events_2009_2024,Historical,2111.0,catchall_60_65,primary,2016
+nationality,China,principal_exits_2009_2024,Historical,32566.0,catchall_60_65,primary,2016
+nationality,ROW,age21_events_2009_2024,Historical,6926.0,catchall_60_65,primary,2016
+nationality,ROW,principal_exits_2009_2024,Historical,111075.0,catchall_60_65,primary,2016
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2016
+category,EB-1,principal_exits_2009_2024,Historical,2366.0,catchall_60_65,primary,2016
+category,EB-2,age21_events_2009_2024,Historical,6317.0,catchall_60_65,primary,2016
+category,EB-2,principal_exits_2009_2024,Historical,68564.0,catchall_60_65,primary,2016
+category,EB-3,age21_events_2009_2024,Historical,9726.0,catchall_60_65,primary,2016
+category,EB-3,principal_exits_2009_2024,Historical,84850.0,catchall_60_65,primary,2016
+category,EB-4,age21_events_2009_2024,Historical,7187.0,catchall_60_65,primary,2016
+category,EB-4,principal_exits_2009_2024,Historical,82074.0,catchall_60_65,primary,2016
+category,EB-5,age21_events_2009_2024,Historical,220.0,catchall_60_65,primary,2016
+category,EB-5,principal_exits_2009_2024,Historical,1939.0,catchall_60_65,primary,2016
+overall,All,principal_backlog_2024,Historical,1148610.0,catchall_60_65,primary,2016
+nationality,India,principal_backlog_2024,Historical,593581.0,catchall_60_65,primary,2016
+nationality,China,principal_backlog_2024,Historical,142493.0,catchall_60_65,primary,2016
+nationality,ROW,principal_backlog_2024,Historical,412536.0,catchall_60_65,primary,2016
+category,EB-1,principal_backlog_2024,Historical,31699.0,catchall_60_65,primary,2016
+category,EB-2,principal_backlog_2024,Historical,507469.0,catchall_60_65,primary,2016
+category,EB-3,principal_backlog_2024,Historical,288019.0,catchall_60_65,primary,2016
+category,EB-4,principal_backlog_2024,Historical,301420.0,catchall_60_65,primary,2016
+category,EB-5,principal_backlog_2024,Historical,20003.0,catchall_60_65,primary,2016
+joint,EB-1 / India,principal_backlog_2024,Historical,18885.0,catchall_60_65,primary,2016
+joint,EB-1 / China,principal_backlog_2024,Historical,12814.0,catchall_60_65,primary,2016
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2016
+joint,EB-2 / India,principal_backlog_2024,Historical,391562.0,catchall_60_65,primary,2016
+joint,EB-2 / China,principal_backlog_2024,Historical,71806.0,catchall_60_65,primary,2016
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44101.0,catchall_60_65,primary,2016
+joint,EB-3 / India,principal_backlog_2024,Historical,173807.0,catchall_60_65,primary,2016
+joint,EB-3 / China,principal_backlog_2024,Historical,40038.0,catchall_60_65,primary,2016
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74174.0,catchall_60_65,primary,2016
+joint,EB-4 / India,principal_backlog_2024,Historical,7159.0,catchall_60_65,primary,2016
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2016
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294261.0,catchall_60_65,primary,2016
+joint,EB-5 / India,principal_backlog_2024,Historical,2168.0,catchall_60_65,primary,2016
+joint,EB-5 / China,principal_backlog_2024,Historical,17835.0,catchall_60_65,primary,2016
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2016
+overall,All,age21_events_2009_2024,Historical,23036.0,catchall_60_65,primary,2017
+overall,All,principal_exits_2009_2024,Historical,240516.0,catchall_60_65,primary,2017
+nationality,India,age21_events_2009_2024,Historical,14068.0,catchall_60_65,primary,2017
+nationality,India,principal_exits_2009_2024,Historical,96390.0,catchall_60_65,primary,2017
+nationality,China,age21_events_2009_2024,Historical,2047.0,catchall_60_65,primary,2017
+nationality,China,principal_exits_2009_2024,Historical,32791.0,catchall_60_65,primary,2017
+nationality,ROW,age21_events_2009_2024,Historical,6921.0,catchall_60_65,primary,2017
+nationality,ROW,principal_exits_2009_2024,Historical,111335.0,catchall_60_65,primary,2017
+category,EB-1,age21_events_2009_2024,Historical,0.0,catchall_60_65,primary,2017
+category,EB-1,principal_exits_2009_2024,Historical,2377.0,catchall_60_65,primary,2017
+category,EB-2,age21_events_2009_2024,Historical,6201.0,catchall_60_65,primary,2017
+category,EB-2,principal_exits_2009_2024,Historical,68912.0,catchall_60_65,primary,2017
+category,EB-3,age21_events_2009_2024,Historical,9514.0,catchall_60_65,primary,2017
+category,EB-3,principal_exits_2009_2024,Historical,85121.0,catchall_60_65,primary,2017
+category,EB-4,age21_events_2009_2024,Historical,7097.0,catchall_60_65,primary,2017
+category,EB-4,principal_exits_2009_2024,Historical,82163.0,catchall_60_65,primary,2017
+category,EB-5,age21_events_2009_2024,Historical,224.0,catchall_60_65,primary,2017
+category,EB-5,principal_exits_2009_2024,Historical,1943.0,catchall_60_65,primary,2017
+overall,All,principal_backlog_2024,Historical,1147359.0,catchall_60_65,primary,2017
+nationality,India,principal_backlog_2024,Historical,593522.0,catchall_60_65,primary,2017
+nationality,China,principal_backlog_2024,Historical,142681.0,catchall_60_65,primary,2017
+nationality,ROW,principal_backlog_2024,Historical,411156.0,catchall_60_65,primary,2017
+category,EB-1,principal_backlog_2024,Historical,31558.0,catchall_60_65,primary,2017
+category,EB-2,principal_backlog_2024,Historical,506605.0,catchall_60_65,primary,2017
+category,EB-3,principal_backlog_2024,Historical,287792.0,catchall_60_65,primary,2017
+category,EB-4,principal_backlog_2024,Historical,301434.0,catchall_60_65,primary,2017
+category,EB-5,principal_backlog_2024,Historical,19970.0,catchall_60_65,primary,2017
+joint,EB-1 / India,principal_backlog_2024,Historical,18769.0,catchall_60_65,primary,2017
+joint,EB-1 / China,principal_backlog_2024,Historical,12789.0,catchall_60_65,primary,2017
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2017
+joint,EB-2 / India,principal_backlog_2024,Historical,391892.0,catchall_60_65,primary,2017
+joint,EB-2 / China,principal_backlog_2024,Historical,71747.0,catchall_60_65,primary,2017
+joint,EB-2 / ROW,principal_backlog_2024,Historical,42966.0,catchall_60_65,primary,2017
+joint,EB-3 / India,principal_backlog_2024,Historical,173712.0,catchall_60_65,primary,2017
+joint,EB-3 / China,principal_backlog_2024,Historical,40335.0,catchall_60_65,primary,2017
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73745.0,catchall_60_65,primary,2017
+joint,EB-4 / India,principal_backlog_2024,Historical,6989.0,catchall_60_65,primary,2017
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2017
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294445.0,catchall_60_65,primary,2017
+joint,EB-5 / India,principal_backlog_2024,Historical,2160.0,catchall_60_65,primary,2017
+joint,EB-5 / China,principal_backlog_2024,Historical,17810.0,catchall_60_65,primary,2017
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2017
+overall,All,age21_events_2009_2024,Historical,23386.0,catchall_60_65,primary,2018
+overall,All,principal_exits_2009_2024,Historical,239315.0,catchall_60_65,primary,2018
+nationality,India,age21_events_2009_2024,Historical,14309.0,catchall_60_65,primary,2018
+nationality,India,principal_exits_2009_2024,Historical,96475.0,catchall_60_65,primary,2018
+nationality,China,age21_events_2009_2024,Historical,2007.0,catchall_60_65,primary,2018
+nationality,China,principal_exits_2009_2024,Historical,32194.0,catchall_60_65,primary,2018
+nationality,ROW,age21_events_2009_2024,Historical,7070.0,catchall_60_65,primary,2018
+nationality,ROW,principal_exits_2009_2024,Historical,110646.0,catchall_60_65,primary,2018
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2018
+category,EB-1,principal_exits_2009_2024,Historical,2368.0,catchall_60_65,primary,2018
+category,EB-2,age21_events_2009_2024,Historical,6325.0,catchall_60_65,primary,2018
+category,EB-2,principal_exits_2009_2024,Historical,68560.0,catchall_60_65,primary,2018
+category,EB-3,age21_events_2009_2024,Historical,9570.0,catchall_60_65,primary,2018
+category,EB-3,principal_exits_2009_2024,Historical,84647.0,catchall_60_65,primary,2018
+category,EB-4,age21_events_2009_2024,Historical,7267.0,catchall_60_65,primary,2018
+category,EB-4,principal_exits_2009_2024,Historical,81761.0,catchall_60_65,primary,2018
+category,EB-5,age21_events_2009_2024,Historical,221.0,catchall_60_65,primary,2018
+category,EB-5,principal_exits_2009_2024,Historical,1979.0,catchall_60_65,primary,2018
+overall,All,principal_backlog_2024,Historical,1148115.0,catchall_60_65,primary,2018
+nationality,India,principal_backlog_2024,Historical,594891.0,catchall_60_65,primary,2018
+nationality,China,principal_backlog_2024,Historical,142410.0,catchall_60_65,primary,2018
+nationality,ROW,principal_backlog_2024,Historical,410814.0,catchall_60_65,primary,2018
+category,EB-1,principal_backlog_2024,Historical,31537.0,catchall_60_65,primary,2018
+category,EB-2,principal_backlog_2024,Historical,507616.0,catchall_60_65,primary,2018
+category,EB-3,principal_backlog_2024,Historical,287419.0,catchall_60_65,primary,2018
+category,EB-4,principal_backlog_2024,Historical,301577.0,catchall_60_65,primary,2018
+category,EB-5,principal_backlog_2024,Historical,19966.0,catchall_60_65,primary,2018
+joint,EB-1 / India,principal_backlog_2024,Historical,18859.0,catchall_60_65,primary,2018
+joint,EB-1 / China,principal_backlog_2024,Historical,12678.0,catchall_60_65,primary,2018
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2018
+joint,EB-2 / India,principal_backlog_2024,Historical,392599.0,catchall_60_65,primary,2018
+joint,EB-2 / China,principal_backlog_2024,Historical,71550.0,catchall_60_65,primary,2018
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43467.0,catchall_60_65,primary,2018
+joint,EB-3 / India,principal_backlog_2024,Historical,174076.0,catchall_60_65,primary,2018
+joint,EB-3 / China,principal_backlog_2024,Historical,40389.0,catchall_60_65,primary,2018
+joint,EB-3 / ROW,principal_backlog_2024,Historical,72954.0,catchall_60_65,primary,2018
+joint,EB-4 / India,principal_backlog_2024,Historical,7184.0,catchall_60_65,primary,2018
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2018
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294393.0,catchall_60_65,primary,2018
+joint,EB-5 / India,principal_backlog_2024,Historical,2173.0,catchall_60_65,primary,2018
+joint,EB-5 / China,principal_backlog_2024,Historical,17793.0,catchall_60_65,primary,2018
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2018
+overall,All,age21_events_2009_2024,Historical,23192.0,catchall_60_65,primary,2019
+overall,All,principal_exits_2009_2024,Historical,239462.0,catchall_60_65,primary,2019
+nationality,India,age21_events_2009_2024,Historical,14113.0,catchall_60_65,primary,2019
+nationality,India,principal_exits_2009_2024,Historical,96366.0,catchall_60_65,primary,2019
+nationality,China,age21_events_2009_2024,Historical,2131.0,catchall_60_65,primary,2019
+nationality,China,principal_exits_2009_2024,Historical,32358.0,catchall_60_65,primary,2019
+nationality,ROW,age21_events_2009_2024,Historical,6948.0,catchall_60_65,primary,2019
+nationality,ROW,principal_exits_2009_2024,Historical,110738.0,catchall_60_65,primary,2019
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2019
+category,EB-1,principal_exits_2009_2024,Historical,2310.0,catchall_60_65,primary,2019
+category,EB-2,age21_events_2009_2024,Historical,6292.0,catchall_60_65,primary,2019
+category,EB-2,principal_exits_2009_2024,Historical,68754.0,catchall_60_65,primary,2019
+category,EB-3,age21_events_2009_2024,Historical,9529.0,catchall_60_65,primary,2019
+category,EB-3,principal_exits_2009_2024,Historical,84487.0,catchall_60_65,primary,2019
+category,EB-4,age21_events_2009_2024,Historical,7133.0,catchall_60_65,primary,2019
+category,EB-4,principal_exits_2009_2024,Historical,81938.0,catchall_60_65,primary,2019
+category,EB-5,age21_events_2009_2024,Historical,235.0,catchall_60_65,primary,2019
+category,EB-5,principal_exits_2009_2024,Historical,1973.0,catchall_60_65,primary,2019
+overall,All,principal_backlog_2024,Historical,1148473.0,catchall_60_65,primary,2019
+nationality,India,principal_backlog_2024,Historical,595343.0,catchall_60_65,primary,2019
+nationality,China,principal_backlog_2024,Historical,142090.0,catchall_60_65,primary,2019
+nationality,ROW,principal_backlog_2024,Historical,411040.0,catchall_60_65,primary,2019
+category,EB-1,principal_backlog_2024,Historical,31189.0,catchall_60_65,primary,2019
+category,EB-2,principal_backlog_2024,Historical,507680.0,catchall_60_65,primary,2019
+category,EB-3,principal_backlog_2024,Historical,288107.0,catchall_60_65,primary,2019
+category,EB-4,principal_backlog_2024,Historical,301508.0,catchall_60_65,primary,2019
+category,EB-5,principal_backlog_2024,Historical,19989.0,catchall_60_65,primary,2019
+joint,EB-1 / India,principal_backlog_2024,Historical,18595.0,catchall_60_65,primary,2019
+joint,EB-1 / China,principal_backlog_2024,Historical,12594.0,catchall_60_65,primary,2019
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2019
+joint,EB-2 / India,principal_backlog_2024,Historical,392801.0,catchall_60_65,primary,2019
+joint,EB-2 / China,principal_backlog_2024,Historical,71603.0,catchall_60_65,primary,2019
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43276.0,catchall_60_65,primary,2019
+joint,EB-3 / India,principal_backlog_2024,Historical,174640.0,catchall_60_65,primary,2019
+joint,EB-3 / China,principal_backlog_2024,Historical,40066.0,catchall_60_65,primary,2019
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73401.0,catchall_60_65,primary,2019
+joint,EB-4 / India,principal_backlog_2024,Historical,7145.0,catchall_60_65,primary,2019
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2019
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294363.0,catchall_60_65,primary,2019
+joint,EB-5 / India,principal_backlog_2024,Historical,2162.0,catchall_60_65,primary,2019
+joint,EB-5 / China,principal_backlog_2024,Historical,17827.0,catchall_60_65,primary,2019
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2019
+overall,All,age21_events_2009_2024,Historical,23295.0,catchall_60_65,primary,2020
+overall,All,principal_exits_2009_2024,Historical,239467.0,catchall_60_65,primary,2020
+nationality,India,age21_events_2009_2024,Historical,14292.0,catchall_60_65,primary,2020
+nationality,India,principal_exits_2009_2024,Historical,95958.0,catchall_60_65,primary,2020
+nationality,China,age21_events_2009_2024,Historical,2105.0,catchall_60_65,primary,2020
+nationality,China,principal_exits_2009_2024,Historical,32452.0,catchall_60_65,primary,2020
+nationality,ROW,age21_events_2009_2024,Historical,6898.0,catchall_60_65,primary,2020
+nationality,ROW,principal_exits_2009_2024,Historical,111057.0,catchall_60_65,primary,2020
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2020
+category,EB-1,principal_exits_2009_2024,Historical,2344.0,catchall_60_65,primary,2020
+category,EB-2,age21_events_2009_2024,Historical,6289.0,catchall_60_65,primary,2020
+category,EB-2,principal_exits_2009_2024,Historical,68238.0,catchall_60_65,primary,2020
+category,EB-3,age21_events_2009_2024,Historical,9689.0,catchall_60_65,primary,2020
+category,EB-3,principal_exits_2009_2024,Historical,84639.0,catchall_60_65,primary,2020
+category,EB-4,age21_events_2009_2024,Historical,7075.0,catchall_60_65,primary,2020
+category,EB-4,principal_exits_2009_2024,Historical,82290.0,catchall_60_65,primary,2020
+category,EB-5,age21_events_2009_2024,Historical,240.0,catchall_60_65,primary,2020
+category,EB-5,principal_exits_2009_2024,Historical,1956.0,catchall_60_65,primary,2020
+overall,All,principal_backlog_2024,Historical,1147773.0,catchall_60_65,primary,2020
+nationality,India,principal_backlog_2024,Historical,593981.0,catchall_60_65,primary,2020
+nationality,China,principal_backlog_2024,Historical,142735.0,catchall_60_65,primary,2020
+nationality,ROW,principal_backlog_2024,Historical,411057.0,catchall_60_65,primary,2020
+category,EB-1,principal_backlog_2024,Historical,31557.0,catchall_60_65,primary,2020
+category,EB-2,principal_backlog_2024,Historical,507283.0,catchall_60_65,primary,2020
+category,EB-3,principal_backlog_2024,Historical,287591.0,catchall_60_65,primary,2020
+category,EB-4,principal_backlog_2024,Historical,301310.0,catchall_60_65,primary,2020
+category,EB-5,principal_backlog_2024,Historical,20032.0,catchall_60_65,primary,2020
+joint,EB-1 / India,principal_backlog_2024,Historical,18627.0,catchall_60_65,primary,2020
+joint,EB-1 / China,principal_backlog_2024,Historical,12930.0,catchall_60_65,primary,2020
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2020
+joint,EB-2 / India,principal_backlog_2024,Historical,392223.0,catchall_60_65,primary,2020
+joint,EB-2 / China,principal_backlog_2024,Historical,71884.0,catchall_60_65,primary,2020
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43176.0,catchall_60_65,primary,2020
+joint,EB-3 / India,principal_backlog_2024,Historical,173743.0,catchall_60_65,primary,2020
+joint,EB-3 / China,principal_backlog_2024,Historical,40139.0,catchall_60_65,primary,2020
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73709.0,catchall_60_65,primary,2020
+joint,EB-4 / India,principal_backlog_2024,Historical,7138.0,catchall_60_65,primary,2020
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2020
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294172.0,catchall_60_65,primary,2020
+joint,EB-5 / India,principal_backlog_2024,Historical,2250.0,catchall_60_65,primary,2020
+joint,EB-5 / China,principal_backlog_2024,Historical,17782.0,catchall_60_65,primary,2020
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2020
+overall,All,age21_events_2009_2024,Historical,23306.0,catchall_60_65,primary,2021
+overall,All,principal_exits_2009_2024,Historical,239666.0,catchall_60_65,primary,2021
+nationality,India,age21_events_2009_2024,Historical,14278.0,catchall_60_65,primary,2021
+nationality,India,principal_exits_2009_2024,Historical,96147.0,catchall_60_65,primary,2021
+nationality,China,age21_events_2009_2024,Historical,2036.0,catchall_60_65,primary,2021
+nationality,China,principal_exits_2009_2024,Historical,32473.0,catchall_60_65,primary,2021
+nationality,ROW,age21_events_2009_2024,Historical,6992.0,catchall_60_65,primary,2021
+nationality,ROW,principal_exits_2009_2024,Historical,111046.0,catchall_60_65,primary,2021
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2021
+category,EB-1,principal_exits_2009_2024,Historical,2313.0,catchall_60_65,primary,2021
+category,EB-2,age21_events_2009_2024,Historical,6343.0,catchall_60_65,primary,2021
+category,EB-2,principal_exits_2009_2024,Historical,68838.0,catchall_60_65,primary,2021
+category,EB-3,age21_events_2009_2024,Historical,9604.0,catchall_60_65,primary,2021
+category,EB-3,principal_exits_2009_2024,Historical,84660.0,catchall_60_65,primary,2021
+category,EB-4,age21_events_2009_2024,Historical,7161.0,catchall_60_65,primary,2021
+category,EB-4,principal_exits_2009_2024,Historical,81972.0,catchall_60_65,primary,2021
+category,EB-5,age21_events_2009_2024,Historical,195.0,catchall_60_65,primary,2021
+category,EB-5,principal_exits_2009_2024,Historical,1883.0,catchall_60_65,primary,2021
+overall,All,principal_backlog_2024,Historical,1147437.0,catchall_60_65,primary,2021
+nationality,India,principal_backlog_2024,Historical,593861.0,catchall_60_65,primary,2021
+nationality,China,principal_backlog_2024,Historical,142556.0,catchall_60_65,primary,2021
+nationality,ROW,principal_backlog_2024,Historical,411020.0,catchall_60_65,primary,2021
+category,EB-1,principal_backlog_2024,Historical,31249.0,catchall_60_65,primary,2021
+category,EB-2,principal_backlog_2024,Historical,506986.0,catchall_60_65,primary,2021
+category,EB-3,principal_backlog_2024,Historical,287671.0,catchall_60_65,primary,2021
+category,EB-4,principal_backlog_2024,Historical,301447.0,catchall_60_65,primary,2021
+category,EB-5,principal_backlog_2024,Historical,20084.0,catchall_60_65,primary,2021
+joint,EB-1 / India,principal_backlog_2024,Historical,18620.0,catchall_60_65,primary,2021
+joint,EB-1 / China,principal_backlog_2024,Historical,12629.0,catchall_60_65,primary,2021
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2021
+joint,EB-2 / India,principal_backlog_2024,Historical,391734.0,catchall_60_65,primary,2021
+joint,EB-2 / China,principal_backlog_2024,Historical,72024.0,catchall_60_65,primary,2021
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43228.0,catchall_60_65,primary,2021
+joint,EB-3 / India,principal_backlog_2024,Historical,174098.0,catchall_60_65,primary,2021
+joint,EB-3 / China,principal_backlog_2024,Historical,40031.0,catchall_60_65,primary,2021
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73542.0,catchall_60_65,primary,2021
+joint,EB-4 / India,principal_backlog_2024,Historical,7197.0,catchall_60_65,primary,2021
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2021
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294250.0,catchall_60_65,primary,2021
+joint,EB-5 / India,principal_backlog_2024,Historical,2212.0,catchall_60_65,primary,2021
+joint,EB-5 / China,principal_backlog_2024,Historical,17872.0,catchall_60_65,primary,2021
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2021
+overall,All,age21_events_2009_2024,Historical,23177.0,catchall_60_65,primary,2022
+overall,All,principal_exits_2009_2024,Historical,239456.0,catchall_60_65,primary,2022
+nationality,India,age21_events_2009_2024,Historical,14164.0,catchall_60_65,primary,2022
+nationality,India,principal_exits_2009_2024,Historical,96004.0,catchall_60_65,primary,2022
+nationality,China,age21_events_2009_2024,Historical,2013.0,catchall_60_65,primary,2022
+nationality,China,principal_exits_2009_2024,Historical,32507.0,catchall_60_65,primary,2022
+nationality,ROW,age21_events_2009_2024,Historical,7000.0,catchall_60_65,primary,2022
+nationality,ROW,principal_exits_2009_2024,Historical,110945.0,catchall_60_65,primary,2022
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2022
+category,EB-1,principal_exits_2009_2024,Historical,2338.0,catchall_60_65,primary,2022
+category,EB-2,age21_events_2009_2024,Historical,6205.0,catchall_60_65,primary,2022
+category,EB-2,principal_exits_2009_2024,Historical,68433.0,catchall_60_65,primary,2022
+category,EB-3,age21_events_2009_2024,Historical,9634.0,catchall_60_65,primary,2022
+category,EB-3,principal_exits_2009_2024,Historical,85012.0,catchall_60_65,primary,2022
+category,EB-4,age21_events_2009_2024,Historical,7153.0,catchall_60_65,primary,2022
+category,EB-4,principal_exits_2009_2024,Historical,81672.0,catchall_60_65,primary,2022
+category,EB-5,age21_events_2009_2024,Historical,183.0,catchall_60_65,primary,2022
+category,EB-5,principal_exits_2009_2024,Historical,2001.0,catchall_60_65,primary,2022
+overall,All,principal_backlog_2024,Historical,1148472.0,catchall_60_65,primary,2022
+nationality,India,principal_backlog_2024,Historical,593584.0,catchall_60_65,primary,2022
+nationality,China,principal_backlog_2024,Historical,142376.0,catchall_60_65,primary,2022
+nationality,ROW,principal_backlog_2024,Historical,412512.0,catchall_60_65,primary,2022
+category,EB-1,principal_backlog_2024,Historical,31484.0,catchall_60_65,primary,2022
+category,EB-2,principal_backlog_2024,Historical,507568.0,catchall_60_65,primary,2022
+category,EB-3,principal_backlog_2024,Historical,287640.0,catchall_60_65,primary,2022
+category,EB-4,principal_backlog_2024,Historical,301860.0,catchall_60_65,primary,2022
+category,EB-5,principal_backlog_2024,Historical,19920.0,catchall_60_65,primary,2022
+joint,EB-1 / India,principal_backlog_2024,Historical,18768.0,catchall_60_65,primary,2022
+joint,EB-1 / China,principal_backlog_2024,Historical,12716.0,catchall_60_65,primary,2022
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2022
+joint,EB-2 / India,principal_backlog_2024,Historical,392353.0,catchall_60_65,primary,2022
+joint,EB-2 / China,principal_backlog_2024,Historical,71681.0,catchall_60_65,primary,2022
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43534.0,catchall_60_65,primary,2022
+joint,EB-3 / India,principal_backlog_2024,Historical,173178.0,catchall_60_65,primary,2022
+joint,EB-3 / China,principal_backlog_2024,Historical,40186.0,catchall_60_65,primary,2022
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74276.0,catchall_60_65,primary,2022
+joint,EB-4 / India,principal_backlog_2024,Historical,7158.0,catchall_60_65,primary,2022
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2022
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294702.0,catchall_60_65,primary,2022
+joint,EB-5 / India,principal_backlog_2024,Historical,2127.0,catchall_60_65,primary,2022
+joint,EB-5 / China,principal_backlog_2024,Historical,17793.0,catchall_60_65,primary,2022
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2022
+overall,All,age21_events_2009_2024,Historical,23098.0,catchall_60_65,primary,2023
+overall,All,principal_exits_2009_2024,Historical,239442.0,catchall_60_65,primary,2023
+nationality,India,age21_events_2009_2024,Historical,14007.0,catchall_60_65,primary,2023
+nationality,India,principal_exits_2009_2024,Historical,96294.0,catchall_60_65,primary,2023
+nationality,China,age21_events_2009_2024,Historical,2189.0,catchall_60_65,primary,2023
+nationality,China,principal_exits_2009_2024,Historical,32585.0,catchall_60_65,primary,2023
+nationality,ROW,age21_events_2009_2024,Historical,6902.0,catchall_60_65,primary,2023
+nationality,ROW,principal_exits_2009_2024,Historical,110563.0,catchall_60_65,primary,2023
+category,EB-1,age21_events_2009_2024,Historical,4.0,catchall_60_65,primary,2023
+category,EB-1,principal_exits_2009_2024,Historical,2325.0,catchall_60_65,primary,2023
+category,EB-2,age21_events_2009_2024,Historical,6200.0,catchall_60_65,primary,2023
+category,EB-2,principal_exits_2009_2024,Historical,68655.0,catchall_60_65,primary,2023
+category,EB-3,age21_events_2009_2024,Historical,9643.0,catchall_60_65,primary,2023
+category,EB-3,principal_exits_2009_2024,Historical,84811.0,catchall_60_65,primary,2023
+category,EB-4,age21_events_2009_2024,Historical,7037.0,catchall_60_65,primary,2023
+category,EB-4,principal_exits_2009_2024,Historical,81686.0,catchall_60_65,primary,2023
+category,EB-5,age21_events_2009_2024,Historical,214.0,catchall_60_65,primary,2023
+category,EB-5,principal_exits_2009_2024,Historical,1965.0,catchall_60_65,primary,2023
+overall,All,principal_backlog_2024,Historical,1148245.0,catchall_60_65,primary,2023
+nationality,India,principal_backlog_2024,Historical,593055.0,catchall_60_65,primary,2023
+nationality,China,principal_backlog_2024,Historical,143218.0,catchall_60_65,primary,2023
+nationality,ROW,principal_backlog_2024,Historical,411972.0,catchall_60_65,primary,2023
+category,EB-1,principal_backlog_2024,Historical,31580.0,catchall_60_65,primary,2023
+category,EB-2,principal_backlog_2024,Historical,507011.0,catchall_60_65,primary,2023
+category,EB-3,principal_backlog_2024,Historical,287942.0,catchall_60_65,primary,2023
+category,EB-4,principal_backlog_2024,Historical,301728.0,catchall_60_65,primary,2023
+category,EB-5,principal_backlog_2024,Historical,19984.0,catchall_60_65,primary,2023
+joint,EB-1 / India,principal_backlog_2024,Historical,18836.0,catchall_60_65,primary,2023
+joint,EB-1 / China,principal_backlog_2024,Historical,12744.0,catchall_60_65,primary,2023
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2023
+joint,EB-2 / India,principal_backlog_2024,Historical,391294.0,catchall_60_65,primary,2023
+joint,EB-2 / China,principal_backlog_2024,Historical,72017.0,catchall_60_65,primary,2023
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43700.0,catchall_60_65,primary,2023
+joint,EB-3 / India,principal_backlog_2024,Historical,173817.0,catchall_60_65,primary,2023
+joint,EB-3 / China,principal_backlog_2024,Historical,40549.0,catchall_60_65,primary,2023
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73576.0,catchall_60_65,primary,2023
+joint,EB-4 / India,principal_backlog_2024,Historical,7032.0,catchall_60_65,primary,2023
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2023
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294696.0,catchall_60_65,primary,2023
+joint,EB-5 / India,principal_backlog_2024,Historical,2076.0,catchall_60_65,primary,2023
+joint,EB-5 / China,principal_backlog_2024,Historical,17908.0,catchall_60_65,primary,2023
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2023
+overall,All,age21_events_2009_2024,Historical,23072.0,catchall_60_65,primary,2024
+overall,All,principal_exits_2009_2024,Historical,239863.0,catchall_60_65,primary,2024
+nationality,India,age21_events_2009_2024,Historical,14047.0,catchall_60_65,primary,2024
+nationality,India,principal_exits_2009_2024,Historical,96302.0,catchall_60_65,primary,2024
+nationality,China,age21_events_2009_2024,Historical,2074.0,catchall_60_65,primary,2024
+nationality,China,principal_exits_2009_2024,Historical,32573.0,catchall_60_65,primary,2024
+nationality,ROW,age21_events_2009_2024,Historical,6951.0,catchall_60_65,primary,2024
+nationality,ROW,principal_exits_2009_2024,Historical,110988.0,catchall_60_65,primary,2024
+category,EB-1,age21_events_2009_2024,Historical,5.0,catchall_60_65,primary,2024
+category,EB-1,principal_exits_2009_2024,Historical,2406.0,catchall_60_65,primary,2024
+category,EB-2,age21_events_2009_2024,Historical,6242.0,catchall_60_65,primary,2024
+category,EB-2,principal_exits_2009_2024,Historical,68829.0,catchall_60_65,primary,2024
+category,EB-3,age21_events_2009_2024,Historical,9503.0,catchall_60_65,primary,2024
+category,EB-3,principal_exits_2009_2024,Historical,84636.0,catchall_60_65,primary,2024
+category,EB-4,age21_events_2009_2024,Historical,7105.0,catchall_60_65,primary,2024
+category,EB-4,principal_exits_2009_2024,Historical,82032.0,catchall_60_65,primary,2024
+category,EB-5,age21_events_2009_2024,Historical,217.0,catchall_60_65,primary,2024
+category,EB-5,principal_exits_2009_2024,Historical,1960.0,catchall_60_65,primary,2024
+overall,All,principal_backlog_2024,Historical,1149182.0,catchall_60_65,primary,2024
+nationality,India,principal_backlog_2024,Historical,593600.0,catchall_60_65,primary,2024
+nationality,China,principal_backlog_2024,Historical,142545.0,catchall_60_65,primary,2024
+nationality,ROW,principal_backlog_2024,Historical,413037.0,catchall_60_65,primary,2024
+category,EB-1,principal_backlog_2024,Historical,31932.0,catchall_60_65,primary,2024
+category,EB-2,principal_backlog_2024,Historical,507591.0,catchall_60_65,primary,2024
+category,EB-3,principal_backlog_2024,Historical,288137.0,catchall_60_65,primary,2024
+category,EB-4,principal_backlog_2024,Historical,301616.0,catchall_60_65,primary,2024
+category,EB-5,principal_backlog_2024,Historical,19906.0,catchall_60_65,primary,2024
+joint,EB-1 / India,principal_backlog_2024,Historical,19040.0,catchall_60_65,primary,2024
+joint,EB-1 / China,principal_backlog_2024,Historical,12892.0,catchall_60_65,primary,2024
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2024
+joint,EB-2 / India,principal_backlog_2024,Historical,391664.0,catchall_60_65,primary,2024
+joint,EB-2 / China,principal_backlog_2024,Historical,71858.0,catchall_60_65,primary,2024
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44069.0,catchall_60_65,primary,2024
+joint,EB-3 / India,principal_backlog_2024,Historical,173621.0,catchall_60_65,primary,2024
+joint,EB-3 / China,principal_backlog_2024,Historical,40085.0,catchall_60_65,primary,2024
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74431.0,catchall_60_65,primary,2024
+joint,EB-4 / India,principal_backlog_2024,Historical,7079.0,catchall_60_65,primary,2024
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2024
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294537.0,catchall_60_65,primary,2024
+joint,EB-5 / India,principal_backlog_2024,Historical,2196.0,catchall_60_65,primary,2024
+joint,EB-5 / China,principal_backlog_2024,Historical,17710.0,catchall_60_65,primary,2024
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2024
+overall,All,age21_events_2009_2024,Historical,23282.0,catchall_60_65,primary,2025
+overall,All,principal_exits_2009_2024,Historical,240105.0,catchall_60_65,primary,2025
+nationality,India,age21_events_2009_2024,Historical,14176.0,catchall_60_65,primary,2025
+nationality,India,principal_exits_2009_2024,Historical,96998.0,catchall_60_65,primary,2025
+nationality,China,age21_events_2009_2024,Historical,2144.0,catchall_60_65,primary,2025
+nationality,China,principal_exits_2009_2024,Historical,32413.0,catchall_60_65,primary,2025
+nationality,ROW,age21_events_2009_2024,Historical,6962.0,catchall_60_65,primary,2025
+nationality,ROW,principal_exits_2009_2024,Historical,110694.0,catchall_60_65,primary,2025
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2025
+category,EB-1,principal_exits_2009_2024,Historical,2413.0,catchall_60_65,primary,2025
+category,EB-2,age21_events_2009_2024,Historical,6337.0,catchall_60_65,primary,2025
+category,EB-2,principal_exits_2009_2024,Historical,68893.0,catchall_60_65,primary,2025
+category,EB-3,age21_events_2009_2024,Historical,9564.0,catchall_60_65,primary,2025
+category,EB-3,principal_exits_2009_2024,Historical,84983.0,catchall_60_65,primary,2025
+category,EB-4,age21_events_2009_2024,Historical,7155.0,catchall_60_65,primary,2025
+category,EB-4,principal_exits_2009_2024,Historical,81885.0,catchall_60_65,primary,2025
+category,EB-5,age21_events_2009_2024,Historical,225.0,catchall_60_65,primary,2025
+category,EB-5,principal_exits_2009_2024,Historical,1931.0,catchall_60_65,primary,2025
+overall,All,principal_backlog_2024,Historical,1149130.0,catchall_60_65,primary,2025
+nationality,India,principal_backlog_2024,Historical,594424.0,catchall_60_65,primary,2025
+nationality,China,principal_backlog_2024,Historical,143141.0,catchall_60_65,primary,2025
+nationality,ROW,principal_backlog_2024,Historical,411565.0,catchall_60_65,primary,2025
+category,EB-1,principal_backlog_2024,Historical,31627.0,catchall_60_65,primary,2025
+category,EB-2,principal_backlog_2024,Historical,507836.0,catchall_60_65,primary,2025
+category,EB-3,principal_backlog_2024,Historical,287672.0,catchall_60_65,primary,2025
+category,EB-4,principal_backlog_2024,Historical,301872.0,catchall_60_65,primary,2025
+category,EB-5,principal_backlog_2024,Historical,20123.0,catchall_60_65,primary,2025
+joint,EB-1 / India,principal_backlog_2024,Historical,18784.0,catchall_60_65,primary,2025
+joint,EB-1 / China,principal_backlog_2024,Historical,12843.0,catchall_60_65,primary,2025
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2025
+joint,EB-2 / India,principal_backlog_2024,Historical,392367.0,catchall_60_65,primary,2025
+joint,EB-2 / China,principal_backlog_2024,Historical,72199.0,catchall_60_65,primary,2025
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43270.0,catchall_60_65,primary,2025
+joint,EB-3 / India,principal_backlog_2024,Historical,173913.0,catchall_60_65,primary,2025
+joint,EB-3 / China,principal_backlog_2024,Historical,40170.0,catchall_60_65,primary,2025
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73589.0,catchall_60_65,primary,2025
+joint,EB-4 / India,principal_backlog_2024,Historical,7166.0,catchall_60_65,primary,2025
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2025
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294706.0,catchall_60_65,primary,2025
+joint,EB-5 / India,principal_backlog_2024,Historical,2194.0,catchall_60_65,primary,2025
+joint,EB-5 / China,principal_backlog_2024,Historical,17929.0,catchall_60_65,primary,2025
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2025
+overall,All,age21_events_2009_2024,Historical,23175.0,catchall_60_65,primary,2026
+overall,All,principal_exits_2009_2024,Historical,239392.0,catchall_60_65,primary,2026
+nationality,India,age21_events_2009_2024,Historical,14149.0,catchall_60_65,primary,2026
+nationality,India,principal_exits_2009_2024,Historical,96531.0,catchall_60_65,primary,2026
+nationality,China,age21_events_2009_2024,Historical,1971.0,catchall_60_65,primary,2026
+nationality,China,principal_exits_2009_2024,Historical,32712.0,catchall_60_65,primary,2026
+nationality,ROW,age21_events_2009_2024,Historical,7055.0,catchall_60_65,primary,2026
+nationality,ROW,principal_exits_2009_2024,Historical,110149.0,catchall_60_65,primary,2026
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2026
+category,EB-1,principal_exits_2009_2024,Historical,2341.0,catchall_60_65,primary,2026
+category,EB-2,age21_events_2009_2024,Historical,6249.0,catchall_60_65,primary,2026
+category,EB-2,principal_exits_2009_2024,Historical,68625.0,catchall_60_65,primary,2026
+category,EB-3,age21_events_2009_2024,Historical,9520.0,catchall_60_65,primary,2026
+category,EB-3,principal_exits_2009_2024,Historical,84770.0,catchall_60_65,primary,2026
+category,EB-4,age21_events_2009_2024,Historical,7210.0,catchall_60_65,primary,2026
+category,EB-4,principal_exits_2009_2024,Historical,81709.0,catchall_60_65,primary,2026
+category,EB-5,age21_events_2009_2024,Historical,194.0,catchall_60_65,primary,2026
+category,EB-5,principal_exits_2009_2024,Historical,1947.0,catchall_60_65,primary,2026
+overall,All,principal_backlog_2024,Historical,1148510.0,catchall_60_65,primary,2026
+nationality,India,principal_backlog_2024,Historical,593636.0,catchall_60_65,primary,2026
+nationality,China,principal_backlog_2024,Historical,142371.0,catchall_60_65,primary,2026
+nationality,ROW,principal_backlog_2024,Historical,412503.0,catchall_60_65,primary,2026
+category,EB-1,principal_backlog_2024,Historical,31544.0,catchall_60_65,primary,2026
+category,EB-2,principal_backlog_2024,Historical,507802.0,catchall_60_65,primary,2026
+category,EB-3,principal_backlog_2024,Historical,287177.0,catchall_60_65,primary,2026
+category,EB-4,principal_backlog_2024,Historical,301933.0,catchall_60_65,primary,2026
+category,EB-5,principal_backlog_2024,Historical,20054.0,catchall_60_65,primary,2026
+joint,EB-1 / India,principal_backlog_2024,Historical,18924.0,catchall_60_65,primary,2026
+joint,EB-1 / China,principal_backlog_2024,Historical,12620.0,catchall_60_65,primary,2026
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2026
+joint,EB-2 / India,principal_backlog_2024,Historical,392055.0,catchall_60_65,primary,2026
+joint,EB-2 / China,principal_backlog_2024,Historical,71498.0,catchall_60_65,primary,2026
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44249.0,catchall_60_65,primary,2026
+joint,EB-3 / India,principal_backlog_2024,Historical,173410.0,catchall_60_65,primary,2026
+joint,EB-3 / China,principal_backlog_2024,Historical,40331.0,catchall_60_65,primary,2026
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73436.0,catchall_60_65,primary,2026
+joint,EB-4 / India,principal_backlog_2024,Historical,7115.0,catchall_60_65,primary,2026
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2026
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294818.0,catchall_60_65,primary,2026
+joint,EB-5 / India,principal_backlog_2024,Historical,2132.0,catchall_60_65,primary,2026
+joint,EB-5 / China,principal_backlog_2024,Historical,17922.0,catchall_60_65,primary,2026
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2026
+overall,All,age21_events_2009_2024,Historical,23074.0,catchall_60_65,primary,2027
+overall,All,principal_exits_2009_2024,Historical,240058.0,catchall_60_65,primary,2027
+nationality,India,age21_events_2009_2024,Historical,14224.0,catchall_60_65,primary,2027
+nationality,India,principal_exits_2009_2024,Historical,96831.0,catchall_60_65,primary,2027
+nationality,China,age21_events_2009_2024,Historical,2028.0,catchall_60_65,primary,2027
+nationality,China,principal_exits_2009_2024,Historical,32327.0,catchall_60_65,primary,2027
+nationality,ROW,age21_events_2009_2024,Historical,6822.0,catchall_60_65,primary,2027
+nationality,ROW,principal_exits_2009_2024,Historical,110900.0,catchall_60_65,primary,2027
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2027
+category,EB-1,principal_exits_2009_2024,Historical,2364.0,catchall_60_65,primary,2027
+category,EB-2,age21_events_2009_2024,Historical,6320.0,catchall_60_65,primary,2027
+category,EB-2,principal_exits_2009_2024,Historical,68767.0,catchall_60_65,primary,2027
+category,EB-3,age21_events_2009_2024,Historical,9526.0,catchall_60_65,primary,2027
+category,EB-3,principal_exits_2009_2024,Historical,84914.0,catchall_60_65,primary,2027
+category,EB-4,age21_events_2009_2024,Historical,7015.0,catchall_60_65,primary,2027
+category,EB-4,principal_exits_2009_2024,Historical,82109.0,catchall_60_65,primary,2027
+category,EB-5,age21_events_2009_2024,Historical,210.0,catchall_60_65,primary,2027
+category,EB-5,principal_exits_2009_2024,Historical,1904.0,catchall_60_65,primary,2027
+overall,All,principal_backlog_2024,Historical,1147564.0,catchall_60_65,primary,2027
+nationality,India,principal_backlog_2024,Historical,593478.0,catchall_60_65,primary,2027
+nationality,China,principal_backlog_2024,Historical,142753.0,catchall_60_65,primary,2027
+nationality,ROW,principal_backlog_2024,Historical,411333.0,catchall_60_65,primary,2027
+category,EB-1,principal_backlog_2024,Historical,31245.0,catchall_60_65,primary,2027
+category,EB-2,principal_backlog_2024,Historical,507246.0,catchall_60_65,primary,2027
+category,EB-3,principal_backlog_2024,Historical,287316.0,catchall_60_65,primary,2027
+category,EB-4,principal_backlog_2024,Historical,301716.0,catchall_60_65,primary,2027
+category,EB-5,principal_backlog_2024,Historical,20041.0,catchall_60_65,primary,2027
+joint,EB-1 / India,principal_backlog_2024,Historical,18627.0,catchall_60_65,primary,2027
+joint,EB-1 / China,principal_backlog_2024,Historical,12618.0,catchall_60_65,primary,2027
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2027
+joint,EB-2 / India,principal_backlog_2024,Historical,392496.0,catchall_60_65,primary,2027
+joint,EB-2 / China,principal_backlog_2024,Historical,71745.0,catchall_60_65,primary,2027
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43005.0,catchall_60_65,primary,2027
+joint,EB-3 / India,principal_backlog_2024,Historical,172862.0,catchall_60_65,primary,2027
+joint,EB-3 / China,principal_backlog_2024,Historical,40558.0,catchall_60_65,primary,2027
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73896.0,catchall_60_65,primary,2027
+joint,EB-4 / India,principal_backlog_2024,Historical,7284.0,catchall_60_65,primary,2027
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2027
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294432.0,catchall_60_65,primary,2027
+joint,EB-5 / India,principal_backlog_2024,Historical,2209.0,catchall_60_65,primary,2027
+joint,EB-5 / China,principal_backlog_2024,Historical,17832.0,catchall_60_65,primary,2027
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2027
+overall,All,age21_events_2009_2024,Historical,23210.0,catchall_60_65,primary,2028
+overall,All,principal_exits_2009_2024,Historical,239057.0,catchall_60_65,primary,2028
+nationality,India,age21_events_2009_2024,Historical,14217.0,catchall_60_65,primary,2028
+nationality,India,principal_exits_2009_2024,Historical,96423.0,catchall_60_65,primary,2028
+nationality,China,age21_events_2009_2024,Historical,2031.0,catchall_60_65,primary,2028
+nationality,China,principal_exits_2009_2024,Historical,32097.0,catchall_60_65,primary,2028
+nationality,ROW,age21_events_2009_2024,Historical,6962.0,catchall_60_65,primary,2028
+nationality,ROW,principal_exits_2009_2024,Historical,110537.0,catchall_60_65,primary,2028
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2028
+category,EB-1,principal_exits_2009_2024,Historical,2373.0,catchall_60_65,primary,2028
+category,EB-2,age21_events_2009_2024,Historical,6350.0,catchall_60_65,primary,2028
+category,EB-2,principal_exits_2009_2024,Historical,68175.0,catchall_60_65,primary,2028
+category,EB-3,age21_events_2009_2024,Historical,9495.0,catchall_60_65,primary,2028
+category,EB-3,principal_exits_2009_2024,Historical,84739.0,catchall_60_65,primary,2028
+category,EB-4,age21_events_2009_2024,Historical,7141.0,catchall_60_65,primary,2028
+category,EB-4,principal_exits_2009_2024,Historical,81890.0,catchall_60_65,primary,2028
+category,EB-5,age21_events_2009_2024,Historical,222.0,catchall_60_65,primary,2028
+category,EB-5,principal_exits_2009_2024,Historical,1880.0,catchall_60_65,primary,2028
+overall,All,principal_backlog_2024,Historical,1148934.0,catchall_60_65,primary,2028
+nationality,India,principal_backlog_2024,Historical,594600.0,catchall_60_65,primary,2028
+nationality,China,principal_backlog_2024,Historical,142745.0,catchall_60_65,primary,2028
+nationality,ROW,principal_backlog_2024,Historical,411589.0,catchall_60_65,primary,2028
+category,EB-1,principal_backlog_2024,Historical,31400.0,catchall_60_65,primary,2028
+category,EB-2,principal_backlog_2024,Historical,507841.0,catchall_60_65,primary,2028
+category,EB-3,principal_backlog_2024,Historical,287891.0,catchall_60_65,primary,2028
+category,EB-4,principal_backlog_2024,Historical,301792.0,catchall_60_65,primary,2028
+category,EB-5,principal_backlog_2024,Historical,20010.0,catchall_60_65,primary,2028
+joint,EB-1 / India,principal_backlog_2024,Historical,18620.0,catchall_60_65,primary,2028
+joint,EB-1 / China,principal_backlog_2024,Historical,12780.0,catchall_60_65,primary,2028
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2028
+joint,EB-2 / India,principal_backlog_2024,Historical,392771.0,catchall_60_65,primary,2028
+joint,EB-2 / China,principal_backlog_2024,Historical,71680.0,catchall_60_65,primary,2028
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43390.0,catchall_60_65,primary,2028
+joint,EB-3 / India,principal_backlog_2024,Historical,173857.0,catchall_60_65,primary,2028
+joint,EB-3 / China,principal_backlog_2024,Historical,40458.0,catchall_60_65,primary,2028
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73576.0,catchall_60_65,primary,2028
+joint,EB-4 / India,principal_backlog_2024,Historical,7169.0,catchall_60_65,primary,2028
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2028
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294623.0,catchall_60_65,primary,2028
+joint,EB-5 / India,principal_backlog_2024,Historical,2183.0,catchall_60_65,primary,2028
+joint,EB-5 / China,principal_backlog_2024,Historical,17827.0,catchall_60_65,primary,2028
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2028
+overall,All,age21_events_2009_2024,Historical,23314.0,catchall_60_65,primary,2029
+overall,All,principal_exits_2009_2024,Historical,239112.0,catchall_60_65,primary,2029
+nationality,India,age21_events_2009_2024,Historical,14220.0,catchall_60_65,primary,2029
+nationality,India,principal_exits_2009_2024,Historical,96688.0,catchall_60_65,primary,2029
+nationality,China,age21_events_2009_2024,Historical,2067.0,catchall_60_65,primary,2029
+nationality,China,principal_exits_2009_2024,Historical,32304.0,catchall_60_65,primary,2029
+nationality,ROW,age21_events_2009_2024,Historical,7027.0,catchall_60_65,primary,2029
+nationality,ROW,principal_exits_2009_2024,Historical,110120.0,catchall_60_65,primary,2029
+category,EB-1,age21_events_2009_2024,Historical,4.0,catchall_60_65,primary,2029
+category,EB-1,principal_exits_2009_2024,Historical,2329.0,catchall_60_65,primary,2029
+category,EB-2,age21_events_2009_2024,Historical,6332.0,catchall_60_65,primary,2029
+category,EB-2,principal_exits_2009_2024,Historical,68491.0,catchall_60_65,primary,2029
+category,EB-3,age21_events_2009_2024,Historical,9576.0,catchall_60_65,primary,2029
+category,EB-3,principal_exits_2009_2024,Historical,84640.0,catchall_60_65,primary,2029
+category,EB-4,age21_events_2009_2024,Historical,7202.0,catchall_60_65,primary,2029
+category,EB-4,principal_exits_2009_2024,Historical,81708.0,catchall_60_65,primary,2029
+category,EB-5,age21_events_2009_2024,Historical,200.0,catchall_60_65,primary,2029
+category,EB-5,principal_exits_2009_2024,Historical,1944.0,catchall_60_65,primary,2029
+overall,All,principal_backlog_2024,Historical,1148173.0,catchall_60_65,primary,2029
+nationality,India,principal_backlog_2024,Historical,593300.0,catchall_60_65,primary,2029
+nationality,China,principal_backlog_2024,Historical,143101.0,catchall_60_65,primary,2029
+nationality,ROW,principal_backlog_2024,Historical,411772.0,catchall_60_65,primary,2029
+category,EB-1,principal_backlog_2024,Historical,31581.0,catchall_60_65,primary,2029
+category,EB-2,principal_backlog_2024,Historical,507469.0,catchall_60_65,primary,2029
+category,EB-3,principal_backlog_2024,Historical,287383.0,catchall_60_65,primary,2029
+category,EB-4,principal_backlog_2024,Historical,301743.0,catchall_60_65,primary,2029
+category,EB-5,principal_backlog_2024,Historical,19997.0,catchall_60_65,primary,2029
+joint,EB-1 / India,principal_backlog_2024,Historical,18717.0,catchall_60_65,primary,2029
+joint,EB-1 / China,principal_backlog_2024,Historical,12864.0,catchall_60_65,primary,2029
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2029
+joint,EB-2 / India,principal_backlog_2024,Historical,391798.0,catchall_60_65,primary,2029
+joint,EB-2 / China,principal_backlog_2024,Historical,71951.0,catchall_60_65,primary,2029
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43720.0,catchall_60_65,primary,2029
+joint,EB-3 / India,principal_backlog_2024,Historical,173793.0,catchall_60_65,primary,2029
+joint,EB-3 / China,principal_backlog_2024,Historical,40310.0,catchall_60_65,primary,2029
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73280.0,catchall_60_65,primary,2029
+joint,EB-4 / India,principal_backlog_2024,Historical,6971.0,catchall_60_65,primary,2029
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2029
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294772.0,catchall_60_65,primary,2029
+joint,EB-5 / India,principal_backlog_2024,Historical,2021.0,catchall_60_65,primary,2029
+joint,EB-5 / China,principal_backlog_2024,Historical,17976.0,catchall_60_65,primary,2029
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2029
+overall,All,age21_events_2009_2024,Historical,23229.0,catchall_60_65,primary,2030
+overall,All,principal_exits_2009_2024,Historical,239650.0,catchall_60_65,primary,2030
+nationality,India,age21_events_2009_2024,Historical,14228.0,catchall_60_65,primary,2030
+nationality,India,principal_exits_2009_2024,Historical,96963.0,catchall_60_65,primary,2030
+nationality,China,age21_events_2009_2024,Historical,1987.0,catchall_60_65,primary,2030
+nationality,China,principal_exits_2009_2024,Historical,32315.0,catchall_60_65,primary,2030
+nationality,ROW,age21_events_2009_2024,Historical,7014.0,catchall_60_65,primary,2030
+nationality,ROW,principal_exits_2009_2024,Historical,110372.0,catchall_60_65,primary,2030
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2030
+category,EB-1,principal_exits_2009_2024,Historical,2250.0,catchall_60_65,primary,2030
+category,EB-2,age21_events_2009_2024,Historical,6171.0,catchall_60_65,primary,2030
+category,EB-2,principal_exits_2009_2024,Historical,68685.0,catchall_60_65,primary,2030
+category,EB-3,age21_events_2009_2024,Historical,9653.0,catchall_60_65,primary,2030
+category,EB-3,principal_exits_2009_2024,Historical,85234.0,catchall_60_65,primary,2030
+category,EB-4,age21_events_2009_2024,Historical,7191.0,catchall_60_65,primary,2030
+category,EB-4,principal_exits_2009_2024,Historical,81565.0,catchall_60_65,primary,2030
+category,EB-5,age21_events_2009_2024,Historical,211.0,catchall_60_65,primary,2030
+category,EB-5,principal_exits_2009_2024,Historical,1916.0,catchall_60_65,primary,2030
+overall,All,principal_backlog_2024,Historical,1148755.0,catchall_60_65,primary,2030
+nationality,India,principal_backlog_2024,Historical,594010.0,catchall_60_65,primary,2030
+nationality,China,principal_backlog_2024,Historical,141607.0,catchall_60_65,primary,2030
+nationality,ROW,principal_backlog_2024,Historical,413138.0,catchall_60_65,primary,2030
+category,EB-1,principal_backlog_2024,Historical,30852.0,catchall_60_65,primary,2030
+category,EB-2,principal_backlog_2024,Historical,507906.0,catchall_60_65,primary,2030
+category,EB-3,principal_backlog_2024,Historical,288005.0,catchall_60_65,primary,2030
+category,EB-4,principal_backlog_2024,Historical,301929.0,catchall_60_65,primary,2030
+category,EB-5,principal_backlog_2024,Historical,20063.0,catchall_60_65,primary,2030
+joint,EB-1 / India,principal_backlog_2024,Historical,18305.0,catchall_60_65,primary,2030
+joint,EB-1 / China,principal_backlog_2024,Historical,12547.0,catchall_60_65,primary,2030
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2030
+joint,EB-2 / India,principal_backlog_2024,Historical,392559.0,catchall_60_65,primary,2030
+joint,EB-2 / China,principal_backlog_2024,Historical,71495.0,catchall_60_65,primary,2030
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43852.0,catchall_60_65,primary,2030
+joint,EB-3 / India,principal_backlog_2024,Historical,174024.0,catchall_60_65,primary,2030
+joint,EB-3 / China,principal_backlog_2024,Historical,39766.0,catchall_60_65,primary,2030
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74215.0,catchall_60_65,primary,2030
+joint,EB-4 / India,principal_backlog_2024,Historical,6858.0,catchall_60_65,primary,2030
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2030
+joint,EB-4 / ROW,principal_backlog_2024,Historical,295071.0,catchall_60_65,primary,2030
+joint,EB-5 / India,principal_backlog_2024,Historical,2264.0,catchall_60_65,primary,2030
+joint,EB-5 / China,principal_backlog_2024,Historical,17799.0,catchall_60_65,primary,2030
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2030
+overall,All,age21_events_2009_2024,Historical,23256.0,catchall_60_65,primary,2031
+overall,All,principal_exits_2009_2024,Historical,238983.0,catchall_60_65,primary,2031
+nationality,India,age21_events_2009_2024,Historical,14162.0,catchall_60_65,primary,2031
+nationality,India,principal_exits_2009_2024,Historical,96175.0,catchall_60_65,primary,2031
+nationality,China,age21_events_2009_2024,Historical,2112.0,catchall_60_65,primary,2031
+nationality,China,principal_exits_2009_2024,Historical,32410.0,catchall_60_65,primary,2031
+nationality,ROW,age21_events_2009_2024,Historical,6982.0,catchall_60_65,primary,2031
+nationality,ROW,principal_exits_2009_2024,Historical,110398.0,catchall_60_65,primary,2031
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2031
+category,EB-1,principal_exits_2009_2024,Historical,2379.0,catchall_60_65,primary,2031
+category,EB-2,age21_events_2009_2024,Historical,6166.0,catchall_60_65,primary,2031
+category,EB-2,principal_exits_2009_2024,Historical,68884.0,catchall_60_65,primary,2031
+category,EB-3,age21_events_2009_2024,Historical,9700.0,catchall_60_65,primary,2031
+category,EB-3,principal_exits_2009_2024,Historical,84067.0,catchall_60_65,primary,2031
+category,EB-4,age21_events_2009_2024,Historical,7182.0,catchall_60_65,primary,2031
+category,EB-4,principal_exits_2009_2024,Historical,81768.0,catchall_60_65,primary,2031
+category,EB-5,age21_events_2009_2024,Historical,207.0,catchall_60_65,primary,2031
+category,EB-5,principal_exits_2009_2024,Historical,1885.0,catchall_60_65,primary,2031
+overall,All,principal_backlog_2024,Historical,1148299.0,catchall_60_65,primary,2031
+nationality,India,principal_backlog_2024,Historical,594015.0,catchall_60_65,primary,2031
+nationality,China,principal_backlog_2024,Historical,142696.0,catchall_60_65,primary,2031
+nationality,ROW,principal_backlog_2024,Historical,411588.0,catchall_60_65,primary,2031
+category,EB-1,principal_backlog_2024,Historical,31443.0,catchall_60_65,primary,2031
+category,EB-2,principal_backlog_2024,Historical,507597.0,catchall_60_65,primary,2031
+category,EB-3,principal_backlog_2024,Historical,287873.0,catchall_60_65,primary,2031
+category,EB-4,principal_backlog_2024,Historical,301471.0,catchall_60_65,primary,2031
+category,EB-5,principal_backlog_2024,Historical,19915.0,catchall_60_65,primary,2031
+joint,EB-1 / India,principal_backlog_2024,Historical,18671.0,catchall_60_65,primary,2031
+joint,EB-1 / China,principal_backlog_2024,Historical,12772.0,catchall_60_65,primary,2031
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2031
+joint,EB-2 / India,principal_backlog_2024,Historical,391866.0,catchall_60_65,primary,2031
+joint,EB-2 / China,principal_backlog_2024,Historical,71825.0,catchall_60_65,primary,2031
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43906.0,catchall_60_65,primary,2031
+joint,EB-3 / India,principal_backlog_2024,Historical,173997.0,catchall_60_65,primary,2031
+joint,EB-3 / China,principal_backlog_2024,Historical,40317.0,catchall_60_65,primary,2031
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73559.0,catchall_60_65,primary,2031
+joint,EB-4 / India,principal_backlog_2024,Historical,7348.0,catchall_60_65,primary,2031
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2031
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294123.0,catchall_60_65,primary,2031
+joint,EB-5 / India,principal_backlog_2024,Historical,2133.0,catchall_60_65,primary,2031
+joint,EB-5 / China,principal_backlog_2024,Historical,17782.0,catchall_60_65,primary,2031
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2031
+overall,All,age21_events_2009_2024,Historical,23150.0,catchall_60_65,primary,2032
+overall,All,principal_exits_2009_2024,Historical,239524.0,catchall_60_65,primary,2032
+nationality,India,age21_events_2009_2024,Historical,14093.0,catchall_60_65,primary,2032
+nationality,India,principal_exits_2009_2024,Historical,96839.0,catchall_60_65,primary,2032
+nationality,China,age21_events_2009_2024,Historical,2102.0,catchall_60_65,primary,2032
+nationality,China,principal_exits_2009_2024,Historical,32380.0,catchall_60_65,primary,2032
+nationality,ROW,age21_events_2009_2024,Historical,6955.0,catchall_60_65,primary,2032
+nationality,ROW,principal_exits_2009_2024,Historical,110305.0,catchall_60_65,primary,2032
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2032
+category,EB-1,principal_exits_2009_2024,Historical,2250.0,catchall_60_65,primary,2032
+category,EB-2,age21_events_2009_2024,Historical,6294.0,catchall_60_65,primary,2032
+category,EB-2,principal_exits_2009_2024,Historical,68744.0,catchall_60_65,primary,2032
+category,EB-3,age21_events_2009_2024,Historical,9469.0,catchall_60_65,primary,2032
+category,EB-3,principal_exits_2009_2024,Historical,84708.0,catchall_60_65,primary,2032
+category,EB-4,age21_events_2009_2024,Historical,7156.0,catchall_60_65,primary,2032
+category,EB-4,principal_exits_2009_2024,Historical,81863.0,catchall_60_65,primary,2032
+category,EB-5,age21_events_2009_2024,Historical,230.0,catchall_60_65,primary,2032
+category,EB-5,principal_exits_2009_2024,Historical,1959.0,catchall_60_65,primary,2032
+overall,All,principal_backlog_2024,Historical,1148290.0,catchall_60_65,primary,2032
+nationality,India,principal_backlog_2024,Historical,593944.0,catchall_60_65,primary,2032
+nationality,China,principal_backlog_2024,Historical,142490.0,catchall_60_65,primary,2032
+nationality,ROW,principal_backlog_2024,Historical,411856.0,catchall_60_65,primary,2032
+category,EB-1,principal_backlog_2024,Historical,31238.0,catchall_60_65,primary,2032
+category,EB-2,principal_backlog_2024,Historical,507361.0,catchall_60_65,primary,2032
+category,EB-3,principal_backlog_2024,Historical,288080.0,catchall_60_65,primary,2032
+category,EB-4,principal_backlog_2024,Historical,301673.0,catchall_60_65,primary,2032
+category,EB-5,principal_backlog_2024,Historical,19938.0,catchall_60_65,primary,2032
+joint,EB-1 / India,principal_backlog_2024,Historical,18700.0,catchall_60_65,primary,2032
+joint,EB-1 / China,principal_backlog_2024,Historical,12538.0,catchall_60_65,primary,2032
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2032
+joint,EB-2 / India,principal_backlog_2024,Historical,391771.0,catchall_60_65,primary,2032
+joint,EB-2 / China,principal_backlog_2024,Historical,71763.0,catchall_60_65,primary,2032
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43827.0,catchall_60_65,primary,2032
+joint,EB-3 / India,principal_backlog_2024,Historical,174128.0,catchall_60_65,primary,2032
+joint,EB-3 / China,principal_backlog_2024,Historical,40473.0,catchall_60_65,primary,2032
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73479.0,catchall_60_65,primary,2032
+joint,EB-4 / India,principal_backlog_2024,Historical,7123.0,catchall_60_65,primary,2032
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2032
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294550.0,catchall_60_65,primary,2032
+joint,EB-5 / India,principal_backlog_2024,Historical,2222.0,catchall_60_65,primary,2032
+joint,EB-5 / China,principal_backlog_2024,Historical,17716.0,catchall_60_65,primary,2032
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2032
+overall,All,age21_events_2009_2024,Historical,23317.0,catchall_60_65,primary,2033
+overall,All,principal_exits_2009_2024,Historical,239408.0,catchall_60_65,primary,2033
+nationality,India,age21_events_2009_2024,Historical,14247.0,catchall_60_65,primary,2033
+nationality,India,principal_exits_2009_2024,Historical,95973.0,catchall_60_65,primary,2033
+nationality,China,age21_events_2009_2024,Historical,2043.0,catchall_60_65,primary,2033
+nationality,China,principal_exits_2009_2024,Historical,32507.0,catchall_60_65,primary,2033
+nationality,ROW,age21_events_2009_2024,Historical,7027.0,catchall_60_65,primary,2033
+nationality,ROW,principal_exits_2009_2024,Historical,110928.0,catchall_60_65,primary,2033
+category,EB-1,age21_events_2009_2024,Historical,4.0,catchall_60_65,primary,2033
+category,EB-1,principal_exits_2009_2024,Historical,2320.0,catchall_60_65,primary,2033
+category,EB-2,age21_events_2009_2024,Historical,6325.0,catchall_60_65,primary,2033
+category,EB-2,principal_exits_2009_2024,Historical,68307.0,catchall_60_65,primary,2033
+category,EB-3,age21_events_2009_2024,Historical,9571.0,catchall_60_65,primary,2033
+category,EB-3,principal_exits_2009_2024,Historical,84533.0,catchall_60_65,primary,2033
+category,EB-4,age21_events_2009_2024,Historical,7217.0,catchall_60_65,primary,2033
+category,EB-4,principal_exits_2009_2024,Historical,82284.0,catchall_60_65,primary,2033
+category,EB-5,age21_events_2009_2024,Historical,200.0,catchall_60_65,primary,2033
+category,EB-5,principal_exits_2009_2024,Historical,1964.0,catchall_60_65,primary,2033
+overall,All,principal_backlog_2024,Historical,1148245.0,catchall_60_65,primary,2033
+nationality,India,principal_backlog_2024,Historical,594036.0,catchall_60_65,primary,2033
+nationality,China,principal_backlog_2024,Historical,142562.0,catchall_60_65,primary,2033
+nationality,ROW,principal_backlog_2024,Historical,411647.0,catchall_60_65,primary,2033
+category,EB-1,principal_backlog_2024,Historical,31438.0,catchall_60_65,primary,2033
+category,EB-2,principal_backlog_2024,Historical,507612.0,catchall_60_65,primary,2033
+category,EB-3,principal_backlog_2024,Historical,287983.0,catchall_60_65,primary,2033
+category,EB-4,principal_backlog_2024,Historical,301215.0,catchall_60_65,primary,2033
+category,EB-5,principal_backlog_2024,Historical,19997.0,catchall_60_65,primary,2033
+joint,EB-1 / India,principal_backlog_2024,Historical,18662.0,catchall_60_65,primary,2033
+joint,EB-1 / China,principal_backlog_2024,Historical,12776.0,catchall_60_65,primary,2033
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2033
+joint,EB-2 / India,principal_backlog_2024,Historical,392131.0,catchall_60_65,primary,2033
+joint,EB-2 / China,principal_backlog_2024,Historical,71696.0,catchall_60_65,primary,2033
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43785.0,catchall_60_65,primary,2033
+joint,EB-3 / India,principal_backlog_2024,Historical,173843.0,catchall_60_65,primary,2033
+joint,EB-3 / China,principal_backlog_2024,Historical,40303.0,catchall_60_65,primary,2033
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73837.0,catchall_60_65,primary,2033
+joint,EB-4 / India,principal_backlog_2024,Historical,7190.0,catchall_60_65,primary,2033
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2033
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294025.0,catchall_60_65,primary,2033
+joint,EB-5 / India,principal_backlog_2024,Historical,2210.0,catchall_60_65,primary,2033
+joint,EB-5 / China,principal_backlog_2024,Historical,17787.0,catchall_60_65,primary,2033
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2033
+overall,All,age21_events_2009_2024,Historical,23783.0,catchall_60_65,primary,2034
+overall,All,principal_exits_2009_2024,Historical,239020.0,catchall_60_65,primary,2034
+nationality,India,age21_events_2009_2024,Historical,14362.0,catchall_60_65,primary,2034
+nationality,India,principal_exits_2009_2024,Historical,95961.0,catchall_60_65,primary,2034
+nationality,China,age21_events_2009_2024,Historical,2176.0,catchall_60_65,primary,2034
+nationality,China,principal_exits_2009_2024,Historical,32489.0,catchall_60_65,primary,2034
+nationality,ROW,age21_events_2009_2024,Historical,7245.0,catchall_60_65,primary,2034
+nationality,ROW,principal_exits_2009_2024,Historical,110570.0,catchall_60_65,primary,2034
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2034
+category,EB-1,principal_exits_2009_2024,Historical,2501.0,catchall_60_65,primary,2034
+category,EB-2,age21_events_2009_2024,Historical,6446.0,catchall_60_65,primary,2034
+category,EB-2,principal_exits_2009_2024,Historical,68287.0,catchall_60_65,primary,2034
+category,EB-3,age21_events_2009_2024,Historical,9710.0,catchall_60_65,primary,2034
+category,EB-3,principal_exits_2009_2024,Historical,84628.0,catchall_60_65,primary,2034
+category,EB-4,age21_events_2009_2024,Historical,7406.0,catchall_60_65,primary,2034
+category,EB-4,principal_exits_2009_2024,Historical,81643.0,catchall_60_65,primary,2034
+category,EB-5,age21_events_2009_2024,Historical,219.0,catchall_60_65,primary,2034
+category,EB-5,principal_exits_2009_2024,Historical,1961.0,catchall_60_65,primary,2034
+overall,All,principal_backlog_2024,Historical,1149776.0,catchall_60_65,primary,2034
+nationality,India,principal_backlog_2024,Historical,594676.0,catchall_60_65,primary,2034
+nationality,China,principal_backlog_2024,Historical,142367.0,catchall_60_65,primary,2034
+nationality,ROW,principal_backlog_2024,Historical,412733.0,catchall_60_65,primary,2034
+category,EB-1,principal_backlog_2024,Historical,31571.0,catchall_60_65,primary,2034
+category,EB-2,principal_backlog_2024,Historical,508221.0,catchall_60_65,primary,2034
+category,EB-3,principal_backlog_2024,Historical,287931.0,catchall_60_65,primary,2034
+category,EB-4,principal_backlog_2024,Historical,302140.0,catchall_60_65,primary,2034
+category,EB-5,principal_backlog_2024,Historical,19913.0,catchall_60_65,primary,2034
+joint,EB-1 / India,principal_backlog_2024,Historical,18864.0,catchall_60_65,primary,2034
+joint,EB-1 / China,principal_backlog_2024,Historical,12707.0,catchall_60_65,primary,2034
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2034
+joint,EB-2 / India,principal_backlog_2024,Historical,392350.0,catchall_60_65,primary,2034
+joint,EB-2 / China,principal_backlog_2024,Historical,71790.0,catchall_60_65,primary,2034
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44081.0,catchall_60_65,primary,2034
+joint,EB-3 / India,principal_backlog_2024,Historical,174158.0,catchall_60_65,primary,2034
+joint,EB-3 / China,principal_backlog_2024,Historical,40153.0,catchall_60_65,primary,2034
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73620.0,catchall_60_65,primary,2034
+joint,EB-4 / India,principal_backlog_2024,Historical,7108.0,catchall_60_65,primary,2034
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2034
+joint,EB-4 / ROW,principal_backlog_2024,Historical,295032.0,catchall_60_65,primary,2034
+joint,EB-5 / India,principal_backlog_2024,Historical,2196.0,catchall_60_65,primary,2034
+joint,EB-5 / China,principal_backlog_2024,Historical,17717.0,catchall_60_65,primary,2034
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2034
+overall,All,age21_events_2009_2024,Historical,22812.0,catchall_60_65,primary,2035
+overall,All,principal_exits_2009_2024,Historical,239645.0,catchall_60_65,primary,2035
+nationality,India,age21_events_2009_2024,Historical,14051.0,catchall_60_65,primary,2035
+nationality,India,principal_exits_2009_2024,Historical,96415.0,catchall_60_65,primary,2035
+nationality,China,age21_events_2009_2024,Historical,2070.0,catchall_60_65,primary,2035
+nationality,China,principal_exits_2009_2024,Historical,32516.0,catchall_60_65,primary,2035
+nationality,ROW,age21_events_2009_2024,Historical,6691.0,catchall_60_65,primary,2035
+nationality,ROW,principal_exits_2009_2024,Historical,110714.0,catchall_60_65,primary,2035
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2035
+category,EB-1,principal_exits_2009_2024,Historical,2347.0,catchall_60_65,primary,2035
+category,EB-2,age21_events_2009_2024,Historical,6277.0,catchall_60_65,primary,2035
+category,EB-2,principal_exits_2009_2024,Historical,68503.0,catchall_60_65,primary,2035
+category,EB-3,age21_events_2009_2024,Historical,9446.0,catchall_60_65,primary,2035
+category,EB-3,principal_exits_2009_2024,Historical,85299.0,catchall_60_65,primary,2035
+category,EB-4,age21_events_2009_2024,Historical,6860.0,catchall_60_65,primary,2035
+category,EB-4,principal_exits_2009_2024,Historical,81591.0,catchall_60_65,primary,2035
+category,EB-5,age21_events_2009_2024,Historical,228.0,catchall_60_65,primary,2035
+category,EB-5,principal_exits_2009_2024,Historical,1905.0,catchall_60_65,primary,2035
+overall,All,principal_backlog_2024,Historical,1148489.0,catchall_60_65,primary,2035
+nationality,India,principal_backlog_2024,Historical,594097.0,catchall_60_65,primary,2035
+nationality,China,principal_backlog_2024,Historical,142583.0,catchall_60_65,primary,2035
+nationality,ROW,principal_backlog_2024,Historical,411809.0,catchall_60_65,primary,2035
+category,EB-1,principal_backlog_2024,Historical,31427.0,catchall_60_65,primary,2035
+category,EB-2,principal_backlog_2024,Historical,507984.0,catchall_60_65,primary,2035
+category,EB-3,principal_backlog_2024,Historical,287042.0,catchall_60_65,primary,2035
+category,EB-4,principal_backlog_2024,Historical,301933.0,catchall_60_65,primary,2035
+category,EB-5,principal_backlog_2024,Historical,20103.0,catchall_60_65,primary,2035
+joint,EB-1 / India,principal_backlog_2024,Historical,18829.0,catchall_60_65,primary,2035
+joint,EB-1 / China,principal_backlog_2024,Historical,12598.0,catchall_60_65,primary,2035
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2035
+joint,EB-2 / India,principal_backlog_2024,Historical,392414.0,catchall_60_65,primary,2035
+joint,EB-2 / China,principal_backlog_2024,Historical,71837.0,catchall_60_65,primary,2035
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43733.0,catchall_60_65,primary,2035
+joint,EB-3 / India,principal_backlog_2024,Historical,173504.0,catchall_60_65,primary,2035
+joint,EB-3 / China,principal_backlog_2024,Historical,40200.0,catchall_60_65,primary,2035
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73338.0,catchall_60_65,primary,2035
+joint,EB-4 / India,principal_backlog_2024,Historical,7195.0,catchall_60_65,primary,2035
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2035
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294738.0,catchall_60_65,primary,2035
+joint,EB-5 / India,principal_backlog_2024,Historical,2155.0,catchall_60_65,primary,2035
+joint,EB-5 / China,principal_backlog_2024,Historical,17948.0,catchall_60_65,primary,2035
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2035
+overall,All,age21_events_2009_2024,Historical,23249.0,catchall_60_65,primary,2036
+overall,All,principal_exits_2009_2024,Historical,239069.0,catchall_60_65,primary,2036
+nationality,India,age21_events_2009_2024,Historical,14418.0,catchall_60_65,primary,2036
+nationality,India,principal_exits_2009_2024,Historical,96268.0,catchall_60_65,primary,2036
+nationality,China,age21_events_2009_2024,Historical,1969.0,catchall_60_65,primary,2036
+nationality,China,principal_exits_2009_2024,Historical,32193.0,catchall_60_65,primary,2036
+nationality,ROW,age21_events_2009_2024,Historical,6862.0,catchall_60_65,primary,2036
+nationality,ROW,principal_exits_2009_2024,Historical,110608.0,catchall_60_65,primary,2036
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2036
+category,EB-1,principal_exits_2009_2024,Historical,2290.0,catchall_60_65,primary,2036
+category,EB-2,age21_events_2009_2024,Historical,6377.0,catchall_60_65,primary,2036
+category,EB-2,principal_exits_2009_2024,Historical,68411.0,catchall_60_65,primary,2036
+category,EB-3,age21_events_2009_2024,Historical,9609.0,catchall_60_65,primary,2036
+category,EB-3,principal_exits_2009_2024,Historical,84754.0,catchall_60_65,primary,2036
+category,EB-4,age21_events_2009_2024,Historical,7069.0,catchall_60_65,primary,2036
+category,EB-4,principal_exits_2009_2024,Historical,81668.0,catchall_60_65,primary,2036
+category,EB-5,age21_events_2009_2024,Historical,193.0,catchall_60_65,primary,2036
+category,EB-5,principal_exits_2009_2024,Historical,1946.0,catchall_60_65,primary,2036
+overall,All,principal_backlog_2024,Historical,1148846.0,catchall_60_65,primary,2036
+nationality,India,principal_backlog_2024,Historical,594941.0,catchall_60_65,primary,2036
+nationality,China,principal_backlog_2024,Historical,142555.0,catchall_60_65,primary,2036
+nationality,ROW,principal_backlog_2024,Historical,411350.0,catchall_60_65,primary,2036
+category,EB-1,principal_backlog_2024,Historical,31247.0,catchall_60_65,primary,2036
+category,EB-2,principal_backlog_2024,Historical,507706.0,catchall_60_65,primary,2036
+category,EB-3,principal_backlog_2024,Historical,288347.0,catchall_60_65,primary,2036
+category,EB-4,principal_backlog_2024,Historical,301483.0,catchall_60_65,primary,2036
+category,EB-5,principal_backlog_2024,Historical,20063.0,catchall_60_65,primary,2036
+joint,EB-1 / India,principal_backlog_2024,Historical,18609.0,catchall_60_65,primary,2036
+joint,EB-1 / China,principal_backlog_2024,Historical,12638.0,catchall_60_65,primary,2036
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2036
+joint,EB-2 / India,principal_backlog_2024,Historical,392692.0,catchall_60_65,primary,2036
+joint,EB-2 / China,principal_backlog_2024,Historical,72067.0,catchall_60_65,primary,2036
+joint,EB-2 / ROW,principal_backlog_2024,Historical,42947.0,catchall_60_65,primary,2036
+joint,EB-3 / India,principal_backlog_2024,Historical,174415.0,catchall_60_65,primary,2036
+joint,EB-3 / China,principal_backlog_2024,Historical,39937.0,catchall_60_65,primary,2036
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73995.0,catchall_60_65,primary,2036
+joint,EB-4 / India,principal_backlog_2024,Historical,7075.0,catchall_60_65,primary,2036
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2036
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294408.0,catchall_60_65,primary,2036
+joint,EB-5 / India,principal_backlog_2024,Historical,2150.0,catchall_60_65,primary,2036
+joint,EB-5 / China,principal_backlog_2024,Historical,17913.0,catchall_60_65,primary,2036
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2036
+overall,All,age21_events_2009_2024,Historical,22997.0,catchall_60_65,primary,2037
+overall,All,principal_exits_2009_2024,Historical,239031.0,catchall_60_65,primary,2037
+nationality,India,age21_events_2009_2024,Historical,14183.0,catchall_60_65,primary,2037
+nationality,India,principal_exits_2009_2024,Historical,96134.0,catchall_60_65,primary,2037
+nationality,China,age21_events_2009_2024,Historical,2066.0,catchall_60_65,primary,2037
+nationality,China,principal_exits_2009_2024,Historical,32145.0,catchall_60_65,primary,2037
+nationality,ROW,age21_events_2009_2024,Historical,6748.0,catchall_60_65,primary,2037
+nationality,ROW,principal_exits_2009_2024,Historical,110752.0,catchall_60_65,primary,2037
+category,EB-1,age21_events_2009_2024,Historical,0.0,catchall_60_65,primary,2037
+category,EB-1,principal_exits_2009_2024,Historical,2302.0,catchall_60_65,primary,2037
+category,EB-2,age21_events_2009_2024,Historical,6250.0,catchall_60_65,primary,2037
+category,EB-2,principal_exits_2009_2024,Historical,68416.0,catchall_60_65,primary,2037
+category,EB-3,age21_events_2009_2024,Historical,9604.0,catchall_60_65,primary,2037
+category,EB-3,principal_exits_2009_2024,Historical,84418.0,catchall_60_65,primary,2037
+category,EB-4,age21_events_2009_2024,Historical,6938.0,catchall_60_65,primary,2037
+category,EB-4,principal_exits_2009_2024,Historical,82022.0,catchall_60_65,primary,2037
+category,EB-5,age21_events_2009_2024,Historical,205.0,catchall_60_65,primary,2037
+category,EB-5,principal_exits_2009_2024,Historical,1873.0,catchall_60_65,primary,2037
+overall,All,principal_backlog_2024,Historical,1148669.0,catchall_60_65,primary,2037
+nationality,India,principal_backlog_2024,Historical,593993.0,catchall_60_65,primary,2037
+nationality,China,principal_backlog_2024,Historical,143294.0,catchall_60_65,primary,2037
+nationality,ROW,principal_backlog_2024,Historical,411382.0,catchall_60_65,primary,2037
+category,EB-1,principal_backlog_2024,Historical,31474.0,catchall_60_65,primary,2037
+category,EB-2,principal_backlog_2024,Historical,507319.0,catchall_60_65,primary,2037
+category,EB-3,principal_backlog_2024,Historical,288394.0,catchall_60_65,primary,2037
+category,EB-4,principal_backlog_2024,Historical,301414.0,catchall_60_65,primary,2037
+category,EB-5,principal_backlog_2024,Historical,20068.0,catchall_60_65,primary,2037
+joint,EB-1 / India,principal_backlog_2024,Historical,18689.0,catchall_60_65,primary,2037
+joint,EB-1 / China,principal_backlog_2024,Historical,12785.0,catchall_60_65,primary,2037
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2037
+joint,EB-2 / India,principal_backlog_2024,Historical,392061.0,catchall_60_65,primary,2037
+joint,EB-2 / China,principal_backlog_2024,Historical,71834.0,catchall_60_65,primary,2037
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43424.0,catchall_60_65,primary,2037
+joint,EB-3 / India,principal_backlog_2024,Historical,174050.0,catchall_60_65,primary,2037
+joint,EB-3 / China,principal_backlog_2024,Historical,40699.0,catchall_60_65,primary,2037
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73645.0,catchall_60_65,primary,2037
+joint,EB-4 / India,principal_backlog_2024,Historical,7101.0,catchall_60_65,primary,2037
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2037
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294313.0,catchall_60_65,primary,2037
+joint,EB-5 / India,principal_backlog_2024,Historical,2092.0,catchall_60_65,primary,2037
+joint,EB-5 / China,principal_backlog_2024,Historical,17976.0,catchall_60_65,primary,2037
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2037
+overall,All,age21_events_2009_2024,Historical,23330.0,catchall_60_65,primary,2038
+overall,All,principal_exits_2009_2024,Historical,239304.0,catchall_60_65,primary,2038
+nationality,India,age21_events_2009_2024,Historical,14344.0,catchall_60_65,primary,2038
+nationality,India,principal_exits_2009_2024,Historical,96005.0,catchall_60_65,primary,2038
+nationality,China,age21_events_2009_2024,Historical,2024.0,catchall_60_65,primary,2038
+nationality,China,principal_exits_2009_2024,Historical,32427.0,catchall_60_65,primary,2038
+nationality,ROW,age21_events_2009_2024,Historical,6962.0,catchall_60_65,primary,2038
+nationality,ROW,principal_exits_2009_2024,Historical,110872.0,catchall_60_65,primary,2038
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2038
+category,EB-1,principal_exits_2009_2024,Historical,2328.0,catchall_60_65,primary,2038
+category,EB-2,age21_events_2009_2024,Historical,6171.0,catchall_60_65,primary,2038
+category,EB-2,principal_exits_2009_2024,Historical,68483.0,catchall_60_65,primary,2038
+category,EB-3,age21_events_2009_2024,Historical,9812.0,catchall_60_65,primary,2038
+category,EB-3,principal_exits_2009_2024,Historical,84835.0,catchall_60_65,primary,2038
+category,EB-4,age21_events_2009_2024,Historical,7126.0,catchall_60_65,primary,2038
+category,EB-4,principal_exits_2009_2024,Historical,81681.0,catchall_60_65,primary,2038
+category,EB-5,age21_events_2009_2024,Historical,218.0,catchall_60_65,primary,2038
+category,EB-5,principal_exits_2009_2024,Historical,1977.0,catchall_60_65,primary,2038
+overall,All,principal_backlog_2024,Historical,1147626.0,catchall_60_65,primary,2038
+nationality,India,principal_backlog_2024,Historical,593319.0,catchall_60_65,primary,2038
+nationality,China,principal_backlog_2024,Historical,142845.0,catchall_60_65,primary,2038
+nationality,ROW,principal_backlog_2024,Historical,411462.0,catchall_60_65,primary,2038
+category,EB-1,principal_backlog_2024,Historical,30901.0,catchall_60_65,primary,2038
+category,EB-2,principal_backlog_2024,Historical,507146.0,catchall_60_65,primary,2038
+category,EB-3,principal_backlog_2024,Historical,287520.0,catchall_60_65,primary,2038
+category,EB-4,principal_backlog_2024,Historical,301929.0,catchall_60_65,primary,2038
+category,EB-5,principal_backlog_2024,Historical,20130.0,catchall_60_65,primary,2038
+joint,EB-1 / India,principal_backlog_2024,Historical,18316.0,catchall_60_65,primary,2038
+joint,EB-1 / China,principal_backlog_2024,Historical,12585.0,catchall_60_65,primary,2038
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2038
+joint,EB-2 / India,principal_backlog_2024,Historical,391807.0,catchall_60_65,primary,2038
+joint,EB-2 / China,principal_backlog_2024,Historical,71861.0,catchall_60_65,primary,2038
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43478.0,catchall_60_65,primary,2038
+joint,EB-3 / India,principal_backlog_2024,Historical,174082.0,catchall_60_65,primary,2038
+joint,EB-3 / China,principal_backlog_2024,Historical,40346.0,catchall_60_65,primary,2038
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73092.0,catchall_60_65,primary,2038
+joint,EB-4 / India,principal_backlog_2024,Historical,7037.0,catchall_60_65,primary,2038
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2038
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294892.0,catchall_60_65,primary,2038
+joint,EB-5 / India,principal_backlog_2024,Historical,2077.0,catchall_60_65,primary,2038
+joint,EB-5 / China,principal_backlog_2024,Historical,18053.0,catchall_60_65,primary,2038
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2038
+overall,All,age21_events_2009_2024,Historical,23357.0,catchall_60_65,primary,2039
+overall,All,principal_exits_2009_2024,Historical,239611.0,catchall_60_65,primary,2039
+nationality,India,age21_events_2009_2024,Historical,14135.0,catchall_60_65,primary,2039
+nationality,India,principal_exits_2009_2024,Historical,96270.0,catchall_60_65,primary,2039
+nationality,China,age21_events_2009_2024,Historical,2075.0,catchall_60_65,primary,2039
+nationality,China,principal_exits_2009_2024,Historical,32655.0,catchall_60_65,primary,2039
+nationality,ROW,age21_events_2009_2024,Historical,7147.0,catchall_60_65,primary,2039
+nationality,ROW,principal_exits_2009_2024,Historical,110686.0,catchall_60_65,primary,2039
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2039
+category,EB-1,principal_exits_2009_2024,Historical,2385.0,catchall_60_65,primary,2039
+category,EB-2,age21_events_2009_2024,Historical,6253.0,catchall_60_65,primary,2039
+category,EB-2,principal_exits_2009_2024,Historical,68386.0,catchall_60_65,primary,2039
+category,EB-3,age21_events_2009_2024,Historical,9576.0,catchall_60_65,primary,2039
+category,EB-3,principal_exits_2009_2024,Historical,85045.0,catchall_60_65,primary,2039
+category,EB-4,age21_events_2009_2024,Historical,7313.0,catchall_60_65,primary,2039
+category,EB-4,principal_exits_2009_2024,Historical,81901.0,catchall_60_65,primary,2039
+category,EB-5,age21_events_2009_2024,Historical,214.0,catchall_60_65,primary,2039
+category,EB-5,principal_exits_2009_2024,Historical,1894.0,catchall_60_65,primary,2039
+overall,All,principal_backlog_2024,Historical,1147840.0,catchall_60_65,primary,2039
+nationality,India,principal_backlog_2024,Historical,592984.0,catchall_60_65,primary,2039
+nationality,China,principal_backlog_2024,Historical,142651.0,catchall_60_65,primary,2039
+nationality,ROW,principal_backlog_2024,Historical,412205.0,catchall_60_65,primary,2039
+category,EB-1,principal_backlog_2024,Historical,31398.0,catchall_60_65,primary,2039
+category,EB-2,principal_backlog_2024,Historical,507231.0,catchall_60_65,primary,2039
+category,EB-3,principal_backlog_2024,Historical,287644.0,catchall_60_65,primary,2039
+category,EB-4,principal_backlog_2024,Historical,301481.0,catchall_60_65,primary,2039
+category,EB-5,principal_backlog_2024,Historical,20086.0,catchall_60_65,primary,2039
+joint,EB-1 / India,principal_backlog_2024,Historical,18632.0,catchall_60_65,primary,2039
+joint,EB-1 / China,principal_backlog_2024,Historical,12766.0,catchall_60_65,primary,2039
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2039
+joint,EB-2 / India,principal_backlog_2024,Historical,391780.0,catchall_60_65,primary,2039
+joint,EB-2 / China,principal_backlog_2024,Historical,71812.0,catchall_60_65,primary,2039
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43639.0,catchall_60_65,primary,2039
+joint,EB-3 / India,principal_backlog_2024,Historical,173294.0,catchall_60_65,primary,2039
+joint,EB-3 / China,principal_backlog_2024,Historical,40085.0,catchall_60_65,primary,2039
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74265.0,catchall_60_65,primary,2039
+joint,EB-4 / India,principal_backlog_2024,Historical,7180.0,catchall_60_65,primary,2039
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2039
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294301.0,catchall_60_65,primary,2039
+joint,EB-5 / India,principal_backlog_2024,Historical,2098.0,catchall_60_65,primary,2039
+joint,EB-5 / China,principal_backlog_2024,Historical,17988.0,catchall_60_65,primary,2039
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2039
+overall,All,age21_events_2009_2024,Historical,23096.0,catchall_60_65,primary,2040
+overall,All,principal_exits_2009_2024,Historical,239287.0,catchall_60_65,primary,2040
+nationality,India,age21_events_2009_2024,Historical,14043.0,catchall_60_65,primary,2040
+nationality,India,principal_exits_2009_2024,Historical,96072.0,catchall_60_65,primary,2040
+nationality,China,age21_events_2009_2024,Historical,2110.0,catchall_60_65,primary,2040
+nationality,China,principal_exits_2009_2024,Historical,32436.0,catchall_60_65,primary,2040
+nationality,ROW,age21_events_2009_2024,Historical,6943.0,catchall_60_65,primary,2040
+nationality,ROW,principal_exits_2009_2024,Historical,110779.0,catchall_60_65,primary,2040
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2040
+category,EB-1,principal_exits_2009_2024,Historical,2338.0,catchall_60_65,primary,2040
+category,EB-2,age21_events_2009_2024,Historical,6307.0,catchall_60_65,primary,2040
+category,EB-2,principal_exits_2009_2024,Historical,68161.0,catchall_60_65,primary,2040
+category,EB-3,age21_events_2009_2024,Historical,9440.0,catchall_60_65,primary,2040
+category,EB-3,principal_exits_2009_2024,Historical,84685.0,catchall_60_65,primary,2040
+category,EB-4,age21_events_2009_2024,Historical,7140.0,catchall_60_65,primary,2040
+category,EB-4,principal_exits_2009_2024,Historical,82132.0,catchall_60_65,primary,2040
+category,EB-5,age21_events_2009_2024,Historical,207.0,catchall_60_65,primary,2040
+category,EB-5,principal_exits_2009_2024,Historical,1971.0,catchall_60_65,primary,2040
+overall,All,principal_backlog_2024,Historical,1148796.0,catchall_60_65,primary,2040
+nationality,India,principal_backlog_2024,Historical,594511.0,catchall_60_65,primary,2040
+nationality,China,principal_backlog_2024,Historical,142254.0,catchall_60_65,primary,2040
+nationality,ROW,principal_backlog_2024,Historical,412031.0,catchall_60_65,primary,2040
+category,EB-1,principal_backlog_2024,Historical,31694.0,catchall_60_65,primary,2040
+category,EB-2,principal_backlog_2024,Historical,508153.0,catchall_60_65,primary,2040
+category,EB-3,principal_backlog_2024,Historical,287729.0,catchall_60_65,primary,2040
+category,EB-4,principal_backlog_2024,Historical,301309.0,catchall_60_65,primary,2040
+category,EB-5,principal_backlog_2024,Historical,19911.0,catchall_60_65,primary,2040
+joint,EB-1 / India,principal_backlog_2024,Historical,18856.0,catchall_60_65,primary,2040
+joint,EB-1 / China,principal_backlog_2024,Historical,12838.0,catchall_60_65,primary,2040
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2040
+joint,EB-2 / India,principal_backlog_2024,Historical,392541.0,catchall_60_65,primary,2040
+joint,EB-2 / China,principal_backlog_2024,Historical,71733.0,catchall_60_65,primary,2040
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43879.0,catchall_60_65,primary,2040
+joint,EB-3 / India,principal_backlog_2024,Historical,173866.0,catchall_60_65,primary,2040
+joint,EB-3 / China,principal_backlog_2024,Historical,39914.0,catchall_60_65,primary,2040
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73949.0,catchall_60_65,primary,2040
+joint,EB-4 / India,principal_backlog_2024,Historical,7106.0,catchall_60_65,primary,2040
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2040
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294203.0,catchall_60_65,primary,2040
+joint,EB-5 / India,principal_backlog_2024,Historical,2142.0,catchall_60_65,primary,2040
+joint,EB-5 / China,principal_backlog_2024,Historical,17769.0,catchall_60_65,primary,2040
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2040
+overall,All,age21_events_2009_2024,Historical,23413.0,catchall_60_65,primary,2041
+overall,All,principal_exits_2009_2024,Historical,239138.0,catchall_60_65,primary,2041
+nationality,India,age21_events_2009_2024,Historical,14266.0,catchall_60_65,primary,2041
+nationality,India,principal_exits_2009_2024,Historical,96380.0,catchall_60_65,primary,2041
+nationality,China,age21_events_2009_2024,Historical,2128.0,catchall_60_65,primary,2041
+nationality,China,principal_exits_2009_2024,Historical,32125.0,catchall_60_65,primary,2041
+nationality,ROW,age21_events_2009_2024,Historical,7019.0,catchall_60_65,primary,2041
+nationality,ROW,principal_exits_2009_2024,Historical,110633.0,catchall_60_65,primary,2041
+category,EB-1,age21_events_2009_2024,Historical,4.0,catchall_60_65,primary,2041
+category,EB-1,principal_exits_2009_2024,Historical,2326.0,catchall_60_65,primary,2041
+category,EB-2,age21_events_2009_2024,Historical,6304.0,catchall_60_65,primary,2041
+category,EB-2,principal_exits_2009_2024,Historical,68206.0,catchall_60_65,primary,2041
+category,EB-3,age21_events_2009_2024,Historical,9693.0,catchall_60_65,primary,2041
+category,EB-3,principal_exits_2009_2024,Historical,84714.0,catchall_60_65,primary,2041
+category,EB-4,age21_events_2009_2024,Historical,7217.0,catchall_60_65,primary,2041
+category,EB-4,principal_exits_2009_2024,Historical,81944.0,catchall_60_65,primary,2041
+category,EB-5,age21_events_2009_2024,Historical,195.0,catchall_60_65,primary,2041
+category,EB-5,principal_exits_2009_2024,Historical,1948.0,catchall_60_65,primary,2041
+overall,All,principal_backlog_2024,Historical,1148646.0,catchall_60_65,primary,2041
+nationality,India,principal_backlog_2024,Historical,594320.0,catchall_60_65,primary,2041
+nationality,China,principal_backlog_2024,Historical,142182.0,catchall_60_65,primary,2041
+nationality,ROW,principal_backlog_2024,Historical,412144.0,catchall_60_65,primary,2041
+category,EB-1,principal_backlog_2024,Historical,31499.0,catchall_60_65,primary,2041
+category,EB-2,principal_backlog_2024,Historical,507196.0,catchall_60_65,primary,2041
+category,EB-3,principal_backlog_2024,Historical,288089.0,catchall_60_65,primary,2041
+category,EB-4,principal_backlog_2024,Historical,301739.0,catchall_60_65,primary,2041
+category,EB-5,principal_backlog_2024,Historical,20123.0,catchall_60_65,primary,2041
+joint,EB-1 / India,principal_backlog_2024,Historical,18798.0,catchall_60_65,primary,2041
+joint,EB-1 / China,principal_backlog_2024,Historical,12701.0,catchall_60_65,primary,2041
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2041
+joint,EB-2 / India,principal_backlog_2024,Historical,392000.0,catchall_60_65,primary,2041
+joint,EB-2 / China,principal_backlog_2024,Historical,71517.0,catchall_60_65,primary,2041
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43679.0,catchall_60_65,primary,2041
+joint,EB-3 / India,principal_backlog_2024,Historical,174233.0,catchall_60_65,primary,2041
+joint,EB-3 / China,principal_backlog_2024,Historical,40074.0,catchall_60_65,primary,2041
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73782.0,catchall_60_65,primary,2041
+joint,EB-4 / India,principal_backlog_2024,Historical,7056.0,catchall_60_65,primary,2041
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2041
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294683.0,catchall_60_65,primary,2041
+joint,EB-5 / India,principal_backlog_2024,Historical,2233.0,catchall_60_65,primary,2041
+joint,EB-5 / China,principal_backlog_2024,Historical,17890.0,catchall_60_65,primary,2041
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2041
+overall,All,age21_events_2009_2024,Historical,23382.0,catchall_60_65,primary,2042
+overall,All,principal_exits_2009_2024,Historical,239487.0,catchall_60_65,primary,2042
+nationality,India,age21_events_2009_2024,Historical,14396.0,catchall_60_65,primary,2042
+nationality,India,principal_exits_2009_2024,Historical,96241.0,catchall_60_65,primary,2042
+nationality,China,age21_events_2009_2024,Historical,2114.0,catchall_60_65,primary,2042
+nationality,China,principal_exits_2009_2024,Historical,32393.0,catchall_60_65,primary,2042
+nationality,ROW,age21_events_2009_2024,Historical,6872.0,catchall_60_65,primary,2042
+nationality,ROW,principal_exits_2009_2024,Historical,110853.0,catchall_60_65,primary,2042
+category,EB-1,age21_events_2009_2024,Historical,0.0,catchall_60_65,primary,2042
+category,EB-1,principal_exits_2009_2024,Historical,2412.0,catchall_60_65,primary,2042
+category,EB-2,age21_events_2009_2024,Historical,6407.0,catchall_60_65,primary,2042
+category,EB-2,principal_exits_2009_2024,Historical,68559.0,catchall_60_65,primary,2042
+category,EB-3,age21_events_2009_2024,Historical,9617.0,catchall_60_65,primary,2042
+category,EB-3,principal_exits_2009_2024,Historical,84828.0,catchall_60_65,primary,2042
+category,EB-4,age21_events_2009_2024,Historical,7128.0,catchall_60_65,primary,2042
+category,EB-4,principal_exits_2009_2024,Historical,81731.0,catchall_60_65,primary,2042
+category,EB-5,age21_events_2009_2024,Historical,230.0,catchall_60_65,primary,2042
+category,EB-5,principal_exits_2009_2024,Historical,1957.0,catchall_60_65,primary,2042
+overall,All,principal_backlog_2024,Historical,1147615.0,catchall_60_65,primary,2042
+nationality,India,principal_backlog_2024,Historical,592863.0,catchall_60_65,primary,2042
+nationality,China,principal_backlog_2024,Historical,142060.0,catchall_60_65,primary,2042
+nationality,ROW,principal_backlog_2024,Historical,412692.0,catchall_60_65,primary,2042
+category,EB-1,principal_backlog_2024,Historical,30969.0,catchall_60_65,primary,2042
+category,EB-2,principal_backlog_2024,Historical,507066.0,catchall_60_65,primary,2042
+category,EB-3,principal_backlog_2024,Historical,287933.0,catchall_60_65,primary,2042
+category,EB-4,principal_backlog_2024,Historical,301675.0,catchall_60_65,primary,2042
+category,EB-5,principal_backlog_2024,Historical,19972.0,catchall_60_65,primary,2042
+joint,EB-1 / India,principal_backlog_2024,Historical,18342.0,catchall_60_65,primary,2042
+joint,EB-1 / China,principal_backlog_2024,Historical,12627.0,catchall_60_65,primary,2042
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2042
+joint,EB-2 / India,principal_backlog_2024,Historical,391394.0,catchall_60_65,primary,2042
+joint,EB-2 / China,principal_backlog_2024,Historical,71607.0,catchall_60_65,primary,2042
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44065.0,catchall_60_65,primary,2042
+joint,EB-3 / India,principal_backlog_2024,Historical,173661.0,catchall_60_65,primary,2042
+joint,EB-3 / China,principal_backlog_2024,Historical,40057.0,catchall_60_65,primary,2042
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74215.0,catchall_60_65,primary,2042
+joint,EB-4 / India,principal_backlog_2024,Historical,7263.0,catchall_60_65,primary,2042
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2042
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294412.0,catchall_60_65,primary,2042
+joint,EB-5 / India,principal_backlog_2024,Historical,2203.0,catchall_60_65,primary,2042
+joint,EB-5 / China,principal_backlog_2024,Historical,17769.0,catchall_60_65,primary,2042
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2042
+overall,All,age21_events_2009_2024,Historical,23476.0,catchall_60_65,primary,2043
+overall,All,principal_exits_2009_2024,Historical,239035.0,catchall_60_65,primary,2043
+nationality,India,age21_events_2009_2024,Historical,14402.0,catchall_60_65,primary,2043
+nationality,India,principal_exits_2009_2024,Historical,96250.0,catchall_60_65,primary,2043
+nationality,China,age21_events_2009_2024,Historical,2084.0,catchall_60_65,primary,2043
+nationality,China,principal_exits_2009_2024,Historical,32264.0,catchall_60_65,primary,2043
+nationality,ROW,age21_events_2009_2024,Historical,6990.0,catchall_60_65,primary,2043
+nationality,ROW,principal_exits_2009_2024,Historical,110521.0,catchall_60_65,primary,2043
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2043
+category,EB-1,principal_exits_2009_2024,Historical,2270.0,catchall_60_65,primary,2043
+category,EB-2,age21_events_2009_2024,Historical,6459.0,catchall_60_65,primary,2043
+category,EB-2,principal_exits_2009_2024,Historical,68171.0,catchall_60_65,primary,2043
+category,EB-3,age21_events_2009_2024,Historical,9618.0,catchall_60_65,primary,2043
+category,EB-3,principal_exits_2009_2024,Historical,84969.0,catchall_60_65,primary,2043
+category,EB-4,age21_events_2009_2024,Historical,7174.0,catchall_60_65,primary,2043
+category,EB-4,principal_exits_2009_2024,Historical,81715.0,catchall_60_65,primary,2043
+category,EB-5,age21_events_2009_2024,Historical,224.0,catchall_60_65,primary,2043
+category,EB-5,principal_exits_2009_2024,Historical,1910.0,catchall_60_65,primary,2043
+overall,All,principal_backlog_2024,Historical,1149214.0,catchall_60_65,primary,2043
+nationality,India,principal_backlog_2024,Historical,593807.0,catchall_60_65,primary,2043
+nationality,China,principal_backlog_2024,Historical,143015.0,catchall_60_65,primary,2043
+nationality,ROW,principal_backlog_2024,Historical,412392.0,catchall_60_65,primary,2043
+category,EB-1,principal_backlog_2024,Historical,31274.0,catchall_60_65,primary,2043
+category,EB-2,principal_backlog_2024,Historical,508273.0,catchall_60_65,primary,2043
+category,EB-3,principal_backlog_2024,Historical,287851.0,catchall_60_65,primary,2043
+category,EB-4,principal_backlog_2024,Historical,301709.0,catchall_60_65,primary,2043
+category,EB-5,principal_backlog_2024,Historical,20107.0,catchall_60_65,primary,2043
+joint,EB-1 / India,principal_backlog_2024,Historical,18643.0,catchall_60_65,primary,2043
+joint,EB-1 / China,principal_backlog_2024,Historical,12631.0,catchall_60_65,primary,2043
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2043
+joint,EB-2 / India,principal_backlog_2024,Historical,392182.0,catchall_60_65,primary,2043
+joint,EB-2 / China,principal_backlog_2024,Historical,72175.0,catchall_60_65,primary,2043
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43916.0,catchall_60_65,primary,2043
+joint,EB-3 / India,principal_backlog_2024,Historical,173664.0,catchall_60_65,primary,2043
+joint,EB-3 / China,principal_backlog_2024,Historical,40302.0,catchall_60_65,primary,2043
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73885.0,catchall_60_65,primary,2043
+joint,EB-4 / India,principal_backlog_2024,Historical,7118.0,catchall_60_65,primary,2043
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2043
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294591.0,catchall_60_65,primary,2043
+joint,EB-5 / India,principal_backlog_2024,Historical,2200.0,catchall_60_65,primary,2043
+joint,EB-5 / China,principal_backlog_2024,Historical,17907.0,catchall_60_65,primary,2043
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2043
+overall,All,age21_events_2009_2024,Historical,23421.0,catchall_60_65,primary,2044
+overall,All,principal_exits_2009_2024,Historical,238992.0,catchall_60_65,primary,2044
+nationality,India,age21_events_2009_2024,Historical,14464.0,catchall_60_65,primary,2044
+nationality,India,principal_exits_2009_2024,Historical,96169.0,catchall_60_65,primary,2044
+nationality,China,age21_events_2009_2024,Historical,2076.0,catchall_60_65,primary,2044
+nationality,China,principal_exits_2009_2024,Historical,32148.0,catchall_60_65,primary,2044
+nationality,ROW,age21_events_2009_2024,Historical,6881.0,catchall_60_65,primary,2044
+nationality,ROW,principal_exits_2009_2024,Historical,110675.0,catchall_60_65,primary,2044
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2044
+category,EB-1,principal_exits_2009_2024,Historical,2280.0,catchall_60_65,primary,2044
+category,EB-2,age21_events_2009_2024,Historical,6530.0,catchall_60_65,primary,2044
+category,EB-2,principal_exits_2009_2024,Historical,68470.0,catchall_60_65,primary,2044
+category,EB-3,age21_events_2009_2024,Historical,9579.0,catchall_60_65,primary,2044
+category,EB-3,principal_exits_2009_2024,Historical,84804.0,catchall_60_65,primary,2044
+category,EB-4,age21_events_2009_2024,Historical,7093.0,catchall_60_65,primary,2044
+category,EB-4,principal_exits_2009_2024,Historical,81557.0,catchall_60_65,primary,2044
+category,EB-5,age21_events_2009_2024,Historical,218.0,catchall_60_65,primary,2044
+category,EB-5,principal_exits_2009_2024,Historical,1881.0,catchall_60_65,primary,2044
+overall,All,principal_backlog_2024,Historical,1149651.0,catchall_60_65,primary,2044
+nationality,India,principal_backlog_2024,Historical,594203.0,catchall_60_65,primary,2044
+nationality,China,principal_backlog_2024,Historical,142617.0,catchall_60_65,primary,2044
+nationality,ROW,principal_backlog_2024,Historical,412831.0,catchall_60_65,primary,2044
+category,EB-1,principal_backlog_2024,Historical,31779.0,catchall_60_65,primary,2044
+category,EB-2,principal_backlog_2024,Historical,507841.0,catchall_60_65,primary,2044
+category,EB-3,principal_backlog_2024,Historical,288017.0,catchall_60_65,primary,2044
+category,EB-4,principal_backlog_2024,Historical,301960.0,catchall_60_65,primary,2044
+category,EB-5,principal_backlog_2024,Historical,20054.0,catchall_60_65,primary,2044
+joint,EB-1 / India,principal_backlog_2024,Historical,19032.0,catchall_60_65,primary,2044
+joint,EB-1 / China,principal_backlog_2024,Historical,12747.0,catchall_60_65,primary,2044
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2044
+joint,EB-2 / India,principal_backlog_2024,Historical,391788.0,catchall_60_65,primary,2044
+joint,EB-2 / China,principal_backlog_2024,Historical,71750.0,catchall_60_65,primary,2044
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44303.0,catchall_60_65,primary,2044
+joint,EB-3 / India,principal_backlog_2024,Historical,174111.0,catchall_60_65,primary,2044
+joint,EB-3 / China,principal_backlog_2024,Historical,40174.0,catchall_60_65,primary,2044
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73732.0,catchall_60_65,primary,2044
+joint,EB-4 / India,principal_backlog_2024,Historical,7164.0,catchall_60_65,primary,2044
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2044
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294796.0,catchall_60_65,primary,2044
+joint,EB-5 / India,principal_backlog_2024,Historical,2108.0,catchall_60_65,primary,2044
+joint,EB-5 / China,principal_backlog_2024,Historical,17946.0,catchall_60_65,primary,2044
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2044
+overall,All,age21_events_2009_2024,Historical,23350.0,catchall_60_65,primary,2045
+overall,All,principal_exits_2009_2024,Historical,238875.0,catchall_60_65,primary,2045
+nationality,India,age21_events_2009_2024,Historical,14149.0,catchall_60_65,primary,2045
+nationality,India,principal_exits_2009_2024,Historical,96321.0,catchall_60_65,primary,2045
+nationality,China,age21_events_2009_2024,Historical,2166.0,catchall_60_65,primary,2045
+nationality,China,principal_exits_2009_2024,Historical,32359.0,catchall_60_65,primary,2045
+nationality,ROW,age21_events_2009_2024,Historical,7035.0,catchall_60_65,primary,2045
+nationality,ROW,principal_exits_2009_2024,Historical,110195.0,catchall_60_65,primary,2045
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2045
+category,EB-1,principal_exits_2009_2024,Historical,2420.0,catchall_60_65,primary,2045
+category,EB-2,age21_events_2009_2024,Historical,6217.0,catchall_60_65,primary,2045
+category,EB-2,principal_exits_2009_2024,Historical,68483.0,catchall_60_65,primary,2045
+category,EB-3,age21_events_2009_2024,Historical,9720.0,catchall_60_65,primary,2045
+category,EB-3,principal_exits_2009_2024,Historical,84180.0,catchall_60_65,primary,2045
+category,EB-4,age21_events_2009_2024,Historical,7170.0,catchall_60_65,primary,2045
+category,EB-4,principal_exits_2009_2024,Historical,81834.0,catchall_60_65,primary,2045
+category,EB-5,age21_events_2009_2024,Historical,240.0,catchall_60_65,primary,2045
+category,EB-5,principal_exits_2009_2024,Historical,1958.0,catchall_60_65,primary,2045
+overall,All,principal_backlog_2024,Historical,1149040.0,catchall_60_65,primary,2045
+nationality,India,principal_backlog_2024,Historical,595619.0,catchall_60_65,primary,2045
+nationality,China,principal_backlog_2024,Historical,143168.0,catchall_60_65,primary,2045
+nationality,ROW,principal_backlog_2024,Historical,410253.0,catchall_60_65,primary,2045
+category,EB-1,principal_backlog_2024,Historical,31419.0,catchall_60_65,primary,2045
+category,EB-2,principal_backlog_2024,Historical,507478.0,catchall_60_65,primary,2045
+category,EB-3,principal_backlog_2024,Historical,288113.0,catchall_60_65,primary,2045
+category,EB-4,principal_backlog_2024,Historical,301775.0,catchall_60_65,primary,2045
+category,EB-5,principal_backlog_2024,Historical,20255.0,catchall_60_65,primary,2045
+joint,EB-1 / India,principal_backlog_2024,Historical,18650.0,catchall_60_65,primary,2045
+joint,EB-1 / China,principal_backlog_2024,Historical,12769.0,catchall_60_65,primary,2045
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2045
+joint,EB-2 / India,principal_backlog_2024,Historical,392824.0,catchall_60_65,primary,2045
+joint,EB-2 / China,principal_backlog_2024,Historical,71776.0,catchall_60_65,primary,2045
+joint,EB-2 / ROW,principal_backlog_2024,Historical,42878.0,catchall_60_65,primary,2045
+joint,EB-3 / India,principal_backlog_2024,Historical,174994.0,catchall_60_65,primary,2045
+joint,EB-3 / China,principal_backlog_2024,Historical,40532.0,catchall_60_65,primary,2045
+joint,EB-3 / ROW,principal_backlog_2024,Historical,72587.0,catchall_60_65,primary,2045
+joint,EB-4 / India,principal_backlog_2024,Historical,6987.0,catchall_60_65,primary,2045
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2045
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294788.0,catchall_60_65,primary,2045
+joint,EB-5 / India,principal_backlog_2024,Historical,2164.0,catchall_60_65,primary,2045
+joint,EB-5 / China,principal_backlog_2024,Historical,18091.0,catchall_60_65,primary,2045
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2045
+overall,All,age21_events_2009_2024,Historical,23266.0,catchall_60_65,primary,2046
+overall,All,principal_exits_2009_2024,Historical,239466.0,catchall_60_65,primary,2046
+nationality,India,age21_events_2009_2024,Historical,14199.0,catchall_60_65,primary,2046
+nationality,India,principal_exits_2009_2024,Historical,96034.0,catchall_60_65,primary,2046
+nationality,China,age21_events_2009_2024,Historical,2062.0,catchall_60_65,primary,2046
+nationality,China,principal_exits_2009_2024,Historical,32689.0,catchall_60_65,primary,2046
+nationality,ROW,age21_events_2009_2024,Historical,7005.0,catchall_60_65,primary,2046
+nationality,ROW,principal_exits_2009_2024,Historical,110743.0,catchall_60_65,primary,2046
+category,EB-1,age21_events_2009_2024,Historical,0.0,catchall_60_65,primary,2046
+category,EB-1,principal_exits_2009_2024,Historical,2410.0,catchall_60_65,primary,2046
+category,EB-2,age21_events_2009_2024,Historical,6351.0,catchall_60_65,primary,2046
+category,EB-2,principal_exits_2009_2024,Historical,68415.0,catchall_60_65,primary,2046
+category,EB-3,age21_events_2009_2024,Historical,9570.0,catchall_60_65,primary,2046
+category,EB-3,principal_exits_2009_2024,Historical,84384.0,catchall_60_65,primary,2046
+category,EB-4,age21_events_2009_2024,Historical,7160.0,catchall_60_65,primary,2046
+category,EB-4,principal_exits_2009_2024,Historical,82293.0,catchall_60_65,primary,2046
+category,EB-5,age21_events_2009_2024,Historical,185.0,catchall_60_65,primary,2046
+category,EB-5,principal_exits_2009_2024,Historical,1964.0,catchall_60_65,primary,2046
+overall,All,principal_backlog_2024,Historical,1148368.0,catchall_60_65,primary,2046
+nationality,India,principal_backlog_2024,Historical,593661.0,catchall_60_65,primary,2046
+nationality,China,principal_backlog_2024,Historical,142832.0,catchall_60_65,primary,2046
+nationality,ROW,principal_backlog_2024,Historical,411875.0,catchall_60_65,primary,2046
+category,EB-1,principal_backlog_2024,Historical,31657.0,catchall_60_65,primary,2046
+category,EB-2,principal_backlog_2024,Historical,507440.0,catchall_60_65,primary,2046
+category,EB-3,principal_backlog_2024,Historical,287934.0,catchall_60_65,primary,2046
+category,EB-4,principal_backlog_2024,Historical,301284.0,catchall_60_65,primary,2046
+category,EB-5,principal_backlog_2024,Historical,20053.0,catchall_60_65,primary,2046
+joint,EB-1 / India,principal_backlog_2024,Historical,18804.0,catchall_60_65,primary,2046
+joint,EB-1 / China,principal_backlog_2024,Historical,12853.0,catchall_60_65,primary,2046
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2046
+joint,EB-2 / India,principal_backlog_2024,Historical,391279.0,catchall_60_65,primary,2046
+joint,EB-2 / China,principal_backlog_2024,Historical,71959.0,catchall_60_65,primary,2046
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44202.0,catchall_60_65,primary,2046
+joint,EB-3 / India,principal_backlog_2024,Historical,174393.0,catchall_60_65,primary,2046
+joint,EB-3 / China,principal_backlog_2024,Historical,40049.0,catchall_60_65,primary,2046
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73492.0,catchall_60_65,primary,2046
+joint,EB-4 / India,principal_backlog_2024,Historical,7103.0,catchall_60_65,primary,2046
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2046
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294181.0,catchall_60_65,primary,2046
+joint,EB-5 / India,principal_backlog_2024,Historical,2082.0,catchall_60_65,primary,2046
+joint,EB-5 / China,principal_backlog_2024,Historical,17971.0,catchall_60_65,primary,2046
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2046
+overall,All,age21_events_2009_2024,Historical,23320.0,catchall_60_65,primary,2047
+overall,All,principal_exits_2009_2024,Historical,239370.0,catchall_60_65,primary,2047
+nationality,India,age21_events_2009_2024,Historical,14234.0,catchall_60_65,primary,2047
+nationality,India,principal_exits_2009_2024,Historical,96731.0,catchall_60_65,primary,2047
+nationality,China,age21_events_2009_2024,Historical,1991.0,catchall_60_65,primary,2047
+nationality,China,principal_exits_2009_2024,Historical,32150.0,catchall_60_65,primary,2047
+nationality,ROW,age21_events_2009_2024,Historical,7095.0,catchall_60_65,primary,2047
+nationality,ROW,principal_exits_2009_2024,Historical,110489.0,catchall_60_65,primary,2047
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2047
+category,EB-1,principal_exits_2009_2024,Historical,2404.0,catchall_60_65,primary,2047
+category,EB-2,age21_events_2009_2024,Historical,6332.0,catchall_60_65,primary,2047
+category,EB-2,principal_exits_2009_2024,Historical,68657.0,catchall_60_65,primary,2047
+category,EB-3,age21_events_2009_2024,Historical,9517.0,catchall_60_65,primary,2047
+category,EB-3,principal_exits_2009_2024,Historical,84907.0,catchall_60_65,primary,2047
+category,EB-4,age21_events_2009_2024,Historical,7291.0,catchall_60_65,primary,2047
+category,EB-4,principal_exits_2009_2024,Historical,81507.0,catchall_60_65,primary,2047
+category,EB-5,age21_events_2009_2024,Historical,178.0,catchall_60_65,primary,2047
+category,EB-5,principal_exits_2009_2024,Historical,1895.0,catchall_60_65,primary,2047
+overall,All,principal_backlog_2024,Historical,1149654.0,catchall_60_65,primary,2047
+nationality,India,principal_backlog_2024,Historical,594977.0,catchall_60_65,primary,2047
+nationality,China,principal_backlog_2024,Historical,142346.0,catchall_60_65,primary,2047
+nationality,ROW,principal_backlog_2024,Historical,412331.0,catchall_60_65,primary,2047
+category,EB-1,principal_backlog_2024,Historical,31701.0,catchall_60_65,primary,2047
+category,EB-2,principal_backlog_2024,Historical,508004.0,catchall_60_65,primary,2047
+category,EB-3,principal_backlog_2024,Historical,287674.0,catchall_60_65,primary,2047
+category,EB-4,principal_backlog_2024,Historical,302134.0,catchall_60_65,primary,2047
+category,EB-5,principal_backlog_2024,Historical,20141.0,catchall_60_65,primary,2047
+joint,EB-1 / India,principal_backlog_2024,Historical,18893.0,catchall_60_65,primary,2047
+joint,EB-1 / China,principal_backlog_2024,Historical,12808.0,catchall_60_65,primary,2047
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2047
+joint,EB-2 / India,principal_backlog_2024,Historical,392876.0,catchall_60_65,primary,2047
+joint,EB-2 / China,principal_backlog_2024,Historical,71552.0,catchall_60_65,primary,2047
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43576.0,catchall_60_65,primary,2047
+joint,EB-3 / India,principal_backlog_2024,Historical,173924.0,catchall_60_65,primary,2047
+joint,EB-3 / China,principal_backlog_2024,Historical,39950.0,catchall_60_65,primary,2047
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73800.0,catchall_60_65,primary,2047
+joint,EB-4 / India,principal_backlog_2024,Historical,7179.0,catchall_60_65,primary,2047
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2047
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294955.0,catchall_60_65,primary,2047
+joint,EB-5 / India,principal_backlog_2024,Historical,2105.0,catchall_60_65,primary,2047
+joint,EB-5 / China,principal_backlog_2024,Historical,18036.0,catchall_60_65,primary,2047
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2047
+overall,All,age21_events_2009_2024,Historical,23236.0,catchall_60_65,primary,2048
+overall,All,principal_exits_2009_2024,Historical,239778.0,catchall_60_65,primary,2048
+nationality,India,age21_events_2009_2024,Historical,14267.0,catchall_60_65,primary,2048
+nationality,India,principal_exits_2009_2024,Historical,96430.0,catchall_60_65,primary,2048
+nationality,China,age21_events_2009_2024,Historical,2036.0,catchall_60_65,primary,2048
+nationality,China,principal_exits_2009_2024,Historical,32534.0,catchall_60_65,primary,2048
+nationality,ROW,age21_events_2009_2024,Historical,6933.0,catchall_60_65,primary,2048
+nationality,ROW,principal_exits_2009_2024,Historical,110814.0,catchall_60_65,primary,2048
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2048
+category,EB-1,principal_exits_2009_2024,Historical,2323.0,catchall_60_65,primary,2048
+category,EB-2,age21_events_2009_2024,Historical,6229.0,catchall_60_65,primary,2048
+category,EB-2,principal_exits_2009_2024,Historical,69051.0,catchall_60_65,primary,2048
+category,EB-3,age21_events_2009_2024,Historical,9719.0,catchall_60_65,primary,2048
+category,EB-3,principal_exits_2009_2024,Historical,84612.0,catchall_60_65,primary,2048
+category,EB-4,age21_events_2009_2024,Historical,7081.0,catchall_60_65,primary,2048
+category,EB-4,principal_exits_2009_2024,Historical,81778.0,catchall_60_65,primary,2048
+category,EB-5,age21_events_2009_2024,Historical,205.0,catchall_60_65,primary,2048
+category,EB-5,principal_exits_2009_2024,Historical,2014.0,catchall_60_65,primary,2048
+overall,All,principal_backlog_2024,Historical,1147131.0,catchall_60_65,primary,2048
+nationality,India,principal_backlog_2024,Historical,592008.0,catchall_60_65,primary,2048
+nationality,China,principal_backlog_2024,Historical,142808.0,catchall_60_65,primary,2048
+nationality,ROW,principal_backlog_2024,Historical,412315.0,catchall_60_65,primary,2048
+category,EB-1,principal_backlog_2024,Historical,31386.0,catchall_60_65,primary,2048
+category,EB-2,principal_backlog_2024,Historical,506250.0,catchall_60_65,primary,2048
+category,EB-3,principal_backlog_2024,Historical,287893.0,catchall_60_65,primary,2048
+category,EB-4,principal_backlog_2024,Historical,301655.0,catchall_60_65,primary,2048
+category,EB-5,principal_backlog_2024,Historical,19947.0,catchall_60_65,primary,2048
+joint,EB-1 / India,principal_backlog_2024,Historical,18483.0,catchall_60_65,primary,2048
+joint,EB-1 / China,principal_backlog_2024,Historical,12903.0,catchall_60_65,primary,2048
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2048
+joint,EB-2 / India,principal_backlog_2024,Historical,390519.0,catchall_60_65,primary,2048
+joint,EB-2 / China,principal_backlog_2024,Historical,71911.0,catchall_60_65,primary,2048
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43820.0,catchall_60_65,primary,2048
+joint,EB-3 / India,principal_backlog_2024,Historical,173852.0,catchall_60_65,primary,2048
+joint,EB-3 / China,principal_backlog_2024,Historical,40073.0,catchall_60_65,primary,2048
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73968.0,catchall_60_65,primary,2048
+joint,EB-4 / India,principal_backlog_2024,Historical,7128.0,catchall_60_65,primary,2048
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2048
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294527.0,catchall_60_65,primary,2048
+joint,EB-5 / India,principal_backlog_2024,Historical,2026.0,catchall_60_65,primary,2048
+joint,EB-5 / China,principal_backlog_2024,Historical,17921.0,catchall_60_65,primary,2048
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2048
+overall,All,age21_events_2009_2024,Historical,23311.0,catchall_60_65,primary,2049
+overall,All,principal_exits_2009_2024,Historical,238966.0,catchall_60_65,primary,2049
+nationality,India,age21_events_2009_2024,Historical,14274.0,catchall_60_65,primary,2049
+nationality,India,principal_exits_2009_2024,Historical,96236.0,catchall_60_65,primary,2049
+nationality,China,age21_events_2009_2024,Historical,2052.0,catchall_60_65,primary,2049
+nationality,China,principal_exits_2009_2024,Historical,32289.0,catchall_60_65,primary,2049
+nationality,ROW,age21_events_2009_2024,Historical,6985.0,catchall_60_65,primary,2049
+nationality,ROW,principal_exits_2009_2024,Historical,110441.0,catchall_60_65,primary,2049
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2049
+category,EB-1,principal_exits_2009_2024,Historical,2339.0,catchall_60_65,primary,2049
+category,EB-2,age21_events_2009_2024,Historical,6319.0,catchall_60_65,primary,2049
+category,EB-2,principal_exits_2009_2024,Historical,68226.0,catchall_60_65,primary,2049
+category,EB-3,age21_events_2009_2024,Historical,9618.0,catchall_60_65,primary,2049
+category,EB-3,principal_exits_2009_2024,Historical,84686.0,catchall_60_65,primary,2049
+category,EB-4,age21_events_2009_2024,Historical,7168.0,catchall_60_65,primary,2049
+category,EB-4,principal_exits_2009_2024,Historical,81811.0,catchall_60_65,primary,2049
+category,EB-5,age21_events_2009_2024,Historical,205.0,catchall_60_65,primary,2049
+category,EB-5,principal_exits_2009_2024,Historical,1904.0,catchall_60_65,primary,2049
+overall,All,principal_backlog_2024,Historical,1149104.0,catchall_60_65,primary,2049
+nationality,India,principal_backlog_2024,Historical,594357.0,catchall_60_65,primary,2049
+nationality,China,principal_backlog_2024,Historical,142694.0,catchall_60_65,primary,2049
+nationality,ROW,principal_backlog_2024,Historical,412053.0,catchall_60_65,primary,2049
+category,EB-1,principal_backlog_2024,Historical,31211.0,catchall_60_65,primary,2049
+category,EB-2,principal_backlog_2024,Historical,508207.0,catchall_60_65,primary,2049
+category,EB-3,principal_backlog_2024,Historical,287763.0,catchall_60_65,primary,2049
+category,EB-4,principal_backlog_2024,Historical,301795.0,catchall_60_65,primary,2049
+category,EB-5,principal_backlog_2024,Historical,20128.0,catchall_60_65,primary,2049
+joint,EB-1 / India,principal_backlog_2024,Historical,18632.0,catchall_60_65,primary,2049
+joint,EB-1 / China,principal_backlog_2024,Historical,12579.0,catchall_60_65,primary,2049
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2049
+joint,EB-2 / India,principal_backlog_2024,Historical,392655.0,catchall_60_65,primary,2049
+joint,EB-2 / China,principal_backlog_2024,Historical,71815.0,catchall_60_65,primary,2049
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43737.0,catchall_60_65,primary,2049
+joint,EB-3 / India,principal_backlog_2024,Historical,173805.0,catchall_60_65,primary,2049
+joint,EB-3 / China,principal_backlog_2024,Historical,40397.0,catchall_60_65,primary,2049
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73561.0,catchall_60_65,primary,2049
+joint,EB-4 / India,principal_backlog_2024,Historical,7040.0,catchall_60_65,primary,2049
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2049
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294755.0,catchall_60_65,primary,2049
+joint,EB-5 / India,principal_backlog_2024,Historical,2225.0,catchall_60_65,primary,2049
+joint,EB-5 / China,principal_backlog_2024,Historical,17903.0,catchall_60_65,primary,2049
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2049
+overall,All,age21_events_2009_2024,Historical,23321.0,catchall_60_65,primary,2050
+overall,All,principal_exits_2009_2024,Historical,238708.0,catchall_60_65,primary,2050
+nationality,India,age21_events_2009_2024,Historical,14186.0,catchall_60_65,primary,2050
+nationality,India,principal_exits_2009_2024,Historical,96374.0,catchall_60_65,primary,2050
+nationality,China,age21_events_2009_2024,Historical,2093.0,catchall_60_65,primary,2050
+nationality,China,principal_exits_2009_2024,Historical,32183.0,catchall_60_65,primary,2050
+nationality,ROW,age21_events_2009_2024,Historical,7042.0,catchall_60_65,primary,2050
+nationality,ROW,principal_exits_2009_2024,Historical,110151.0,catchall_60_65,primary,2050
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2050
+category,EB-1,principal_exits_2009_2024,Historical,2412.0,catchall_60_65,primary,2050
+category,EB-2,age21_events_2009_2024,Historical,6309.0,catchall_60_65,primary,2050
+category,EB-2,principal_exits_2009_2024,Historical,68389.0,catchall_60_65,primary,2050
+category,EB-3,age21_events_2009_2024,Historical,9614.0,catchall_60_65,primary,2050
+category,EB-3,principal_exits_2009_2024,Historical,84620.0,catchall_60_65,primary,2050
+category,EB-4,age21_events_2009_2024,Historical,7191.0,catchall_60_65,primary,2050
+category,EB-4,principal_exits_2009_2024,Historical,81347.0,catchall_60_65,primary,2050
+category,EB-5,age21_events_2009_2024,Historical,204.0,catchall_60_65,primary,2050
+category,EB-5,principal_exits_2009_2024,Historical,1940.0,catchall_60_65,primary,2050
+overall,All,principal_backlog_2024,Historical,1150340.0,catchall_60_65,primary,2050
+nationality,India,principal_backlog_2024,Historical,593511.0,catchall_60_65,primary,2050
+nationality,China,principal_backlog_2024,Historical,143317.0,catchall_60_65,primary,2050
+nationality,ROW,principal_backlog_2024,Historical,413512.0,catchall_60_65,primary,2050
+category,EB-1,principal_backlog_2024,Historical,31380.0,catchall_60_65,primary,2050
+category,EB-2,principal_backlog_2024,Historical,508342.0,catchall_60_65,primary,2050
+category,EB-3,principal_backlog_2024,Historical,288349.0,catchall_60_65,primary,2050
+category,EB-4,principal_backlog_2024,Historical,302160.0,catchall_60_65,primary,2050
+category,EB-5,principal_backlog_2024,Historical,20109.0,catchall_60_65,primary,2050
+joint,EB-1 / India,principal_backlog_2024,Historical,18620.0,catchall_60_65,primary,2050
+joint,EB-1 / China,principal_backlog_2024,Historical,12760.0,catchall_60_65,primary,2050
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2050
+joint,EB-2 / India,principal_backlog_2024,Historical,391878.0,catchall_60_65,primary,2050
+joint,EB-2 / China,principal_backlog_2024,Historical,72131.0,catchall_60_65,primary,2050
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44333.0,catchall_60_65,primary,2050
+joint,EB-3 / India,principal_backlog_2024,Historical,173737.0,catchall_60_65,primary,2050
+joint,EB-3 / China,principal_backlog_2024,Historical,40426.0,catchall_60_65,primary,2050
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74186.0,catchall_60_65,primary,2050
+joint,EB-4 / India,principal_backlog_2024,Historical,7167.0,catchall_60_65,primary,2050
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2050
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294993.0,catchall_60_65,primary,2050
+joint,EB-5 / India,principal_backlog_2024,Historical,2109.0,catchall_60_65,primary,2050
+joint,EB-5 / China,principal_backlog_2024,Historical,18000.0,catchall_60_65,primary,2050
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2050
+overall,All,age21_events_2009_2024,Historical,23382.0,catchall_60_65,primary,2051
+overall,All,principal_exits_2009_2024,Historical,238847.0,catchall_60_65,primary,2051
+nationality,India,age21_events_2009_2024,Historical,14249.0,catchall_60_65,primary,2051
+nationality,India,principal_exits_2009_2024,Historical,96165.0,catchall_60_65,primary,2051
+nationality,China,age21_events_2009_2024,Historical,2107.0,catchall_60_65,primary,2051
+nationality,China,principal_exits_2009_2024,Historical,32384.0,catchall_60_65,primary,2051
+nationality,ROW,age21_events_2009_2024,Historical,7026.0,catchall_60_65,primary,2051
+nationality,ROW,principal_exits_2009_2024,Historical,110298.0,catchall_60_65,primary,2051
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2051
+category,EB-1,principal_exits_2009_2024,Historical,2415.0,catchall_60_65,primary,2051
+category,EB-2,age21_events_2009_2024,Historical,6177.0,catchall_60_65,primary,2051
+category,EB-2,principal_exits_2009_2024,Historical,68049.0,catchall_60_65,primary,2051
+category,EB-3,age21_events_2009_2024,Historical,9657.0,catchall_60_65,primary,2051
+category,EB-3,principal_exits_2009_2024,Historical,84821.0,catchall_60_65,primary,2051
+category,EB-4,age21_events_2009_2024,Historical,7311.0,catchall_60_65,primary,2051
+category,EB-4,principal_exits_2009_2024,Historical,81580.0,catchall_60_65,primary,2051
+category,EB-5,age21_events_2009_2024,Historical,236.0,catchall_60_65,primary,2051
+category,EB-5,principal_exits_2009_2024,Historical,1982.0,catchall_60_65,primary,2051
+overall,All,principal_backlog_2024,Historical,1149973.0,catchall_60_65,primary,2051
+nationality,India,principal_backlog_2024,Historical,595458.0,catchall_60_65,primary,2051
+nationality,China,principal_backlog_2024,Historical,142546.0,catchall_60_65,primary,2051
+nationality,ROW,principal_backlog_2024,Historical,411969.0,catchall_60_65,primary,2051
+category,EB-1,principal_backlog_2024,Historical,31795.0,catchall_60_65,primary,2051
+category,EB-2,principal_backlog_2024,Historical,508007.0,catchall_60_65,primary,2051
+category,EB-3,principal_backlog_2024,Historical,288260.0,catchall_60_65,primary,2051
+category,EB-4,principal_backlog_2024,Historical,301917.0,catchall_60_65,primary,2051
+category,EB-5,principal_backlog_2024,Historical,19994.0,catchall_60_65,primary,2051
+joint,EB-1 / India,principal_backlog_2024,Historical,19138.0,catchall_60_65,primary,2051
+joint,EB-1 / China,principal_backlog_2024,Historical,12657.0,catchall_60_65,primary,2051
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2051
+joint,EB-2 / India,principal_backlog_2024,Historical,392773.0,catchall_60_65,primary,2051
+joint,EB-2 / China,principal_backlog_2024,Historical,71771.0,catchall_60_65,primary,2051
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43463.0,catchall_60_65,primary,2051
+joint,EB-3 / India,principal_backlog_2024,Historical,174087.0,catchall_60_65,primary,2051
+joint,EB-3 / China,principal_backlog_2024,Historical,40301.0,catchall_60_65,primary,2051
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73872.0,catchall_60_65,primary,2051
+joint,EB-4 / India,principal_backlog_2024,Historical,7283.0,catchall_60_65,primary,2051
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2051
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294634.0,catchall_60_65,primary,2051
+joint,EB-5 / India,principal_backlog_2024,Historical,2177.0,catchall_60_65,primary,2051
+joint,EB-5 / China,principal_backlog_2024,Historical,17817.0,catchall_60_65,primary,2051
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2051
+overall,All,age21_events_2009_2024,Historical,23352.0,catchall_60_65,primary,2052
+overall,All,principal_exits_2009_2024,Historical,239185.0,catchall_60_65,primary,2052
+nationality,India,age21_events_2009_2024,Historical,14264.0,catchall_60_65,primary,2052
+nationality,India,principal_exits_2009_2024,Historical,96404.0,catchall_60_65,primary,2052
+nationality,China,age21_events_2009_2024,Historical,2133.0,catchall_60_65,primary,2052
+nationality,China,principal_exits_2009_2024,Historical,32097.0,catchall_60_65,primary,2052
+nationality,ROW,age21_events_2009_2024,Historical,6955.0,catchall_60_65,primary,2052
+nationality,ROW,principal_exits_2009_2024,Historical,110684.0,catchall_60_65,primary,2052
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2052
+category,EB-1,principal_exits_2009_2024,Historical,2358.0,catchall_60_65,primary,2052
+category,EB-2,age21_events_2009_2024,Historical,6345.0,catchall_60_65,primary,2052
+category,EB-2,principal_exits_2009_2024,Historical,68639.0,catchall_60_65,primary,2052
+category,EB-3,age21_events_2009_2024,Historical,9701.0,catchall_60_65,primary,2052
+category,EB-3,principal_exits_2009_2024,Historical,84628.0,catchall_60_65,primary,2052
+category,EB-4,age21_events_2009_2024,Historical,7090.0,catchall_60_65,primary,2052
+category,EB-4,principal_exits_2009_2024,Historical,81697.0,catchall_60_65,primary,2052
+category,EB-5,age21_events_2009_2024,Historical,215.0,catchall_60_65,primary,2052
+category,EB-5,principal_exits_2009_2024,Historical,1863.0,catchall_60_65,primary,2052
+overall,All,principal_backlog_2024,Historical,1148742.0,catchall_60_65,primary,2052
+nationality,India,principal_backlog_2024,Historical,593645.0,catchall_60_65,primary,2052
+nationality,China,principal_backlog_2024,Historical,141908.0,catchall_60_65,primary,2052
+nationality,ROW,principal_backlog_2024,Historical,413189.0,catchall_60_65,primary,2052
+category,EB-1,principal_backlog_2024,Historical,31430.0,catchall_60_65,primary,2052
+category,EB-2,principal_backlog_2024,Historical,507527.0,catchall_60_65,primary,2052
+category,EB-3,principal_backlog_2024,Historical,287882.0,catchall_60_65,primary,2052
+category,EB-4,principal_backlog_2024,Historical,301899.0,catchall_60_65,primary,2052
+category,EB-5,principal_backlog_2024,Historical,20004.0,catchall_60_65,primary,2052
+joint,EB-1 / India,principal_backlog_2024,Historical,18766.0,catchall_60_65,primary,2052
+joint,EB-1 / China,principal_backlog_2024,Historical,12664.0,catchall_60_65,primary,2052
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2052
+joint,EB-2 / India,principal_backlog_2024,Historical,391875.0,catchall_60_65,primary,2052
+joint,EB-2 / China,principal_backlog_2024,Historical,71406.0,catchall_60_65,primary,2052
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44246.0,catchall_60_65,primary,2052
+joint,EB-3 / India,principal_backlog_2024,Historical,173786.0,catchall_60_65,primary,2052
+joint,EB-3 / China,principal_backlog_2024,Historical,39980.0,catchall_60_65,primary,2052
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74116.0,catchall_60_65,primary,2052
+joint,EB-4 / India,principal_backlog_2024,Historical,7072.0,catchall_60_65,primary,2052
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2052
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294827.0,catchall_60_65,primary,2052
+joint,EB-5 / India,principal_backlog_2024,Historical,2146.0,catchall_60_65,primary,2052
+joint,EB-5 / China,principal_backlog_2024,Historical,17858.0,catchall_60_65,primary,2052
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2052
+overall,All,age21_events_2009_2024,Historical,23344.0,catchall_60_65,primary,2053
+overall,All,principal_exits_2009_2024,Historical,239570.0,catchall_60_65,primary,2053
+nationality,India,age21_events_2009_2024,Historical,14479.0,catchall_60_65,primary,2053
+nationality,India,principal_exits_2009_2024,Historical,96230.0,catchall_60_65,primary,2053
+nationality,China,age21_events_2009_2024,Historical,2150.0,catchall_60_65,primary,2053
+nationality,China,principal_exits_2009_2024,Historical,32367.0,catchall_60_65,primary,2053
+nationality,ROW,age21_events_2009_2024,Historical,6715.0,catchall_60_65,primary,2053
+nationality,ROW,principal_exits_2009_2024,Historical,110973.0,catchall_60_65,primary,2053
+category,EB-1,age21_events_2009_2024,Historical,5.0,catchall_60_65,primary,2053
+category,EB-1,principal_exits_2009_2024,Historical,2276.0,catchall_60_65,primary,2053
+category,EB-2,age21_events_2009_2024,Historical,6445.0,catchall_60_65,primary,2053
+category,EB-2,principal_exits_2009_2024,Historical,68578.0,catchall_60_65,primary,2053
+category,EB-3,age21_events_2009_2024,Historical,9772.0,catchall_60_65,primary,2053
+category,EB-3,principal_exits_2009_2024,Historical,84744.0,catchall_60_65,primary,2053
+category,EB-4,age21_events_2009_2024,Historical,6906.0,catchall_60_65,primary,2053
+category,EB-4,principal_exits_2009_2024,Historical,82005.0,catchall_60_65,primary,2053
+category,EB-5,age21_events_2009_2024,Historical,216.0,catchall_60_65,primary,2053
+category,EB-5,principal_exits_2009_2024,Historical,1967.0,catchall_60_65,primary,2053
+overall,All,principal_backlog_2024,Historical,1149264.0,catchall_60_65,primary,2053
+nationality,India,principal_backlog_2024,Historical,593704.0,catchall_60_65,primary,2053
+nationality,China,principal_backlog_2024,Historical,143056.0,catchall_60_65,primary,2053
+nationality,ROW,principal_backlog_2024,Historical,412504.0,catchall_60_65,primary,2053
+category,EB-1,principal_backlog_2024,Historical,32089.0,catchall_60_65,primary,2053
+category,EB-2,principal_backlog_2024,Historical,507933.0,catchall_60_65,primary,2053
+category,EB-3,principal_backlog_2024,Historical,287905.0,catchall_60_65,primary,2053
+category,EB-4,principal_backlog_2024,Historical,301476.0,catchall_60_65,primary,2053
+category,EB-5,principal_backlog_2024,Historical,19861.0,catchall_60_65,primary,2053
+joint,EB-1 / India,principal_backlog_2024,Historical,19118.0,catchall_60_65,primary,2053
+joint,EB-1 / China,principal_backlog_2024,Historical,12971.0,catchall_60_65,primary,2053
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2053
+joint,EB-2 / India,principal_backlog_2024,Historical,391697.0,catchall_60_65,primary,2053
+joint,EB-2 / China,principal_backlog_2024,Historical,71938.0,catchall_60_65,primary,2053
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44298.0,catchall_60_65,primary,2053
+joint,EB-3 / India,principal_backlog_2024,Historical,173392.0,catchall_60_65,primary,2053
+joint,EB-3 / China,principal_backlog_2024,Historical,40532.0,catchall_60_65,primary,2053
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73981.0,catchall_60_65,primary,2053
+joint,EB-4 / India,principal_backlog_2024,Historical,7251.0,catchall_60_65,primary,2053
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2053
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294225.0,catchall_60_65,primary,2053
+joint,EB-5 / India,principal_backlog_2024,Historical,2246.0,catchall_60_65,primary,2053
+joint,EB-5 / China,principal_backlog_2024,Historical,17615.0,catchall_60_65,primary,2053
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2053
+overall,All,age21_events_2009_2024,Historical,22969.0,catchall_60_65,primary,2054
+overall,All,principal_exits_2009_2024,Historical,239736.0,catchall_60_65,primary,2054
+nationality,India,age21_events_2009_2024,Historical,14024.0,catchall_60_65,primary,2054
+nationality,India,principal_exits_2009_2024,Historical,96481.0,catchall_60_65,primary,2054
+nationality,China,age21_events_2009_2024,Historical,2129.0,catchall_60_65,primary,2054
+nationality,China,principal_exits_2009_2024,Historical,32238.0,catchall_60_65,primary,2054
+nationality,ROW,age21_events_2009_2024,Historical,6816.0,catchall_60_65,primary,2054
+nationality,ROW,principal_exits_2009_2024,Historical,111017.0,catchall_60_65,primary,2054
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2054
+category,EB-1,principal_exits_2009_2024,Historical,2364.0,catchall_60_65,primary,2054
+category,EB-2,age21_events_2009_2024,Historical,6246.0,catchall_60_65,primary,2054
+category,EB-2,principal_exits_2009_2024,Historical,68379.0,catchall_60_65,primary,2054
+category,EB-3,age21_events_2009_2024,Historical,9561.0,catchall_60_65,primary,2054
+category,EB-3,principal_exits_2009_2024,Historical,84999.0,catchall_60_65,primary,2054
+category,EB-4,age21_events_2009_2024,Historical,6923.0,catchall_60_65,primary,2054
+category,EB-4,principal_exits_2009_2024,Historical,82070.0,catchall_60_65,primary,2054
+category,EB-5,age21_events_2009_2024,Historical,236.0,catchall_60_65,primary,2054
+category,EB-5,principal_exits_2009_2024,Historical,1924.0,catchall_60_65,primary,2054
+overall,All,principal_backlog_2024,Historical,1148354.0,catchall_60_65,primary,2054
+nationality,India,principal_backlog_2024,Historical,593670.0,catchall_60_65,primary,2054
+nationality,China,principal_backlog_2024,Historical,142765.0,catchall_60_65,primary,2054
+nationality,ROW,principal_backlog_2024,Historical,411919.0,catchall_60_65,primary,2054
+category,EB-1,principal_backlog_2024,Historical,31395.0,catchall_60_65,primary,2054
+category,EB-2,principal_backlog_2024,Historical,507487.0,catchall_60_65,primary,2054
+category,EB-3,principal_backlog_2024,Historical,287714.0,catchall_60_65,primary,2054
+category,EB-4,principal_backlog_2024,Historical,301663.0,catchall_60_65,primary,2054
+category,EB-5,principal_backlog_2024,Historical,20095.0,catchall_60_65,primary,2054
+joint,EB-1 / India,principal_backlog_2024,Historical,18748.0,catchall_60_65,primary,2054
+joint,EB-1 / China,principal_backlog_2024,Historical,12647.0,catchall_60_65,primary,2054
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2054
+joint,EB-2 / India,principal_backlog_2024,Historical,391900.0,catchall_60_65,primary,2054
+joint,EB-2 / China,principal_backlog_2024,Historical,71998.0,catchall_60_65,primary,2054
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43589.0,catchall_60_65,primary,2054
+joint,EB-3 / India,principal_backlog_2024,Historical,173829.0,catchall_60_65,primary,2054
+joint,EB-3 / China,principal_backlog_2024,Historical,40225.0,catchall_60_65,primary,2054
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73660.0,catchall_60_65,primary,2054
+joint,EB-4 / India,principal_backlog_2024,Historical,6993.0,catchall_60_65,primary,2054
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2054
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294670.0,catchall_60_65,primary,2054
+joint,EB-5 / India,principal_backlog_2024,Historical,2200.0,catchall_60_65,primary,2054
+joint,EB-5 / China,principal_backlog_2024,Historical,17895.0,catchall_60_65,primary,2054
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2054
+overall,All,age21_events_2009_2024,Historical,23400.0,catchall_60_65,primary,2055
+overall,All,principal_exits_2009_2024,Historical,240476.0,catchall_60_65,primary,2055
+nationality,India,age21_events_2009_2024,Historical,14235.0,catchall_60_65,primary,2055
+nationality,India,principal_exits_2009_2024,Historical,97000.0,catchall_60_65,primary,2055
+nationality,China,age21_events_2009_2024,Historical,2137.0,catchall_60_65,primary,2055
+nationality,China,principal_exits_2009_2024,Historical,32812.0,catchall_60_65,primary,2055
+nationality,ROW,age21_events_2009_2024,Historical,7028.0,catchall_60_65,primary,2055
+nationality,ROW,principal_exits_2009_2024,Historical,110664.0,catchall_60_65,primary,2055
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2055
+category,EB-1,principal_exits_2009_2024,Historical,2326.0,catchall_60_65,primary,2055
+category,EB-2,age21_events_2009_2024,Historical,6246.0,catchall_60_65,primary,2055
+category,EB-2,principal_exits_2009_2024,Historical,68980.0,catchall_60_65,primary,2055
+category,EB-3,age21_events_2009_2024,Historical,9736.0,catchall_60_65,primary,2055
+category,EB-3,principal_exits_2009_2024,Historical,85253.0,catchall_60_65,primary,2055
+category,EB-4,age21_events_2009_2024,Historical,7207.0,catchall_60_65,primary,2055
+category,EB-4,principal_exits_2009_2024,Historical,81977.0,catchall_60_65,primary,2055
+category,EB-5,age21_events_2009_2024,Historical,210.0,catchall_60_65,primary,2055
+category,EB-5,principal_exits_2009_2024,Historical,1940.0,catchall_60_65,primary,2055
+overall,All,principal_backlog_2024,Historical,1147747.0,catchall_60_65,primary,2055
+nationality,India,principal_backlog_2024,Historical,593898.0,catchall_60_65,primary,2055
+nationality,China,principal_backlog_2024,Historical,142320.0,catchall_60_65,primary,2055
+nationality,ROW,principal_backlog_2024,Historical,411529.0,catchall_60_65,primary,2055
+category,EB-1,principal_backlog_2024,Historical,31369.0,catchall_60_65,primary,2055
+category,EB-2,principal_backlog_2024,Historical,508018.0,catchall_60_65,primary,2055
+category,EB-3,principal_backlog_2024,Historical,286923.0,catchall_60_65,primary,2055
+category,EB-4,principal_backlog_2024,Historical,301575.0,catchall_60_65,primary,2055
+category,EB-5,principal_backlog_2024,Historical,19862.0,catchall_60_65,primary,2055
+joint,EB-1 / India,principal_backlog_2024,Historical,18743.0,catchall_60_65,primary,2055
+joint,EB-1 / China,principal_backlog_2024,Historical,12626.0,catchall_60_65,primary,2055
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2055
+joint,EB-2 / India,principal_backlog_2024,Historical,392619.0,catchall_60_65,primary,2055
+joint,EB-2 / China,principal_backlog_2024,Historical,71484.0,catchall_60_65,primary,2055
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43915.0,catchall_60_65,primary,2055
+joint,EB-3 / India,principal_backlog_2024,Historical,173130.0,catchall_60_65,primary,2055
+joint,EB-3 / China,principal_backlog_2024,Historical,40461.0,catchall_60_65,primary,2055
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73332.0,catchall_60_65,primary,2055
+joint,EB-4 / India,principal_backlog_2024,Historical,7293.0,catchall_60_65,primary,2055
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2055
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294282.0,catchall_60_65,primary,2055
+joint,EB-5 / India,principal_backlog_2024,Historical,2113.0,catchall_60_65,primary,2055
+joint,EB-5 / China,principal_backlog_2024,Historical,17749.0,catchall_60_65,primary,2055
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2055
+overall,All,age21_events_2009_2024,Historical,23317.0,catchall_60_65,primary,2056
+overall,All,principal_exits_2009_2024,Historical,239426.0,catchall_60_65,primary,2056
+nationality,India,age21_events_2009_2024,Historical,14394.0,catchall_60_65,primary,2056
+nationality,India,principal_exits_2009_2024,Historical,96053.0,catchall_60_65,primary,2056
+nationality,China,age21_events_2009_2024,Historical,2010.0,catchall_60_65,primary,2056
+nationality,China,principal_exits_2009_2024,Historical,32628.0,catchall_60_65,primary,2056
+nationality,ROW,age21_events_2009_2024,Historical,6913.0,catchall_60_65,primary,2056
+nationality,ROW,principal_exits_2009_2024,Historical,110745.0,catchall_60_65,primary,2056
+category,EB-1,age21_events_2009_2024,Historical,2.0,catchall_60_65,primary,2056
+category,EB-1,principal_exits_2009_2024,Historical,2419.0,catchall_60_65,primary,2056
+category,EB-2,age21_events_2009_2024,Historical,6438.0,catchall_60_65,primary,2056
+category,EB-2,principal_exits_2009_2024,Historical,68222.0,catchall_60_65,primary,2056
+category,EB-3,age21_events_2009_2024,Historical,9600.0,catchall_60_65,primary,2056
+category,EB-3,principal_exits_2009_2024,Historical,84687.0,catchall_60_65,primary,2056
+category,EB-4,age21_events_2009_2024,Historical,7075.0,catchall_60_65,primary,2056
+category,EB-4,principal_exits_2009_2024,Historical,82137.0,catchall_60_65,primary,2056
+category,EB-5,age21_events_2009_2024,Historical,202.0,catchall_60_65,primary,2056
+category,EB-5,principal_exits_2009_2024,Historical,1961.0,catchall_60_65,primary,2056
+overall,All,principal_backlog_2024,Historical,1147844.0,catchall_60_65,primary,2056
+nationality,India,principal_backlog_2024,Historical,594726.0,catchall_60_65,primary,2056
+nationality,China,principal_backlog_2024,Historical,142721.0,catchall_60_65,primary,2056
+nationality,ROW,principal_backlog_2024,Historical,410397.0,catchall_60_65,primary,2056
+category,EB-1,principal_backlog_2024,Historical,31427.0,catchall_60_65,primary,2056
+category,EB-2,principal_backlog_2024,Historical,508264.0,catchall_60_65,primary,2056
+category,EB-3,principal_backlog_2024,Historical,287003.0,catchall_60_65,primary,2056
+category,EB-4,principal_backlog_2024,Historical,301193.0,catchall_60_65,primary,2056
+category,EB-5,principal_backlog_2024,Historical,19957.0,catchall_60_65,primary,2056
+joint,EB-1 / India,principal_backlog_2024,Historical,18863.0,catchall_60_65,primary,2056
+joint,EB-1 / China,principal_backlog_2024,Historical,12564.0,catchall_60_65,primary,2056
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2056
+joint,EB-2 / India,principal_backlog_2024,Historical,392999.0,catchall_60_65,primary,2056
+joint,EB-2 / China,principal_backlog_2024,Historical,71990.0,catchall_60_65,primary,2056
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43275.0,catchall_60_65,primary,2056
+joint,EB-3 / India,principal_backlog_2024,Historical,173640.0,catchall_60_65,primary,2056
+joint,EB-3 / China,principal_backlog_2024,Historical,40374.0,catchall_60_65,primary,2056
+joint,EB-3 / ROW,principal_backlog_2024,Historical,72989.0,catchall_60_65,primary,2056
+joint,EB-4 / India,principal_backlog_2024,Historical,7060.0,catchall_60_65,primary,2056
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2056
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294133.0,catchall_60_65,primary,2056
+joint,EB-5 / India,principal_backlog_2024,Historical,2164.0,catchall_60_65,primary,2056
+joint,EB-5 / China,principal_backlog_2024,Historical,17793.0,catchall_60_65,primary,2056
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2056
+overall,All,age21_events_2009_2024,Historical,23127.0,catchall_60_65,primary,2057
+overall,All,principal_exits_2009_2024,Historical,239073.0,catchall_60_65,primary,2057
+nationality,India,age21_events_2009_2024,Historical,14020.0,catchall_60_65,primary,2057
+nationality,India,principal_exits_2009_2024,Historical,96417.0,catchall_60_65,primary,2057
+nationality,China,age21_events_2009_2024,Historical,2172.0,catchall_60_65,primary,2057
+nationality,China,principal_exits_2009_2024,Historical,32108.0,catchall_60_65,primary,2057
+nationality,ROW,age21_events_2009_2024,Historical,6935.0,catchall_60_65,primary,2057
+nationality,ROW,principal_exits_2009_2024,Historical,110548.0,catchall_60_65,primary,2057
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2057
+category,EB-1,principal_exits_2009_2024,Historical,2363.0,catchall_60_65,primary,2057
+category,EB-2,age21_events_2009_2024,Historical,6238.0,catchall_60_65,primary,2057
+category,EB-2,principal_exits_2009_2024,Historical,68181.0,catchall_60_65,primary,2057
+category,EB-3,age21_events_2009_2024,Historical,9520.0,catchall_60_65,primary,2057
+category,EB-3,principal_exits_2009_2024,Historical,84769.0,catchall_60_65,primary,2057
+category,EB-4,age21_events_2009_2024,Historical,7145.0,catchall_60_65,primary,2057
+category,EB-4,principal_exits_2009_2024,Historical,81814.0,catchall_60_65,primary,2057
+category,EB-5,age21_events_2009_2024,Historical,221.0,catchall_60_65,primary,2057
+category,EB-5,principal_exits_2009_2024,Historical,1946.0,catchall_60_65,primary,2057
+overall,All,principal_backlog_2024,Historical,1149020.0,catchall_60_65,primary,2057
+nationality,India,principal_backlog_2024,Historical,594641.0,catchall_60_65,primary,2057
+nationality,China,principal_backlog_2024,Historical,142600.0,catchall_60_65,primary,2057
+nationality,ROW,principal_backlog_2024,Historical,411779.0,catchall_60_65,primary,2057
+category,EB-1,principal_backlog_2024,Historical,31309.0,catchall_60_65,primary,2057
+category,EB-2,principal_backlog_2024,Historical,507717.0,catchall_60_65,primary,2057
+category,EB-3,principal_backlog_2024,Historical,288135.0,catchall_60_65,primary,2057
+category,EB-4,principal_backlog_2024,Historical,301854.0,catchall_60_65,primary,2057
+category,EB-5,principal_backlog_2024,Historical,20005.0,catchall_60_65,primary,2057
+joint,EB-1 / India,principal_backlog_2024,Historical,18593.0,catchall_60_65,primary,2057
+joint,EB-1 / China,principal_backlog_2024,Historical,12716.0,catchall_60_65,primary,2057
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2057
+joint,EB-2 / India,principal_backlog_2024,Historical,392465.0,catchall_60_65,primary,2057
+joint,EB-2 / China,principal_backlog_2024,Historical,71643.0,catchall_60_65,primary,2057
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43609.0,catchall_60_65,primary,2057
+joint,EB-3 / India,principal_backlog_2024,Historical,174190.0,catchall_60_65,primary,2057
+joint,EB-3 / China,principal_backlog_2024,Historical,40389.0,catchall_60_65,primary,2057
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73556.0,catchall_60_65,primary,2057
+joint,EB-4 / India,principal_backlog_2024,Historical,7240.0,catchall_60_65,primary,2057
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2057
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294614.0,catchall_60_65,primary,2057
+joint,EB-5 / India,principal_backlog_2024,Historical,2153.0,catchall_60_65,primary,2057
+joint,EB-5 / China,principal_backlog_2024,Historical,17852.0,catchall_60_65,primary,2057
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2057
+overall,All,age21_events_2009_2024,Historical,23316.0,catchall_60_65,primary,2058
+overall,All,principal_exits_2009_2024,Historical,239070.0,catchall_60_65,primary,2058
+nationality,India,age21_events_2009_2024,Historical,14318.0,catchall_60_65,primary,2058
+nationality,India,principal_exits_2009_2024,Historical,96286.0,catchall_60_65,primary,2058
+nationality,China,age21_events_2009_2024,Historical,2083.0,catchall_60_65,primary,2058
+nationality,China,principal_exits_2009_2024,Historical,32251.0,catchall_60_65,primary,2058
+nationality,ROW,age21_events_2009_2024,Historical,6915.0,catchall_60_65,primary,2058
+nationality,ROW,principal_exits_2009_2024,Historical,110533.0,catchall_60_65,primary,2058
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2058
+category,EB-1,principal_exits_2009_2024,Historical,2306.0,catchall_60_65,primary,2058
+category,EB-2,age21_events_2009_2024,Historical,6331.0,catchall_60_65,primary,2058
+category,EB-2,principal_exits_2009_2024,Historical,68439.0,catchall_60_65,primary,2058
+category,EB-3,age21_events_2009_2024,Historical,9691.0,catchall_60_65,primary,2058
+category,EB-3,principal_exits_2009_2024,Historical,84754.0,catchall_60_65,primary,2058
+category,EB-4,age21_events_2009_2024,Historical,7084.0,catchall_60_65,primary,2058
+category,EB-4,principal_exits_2009_2024,Historical,81671.0,catchall_60_65,primary,2058
+category,EB-5,age21_events_2009_2024,Historical,207.0,catchall_60_65,primary,2058
+category,EB-5,principal_exits_2009_2024,Historical,1900.0,catchall_60_65,primary,2058
+overall,All,principal_backlog_2024,Historical,1149652.0,catchall_60_65,primary,2058
+nationality,India,principal_backlog_2024,Historical,593902.0,catchall_60_65,primary,2058
+nationality,China,principal_backlog_2024,Historical,143410.0,catchall_60_65,primary,2058
+nationality,ROW,principal_backlog_2024,Historical,412340.0,catchall_60_65,primary,2058
+category,EB-1,principal_backlog_2024,Historical,31565.0,catchall_60_65,primary,2058
+category,EB-2,principal_backlog_2024,Historical,507690.0,catchall_60_65,primary,2058
+category,EB-3,principal_backlog_2024,Historical,288326.0,catchall_60_65,primary,2058
+category,EB-4,principal_backlog_2024,Historical,302031.0,catchall_60_65,primary,2058
+category,EB-5,principal_backlog_2024,Historical,20040.0,catchall_60_65,primary,2058
+joint,EB-1 / India,principal_backlog_2024,Historical,18726.0,catchall_60_65,primary,2058
+joint,EB-1 / China,principal_backlog_2024,Historical,12839.0,catchall_60_65,primary,2058
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2058
+joint,EB-2 / India,principal_backlog_2024,Historical,392079.0,catchall_60_65,primary,2058
+joint,EB-2 / China,principal_backlog_2024,Historical,72224.0,catchall_60_65,primary,2058
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43387.0,catchall_60_65,primary,2058
+joint,EB-3 / India,principal_backlog_2024,Historical,174045.0,catchall_60_65,primary,2058
+joint,EB-3 / China,principal_backlog_2024,Historical,40408.0,catchall_60_65,primary,2058
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73873.0,catchall_60_65,primary,2058
+joint,EB-4 / India,principal_backlog_2024,Historical,6951.0,catchall_60_65,primary,2058
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2058
+joint,EB-4 / ROW,principal_backlog_2024,Historical,295080.0,catchall_60_65,primary,2058
+joint,EB-5 / India,principal_backlog_2024,Historical,2101.0,catchall_60_65,primary,2058
+joint,EB-5 / China,principal_backlog_2024,Historical,17939.0,catchall_60_65,primary,2058
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2058
+overall,All,age21_events_2009_2024,Historical,23512.0,catchall_60_65,primary,2059
+overall,All,principal_exits_2009_2024,Historical,239703.0,catchall_60_65,primary,2059
+nationality,India,age21_events_2009_2024,Historical,14246.0,catchall_60_65,primary,2059
+nationality,India,principal_exits_2009_2024,Historical,96353.0,catchall_60_65,primary,2059
+nationality,China,age21_events_2009_2024,Historical,2112.0,catchall_60_65,primary,2059
+nationality,China,principal_exits_2009_2024,Historical,32175.0,catchall_60_65,primary,2059
+nationality,ROW,age21_events_2009_2024,Historical,7154.0,catchall_60_65,primary,2059
+nationality,ROW,principal_exits_2009_2024,Historical,111175.0,catchall_60_65,primary,2059
+category,EB-1,age21_events_2009_2024,Historical,4.0,catchall_60_65,primary,2059
+category,EB-1,principal_exits_2009_2024,Historical,2304.0,catchall_60_65,primary,2059
+category,EB-2,age21_events_2009_2024,Historical,6340.0,catchall_60_65,primary,2059
+category,EB-2,principal_exits_2009_2024,Historical,68475.0,catchall_60_65,primary,2059
+category,EB-3,age21_events_2009_2024,Historical,9641.0,catchall_60_65,primary,2059
+category,EB-3,principal_exits_2009_2024,Historical,84800.0,catchall_60_65,primary,2059
+category,EB-4,age21_events_2009_2024,Historical,7312.0,catchall_60_65,primary,2059
+category,EB-4,principal_exits_2009_2024,Historical,82266.0,catchall_60_65,primary,2059
+category,EB-5,age21_events_2009_2024,Historical,215.0,catchall_60_65,primary,2059
+category,EB-5,principal_exits_2009_2024,Historical,1858.0,catchall_60_65,primary,2059
+overall,All,principal_backlog_2024,Historical,1149776.0,catchall_60_65,primary,2059
+nationality,India,principal_backlog_2024,Historical,594901.0,catchall_60_65,primary,2059
+nationality,China,principal_backlog_2024,Historical,142625.0,catchall_60_65,primary,2059
+nationality,ROW,principal_backlog_2024,Historical,412250.0,catchall_60_65,primary,2059
+category,EB-1,principal_backlog_2024,Historical,31915.0,catchall_60_65,primary,2059
+category,EB-2,principal_backlog_2024,Historical,508420.0,catchall_60_65,primary,2059
+category,EB-3,principal_backlog_2024,Historical,287757.0,catchall_60_65,primary,2059
+category,EB-4,principal_backlog_2024,Historical,301517.0,catchall_60_65,primary,2059
+category,EB-5,principal_backlog_2024,Historical,20167.0,catchall_60_65,primary,2059
+joint,EB-1 / India,principal_backlog_2024,Historical,19037.0,catchall_60_65,primary,2059
+joint,EB-1 / China,principal_backlog_2024,Historical,12878.0,catchall_60_65,primary,2059
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2059
+joint,EB-2 / India,principal_backlog_2024,Historical,392532.0,catchall_60_65,primary,2059
+joint,EB-2 / China,principal_backlog_2024,Historical,71771.0,catchall_60_65,primary,2059
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44117.0,catchall_60_65,primary,2059
+joint,EB-3 / India,principal_backlog_2024,Historical,174019.0,catchall_60_65,primary,2059
+joint,EB-3 / China,principal_backlog_2024,Historical,40002.0,catchall_60_65,primary,2059
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73736.0,catchall_60_65,primary,2059
+joint,EB-4 / India,principal_backlog_2024,Historical,7120.0,catchall_60_65,primary,2059
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2059
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294397.0,catchall_60_65,primary,2059
+joint,EB-5 / India,principal_backlog_2024,Historical,2193.0,catchall_60_65,primary,2059
+joint,EB-5 / China,principal_backlog_2024,Historical,17974.0,catchall_60_65,primary,2059
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2059
+overall,All,age21_events_2009_2024,Historical,22950.0,catchall_60_65,primary,2060
+overall,All,principal_exits_2009_2024,Historical,239629.0,catchall_60_65,primary,2060
+nationality,India,age21_events_2009_2024,Historical,13987.0,catchall_60_65,primary,2060
+nationality,India,principal_exits_2009_2024,Historical,96227.0,catchall_60_65,primary,2060
+nationality,China,age21_events_2009_2024,Historical,2118.0,catchall_60_65,primary,2060
+nationality,China,principal_exits_2009_2024,Historical,32590.0,catchall_60_65,primary,2060
+nationality,ROW,age21_events_2009_2024,Historical,6845.0,catchall_60_65,primary,2060
+nationality,ROW,principal_exits_2009_2024,Historical,110812.0,catchall_60_65,primary,2060
+category,EB-1,age21_events_2009_2024,Historical,4.0,catchall_60_65,primary,2060
+category,EB-1,principal_exits_2009_2024,Historical,2375.0,catchall_60_65,primary,2060
+category,EB-2,age21_events_2009_2024,Historical,6133.0,catchall_60_65,primary,2060
+category,EB-2,principal_exits_2009_2024,Historical,68363.0,catchall_60_65,primary,2060
+category,EB-3,age21_events_2009_2024,Historical,9591.0,catchall_60_65,primary,2060
+category,EB-3,principal_exits_2009_2024,Historical,85130.0,catchall_60_65,primary,2060
+category,EB-4,age21_events_2009_2024,Historical,7009.0,catchall_60_65,primary,2060
+category,EB-4,principal_exits_2009_2024,Historical,81896.0,catchall_60_65,primary,2060
+category,EB-5,age21_events_2009_2024,Historical,213.0,catchall_60_65,primary,2060
+category,EB-5,principal_exits_2009_2024,Historical,1865.0,catchall_60_65,primary,2060
+overall,All,principal_backlog_2024,Historical,1148200.0,catchall_60_65,primary,2060
+nationality,India,principal_backlog_2024,Historical,593687.0,catchall_60_65,primary,2060
+nationality,China,principal_backlog_2024,Historical,142641.0,catchall_60_65,primary,2060
+nationality,ROW,principal_backlog_2024,Historical,411872.0,catchall_60_65,primary,2060
+category,EB-1,principal_backlog_2024,Historical,30949.0,catchall_60_65,primary,2060
+category,EB-2,principal_backlog_2024,Historical,507593.0,catchall_60_65,primary,2060
+category,EB-3,principal_backlog_2024,Historical,287819.0,catchall_60_65,primary,2060
+category,EB-4,principal_backlog_2024,Historical,301772.0,catchall_60_65,primary,2060
+category,EB-5,principal_backlog_2024,Historical,20067.0,catchall_60_65,primary,2060
+joint,EB-1 / India,principal_backlog_2024,Historical,18655.0,catchall_60_65,primary,2060
+joint,EB-1 / China,principal_backlog_2024,Historical,12294.0,catchall_60_65,primary,2060
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2060
+joint,EB-2 / India,principal_backlog_2024,Historical,392285.0,catchall_60_65,primary,2060
+joint,EB-2 / China,principal_backlog_2024,Historical,72026.0,catchall_60_65,primary,2060
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43282.0,catchall_60_65,primary,2060
+joint,EB-3 / India,principal_backlog_2024,Historical,173488.0,catchall_60_65,primary,2060
+joint,EB-3 / China,principal_backlog_2024,Historical,40277.0,catchall_60_65,primary,2060
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74054.0,catchall_60_65,primary,2060
+joint,EB-4 / India,principal_backlog_2024,Historical,7236.0,catchall_60_65,primary,2060
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2060
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294536.0,catchall_60_65,primary,2060
+joint,EB-5 / India,principal_backlog_2024,Historical,2023.0,catchall_60_65,primary,2060
+joint,EB-5 / China,principal_backlog_2024,Historical,18044.0,catchall_60_65,primary,2060
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2060
+overall,All,age21_events_2009_2024,Historical,23249.0,catchall_60_65,primary,2061
+overall,All,principal_exits_2009_2024,Historical,239648.0,catchall_60_65,primary,2061
+nationality,India,age21_events_2009_2024,Historical,14192.0,catchall_60_65,primary,2061
+nationality,India,principal_exits_2009_2024,Historical,96069.0,catchall_60_65,primary,2061
+nationality,China,age21_events_2009_2024,Historical,2036.0,catchall_60_65,primary,2061
+nationality,China,principal_exits_2009_2024,Historical,32254.0,catchall_60_65,primary,2061
+nationality,ROW,age21_events_2009_2024,Historical,7021.0,catchall_60_65,primary,2061
+nationality,ROW,principal_exits_2009_2024,Historical,111325.0,catchall_60_65,primary,2061
+category,EB-1,age21_events_2009_2024,Historical,3.0,catchall_60_65,primary,2061
+category,EB-1,principal_exits_2009_2024,Historical,2343.0,catchall_60_65,primary,2061
+category,EB-2,age21_events_2009_2024,Historical,6225.0,catchall_60_65,primary,2061
+category,EB-2,principal_exits_2009_2024,Historical,68868.0,catchall_60_65,primary,2061
+category,EB-3,age21_events_2009_2024,Historical,9655.0,catchall_60_65,primary,2061
+category,EB-3,principal_exits_2009_2024,Historical,84330.0,catchall_60_65,primary,2061
+category,EB-4,age21_events_2009_2024,Historical,7164.0,catchall_60_65,primary,2061
+category,EB-4,principal_exits_2009_2024,Historical,82134.0,catchall_60_65,primary,2061
+category,EB-5,age21_events_2009_2024,Historical,202.0,catchall_60_65,primary,2061
+category,EB-5,principal_exits_2009_2024,Historical,1973.0,catchall_60_65,primary,2061
+overall,All,principal_backlog_2024,Historical,1148505.0,catchall_60_65,primary,2061
+nationality,India,principal_backlog_2024,Historical,592937.0,catchall_60_65,primary,2061
+nationality,China,principal_backlog_2024,Historical,142569.0,catchall_60_65,primary,2061
+nationality,ROW,principal_backlog_2024,Historical,412999.0,catchall_60_65,primary,2061
+category,EB-1,principal_backlog_2024,Historical,31458.0,catchall_60_65,primary,2061
+category,EB-2,principal_backlog_2024,Historical,507495.0,catchall_60_65,primary,2061
+category,EB-3,principal_backlog_2024,Historical,288273.0,catchall_60_65,primary,2061
+category,EB-4,principal_backlog_2024,Historical,301366.0,catchall_60_65,primary,2061
+category,EB-5,principal_backlog_2024,Historical,19913.0,catchall_60_65,primary,2061
+joint,EB-1 / India,principal_backlog_2024,Historical,18780.0,catchall_60_65,primary,2061
+joint,EB-1 / China,principal_backlog_2024,Historical,12678.0,catchall_60_65,primary,2061
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2061
+joint,EB-2 / India,principal_backlog_2024,Historical,390651.0,catchall_60_65,primary,2061
+joint,EB-2 / China,principal_backlog_2024,Historical,71870.0,catchall_60_65,primary,2061
+joint,EB-2 / ROW,principal_backlog_2024,Historical,44974.0,catchall_60_65,primary,2061
+joint,EB-3 / India,principal_backlog_2024,Historical,174135.0,catchall_60_65,primary,2061
+joint,EB-3 / China,principal_backlog_2024,Historical,40356.0,catchall_60_65,primary,2061
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73782.0,catchall_60_65,primary,2061
+joint,EB-4 / India,principal_backlog_2024,Historical,7123.0,catchall_60_65,primary,2061
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2061
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294243.0,catchall_60_65,primary,2061
+joint,EB-5 / India,principal_backlog_2024,Historical,2248.0,catchall_60_65,primary,2061
+joint,EB-5 / China,principal_backlog_2024,Historical,17665.0,catchall_60_65,primary,2061
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2061
+overall,All,age21_events_2009_2024,Historical,23262.0,catchall_60_65,primary,2062
+overall,All,principal_exits_2009_2024,Historical,239063.0,catchall_60_65,primary,2062
+nationality,India,age21_events_2009_2024,Historical,14135.0,catchall_60_65,primary,2062
+nationality,India,principal_exits_2009_2024,Historical,96074.0,catchall_60_65,primary,2062
+nationality,China,age21_events_2009_2024,Historical,2164.0,catchall_60_65,primary,2062
+nationality,China,principal_exits_2009_2024,Historical,32289.0,catchall_60_65,primary,2062
+nationality,ROW,age21_events_2009_2024,Historical,6963.0,catchall_60_65,primary,2062
+nationality,ROW,principal_exits_2009_2024,Historical,110700.0,catchall_60_65,primary,2062
+category,EB-1,age21_events_2009_2024,Historical,0.0,catchall_60_65,primary,2062
+category,EB-1,principal_exits_2009_2024,Historical,2254.0,catchall_60_65,primary,2062
+category,EB-2,age21_events_2009_2024,Historical,6224.0,catchall_60_65,primary,2062
+category,EB-2,principal_exits_2009_2024,Historical,68396.0,catchall_60_65,primary,2062
+category,EB-3,age21_events_2009_2024,Historical,9685.0,catchall_60_65,primary,2062
+category,EB-3,principal_exits_2009_2024,Historical,84282.0,catchall_60_65,primary,2062
+category,EB-4,age21_events_2009_2024,Historical,7152.0,catchall_60_65,primary,2062
+category,EB-4,principal_exits_2009_2024,Historical,82134.0,catchall_60_65,primary,2062
+category,EB-5,age21_events_2009_2024,Historical,201.0,catchall_60_65,primary,2062
+category,EB-5,principal_exits_2009_2024,Historical,1997.0,catchall_60_65,primary,2062
+overall,All,principal_backlog_2024,Historical,1148906.0,catchall_60_65,primary,2062
+nationality,India,principal_backlog_2024,Historical,594314.0,catchall_60_65,primary,2062
+nationality,China,principal_backlog_2024,Historical,142743.0,catchall_60_65,primary,2062
+nationality,ROW,principal_backlog_2024,Historical,411849.0,catchall_60_65,primary,2062
+category,EB-1,principal_backlog_2024,Historical,31231.0,catchall_60_65,primary,2062
+category,EB-2,principal_backlog_2024,Historical,507850.0,catchall_60_65,primary,2062
+category,EB-3,principal_backlog_2024,Historical,288376.0,catchall_60_65,primary,2062
+category,EB-4,principal_backlog_2024,Historical,301466.0,catchall_60_65,primary,2062
+category,EB-5,principal_backlog_2024,Historical,19983.0,catchall_60_65,primary,2062
+joint,EB-1 / India,principal_backlog_2024,Historical,18610.0,catchall_60_65,primary,2062
+joint,EB-1 / China,principal_backlog_2024,Historical,12621.0,catchall_60_65,primary,2062
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2062
+joint,EB-2 / India,principal_backlog_2024,Historical,392478.0,catchall_60_65,primary,2062
+joint,EB-2 / China,principal_backlog_2024,Historical,71910.0,catchall_60_65,primary,2062
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43462.0,catchall_60_65,primary,2062
+joint,EB-3 / India,principal_backlog_2024,Historical,173853.0,catchall_60_65,primary,2062
+joint,EB-3 / China,principal_backlog_2024,Historical,40517.0,catchall_60_65,primary,2062
+joint,EB-3 / ROW,principal_backlog_2024,Historical,74006.0,catchall_60_65,primary,2062
+joint,EB-4 / India,principal_backlog_2024,Historical,7085.0,catchall_60_65,primary,2062
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2062
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294381.0,catchall_60_65,primary,2062
+joint,EB-5 / India,principal_backlog_2024,Historical,2288.0,catchall_60_65,primary,2062
+joint,EB-5 / China,principal_backlog_2024,Historical,17695.0,catchall_60_65,primary,2062
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2062
+overall,All,age21_events_2009_2024,Historical,23453.0,catchall_60_65,primary,2063
+overall,All,principal_exits_2009_2024,Historical,239337.0,catchall_60_65,primary,2063
+nationality,India,age21_events_2009_2024,Historical,14344.0,catchall_60_65,primary,2063
+nationality,India,principal_exits_2009_2024,Historical,96383.0,catchall_60_65,primary,2063
+nationality,China,age21_events_2009_2024,Historical,2037.0,catchall_60_65,primary,2063
+nationality,China,principal_exits_2009_2024,Historical,32649.0,catchall_60_65,primary,2063
+nationality,ROW,age21_events_2009_2024,Historical,7072.0,catchall_60_65,primary,2063
+nationality,ROW,principal_exits_2009_2024,Historical,110305.0,catchall_60_65,primary,2063
+category,EB-1,age21_events_2009_2024,Historical,1.0,catchall_60_65,primary,2063
+category,EB-1,principal_exits_2009_2024,Historical,2368.0,catchall_60_65,primary,2063
+category,EB-2,age21_events_2009_2024,Historical,6388.0,catchall_60_65,primary,2063
+category,EB-2,principal_exits_2009_2024,Historical,68722.0,catchall_60_65,primary,2063
+category,EB-3,age21_events_2009_2024,Historical,9568.0,catchall_60_65,primary,2063
+category,EB-3,principal_exits_2009_2024,Historical,84602.0,catchall_60_65,primary,2063
+category,EB-4,age21_events_2009_2024,Historical,7273.0,catchall_60_65,primary,2063
+category,EB-4,principal_exits_2009_2024,Historical,81716.0,catchall_60_65,primary,2063
+category,EB-5,age21_events_2009_2024,Historical,223.0,catchall_60_65,primary,2063
+category,EB-5,principal_exits_2009_2024,Historical,1929.0,catchall_60_65,primary,2063
+overall,All,principal_backlog_2024,Historical,1148879.0,catchall_60_65,primary,2063
+nationality,India,principal_backlog_2024,Historical,593887.0,catchall_60_65,primary,2063
+nationality,China,principal_backlog_2024,Historical,142956.0,catchall_60_65,primary,2063
+nationality,ROW,principal_backlog_2024,Historical,412036.0,catchall_60_65,primary,2063
+category,EB-1,principal_backlog_2024,Historical,31352.0,catchall_60_65,primary,2063
+category,EB-2,principal_backlog_2024,Historical,507192.0,catchall_60_65,primary,2063
+category,EB-3,principal_backlog_2024,Historical,288405.0,catchall_60_65,primary,2063
+category,EB-4,principal_backlog_2024,Historical,301865.0,catchall_60_65,primary,2063
+category,EB-5,principal_backlog_2024,Historical,20065.0,catchall_60_65,primary,2063
+joint,EB-1 / India,principal_backlog_2024,Historical,18776.0,catchall_60_65,primary,2063
+joint,EB-1 / China,principal_backlog_2024,Historical,12576.0,catchall_60_65,primary,2063
+joint,EB-1 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2063
+joint,EB-2 / India,principal_backlog_2024,Historical,391475.0,catchall_60_65,primary,2063
+joint,EB-2 / China,principal_backlog_2024,Historical,71900.0,catchall_60_65,primary,2063
+joint,EB-2 / ROW,principal_backlog_2024,Historical,43817.0,catchall_60_65,primary,2063
+joint,EB-3 / India,principal_backlog_2024,Historical,174251.0,catchall_60_65,primary,2063
+joint,EB-3 / China,principal_backlog_2024,Historical,40572.0,catchall_60_65,primary,2063
+joint,EB-3 / ROW,principal_backlog_2024,Historical,73582.0,catchall_60_65,primary,2063
+joint,EB-4 / India,principal_backlog_2024,Historical,7228.0,catchall_60_65,primary,2063
+joint,EB-4 / China,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2063
+joint,EB-4 / ROW,principal_backlog_2024,Historical,294637.0,catchall_60_65,primary,2063
+joint,EB-5 / India,principal_backlog_2024,Historical,2157.0,catchall_60_65,primary,2063
+joint,EB-5 / China,principal_backlog_2024,Historical,17908.0,catchall_60_65,primary,2063
+joint,EB-5 / ROW,principal_backlog_2024,Historical,0.0,catchall_60_65,primary,2063
+overall,All,age21_events_2009_2024,Historical,20419.0,historical_replay,replay,2014
+overall,All,principal_exits_2009_2024,Historical,244231.0,historical_replay,replay,2014
+nationality,India,age21_events_2009_2024,Historical,11554.0,historical_replay,replay,2014
+nationality,India,principal_exits_2009_2024,Historical,90577.0,historical_replay,replay,2014
+nationality,China,age21_events_2009_2024,Historical,1705.0,historical_replay,replay,2014
+nationality,China,principal_exits_2009_2024,Historical,31120.0,historical_replay,replay,2014
+nationality,ROW,age21_events_2009_2024,Historical,7160.0,historical_replay,replay,2014
+nationality,ROW,principal_exits_2009_2024,Historical,122534.0,historical_replay,replay,2014
+category,EB-1,age21_events_2009_2024,Historical,0.0,historical_replay,replay,2014
+category,EB-1,principal_exits_2009_2024,Historical,2683.0,historical_replay,replay,2014
+category,EB-2,age21_events_2009_2024,Historical,4627.0,historical_replay,replay,2014
+category,EB-2,principal_exits_2009_2024,Historical,68575.0,historical_replay,replay,2014
+category,EB-3,age21_events_2009_2024,Historical,8557.0,historical_replay,replay,2014
+category,EB-3,principal_exits_2009_2024,Historical,89323.0,historical_replay,replay,2014
+category,EB-4,age21_events_2009_2024,Historical,6979.0,historical_replay,replay,2014
+category,EB-4,principal_exits_2009_2024,Historical,81560.0,historical_replay,replay,2014
+category,EB-5,age21_events_2009_2024,Historical,256.0,historical_replay,replay,2014
+category,EB-5,principal_exits_2009_2024,Historical,2090.0,historical_replay,replay,2014
+overall,All,principal_backlog_2024,Historical,1145893.0,historical_replay,replay,2014
+nationality,India,principal_backlog_2024,Historical,566252.0,historical_replay,replay,2014
+nationality,China,principal_backlog_2024,Historical,131309.0,historical_replay,replay,2014
+nationality,ROW,principal_backlog_2024,Historical,448332.0,historical_replay,replay,2014
+category,EB-1,principal_backlog_2024,Historical,32081.0,historical_replay,replay,2014
+category,EB-2,principal_backlog_2024,Historical,497698.0,historical_replay,replay,2014
+category,EB-3,principal_backlog_2024,Historical,293544.0,historical_replay,replay,2014
+category,EB-4,principal_backlog_2024,Historical,300953.0,historical_replay,replay,2014
+category,EB-5,principal_backlog_2024,Historical,21617.0,historical_replay,replay,2014
+joint,EB-1 / India,principal_backlog_2024,Historical,16710.0,historical_replay,replay,2014
+joint,EB-1 / China,principal_backlog_2024,Historical,12482.0,historical_replay,replay,2014
+joint,EB-1 / ROW,principal_backlog_2024,Historical,2889.0,historical_replay,replay,2014
+joint,EB-2 / India,principal_backlog_2024,Historical,371414.0,historical_replay,replay,2014
+joint,EB-2 / China,principal_backlog_2024,Historical,67131.0,historical_replay,replay,2014
+joint,EB-2 / ROW,principal_backlog_2024,Historical,59153.0,historical_replay,replay,2014
+joint,EB-3 / India,principal_backlog_2024,Historical,167677.0,historical_replay,replay,2014
+joint,EB-3 / China,principal_backlog_2024,Historical,36409.0,historical_replay,replay,2014
+joint,EB-3 / ROW,principal_backlog_2024,Historical,89458.0,historical_replay,replay,2014
+joint,EB-4 / India,principal_backlog_2024,Historical,7393.0,historical_replay,replay,2014
+joint,EB-4 / China,principal_backlog_2024,Historical,179.0,historical_replay,replay,2014
+joint,EB-4 / ROW,principal_backlog_2024,Historical,293381.0,historical_replay,replay,2014
+joint,EB-5 / India,principal_backlog_2024,Historical,3058.0,historical_replay,replay,2014
+joint,EB-5 / China,principal_backlog_2024,Historical,15108.0,historical_replay,replay,2014
+joint,EB-5 / ROW,principal_backlog_2024,Historical,3451.0,historical_replay,replay,2014

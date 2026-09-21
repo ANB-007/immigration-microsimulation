@@ -1,25 +1,20 @@
 """
-Monte Carlo confidence interval runner for immigration microsimulation.
+Monte Carlo distribution runner for immigration microsimulation.
 
 Executes N paired (uncapped + capped) simulation runs and aggregates
-95% empirical confidence intervals for all headline policy metrics.
+conditional Monte Carlo percentile ranges and paired summaries.
 
 DESIGN PRINCIPLES
 Paired runs
     Each run i uses the same seed for both the uncapped and capped scenario.
-    Because worker arrivals, queue exits, and child demographics are drawn
-    from identical RNG states (via SeedSequence), the CI on the policy
-    difference (capped - uncapped) is a tight matched-pairs estimate.
-    This is the correct estimator for a policy paper arguing that caps
-    cause additional age-outs over and above baseline stochastic variation.
-    An independent-samples design would produce CIs 2-4x wider on the
-    difference, obscuring a real policy signal.
+    Report the distribution of within-seed differences. Shared seeds do not
+    guarantee identical person-level shocks after policy-dependent queues
+    diverge; no universal variance-reduction factor is assumed.
 
-Empirical percentile CI method
-    We use np.percentile([2.5, 97.5]) rather than mean +/- 1.96*sigma. This
-    makes no normality assumption and is valid even if age-out counts have
-    a skewed distribution across runs (plausible given rare-event dynamics
-    in the EB-3 India queue).
+Conditional percentile range method
+    Percentiles describe conditional simulation variation at fixed inputs,
+    not confidence intervals for observed population outcomes. Numerical
+    precision of their endpoints must be assessed separately.
 
 Lightweight extraction
     Only scalar and dict fields from SimulationState are stored per run.
@@ -31,9 +26,8 @@ Lightweight extraction
     cumulative total at every year's snapshot.
     Per-EB-category annual counts are tallied by iterating the per-year
     list during extraction (read-only, objects are not stored in row).
-    Per-nationality queue-exit counts follow the same cumulative-diff
-    pattern using exited_by_nationality. Per-EB-category queue-exit counts
-    follow the same cumulative-diff pattern using exited_by_eb_category.
+    The exit dictionaries are annual flows, read directly and summed to
+    obtain cumulative subgroup exits. They must never be differenced.
 
 No side effects in the inner loop
     Diagnostics, CSV exports, console summaries, and visualizations are
@@ -43,7 +37,7 @@ No side effects in the inner loop
 Seed strategy
     Run i uses seed = base_seed + i. Because Simulation.__init__ passes
     this through np.random.SeedSequence, incrementing by 1 produces a
-    cryptographically independent stream, not a permutation of the same
+    separate pseudorandom stream, not a permutation of the same
     one. The four child streams (worker creation, queue exits, child
     processor, visa processor) are all re-derived from seed_i inside each
     fresh Simulation instance -- there is zero cross-run state.
@@ -86,11 +80,11 @@ EB_CATS = list(EBCategory)  # [EBCategory.EB1, EBCategory.EB2, ...]
 # Type aliases
 
 
-# Scalar 95% CI: (mean, p2.5, p97.5)
+# Compatibility alias for a scalar conditional range: (mean, p2.5, p97.5)
 ScalarCI = Tuple[float, float, float]
 
 
-# Time-series 95% CI: three arrays each of shape (n_years,)
+# Compatibility alias for a conditional range: three arrays of shape (n_years,)
 TimeSeriesCI = Tuple[np.ndarray, np.ndarray, np.ndarray]
 
 
@@ -155,11 +149,9 @@ def _extract_run(states_unc, states_cap) -> Dict:
     recovered from cumulative snapshots via np.diff(prepend=0).
     Per-EB-category annual aged-out counts are tallied from
     children_aged_out_this_year_list (read-only; objects not stored).
-    Per-nationality annual queue-exit counts are recovered from cumulative
-    snapshots of exited_by_nationality via np.diff(prepend=0).
-    Per-EB-category annual queue-exit counts are recovered from cumulative
-    snapshots of exited_by_eb_category via np.diff(prepend=0),
-    mirroring the exited_by_nationality pattern. Keys follow the pattern:
+    Nationality/category exit dictionaries contain annual counts. These are
+    exported directly, and cumulative subgroup exits are sums over years.
+    Keys follow the pattern:
         annual_<metric>_<scenario>      time-series array, shape (n_years,)
         cumul_<metric>_<scenario>       time-series array, shape (n_years,)
         final_<metric>_<scenario>       float scalar
@@ -196,6 +188,11 @@ def _extract_run(states_unc, states_cap) -> Dict:
         # Annual principal conversions
         "annual_conversions_unc": ts(states_unc, "converted_temps"),
         "annual_conversions_cap": ts(states_cap, "converted_temps"),
+        # Separate family components preserve the applicant-type accounting.
+        "annual_spouse_conversions_unc": ts(states_unc, "converted_spouses"),
+        "annual_spouse_conversions_cap": ts(states_cap, "converted_spouses"),
+        "annual_children_saved_unc": ts(states_unc, "children_saved_this_year"),
+        "annual_children_saved_cap": ts(states_cap, "children_saved_this_year"),
         # Annual visa consumption (principals + spouses + children)
         "annual_visas_consumed_unc": ts(states_unc, "visas_consumed_this_year"),
         "annual_visas_consumed_cap": ts(states_cap, "visas_consumed_this_year"),
@@ -240,19 +237,18 @@ def _extract_run(states_unc, states_cap) -> Dict:
         row[f"diff_backlog_{nat}"] = float(f_cap.queue_backlog_by_country.get(nat, 0) - f_unc.queue_backlog_by_country.get(nat, 0))
 
         # Queue exits by nationality
-        cumul_ex_unc = dict_ts(states_unc, "exited_by_nationality", nat)
-        cumul_ex_cap = dict_ts(states_cap, "exited_by_nationality", nat)
-        row[f"annual_exited_{nat}_unc"] = np.diff(cumul_ex_unc, prepend=0.0)
-        row[f"annual_exited_{nat}_cap"] = np.diff(cumul_ex_cap, prepend=0.0)
-        row[f"final_exited_{nat}_unc"] = float(f_unc.exited_by_nationality.get(nat, 0))
-        row[f"final_exited_{nat}_cap"] = float(f_cap.exited_by_nationality.get(nat, 0))
-        row[f"diff_exited_{nat}"] = float(f_cap.exited_by_nationality.get(nat, 0) - f_unc.exited_by_nationality.get(nat, 0))
+        annual_ex_unc = dict_ts(states_unc, "exited_by_nationality", nat)
+        annual_ex_cap = dict_ts(states_cap, "exited_by_nationality", nat)
+        row[f"annual_exited_{nat}_unc"] = annual_ex_unc
+        row[f"annual_exited_{nat}_cap"] = annual_ex_cap
+        row[f"final_exited_{nat}_unc"] = float(annual_ex_unc.sum())
+        row[f"final_exited_{nat}_cap"] = float(annual_ex_cap.sum())
+        row[f"diff_exited_{nat}"] = float(annual_ex_cap.sum() - annual_ex_unc.sum())
 
     # Per-EB-category fields
     # Aged-out tallied from children_aged_out_this_year_list in a single pass
     # per year (one iteration over the list regardless of how many EB cats).
-    # Queue exits read from exited_by_eb_category (cumulative dict) via np.diff,
-    # mirroring the exited_by_nationality pattern.
+    # Queue exits read directly from annual exited_by_eb_category dictionaries.
     annual_unc_by_eb = {eb: np.zeros(len(states_unc), dtype=np.float64) for eb in EB_CATS}
     annual_cap_by_eb = {eb: np.zeros(len(states_cap), dtype=np.float64) for eb in EB_CATS}
     for yr_idx, (s_u, s_c) in enumerate(zip(states_unc, states_cap)):
@@ -274,11 +270,11 @@ def _extract_run(states_unc, states_cap) -> Dict:
         row[f"final_aged_out_{key}_unc"] = float(annual_unc.sum())
         row[f"final_aged_out_{key}_cap"] = float(annual_cap.sum())
         row[f"diff_aged_out_{key}"] = float(annual_cap.sum() - annual_unc.sum())
-        row[f"annual_exited_{key}_unc"] = np.diff(cumul_ex_unc, prepend=0.0)
-        row[f"annual_exited_{key}_cap"] = np.diff(cumul_ex_cap, prepend=0.0)
-        row[f"final_exited_{key}_unc"] = float(cumul_ex_unc[-1])
-        row[f"final_exited_{key}_cap"] = float(cumul_ex_cap[-1])
-        row[f"diff_exited_{key}"] = float(cumul_ex_cap[-1] - cumul_ex_unc[-1])
+        row[f"annual_exited_{key}_unc"] = cumul_ex_unc
+        row[f"annual_exited_{key}_cap"] = cumul_ex_cap
+        row[f"final_exited_{key}_unc"] = float(cumul_ex_unc.sum())
+        row[f"final_exited_{key}_cap"] = float(cumul_ex_cap.sum())
+        row[f"diff_exited_{key}"] = float(cumul_ex_cap.sum() - cumul_ex_unc.sum())
 
     return row
 
@@ -375,7 +371,10 @@ def _sc_ci(runs: List[Dict], key: str) -> ScalarCI:
 @dataclass
 class CIResults:
     """
-    Aggregated 95% confidence interval results from N paired Monte Carlo runs.
+    Conditional Monte Carlo percentile ranges and paired summaries from N runs.
+
+    CI class and field names are retained for compatibility, not as a claim of
+    confidence coverage for the real population or unresolved model uncertainty.
 
     Naming convention
     *_unc / *_cap      uncapped / capped scenario
@@ -473,26 +472,25 @@ def run_ci_analysis(
     config: SimulationConfig,
     n_runs: int = 200,
     base_seed: Optional[int] = None,
+    workers: int = 1,
 ) -> CIResults:
     """
-    Run N paired (uncapped, capped) simulations and return 95% CI results.
+    Run N paired simulations and return conditional percentile ranges and summaries.
 
     Args:
         config:     Base SimulationConfig. years, start_year, and output_path
                     are forwarded unchanged. country_cap_enabled is overridden
                     per scenario. seed is used as base_seed if not provided.
-        n_runs:     Number of Monte Carlo iterations.
-                    100  -> fast validation / sanity check (~10 min typical)
-                    200  -> publication quality
-                    500  -> very tight bands if runtime permits
+        n_runs:     Number of paired replications, justified using numerical
+                    Monte Carlo error rather than a universal run threshold.
         base_seed:  Seed for run 0. Run i uses base_seed + i.
                     Defaults to config.seed.
 
     Returns:
-        CIResults with means and empirical 95% CI bands for all metrics.
+        CIResults with means and conditional P2.5-P97.5 simulation ranges.
 
     Raises:
-        ValueError: If n_runs < 2 (cannot compute a meaningful percentile CI).
+        ValueError: If n_runs < 2 (minimum required by the aggregation interface).
     """
     if n_runs < 2:
         raise ValueError(f"n_runs must be >= 2 to compute CI bounds; got {n_runs}.")
@@ -514,37 +512,10 @@ def run_ci_analysis(
 
     loop_start = time.perf_counter()
 
-    for i in range(n_runs):
-        seed_i = base_seed + i
-
-        cfg_unc = SimulationConfig(
-            years=config.years,
-            seed=seed_i,
-            output_path=config.output_path,
-            country_cap_enabled=False,
-            debug=False,
-            start_year=config.start_year,
-        )
-        cfg_cap = SimulationConfig(
-            years=config.years,
-            seed=seed_i,
-            output_path=config.output_path,
-            country_cap_enabled=True,
-            debug=False,
-            start_year=config.start_year,
-        )
-
-        # store sim objects so child_processor is accessible
-        sim_unc = Simulation(cfg_unc)
-        states_unc = sim_unc.run()
-        sim_cap = Simulation(cfg_cap)
-        states_cap = sim_cap.run()
-
-        runs.append(_extract_run(states_unc, states_cap))
-        cohort_runs.append(_extract_cohort_run(sim_unc, sim_cap))
-        del sim_unc, sim_cap  # release queue/child objects immediately
-
-        _progress_bar(i, n_runs, time.perf_counter() - loop_start, seed_i)
+    from dataclasses import replace
+    from .experiments import run_campaign
+    campaign_config = replace(config, seed=base_seed)
+    runs, cohort_runs = run_campaign(campaign_config, n_runs, workers=workers)
 
     print()
     total_elapsed = time.perf_counter() - loop_start
@@ -645,7 +616,7 @@ def run_ci_analysis(
         diff_aged_out_by_eb[key] = _sc_ci(runs, f"diff_aged_out_{key}")
         diff_exited_by_eb[key] = _sc_ci(runs, f"diff_exited_{key}")
 
-    ci_root = PROJECT_ROOT / "outputs" / "ci"
+    ci_root = Path(config.output_path)
     save_raw_runs_to_csv(runs, ci_root, base_seed)
     save_raw_cohorts_to_csv(cohort_runs, ci_root, base_seed)
 
@@ -714,7 +685,7 @@ def run_ci_analysis(
 
 def print_ci_summary(ci: CIResults) -> None:
     """
-    Print a concise console summary of all headline CI results.
+    Print a concise console summary of conditional Monte Carlo results.
 
     Useful for a quick sanity check before running visualizations,
     and for embedding the key numbers in pipeline logs.
@@ -722,11 +693,11 @@ def print_ci_summary(ci: CIResults) -> None:
 
     def fmt(sc: ScalarCI, decimals: int = 0) -> str:
         f = f"{{:,.{decimals}f}}"
-        return f"{f.format(sc[0])}  [95% CI: {f.format(sc[1])} - {f.format(sc[2])}]"
+        return f"{f.format(sc[0])}  [conditional simulation range: {f.format(sc[1])} - {f.format(sc[2])}]"
 
     W = 72
     print("\n" + "=" * W)
-    print(f"  CI SUMMARY  ({ci.n_runs} paired Monte Carlo runs, empirical percentile)")
+    print(f"  MONTE CARLO SUMMARY  ({ci.n_runs} paired Monte Carlo runs, empirical percentile)")
     print("=" * W)
 
     print("\n-- Cumulative Children Aged Out (final year) ----------------------")
