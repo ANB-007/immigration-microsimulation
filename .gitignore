@@ -1,10 +1,13 @@
-# Local research history, authoring files, tests, and build scratch
+# Local research history, authoring files, and build scratch
 /.local/
 /output/
 /paper/
-/tests/
 /tmp/
 /RESUBMISSION_CHECKLIST.md
+
+# Publish only the focused verification suite; other development tests stay local.
+/tests/*
+!/tests/test_public_checks.py
 
 # Documents and submission bundles are maintained outside the code repository
 *.pdf

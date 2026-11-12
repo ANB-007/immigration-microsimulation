@@ -18,7 +18,7 @@ Each campaign’s `paired_runs.jsonl.gz` is a compressed data file, with one cas
 
 The earlier saved records were produced before the directory reorganization. Their original identities remain intact. Moving the input tables and removing unused experiment options did not alter the current model's numerical behavior; equivalence was checked against the preceding implementation. New simulations record the current source and input hashes.
 
-To regenerate demographic distributions, place the IPUMS ACS extract at `demographics/acs_2014-2024.csv` and run `python data/demographics/ages.py` and `python data/demographics/counts.py` from the repository root. These overwrite the four cached JSON files. The raw extract is ignored by Git.
+To regenerate demographic distributions, place the IPUMS ACS extract at `data/demographics/acs_2014-2024.csv` and run `python data/demographics/ages.py` and `python data/demographics/counts.py` from the repository root. These overwrite the four cached JSON files. The raw extract is ignored by Git.
 
 The extractors share `demographics/income_adjustment.py`: nominal `INCWAGE` is
 multiplied by September 2024 CPI-U divided by survey-year annual-average CPI-U,

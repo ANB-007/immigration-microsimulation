@@ -3,7 +3,8 @@ Empirical age distribution extraction for principals and children.
 
 Builds pathway-specific proxy populations from ACS microdata, then derives
 weighted age distributions for employment-based principals and entry-age
-distributions for their foreign-born children. Outputs JSON files encoding
+distributions for their foreign-born unmarried own children under 21
+(biological, adopted, or stepchildren, excluding children-in-law). Outputs JSON files encoding
 principal age and child entry-age distributions by pathway and nationality
 for use in the immigration microsimulation.
 """
@@ -155,12 +156,14 @@ PATHWAY_TO_PROXY = dict(zip(PATHWAYS, PROXY_FRAMES))
 
 def get_children_for_proxy(df_proxy: pd.DataFrame) -> pd.DataFrame:
     """
-    Get foreign-born children linked to MARRIED households in the proxy population.
+    Get foreign-born unmarried own children under 21 linked to married proxy households.
     Nationality is inherited from the parent via merge on (SERIAL, YEAR).
 
     The married filter (MARST in [1, 2]) is applied here rather than in the base
     proxy so that principal age distributions can use the full proxy population
     while child entry-age distributions remain restricted to married households.
+    Children must have RELATE == 3 (biological, adopted, or stepchildren) and
+    their own MARST in [4, 5, 6] (divorced, widowed, or never married).
     """
     married_proxy = df_proxy[df_proxy["MARST"].isin([1, 2])]
     all_households = married_proxy[["SERIAL", "YEAR", "Nationality"]].copy()
@@ -169,7 +172,8 @@ def get_children_for_proxy(df_proxy: pd.DataFrame) -> pd.DataFrame:
         (children["AGE"] < 21)
         & (children["BPLD"] >= 15000)
         & (children["CITIZEN"] == 3)
-        & (children["RELATE"].isin([3, 4]))
+        & (children["RELATE"] == 3)
+        & (children["MARST"].isin([4, 5, 6]))
         & (children["GQ"] == 1)
     ].copy()
     children = children[(children["YRSUSA1"] >= 0) & (children["YRSUSA1"] <= children["AGE"])].copy()

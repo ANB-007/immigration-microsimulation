@@ -14,7 +14,7 @@ authors:
     orcid: "https://orcid.org/0009-0006-5135-7570"
 repository-code: "https://github.com/ANB-007/immigration-microsimulation"
 license: MIT
-version: 2.1.0
+version: 2.2.0
 keywords:
   - employment-based immigration
   - per-country cap

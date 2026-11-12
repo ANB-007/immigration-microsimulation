@@ -27,7 +27,7 @@ Early-period initialization additions are assumptions, not observed annual flows
 
 ## EB-4
 
-The model separates SIJs from other EB-4 principals. The FY2009 SIJ count comes from the [2011 Federal Register notice](https://www.federalregister.gov/documents/2011/09/06/2011-22625/special-immigrant-juvenile-petitions). Other EB-4 totals in 2009–2011 use the 2012 proportion as a proxy because direct data were unavailable.
+The model separates SIJs from other EB-4 principals. The FY2009 SIJ count comes from the [2011 Federal Register notice](https://www.federalregister.gov/documents/2011/09/06/2011-22625/special-immigrant-juvenile-petitions). Other EB-4 totals for FY2011–FY2012 use reported Special Immigrant approvals. For FY2013–FY2022 and FY2024, they use total I-360 approvals minus SIJ, VAWA and 627 widow(er)/Amerasian approvals. FY2009–FY2010 use the FY2012 proportion; FY2023 uses the FY2024 value of 2,671.
 
 SIJ nationality shares use unaccompanied-minor court data, with the ROW group primarily representing Central American countries. Other EB-4 nationality shares use R-1 religious-worker visa distributions. These are proxies for nationality composition, not direct observations of the full EB-4 population. The manuscript explains their implications for queue composition and age-outs.
 

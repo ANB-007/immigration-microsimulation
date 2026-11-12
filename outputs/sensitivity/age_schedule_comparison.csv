@@ -1,127 +1,127 @@
 dimension,group,quantity,policy,value,case,role,seed
-overall,All,age21_events_2025_2040,Capped,266481.0,catchall_60_65,primary,2014
-overall,All,age21_events_2025_2040,Uncapped,199802.0,catchall_60_65,primary,2014
-overall,All,age21_events_2025_2040,Capped minus uncapped,66679.0,catchall_60_65,primary,2014
-nationality,India,age21_events_2025_2040,Capped,193548.0,catchall_60_65,primary,2014
-nationality,India,age21_events_2025_2040,Uncapped,73469.0,catchall_60_65,primary,2014
-nationality,India,age21_events_2025_2040,Capped minus uncapped,120079.0,catchall_60_65,primary,2014
-nationality,China,age21_events_2025_2040,Capped,18844.0,catchall_60_65,primary,2014
-nationality,China,age21_events_2025_2040,Uncapped,14795.0,catchall_60_65,primary,2014
-nationality,China,age21_events_2025_2040,Capped minus uncapped,4049.0,catchall_60_65,primary,2014
-nationality,ROW,age21_events_2025_2040,Capped,54089.0,catchall_60_65,primary,2014
-nationality,ROW,age21_events_2025_2040,Uncapped,111538.0,catchall_60_65,primary,2014
-nationality,ROW,age21_events_2025_2040,Capped minus uncapped,-57449.0,catchall_60_65,primary,2014
-category,EB-1,age21_events_2025_2040,Capped,2559.0,catchall_60_65,primary,2014
-category,EB-1,age21_events_2025_2040,Uncapped,731.0,catchall_60_65,primary,2014
-category,EB-1,age21_events_2025_2040,Capped minus uncapped,1828.0,catchall_60_65,primary,2014
-category,EB-2,age21_events_2025_2040,Capped,149764.0,catchall_60_65,primary,2014
-category,EB-2,age21_events_2025_2040,Uncapped,108625.0,catchall_60_65,primary,2014
-category,EB-2,age21_events_2025_2040,Capped minus uncapped,41139.0,catchall_60_65,primary,2014
-category,EB-3,age21_events_2025_2040,Capped,63613.0,catchall_60_65,primary,2014
-category,EB-3,age21_events_2025_2040,Uncapped,40151.0,catchall_60_65,primary,2014
-category,EB-3,age21_events_2025_2040,Capped minus uncapped,23462.0,catchall_60_65,primary,2014
-category,EB-4,age21_events_2025_2040,Capped,49489.0,catchall_60_65,primary,2014
-category,EB-4,age21_events_2025_2040,Uncapped,49738.0,catchall_60_65,primary,2014
-category,EB-4,age21_events_2025_2040,Capped minus uncapped,-249.0,catchall_60_65,primary,2014
-category,EB-5,age21_events_2025_2040,Capped,1056.0,catchall_60_65,primary,2014
-category,EB-5,age21_events_2025_2040,Uncapped,557.0,catchall_60_65,primary,2014
+overall,All,age21_events_2025_2040,Capped,222649.0,catchall_60_65,primary,2014
+overall,All,age21_events_2025_2040,Uncapped,155764.0,catchall_60_65,primary,2014
+overall,All,age21_events_2025_2040,Capped minus uncapped,66885.0,catchall_60_65,primary,2014
+nationality,India,age21_events_2025_2040,Capped,189845.0,catchall_60_65,primary,2014
+nationality,India,age21_events_2025_2040,Uncapped,69234.0,catchall_60_65,primary,2014
+nationality,India,age21_events_2025_2040,Capped minus uncapped,120611.0,catchall_60_65,primary,2014
+nationality,China,age21_events_2025_2040,Capped,17328.0,catchall_60_65,primary,2014
+nationality,China,age21_events_2025_2040,Uncapped,13538.0,catchall_60_65,primary,2014
+nationality,China,age21_events_2025_2040,Capped minus uncapped,3790.0,catchall_60_65,primary,2014
+nationality,ROW,age21_events_2025_2040,Capped,15476.0,catchall_60_65,primary,2014
+nationality,ROW,age21_events_2025_2040,Uncapped,72992.0,catchall_60_65,primary,2014
+nationality,ROW,age21_events_2025_2040,Capped minus uncapped,-57516.0,catchall_60_65,primary,2014
+category,EB-1,age21_events_2025_2040,Capped,2214.0,catchall_60_65,primary,2014
+category,EB-1,age21_events_2025_2040,Uncapped,678.0,catchall_60_65,primary,2014
+category,EB-1,age21_events_2025_2040,Capped minus uncapped,1536.0,catchall_60_65,primary,2014
+category,EB-2,age21_events_2025_2040,Capped,147905.0,catchall_60_65,primary,2014
+category,EB-2,age21_events_2025_2040,Uncapped,106902.0,catchall_60_65,primary,2014
+category,EB-2,age21_events_2025_2040,Capped minus uncapped,41003.0,catchall_60_65,primary,2014
+category,EB-3,age21_events_2025_2040,Capped,63181.0,catchall_60_65,primary,2014
+category,EB-3,age21_events_2025_2040,Uncapped,39305.0,catchall_60_65,primary,2014
+category,EB-3,age21_events_2025_2040,Capped minus uncapped,23876.0,catchall_60_65,primary,2014
+category,EB-4,age21_events_2025_2040,Capped,8356.0,catchall_60_65,primary,2014
+category,EB-4,age21_events_2025_2040,Uncapped,8385.0,catchall_60_65,primary,2014
+category,EB-4,age21_events_2025_2040,Capped minus uncapped,-29.0,catchall_60_65,primary,2014
+category,EB-5,age21_events_2025_2040,Capped,993.0,catchall_60_65,primary,2014
+category,EB-5,age21_events_2025_2040,Uncapped,494.0,catchall_60_65,primary,2014
 category,EB-5,age21_events_2025_2040,Capped minus uncapped,499.0,catchall_60_65,primary,2014
-joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1458.0,catchall_60_65,primary,2014
-joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,927.0,catchall_60_65,primary,2014
-joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,-557.0,catchall_60_65,primary,2014
-joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,75311.0,catchall_60_65,primary,2014
-joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,514.0,catchall_60_65,primary,2014
-joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,-34686.0,catchall_60_65,primary,2014
-joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,43847.0,catchall_60_65,primary,2014
-joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,2160.0,catchall_60_65,primary,2014
-joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,-22545.0,catchall_60_65,primary,2014
-joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,-710.0,catchall_60_65,primary,2014
-joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,-116.0,catchall_60_65,primary,2014
-joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,577.0,catchall_60_65,primary,2014
-joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,173.0,catchall_60_65,primary,2014
-joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,564.0,catchall_60_65,primary,2014
-joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,-238.0,catchall_60_65,primary,2014
-overall,All,age21_events_2025_2040,Capped,213441.0,catchall_55_60,sensitivity,2014
-overall,All,age21_events_2025_2040,Uncapped,163257.0,catchall_55_60,sensitivity,2014
-overall,All,age21_events_2025_2040,Capped minus uncapped,50184.0,catchall_55_60,sensitivity,2014
-nationality,India,age21_events_2025_2040,Capped,155073.0,catchall_55_60,sensitivity,2014
-nationality,India,age21_events_2025_2040,Uncapped,59910.0,catchall_55_60,sensitivity,2014
-nationality,India,age21_events_2025_2040,Capped minus uncapped,95163.0,catchall_55_60,sensitivity,2014
-nationality,China,age21_events_2025_2040,Capped,16042.0,catchall_55_60,sensitivity,2014
-nationality,China,age21_events_2025_2040,Uncapped,12673.0,catchall_55_60,sensitivity,2014
-nationality,China,age21_events_2025_2040,Capped minus uncapped,3369.0,catchall_55_60,sensitivity,2014
-nationality,ROW,age21_events_2025_2040,Capped,42326.0,catchall_55_60,sensitivity,2014
-nationality,ROW,age21_events_2025_2040,Uncapped,90674.0,catchall_55_60,sensitivity,2014
-nationality,ROW,age21_events_2025_2040,Capped minus uncapped,-48348.0,catchall_55_60,sensitivity,2014
-category,EB-1,age21_events_2025_2040,Capped,2102.0,catchall_55_60,sensitivity,2014
-category,EB-1,age21_events_2025_2040,Uncapped,544.0,catchall_55_60,sensitivity,2014
-category,EB-1,age21_events_2025_2040,Capped minus uncapped,1558.0,catchall_55_60,sensitivity,2014
-category,EB-2,age21_events_2025_2040,Capped,121748.0,catchall_55_60,sensitivity,2014
-category,EB-2,age21_events_2025_2040,Uncapped,90568.0,catchall_55_60,sensitivity,2014
-category,EB-2,age21_events_2025_2040,Capped minus uncapped,31180.0,catchall_55_60,sensitivity,2014
-category,EB-3,age21_events_2025_2040,Capped,50820.0,catchall_55_60,sensitivity,2014
-category,EB-3,age21_events_2025_2040,Uncapped,33266.0,catchall_55_60,sensitivity,2014
-category,EB-3,age21_events_2025_2040,Capped minus uncapped,17554.0,catchall_55_60,sensitivity,2014
-category,EB-4,age21_events_2025_2040,Capped,38340.0,catchall_55_60,sensitivity,2014
-category,EB-4,age21_events_2025_2040,Uncapped,38713.0,catchall_55_60,sensitivity,2014
-category,EB-4,age21_events_2025_2040,Capped minus uncapped,-373.0,catchall_55_60,sensitivity,2014
-category,EB-5,age21_events_2025_2040,Capped,431.0,catchall_55_60,sensitivity,2014
-category,EB-5,age21_events_2025_2040,Uncapped,166.0,catchall_55_60,sensitivity,2014
-category,EB-5,age21_events_2025_2040,Capped minus uncapped,265.0,catchall_55_60,sensitivity,2014
-joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1233.0,catchall_55_60,sensitivity,2014
-joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,742.0,catchall_55_60,sensitivity,2014
-joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,-417.0,catchall_55_60,sensitivity,2014
-joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,59706.0,catchall_55_60,sensitivity,2014
-joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,738.0,catchall_55_60,sensitivity,2014
-joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,-29264.0,catchall_55_60,sensitivity,2014
-joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,34824.0,catchall_55_60,sensitivity,2014
-joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,1821.0,catchall_55_60,sensitivity,2014
-joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,-19091.0,catchall_55_60,sensitivity,2014
-joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,-806.0,catchall_55_60,sensitivity,2014
-joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,-95.0,catchall_55_60,sensitivity,2014
-joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,528.0,catchall_55_60,sensitivity,2014
-joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,206.0,catchall_55_60,sensitivity,2014
-joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,163.0,catchall_55_60,sensitivity,2014
-joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,-104.0,catchall_55_60,sensitivity,2014
-overall,All,age21_events_2025_2040,Capped,292179.0,catchall_65_70,sensitivity,2014
-overall,All,age21_events_2025_2040,Uncapped,217247.0,catchall_65_70,sensitivity,2014
-overall,All,age21_events_2025_2040,Capped minus uncapped,74932.0,catchall_65_70,sensitivity,2014
-nationality,India,age21_events_2025_2040,Capped,210635.0,catchall_65_70,sensitivity,2014
-nationality,India,age21_events_2025_2040,Uncapped,78805.0,catchall_65_70,sensitivity,2014
-nationality,India,age21_events_2025_2040,Capped minus uncapped,131830.0,catchall_65_70,sensitivity,2014
-nationality,China,age21_events_2025_2040,Capped,20723.0,catchall_65_70,sensitivity,2014
-nationality,China,age21_events_2025_2040,Uncapped,15806.0,catchall_65_70,sensitivity,2014
-nationality,China,age21_events_2025_2040,Capped minus uncapped,4917.0,catchall_65_70,sensitivity,2014
-nationality,ROW,age21_events_2025_2040,Capped,60821.0,catchall_65_70,sensitivity,2014
-nationality,ROW,age21_events_2025_2040,Uncapped,122636.0,catchall_65_70,sensitivity,2014
-nationality,ROW,age21_events_2025_2040,Capped minus uncapped,-61815.0,catchall_65_70,sensitivity,2014
-category,EB-1,age21_events_2025_2040,Capped,2613.0,catchall_65_70,sensitivity,2014
-category,EB-1,age21_events_2025_2040,Uncapped,735.0,catchall_65_70,sensitivity,2014
-category,EB-1,age21_events_2025_2040,Capped minus uncapped,1878.0,catchall_65_70,sensitivity,2014
-category,EB-2,age21_events_2025_2040,Capped,163133.0,catchall_65_70,sensitivity,2014
-category,EB-2,age21_events_2025_2040,Uncapped,116188.0,catchall_65_70,sensitivity,2014
-category,EB-2,age21_events_2025_2040,Capped minus uncapped,46945.0,catchall_65_70,sensitivity,2014
-category,EB-3,age21_events_2025_2040,Capped,68507.0,catchall_65_70,sensitivity,2014
-category,EB-3,age21_events_2025_2040,Uncapped,43083.0,catchall_65_70,sensitivity,2014
-category,EB-3,age21_events_2025_2040,Capped minus uncapped,25424.0,catchall_65_70,sensitivity,2014
-category,EB-4,age21_events_2025_2040,Capped,56405.0,catchall_65_70,sensitivity,2014
-category,EB-4,age21_events_2025_2040,Uncapped,56537.0,catchall_65_70,sensitivity,2014
-category,EB-4,age21_events_2025_2040,Capped minus uncapped,-132.0,catchall_65_70,sensitivity,2014
-category,EB-5,age21_events_2025_2040,Capped,1521.0,catchall_65_70,sensitivity,2014
-category,EB-5,age21_events_2025_2040,Uncapped,704.0,catchall_65_70,sensitivity,2014
-category,EB-5,age21_events_2025_2040,Capped minus uncapped,817.0,catchall_65_70,sensitivity,2014
-joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1490.0,catchall_65_70,sensitivity,2014
-joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,958.0,catchall_65_70,sensitivity,2014
-joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,-570.0,catchall_65_70,sensitivity,2014
-joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,83698.0,catchall_65_70,sensitivity,2014
-joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,482.0,catchall_65_70,sensitivity,2014
-joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,-37235.0,catchall_65_70,sensitivity,2014
-joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,47252.0,catchall_65_70,sensitivity,2014
-joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,2682.0,catchall_65_70,sensitivity,2014
-joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,-24510.0,catchall_65_70,sensitivity,2014
-joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,-799.0,catchall_65_70,sensitivity,2014
-joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,-119.0,catchall_65_70,sensitivity,2014
-joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,786.0,catchall_65_70,sensitivity,2014
-joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,189.0,catchall_65_70,sensitivity,2014
-joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,914.0,catchall_65_70,sensitivity,2014
-joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,-286.0,catchall_65_70,sensitivity,2014
+joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1390.0,catchall_60_65,primary,2014
+joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,690.0,catchall_60_65,primary,2014
+joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,-544.0,catchall_60_65,primary,2014
+joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,75116.0,catchall_60_65,primary,2014
+joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,351.0,catchall_60_65,primary,2014
+joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,-34464.0,catchall_60_65,primary,2014
+joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,43933.0,catchall_60_65,primary,2014
+joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,2207.0,catchall_60_65,primary,2014
+joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,-22264.0,catchall_60_65,primary,2014
+joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,-10.0,catchall_60_65,primary,2014
+joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,1.0,catchall_60_65,primary,2014
+joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,-20.0,catchall_60_65,primary,2014
+joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,182.0,catchall_60_65,primary,2014
+joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,541.0,catchall_60_65,primary,2014
+joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,-224.0,catchall_60_65,primary,2014
+overall,All,age21_events_2025_2040,Capped,178535.0,catchall_55_60,sensitivity,2014
+overall,All,age21_events_2025_2040,Uncapped,128882.0,catchall_55_60,sensitivity,2014
+overall,All,age21_events_2025_2040,Capped minus uncapped,49653.0,catchall_55_60,sensitivity,2014
+nationality,India,age21_events_2025_2040,Capped,151397.0,catchall_55_60,sensitivity,2014
+nationality,India,age21_events_2025_2040,Uncapped,56560.0,catchall_55_60,sensitivity,2014
+nationality,India,age21_events_2025_2040,Capped minus uncapped,94837.0,catchall_55_60,sensitivity,2014
+nationality,China,age21_events_2025_2040,Capped,14597.0,catchall_55_60,sensitivity,2014
+nationality,China,age21_events_2025_2040,Uncapped,11367.0,catchall_55_60,sensitivity,2014
+nationality,China,age21_events_2025_2040,Capped minus uncapped,3230.0,catchall_55_60,sensitivity,2014
+nationality,ROW,age21_events_2025_2040,Capped,12541.0,catchall_55_60,sensitivity,2014
+nationality,ROW,age21_events_2025_2040,Uncapped,60955.0,catchall_55_60,sensitivity,2014
+nationality,ROW,age21_events_2025_2040,Capped minus uncapped,-48414.0,catchall_55_60,sensitivity,2014
+category,EB-1,age21_events_2025_2040,Capped,1788.0,catchall_55_60,sensitivity,2014
+category,EB-1,age21_events_2025_2040,Uncapped,540.0,catchall_55_60,sensitivity,2014
+category,EB-1,age21_events_2025_2040,Capped minus uncapped,1248.0,catchall_55_60,sensitivity,2014
+category,EB-2,age21_events_2025_2040,Capped,119439.0,catchall_55_60,sensitivity,2014
+category,EB-2,age21_events_2025_2040,Uncapped,88595.0,catchall_55_60,sensitivity,2014
+category,EB-2,age21_events_2025_2040,Capped minus uncapped,30844.0,catchall_55_60,sensitivity,2014
+category,EB-3,age21_events_2025_2040,Capped,50180.0,catchall_55_60,sensitivity,2014
+category,EB-3,age21_events_2025_2040,Uncapped,32786.0,catchall_55_60,sensitivity,2014
+category,EB-3,age21_events_2025_2040,Capped minus uncapped,17394.0,catchall_55_60,sensitivity,2014
+category,EB-4,age21_events_2025_2040,Capped,6752.0,catchall_55_60,sensitivity,2014
+category,EB-4,age21_events_2025_2040,Uncapped,6819.0,catchall_55_60,sensitivity,2014
+category,EB-4,age21_events_2025_2040,Capped minus uncapped,-67.0,catchall_55_60,sensitivity,2014
+category,EB-5,age21_events_2025_2040,Capped,376.0,catchall_55_60,sensitivity,2014
+category,EB-5,age21_events_2025_2040,Uncapped,142.0,catchall_55_60,sensitivity,2014
+category,EB-5,age21_events_2025_2040,Capped minus uncapped,234.0,catchall_55_60,sensitivity,2014
+joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1196.0,catchall_55_60,sensitivity,2014
+joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,487.0,catchall_55_60,sensitivity,2014
+joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,-435.0,catchall_55_60,sensitivity,2014
+joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,58922.0,catchall_55_60,sensitivity,2014
+joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,789.0,catchall_55_60,sensitivity,2014
+joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,-28867.0,catchall_55_60,sensitivity,2014
+joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,34545.0,catchall_55_60,sensitivity,2014
+joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,1810.0,catchall_55_60,sensitivity,2014
+joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,-18961.0,catchall_55_60,sensitivity,2014
+joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,-16.0,catchall_55_60,sensitivity,2014
+joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,8.0,catchall_55_60,sensitivity,2014
+joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,-59.0,catchall_55_60,sensitivity,2014
+joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,190.0,catchall_55_60,sensitivity,2014
+joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,136.0,catchall_55_60,sensitivity,2014
+joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,-92.0,catchall_55_60,sensitivity,2014
+overall,All,age21_events_2025_2040,Capped,241992.0,catchall_65_70,sensitivity,2014
+overall,All,age21_events_2025_2040,Uncapped,167761.0,catchall_65_70,sensitivity,2014
+overall,All,age21_events_2025_2040,Capped minus uncapped,74231.0,catchall_65_70,sensitivity,2014
+nationality,India,age21_events_2025_2040,Capped,206313.0,catchall_65_70,sensitivity,2014
+nationality,India,age21_events_2025_2040,Uncapped,73840.0,catchall_65_70,sensitivity,2014
+nationality,India,age21_events_2025_2040,Capped minus uncapped,132473.0,catchall_65_70,sensitivity,2014
+nationality,China,age21_events_2025_2040,Capped,19072.0,catchall_65_70,sensitivity,2014
+nationality,China,age21_events_2025_2040,Uncapped,14575.0,catchall_65_70,sensitivity,2014
+nationality,China,age21_events_2025_2040,Capped minus uncapped,4497.0,catchall_65_70,sensitivity,2014
+nationality,ROW,age21_events_2025_2040,Capped,16607.0,catchall_65_70,sensitivity,2014
+nationality,ROW,age21_events_2025_2040,Uncapped,79346.0,catchall_65_70,sensitivity,2014
+nationality,ROW,age21_events_2025_2040,Capped minus uncapped,-62739.0,catchall_65_70,sensitivity,2014
+category,EB-1,age21_events_2025_2040,Capped,2260.0,catchall_65_70,sensitivity,2014
+category,EB-1,age21_events_2025_2040,Uncapped,725.0,catchall_65_70,sensitivity,2014
+category,EB-1,age21_events_2025_2040,Capped minus uncapped,1535.0,catchall_65_70,sensitivity,2014
+category,EB-2,age21_events_2025_2040,Capped,160944.0,catchall_65_70,sensitivity,2014
+category,EB-2,age21_events_2025_2040,Uncapped,114539.0,catchall_65_70,sensitivity,2014
+category,EB-2,age21_events_2025_2040,Capped minus uncapped,46405.0,catchall_65_70,sensitivity,2014
+category,EB-3,age21_events_2025_2040,Capped,68185.0,catchall_65_70,sensitivity,2014
+category,EB-3,age21_events_2025_2040,Uncapped,42513.0,catchall_65_70,sensitivity,2014
+category,EB-3,age21_events_2025_2040,Capped minus uncapped,25672.0,catchall_65_70,sensitivity,2014
+category,EB-4,age21_events_2025_2040,Capped,9246.0,catchall_65_70,sensitivity,2014
+category,EB-4,age21_events_2025_2040,Uncapped,9345.0,catchall_65_70,sensitivity,2014
+category,EB-4,age21_events_2025_2040,Capped minus uncapped,-99.0,catchall_65_70,sensitivity,2014
+category,EB-5,age21_events_2025_2040,Capped,1357.0,catchall_65_70,sensitivity,2014
+category,EB-5,age21_events_2025_2040,Uncapped,639.0,catchall_65_70,sensitivity,2014
+category,EB-5,age21_events_2025_2040,Capped minus uncapped,718.0,catchall_65_70,sensitivity,2014
+joint,EB-1 / India,age21_events_2025_2040,Capped minus uncapped,1434.0,catchall_65_70,sensitivity,2014
+joint,EB-1 / China,age21_events_2025_2040,Capped minus uncapped,685.0,catchall_65_70,sensitivity,2014
+joint,EB-1 / ROW,age21_events_2025_2040,Capped minus uncapped,-584.0,catchall_65_70,sensitivity,2014
+joint,EB-2 / India,age21_events_2025_2040,Capped minus uncapped,83535.0,catchall_65_70,sensitivity,2014
+joint,EB-2 / China,age21_events_2025_2040,Capped minus uncapped,356.0,catchall_65_70,sensitivity,2014
+joint,EB-2 / ROW,age21_events_2025_2040,Capped minus uncapped,-37486.0,catchall_65_70,sensitivity,2014
+joint,EB-3 / India,age21_events_2025_2040,Capped minus uncapped,47297.0,catchall_65_70,sensitivity,2014
+joint,EB-3 / China,age21_events_2025_2040,Capped minus uncapped,2674.0,catchall_65_70,sensitivity,2014
+joint,EB-3 / ROW,age21_events_2025_2040,Capped minus uncapped,-24299.0,catchall_65_70,sensitivity,2014
+joint,EB-4 / India,age21_events_2025_2040,Capped minus uncapped,13.0,catchall_65_70,sensitivity,2014
+joint,EB-4 / China,age21_events_2025_2040,Capped minus uncapped,-15.0,catchall_65_70,sensitivity,2014
+joint,EB-4 / ROW,age21_events_2025_2040,Capped minus uncapped,-97.0,catchall_65_70,sensitivity,2014
+joint,EB-5 / India,age21_events_2025_2040,Capped minus uncapped,194.0,catchall_65_70,sensitivity,2014
+joint,EB-5 / China,age21_events_2025_2040,Capped minus uncapped,797.0,catchall_65_70,sensitivity,2014
+joint,EB-5 / ROW,age21_events_2025_2040,Capped minus uncapped,-273.0,catchall_65_70,sensitivity,2014

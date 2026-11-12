@@ -3,7 +3,8 @@ Empirical spouse and child count extraction for EB principal proxies.
 
 Constructs pathway-specific proxy populations from ACS microdata and derives
 weighted distributions for spouse presence and numbers of foreign-born
-children in married households. Outputs JSON files encoding spouse
+unmarried own children under 21 in married households. Own children include
+biological, adopted, and stepchildren, but exclude children-in-law. Outputs JSON files encoding spouse
 probabilities and child count distributions by pathway and nationality for
 use in configuring family structures in the immigration microsimulation.
 """
@@ -136,10 +137,13 @@ for df_proxy in [df_eb1, df_eb2, df_eb3, df_eb4, df_eb5]:
 
 def count_children_for_married_proxy(df_proxy: pd.DataFrame) -> pd.DataFrame:
     """
-    Count foreign-born non-citizen children under 21 per MARRIED household.
+    Count foreign-born non-citizen unmarried own children under 21 per married household.
 
     Restricted to MARST in [1, 2] (HasSpouse == 1) before child matching.
     Unmarried principals are excluded entirely.
+
+    Children must have RELATE == 3 (biological, adopted, or stepchildren) and
+    their own MARST in [4, 5, 6] (divorced, widowed, or never married).
 
     Returns the married subset of df_proxy with NCHILD_FOREIGN_BORN added.
     Households with no qualifying children receive a count of 0.
@@ -149,7 +153,8 @@ def count_children_for_married_proxy(df_proxy: pd.DataFrame) -> pd.DataFrame:
 
     foreign_born_children = df.merge(proxy_households, on=["SERIAL", "YEAR"], how="inner")
     foreign_born_children = foreign_born_children[
-        (foreign_born_children["RELATE"].isin([3, 4]))
+        (foreign_born_children["RELATE"] == 3)
+        & (foreign_born_children["MARST"].isin([4, 5, 6]))
         & (foreign_born_children["AGE"] < 21)
         & (foreign_born_children["BPLD"] >= 15000)
         & (foreign_born_children["CITIZEN"] == 3)

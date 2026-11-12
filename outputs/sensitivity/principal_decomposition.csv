@@ -1,1273 +1,1273 @@
 dimension,group,difference_backlog_start_2025,difference_new_principal_records,difference_principal_conversions,difference_principal_exits,difference_backlog_end_2040,accounting_residual,case,role,seed
-overall,All,0,0,-3722,20700,-16978,0,catchall_60_65,primary,2014
-nationality,India,0,0,-473802,147121,326681,0,catchall_60_65,primary,2014
-nationality,China,0,0,-64232,9355,54877,0,catchall_60_65,primary,2014
-nationality,ROW,0,0,534312,-135776,-398536,0,catchall_60_65,primary,2014
-category,EB-1,0,0,-3451,-676,4127,0,catchall_60_65,primary,2014
-category,EB-2,0,0,-7977,27172,-19195,0,catchall_60_65,primary,2014
-category,EB-3,0,0,10414,-5304,-5110,0,catchall_60_65,primary,2014
-category,EB-4,0,0,-2203,-840,3043,0,catchall_60_65,primary,2014
-category,EB-5,0,0,-505,348,157,0,catchall_60_65,primary,2014
-joint,EB-1 / India,0,0,-39462,3687,35775,0,catchall_60_65,primary,2014
-joint,EB-1 / China,0,0,-28775,3986,24789,0,catchall_60_65,primary,2014
-joint,EB-1 / ROW,0,0,64786,-8349,-56437,0,catchall_60_65,primary,2014
-joint,EB-2 / India,0,0,-279656,93254,186402,0,catchall_60_65,primary,2014
-joint,EB-2 / China,0,0,-13695,800,12895,0,catchall_60_65,primary,2014
-joint,EB-2 / ROW,0,0,285374,-66882,-218492,0,catchall_60_65,primary,2014
-joint,EB-3 / India,0,0,-156080,51283,104797,0,catchall_60_65,primary,2014
-joint,EB-3 / China,0,0,-18666,4485,14181,0,catchall_60_65,primary,2014
-joint,EB-3 / ROW,0,0,185160,-61072,-124088,0,catchall_60_65,primary,2014
-joint,EB-4 / India,0,0,3457,-1312,-2145,0,catchall_60_65,primary,2014
-joint,EB-4 / China,0,0,3346,-1050,-2296,0,catchall_60_65,primary,2014
-joint,EB-4 / ROW,0,0,-9006,1522,7484,0,catchall_60_65,primary,2014
-joint,EB-5 / India,0,0,-2061,209,1852,0,catchall_60_65,primary,2014
-joint,EB-5 / China,0,0,-6442,1134,5308,0,catchall_60_65,primary,2014
-joint,EB-5 / ROW,0,0,7998,-995,-7003,0,catchall_60_65,primary,2014
-overall,All,0,0,-3407,21083,-17676,0,catchall_60_65,primary,2015
-nationality,India,0,0,-474761,148113,326648,0,catchall_60_65,primary,2015
-nationality,China,0,0,-63995,9305,54690,0,catchall_60_65,primary,2015
-nationality,ROW,0,0,535349,-136335,-399014,0,catchall_60_65,primary,2015
-category,EB-1,0,0,-3221,-781,4002,0,catchall_60_65,primary,2015
-category,EB-2,0,0,-8334,26446,-18112,0,catchall_60_65,primary,2015
-category,EB-3,0,0,10946,-4580,-6366,0,catchall_60_65,primary,2015
-category,EB-4,0,0,-2269,-437,2706,0,catchall_60_65,primary,2015
-category,EB-5,0,0,-529,435,94,0,catchall_60_65,primary,2015
-joint,EB-1 / India,0,0,-39482,3836,35646,0,catchall_60_65,primary,2015
-joint,EB-1 / China,0,0,-28650,3873,24777,0,catchall_60_65,primary,2015
-joint,EB-1 / ROW,0,0,64911,-8490,-56421,0,catchall_60_65,primary,2015
-joint,EB-2 / India,0,0,-280295,93162,187133,0,catchall_60_65,primary,2015
-joint,EB-2 / China,0,0,-13701,564,13137,0,catchall_60_65,primary,2015
-joint,EB-2 / ROW,0,0,285662,-67280,-218382,0,catchall_60_65,primary,2015
-joint,EB-3 / India,0,0,-156421,51990,104431,0,catchall_60_65,primary,2015
-joint,EB-3 / China,0,0,-18318,4708,13610,0,catchall_60_65,primary,2015
-joint,EB-3 / ROW,0,0,185685,-61278,-124407,0,catchall_60_65,primary,2015
-joint,EB-4 / India,0,0,3499,-1112,-2387,0,catchall_60_65,primary,2015
-joint,EB-4 / China,0,0,3371,-1057,-2314,0,catchall_60_65,primary,2015
-joint,EB-4 / ROW,0,0,-9139,1732,7407,0,catchall_60_65,primary,2015
-joint,EB-5 / India,0,0,-2062,237,1825,0,catchall_60_65,primary,2015
-joint,EB-5 / China,0,0,-6697,1217,5480,0,catchall_60_65,primary,2015
-joint,EB-5 / ROW,0,0,8230,-1019,-7211,0,catchall_60_65,primary,2015
-overall,All,0,0,-3867,20855,-16988,0,catchall_60_65,primary,2016
-nationality,India,0,0,-474453,147883,326570,0,catchall_60_65,primary,2016
-nationality,China,0,0,-63656,9314,54342,0,catchall_60_65,primary,2016
-nationality,ROW,0,0,534242,-136342,-397900,0,catchall_60_65,primary,2016
-category,EB-1,0,0,-3022,-617,3639,0,catchall_60_65,primary,2016
-category,EB-2,0,0,-8792,27065,-18273,0,catchall_60_65,primary,2016
-category,EB-3,0,0,10587,-5023,-5564,0,catchall_60_65,primary,2016
-category,EB-4,0,0,-2150,-973,3123,0,catchall_60_65,primary,2016
-category,EB-5,0,0,-490,403,87,0,catchall_60_65,primary,2016
-joint,EB-1 / India,0,0,-39475,3898,35577,0,catchall_60_65,primary,2016
-joint,EB-1 / China,0,0,-28662,4044,24618,0,catchall_60_65,primary,2016
-joint,EB-1 / ROW,0,0,65115,-8559,-56556,0,catchall_60_65,primary,2016
-joint,EB-2 / India,0,0,-279892,93192,186700,0,catchall_60_65,primary,2016
-joint,EB-2 / China,0,0,-13702,910,12792,0,catchall_60_65,primary,2016
-joint,EB-2 / ROW,0,0,284802,-67037,-217765,0,catchall_60_65,primary,2016
-joint,EB-3 / India,0,0,-156495,51770,104725,0,catchall_60_65,primary,2016
-joint,EB-3 / China,0,0,-18142,4209,13933,0,catchall_60_65,primary,2016
-joint,EB-3 / ROW,0,0,185224,-61002,-124222,0,catchall_60_65,primary,2016
-joint,EB-4 / India,0,0,3528,-1170,-2358,0,catchall_60_65,primary,2016
-joint,EB-4 / China,0,0,3514,-1084,-2430,0,catchall_60_65,primary,2016
-joint,EB-4 / ROW,0,0,-9192,1281,7911,0,catchall_60_65,primary,2016
-joint,EB-5 / India,0,0,-2119,193,1926,0,catchall_60_65,primary,2016
-joint,EB-5 / China,0,0,-6664,1235,5429,0,catchall_60_65,primary,2016
-joint,EB-5 / ROW,0,0,8293,-1025,-7268,0,catchall_60_65,primary,2016
-overall,All,0,0,-3600,21094,-17494,0,catchall_60_65,primary,2017
-nationality,India,0,0,-475704,148108,327596,0,catchall_60_65,primary,2017
-nationality,China,0,0,-64165,9089,55076,0,catchall_60_65,primary,2017
-nationality,ROW,0,0,536269,-136103,-400166,0,catchall_60_65,primary,2017
-category,EB-1,0,0,-3444,-744,4188,0,catchall_60_65,primary,2017
-category,EB-2,0,0,-8397,26799,-18402,0,catchall_60_65,primary,2017
-category,EB-3,0,0,11108,-5514,-5594,0,catchall_60_65,primary,2017
-category,EB-4,0,0,-2401,92,2309,0,catchall_60_65,primary,2017
-category,EB-5,0,0,-466,461,5,0,catchall_60_65,primary,2017
-joint,EB-1 / India,0,0,-40062,3832,36230,0,catchall_60_65,primary,2017
-joint,EB-1 / China,0,0,-28693,3840,24853,0,catchall_60_65,primary,2017
-joint,EB-1 / ROW,0,0,65311,-8416,-56895,0,catchall_60_65,primary,2017
-joint,EB-2 / India,0,0,-280412,93307,187105,0,catchall_60_65,primary,2017
-joint,EB-2 / China,0,0,-13733,773,12960,0,catchall_60_65,primary,2017
-joint,EB-2 / ROW,0,0,285748,-67281,-218467,0,catchall_60_65,primary,2017
-joint,EB-3 / India,0,0,-156743,51986,104757,0,catchall_60_65,primary,2017
-joint,EB-3 / China,0,0,-18534,4281,14253,0,catchall_60_65,primary,2017
-joint,EB-3 / ROW,0,0,186385,-61781,-124604,0,catchall_60_65,primary,2017
-joint,EB-4 / India,0,0,3616,-1216,-2400,0,catchall_60_65,primary,2017
-joint,EB-4 / China,0,0,3371,-1083,-2288,0,catchall_60_65,primary,2017
-joint,EB-4 / ROW,0,0,-9388,2391,6997,0,catchall_60_65,primary,2017
-joint,EB-5 / India,0,0,-2103,199,1904,0,catchall_60_65,primary,2017
-joint,EB-5 / China,0,0,-6576,1278,5298,0,catchall_60_65,primary,2017
-joint,EB-5 / ROW,0,0,8213,-1016,-7197,0,catchall_60_65,primary,2017
-overall,All,0,0,-3696,21700,-18004,0,catchall_60_65,primary,2018
-nationality,India,0,0,-475946,149099,326847,0,catchall_60_65,primary,2018
-nationality,China,0,0,-63745,9158,54587,0,catchall_60_65,primary,2018
-nationality,ROW,0,0,535995,-136557,-399438,0,catchall_60_65,primary,2018
-category,EB-1,0,0,-3300,-720,4020,0,catchall_60_65,primary,2018
-category,EB-2,0,0,-8290,27593,-19303,0,catchall_60_65,primary,2018
-category,EB-3,0,0,10781,-5036,-5745,0,catchall_60_65,primary,2018
-category,EB-4,0,0,-2375,-636,3011,0,catchall_60_65,primary,2018
-category,EB-5,0,0,-512,499,13,0,catchall_60_65,primary,2018
-joint,EB-1 / India,0,0,-39639,3842,35797,0,catchall_60_65,primary,2018
-joint,EB-1 / China,0,0,-28799,3924,24875,0,catchall_60_65,primary,2018
-joint,EB-1 / ROW,0,0,65138,-8486,-56652,0,catchall_60_65,primary,2018
-joint,EB-2 / India,0,0,-280868,93962,186906,0,catchall_60_65,primary,2018
-joint,EB-2 / China,0,0,-13337,901,12436,0,catchall_60_65,primary,2018
-joint,EB-2 / ROW,0,0,285915,-67270,-218645,0,catchall_60_65,primary,2018
-joint,EB-3 / India,0,0,-156721,52235,104486,0,catchall_60_65,primary,2018
-joint,EB-3 / China,0,0,-18517,4250,14267,0,catchall_60_65,primary,2018
-joint,EB-3 / ROW,0,0,186019,-61521,-124498,0,catchall_60_65,primary,2018
-joint,EB-4 / India,0,0,3480,-1229,-2251,0,catchall_60_65,primary,2018
-joint,EB-4 / China,0,0,3351,-1076,-2275,0,catchall_60_65,primary,2018
-joint,EB-4 / ROW,0,0,-9206,1669,7537,0,catchall_60_65,primary,2018
-joint,EB-5 / India,0,0,-2198,289,1909,0,catchall_60_65,primary,2018
-joint,EB-5 / China,0,0,-6443,1159,5284,0,catchall_60_65,primary,2018
-joint,EB-5 / ROW,0,0,8129,-949,-7180,0,catchall_60_65,primary,2018
-overall,All,0,0,-5006,21370,-16364,0,catchall_60_65,primary,2019
-nationality,India,0,0,-475994,148235,327759,0,catchall_60_65,primary,2019
-nationality,China,0,0,-63894,9101,54793,0,catchall_60_65,primary,2019
-nationality,ROW,0,0,534882,-135966,-398916,0,catchall_60_65,primary,2019
-category,EB-1,0,0,-3547,-730,4277,0,catchall_60_65,primary,2019
-category,EB-2,0,0,-9259,26452,-17193,0,catchall_60_65,primary,2019
-category,EB-3,0,0,10829,-4377,-6452,0,catchall_60_65,primary,2019
-category,EB-4,0,0,-2514,-413,2927,0,catchall_60_65,primary,2019
-category,EB-5,0,0,-515,438,77,0,catchall_60_65,primary,2019
-joint,EB-1 / India,0,0,-39358,3654,35704,0,catchall_60_65,primary,2019
-joint,EB-1 / China,0,0,-28849,3968,24881,0,catchall_60_65,primary,2019
-joint,EB-1 / ROW,0,0,64660,-8352,-56308,0,catchall_60_65,primary,2019
-joint,EB-2 / India,0,0,-280741,92996,187745,0,catchall_60_65,primary,2019
-joint,EB-2 / China,0,0,-13688,711,12977,0,catchall_60_65,primary,2019
-joint,EB-2 / ROW,0,0,285170,-67255,-217915,0,catchall_60_65,primary,2019
-joint,EB-3 / India,0,0,-157108,52458,104650,0,catchall_60_65,primary,2019
-joint,EB-3 / China,0,0,-18256,4315,13941,0,catchall_60_65,primary,2019
-joint,EB-3 / ROW,0,0,186193,-61150,-125043,0,catchall_60_65,primary,2019
-joint,EB-4 / India,0,0,3467,-1140,-2327,0,catchall_60_65,primary,2019
-joint,EB-4 / China,0,0,3405,-1106,-2299,0,catchall_60_65,primary,2019
-joint,EB-4 / ROW,0,0,-9386,1833,7553,0,catchall_60_65,primary,2019
-joint,EB-5 / India,0,0,-2254,267,1987,0,catchall_60_65,primary,2019
-joint,EB-5 / China,0,0,-6506,1213,5293,0,catchall_60_65,primary,2019
-joint,EB-5 / ROW,0,0,8245,-1042,-7203,0,catchall_60_65,primary,2019
-overall,All,0,0,-3227,22133,-18906,0,catchall_60_65,primary,2020
-nationality,India,0,0,-475121,147695,327426,0,catchall_60_65,primary,2020
-nationality,China,0,0,-63581,9177,54404,0,catchall_60_65,primary,2020
-nationality,ROW,0,0,535475,-134739,-400736,0,catchall_60_65,primary,2020
-category,EB-1,0,0,-3223,-689,3912,0,catchall_60_65,primary,2020
-category,EB-2,0,0,-8054,26199,-18145,0,catchall_60_65,primary,2020
-category,EB-3,0,0,10662,-4622,-6040,0,catchall_60_65,primary,2020
-category,EB-4,0,0,-2052,841,1211,0,catchall_60_65,primary,2020
-category,EB-5,0,0,-560,404,156,0,catchall_60_65,primary,2020
-joint,EB-1 / India,0,0,-39480,3818,35662,0,catchall_60_65,primary,2020
-joint,EB-1 / China,0,0,-28488,3786,24702,0,catchall_60_65,primary,2020
-joint,EB-1 / ROW,0,0,64745,-8293,-56452,0,catchall_60_65,primary,2020
-joint,EB-2 / India,0,0,-280528,92906,187622,0,catchall_60_65,primary,2020
-joint,EB-2 / China,0,0,-13469,720,12749,0,catchall_60_65,primary,2020
-joint,EB-2 / ROW,0,0,285943,-67427,-218516,0,catchall_60_65,primary,2020
-joint,EB-3 / India,0,0,-156534,51948,104586,0,catchall_60_65,primary,2020
-joint,EB-3 / China,0,0,-18432,4592,13840,0,catchall_60_65,primary,2020
-joint,EB-3 / ROW,0,0,185628,-61162,-124466,0,catchall_60_65,primary,2020
-joint,EB-4 / India,0,0,3504,-1178,-2326,0,catchall_60_65,primary,2020
-joint,EB-4 / China,0,0,3451,-1106,-2345,0,catchall_60_65,primary,2020
-joint,EB-4 / ROW,0,0,-9007,3125,5882,0,catchall_60_65,primary,2020
-joint,EB-5 / India,0,0,-2083,201,1882,0,catchall_60_65,primary,2020
-joint,EB-5 / China,0,0,-6643,1185,5458,0,catchall_60_65,primary,2020
-joint,EB-5 / ROW,0,0,8166,-982,-7184,0,catchall_60_65,primary,2020
-overall,All,0,0,-3596,21205,-17609,0,catchall_60_65,primary,2021
-nationality,India,0,0,-475267,148293,326974,0,catchall_60_65,primary,2021
-nationality,China,0,0,-64118,8687,55431,0,catchall_60_65,primary,2021
-nationality,ROW,0,0,535789,-135775,-400014,0,catchall_60_65,primary,2021
-category,EB-1,0,0,-3343,-642,3985,0,catchall_60_65,primary,2021
-category,EB-2,0,0,-8705,27422,-18717,0,catchall_60_65,primary,2021
-category,EB-3,0,0,11172,-5513,-5659,0,catchall_60_65,primary,2021
-category,EB-4,0,0,-2164,-355,2519,0,catchall_60_65,primary,2021
-category,EB-5,0,0,-556,293,263,0,catchall_60_65,primary,2021
-joint,EB-1 / India,0,0,-39693,3875,35818,0,catchall_60_65,primary,2021
-joint,EB-1 / China,0,0,-28553,3871,24682,0,catchall_60_65,primary,2021
-joint,EB-1 / ROW,0,0,64903,-8388,-56515,0,catchall_60_65,primary,2021
-joint,EB-2 / India,0,0,-280005,93565,186440,0,catchall_60_65,primary,2021
-joint,EB-2 / China,0,0,-14045,719,13326,0,catchall_60_65,primary,2021
-joint,EB-2 / ROW,0,0,285345,-66862,-218483,0,catchall_60_65,primary,2021
-joint,EB-3 / India,0,0,-156872,51825,105047,0,catchall_60_65,primary,2021
-joint,EB-3 / China,0,0,-18173,4094,14079,0,catchall_60_65,primary,2021
-joint,EB-3 / ROW,0,0,186217,-61432,-124785,0,catchall_60_65,primary,2021
-joint,EB-4 / India,0,0,3488,-1163,-2325,0,catchall_60_65,primary,2021
-joint,EB-4 / China,0,0,3378,-1111,-2267,0,catchall_60_65,primary,2021
-joint,EB-4 / ROW,0,0,-9030,1919,7111,0,catchall_60_65,primary,2021
-joint,EB-5 / India,0,0,-2185,191,1994,0,catchall_60_65,primary,2021
-joint,EB-5 / China,0,0,-6725,1114,5611,0,catchall_60_65,primary,2021
-joint,EB-5 / ROW,0,0,8354,-1012,-7342,0,catchall_60_65,primary,2021
-overall,All,0,0,-3244,20225,-16981,0,catchall_60_65,primary,2022
-nationality,India,0,0,-474509,147763,326746,0,catchall_60_65,primary,2022
-nationality,China,0,0,-64171,9470,54701,0,catchall_60_65,primary,2022
-nationality,ROW,0,0,535436,-137008,-398428,0,catchall_60_65,primary,2022
-category,EB-1,0,0,-3265,-768,4033,0,catchall_60_65,primary,2022
-category,EB-2,0,0,-8316,26699,-18383,0,catchall_60_65,primary,2022
-category,EB-3,0,0,11050,-4969,-6081,0,catchall_60_65,primary,2022
-category,EB-4,0,0,-2241,-1056,3297,0,catchall_60_65,primary,2022
-category,EB-5,0,0,-472,319,153,0,catchall_60_65,primary,2022
-joint,EB-1 / India,0,0,-39561,3871,35690,0,catchall_60_65,primary,2022
-joint,EB-1 / China,0,0,-28678,3948,24730,0,catchall_60_65,primary,2022
-joint,EB-1 / ROW,0,0,64974,-8587,-56387,0,catchall_60_65,primary,2022
-joint,EB-2 / India,0,0,-280472,92888,187584,0,catchall_60_65,primary,2022
-joint,EB-2 / China,0,0,-13655,957,12698,0,catchall_60_65,primary,2022
-joint,EB-2 / ROW,0,0,285811,-67146,-218665,0,catchall_60_65,primary,2022
-joint,EB-3 / India,0,0,-155994,52029,103965,0,catchall_60_65,primary,2022
-joint,EB-3 / China,0,0,-18595,4407,14188,0,catchall_60_65,primary,2022
-joint,EB-3 / ROW,0,0,185639,-61405,-124234,0,catchall_60_65,primary,2022
-joint,EB-4 / India,0,0,3648,-1166,-2482,0,catchall_60_65,primary,2022
-joint,EB-4 / China,0,0,3390,-1043,-2347,0,catchall_60_65,primary,2022
-joint,EB-4 / ROW,0,0,-9279,1153,8126,0,catchall_60_65,primary,2022
-joint,EB-5 / India,0,0,-2130,141,1989,0,catchall_60_65,primary,2022
-joint,EB-5 / China,0,0,-6633,1201,5432,0,catchall_60_65,primary,2022
-joint,EB-5 / ROW,0,0,8291,-1023,-7268,0,catchall_60_65,primary,2022
-overall,All,0,0,-3403,20695,-17292,0,catchall_60_65,primary,2023
-nationality,India,0,0,-474354,147562,326792,0,catchall_60_65,primary,2023
-nationality,China,0,0,-64672,9427,55245,0,catchall_60_65,primary,2023
-nationality,ROW,0,0,535623,-136294,-399329,0,catchall_60_65,primary,2023
-category,EB-1,0,0,-3152,-668,3820,0,catchall_60_65,primary,2023
-category,EB-2,0,0,-8629,26543,-17914,0,catchall_60_65,primary,2023
-category,EB-3,0,0,11032,-5380,-5652,0,catchall_60_65,primary,2023
-category,EB-4,0,0,-2217,-234,2451,0,catchall_60_65,primary,2023
-category,EB-5,0,0,-437,434,3,0,catchall_60_65,primary,2023
-joint,EB-1 / India,0,0,-39519,3752,35767,0,catchall_60_65,primary,2023
-joint,EB-1 / China,0,0,-28636,3922,24714,0,catchall_60_65,primary,2023
-joint,EB-1 / ROW,0,0,65003,-8342,-56661,0,catchall_60_65,primary,2023
-joint,EB-2 / India,0,0,-279686,92585,187101,0,catchall_60_65,primary,2023
-joint,EB-2 / China,0,0,-14092,1173,12919,0,catchall_60_65,primary,2023
-joint,EB-2 / ROW,0,0,285149,-67215,-217934,0,catchall_60_65,primary,2023
-joint,EB-3 / India,0,0,-156570,52286,104284,0,catchall_60_65,primary,2023
-joint,EB-3 / China,0,0,-18674,4131,14543,0,catchall_60_65,primary,2023
-joint,EB-3 / ROW,0,0,186276,-61797,-124479,0,catchall_60_65,primary,2023
-joint,EB-4 / India,0,0,3549,-1261,-2288,0,catchall_60_65,primary,2023
-joint,EB-4 / China,0,0,3380,-1068,-2312,0,catchall_60_65,primary,2023
-joint,EB-4 / ROW,0,0,-9146,2095,7051,0,catchall_60_65,primary,2023
-joint,EB-5 / India,0,0,-2128,200,1928,0,catchall_60_65,primary,2023
-joint,EB-5 / China,0,0,-6650,1269,5381,0,catchall_60_65,primary,2023
-joint,EB-5 / ROW,0,0,8341,-1035,-7306,0,catchall_60_65,primary,2023
-overall,All,0,0,-3179,21569,-18390,0,catchall_60_65,primary,2024
-nationality,India,0,0,-474202,148417,325785,0,catchall_60_65,primary,2024
-nationality,China,0,0,-63666,8731,54935,0,catchall_60_65,primary,2024
-nationality,ROW,0,0,534689,-135579,-399110,0,catchall_60_65,primary,2024
-category,EB-1,0,0,-3096,-951,4047,0,catchall_60_65,primary,2024
-category,EB-2,0,0,-8287,26590,-18303,0,catchall_60_65,primary,2024
-category,EB-3,0,0,10972,-4735,-6237,0,catchall_60_65,primary,2024
-category,EB-4,0,0,-2225,241,1984,0,catchall_60_65,primary,2024
-category,EB-5,0,0,-543,424,119,0,catchall_60_65,primary,2024
-joint,EB-1 / India,0,0,-39414,3839,35575,0,catchall_60_65,primary,2024
-joint,EB-1 / China,0,0,-28632,3594,25038,0,catchall_60_65,primary,2024
-joint,EB-1 / ROW,0,0,64950,-8384,-56566,0,catchall_60_65,primary,2024
-joint,EB-2 / India,0,0,-280092,93356,186736,0,catchall_60_65,primary,2024
-joint,EB-2 / China,0,0,-13541,584,12957,0,catchall_60_65,primary,2024
-joint,EB-2 / ROW,0,0,285346,-67350,-217996,0,catchall_60_65,primary,2024
-joint,EB-3 / India,0,0,-156067,52297,103770,0,catchall_60_65,primary,2024
-joint,EB-3 / China,0,0,-18203,4394,13809,0,catchall_60_65,primary,2024
-joint,EB-3 / ROW,0,0,185242,-61426,-123816,0,catchall_60_65,primary,2024
-joint,EB-4 / India,0,0,3540,-1312,-2228,0,catchall_60_65,primary,2024
-joint,EB-4 / China,0,0,3349,-1017,-2332,0,catchall_60_65,primary,2024
-joint,EB-4 / ROW,0,0,-9114,2570,6544,0,catchall_60_65,primary,2024
-joint,EB-5 / India,0,0,-2169,237,1932,0,catchall_60_65,primary,2024
-joint,EB-5 / China,0,0,-6639,1176,5463,0,catchall_60_65,primary,2024
-joint,EB-5 / ROW,0,0,8265,-989,-7276,0,catchall_60_65,primary,2024
-overall,All,0,0,-4048,21542,-17494,0,catchall_60_65,primary,2025
-nationality,India,0,0,-475414,147439,327975,0,catchall_60_65,primary,2025
-nationality,China,0,0,-63953,8805,55148,0,catchall_60_65,primary,2025
-nationality,ROW,0,0,535319,-134702,-400617,0,catchall_60_65,primary,2025
-category,EB-1,0,0,-3246,-562,3808,0,catchall_60_65,primary,2025
-category,EB-2,0,0,-8553,26480,-17927,0,catchall_60_65,primary,2025
-category,EB-3,0,0,10559,-5598,-4961,0,catchall_60_65,primary,2025
-category,EB-4,0,0,-2291,711,1580,0,catchall_60_65,primary,2025
-category,EB-5,0,0,-517,511,6,0,catchall_60_65,primary,2025
-joint,EB-1 / India,0,0,-39732,4008,35724,0,catchall_60_65,primary,2025
-joint,EB-1 / China,0,0,-28711,3845,24866,0,catchall_60_65,primary,2025
-joint,EB-1 / ROW,0,0,65197,-8415,-56782,0,catchall_60_65,primary,2025
-joint,EB-2 / India,0,0,-280400,92859,187541,0,catchall_60_65,primary,2025
-joint,EB-2 / China,0,0,-13782,643,13139,0,catchall_60_65,primary,2025
-joint,EB-2 / ROW,0,0,285629,-67022,-218607,0,catchall_60_65,primary,2025
-joint,EB-3 / India,0,0,-156718,51507,105211,0,catchall_60_65,primary,2025
-joint,EB-3 / China,0,0,-18231,4122,14109,0,catchall_60_65,primary,2025
-joint,EB-3 / ROW,0,0,185508,-61227,-124281,0,catchall_60_65,primary,2025
-joint,EB-4 / India,0,0,3584,-1154,-2430,0,catchall_60_65,primary,2025
-joint,EB-4 / China,0,0,3502,-1095,-2407,0,catchall_60_65,primary,2025
-joint,EB-4 / ROW,0,0,-9377,2960,6417,0,catchall_60_65,primary,2025
-joint,EB-5 / India,0,0,-2148,219,1929,0,catchall_60_65,primary,2025
-joint,EB-5 / China,0,0,-6731,1290,5441,0,catchall_60_65,primary,2025
-joint,EB-5 / ROW,0,0,8362,-998,-7364,0,catchall_60_65,primary,2025
-overall,All,0,0,-3976,21220,-17244,0,catchall_60_65,primary,2026
-nationality,India,0,0,-474501,146782,327719,0,catchall_60_65,primary,2026
-nationality,China,0,0,-64251,9292,54959,0,catchall_60_65,primary,2026
-nationality,ROW,0,0,534776,-134854,-399922,0,catchall_60_65,primary,2026
-category,EB-1,0,0,-3077,-887,3964,0,catchall_60_65,primary,2026
-category,EB-2,0,0,-9358,26897,-17539,0,catchall_60_65,primary,2026
-category,EB-3,0,0,11104,-5197,-5907,0,catchall_60_65,primary,2026
-category,EB-4,0,0,-2097,-12,2109,0,catchall_60_65,primary,2026
-category,EB-5,0,0,-548,419,129,0,catchall_60_65,primary,2026
-joint,EB-1 / India,0,0,-39206,3651,35555,0,catchall_60_65,primary,2026
-joint,EB-1 / China,0,0,-28700,3918,24782,0,catchall_60_65,primary,2026
-joint,EB-1 / ROW,0,0,64829,-8456,-56373,0,catchall_60_65,primary,2026
-joint,EB-2 / India,0,0,-280393,92724,187669,0,catchall_60_65,primary,2026
-joint,EB-2 / China,0,0,-13656,743,12913,0,catchall_60_65,primary,2026
-joint,EB-2 / ROW,0,0,284691,-66570,-218121,0,catchall_60_65,primary,2026
-joint,EB-3 / India,0,0,-156172,51521,104651,0,catchall_60_65,primary,2026
-joint,EB-3 / China,0,0,-18659,4508,14151,0,catchall_60_65,primary,2026
-joint,EB-3 / ROW,0,0,185935,-61226,-124709,0,catchall_60_65,primary,2026
-joint,EB-4 / India,0,0,3439,-1311,-2128,0,catchall_60_65,primary,2026
-joint,EB-4 / China,0,0,3367,-1094,-2273,0,catchall_60_65,primary,2026
-joint,EB-4 / ROW,0,0,-8903,2393,6510,0,catchall_60_65,primary,2026
-joint,EB-5 / India,0,0,-2169,197,1972,0,catchall_60_65,primary,2026
-joint,EB-5 / China,0,0,-6603,1217,5386,0,catchall_60_65,primary,2026
-joint,EB-5 / ROW,0,0,8224,-995,-7229,0,catchall_60_65,primary,2026
-overall,All,0,0,-3721,21710,-17989,0,catchall_60_65,primary,2027
-nationality,India,0,0,-474747,147187,327560,0,catchall_60_65,primary,2027
-nationality,China,0,0,-63978,9310,54668,0,catchall_60_65,primary,2027
-nationality,ROW,0,0,535004,-134787,-400217,0,catchall_60_65,primary,2027
-category,EB-1,0,0,-3197,-708,3905,0,catchall_60_65,primary,2027
-category,EB-2,0,0,-8514,26601,-18087,0,catchall_60_65,primary,2027
-category,EB-3,0,0,10856,-5244,-5612,0,catchall_60_65,primary,2027
-category,EB-4,0,0,-2407,563,1844,0,catchall_60_65,primary,2027
-category,EB-5,0,0,-459,498,-39,0,catchall_60_65,primary,2027
-joint,EB-1 / India,0,0,-39616,3868,35748,0,catchall_60_65,primary,2027
-joint,EB-1 / China,0,0,-28486,3758,24728,0,catchall_60_65,primary,2027
-joint,EB-1 / ROW,0,0,64905,-8334,-56571,0,catchall_60_65,primary,2027
-joint,EB-2 / India,0,0,-280563,92770,187793,0,catchall_60_65,primary,2027
-joint,EB-2 / China,0,0,-13552,759,12793,0,catchall_60_65,primary,2027
-joint,EB-2 / ROW,0,0,285601,-66928,-218673,0,catchall_60_65,primary,2027
-joint,EB-3 / India,0,0,-156019,51667,104352,0,catchall_60_65,primary,2027
-joint,EB-3 / China,0,0,-18859,4594,14265,0,catchall_60_65,primary,2027
-joint,EB-3 / ROW,0,0,185734,-61505,-124229,0,catchall_60_65,primary,2027
-joint,EB-4 / India,0,0,3465,-1312,-2153,0,catchall_60_65,primary,2027
-joint,EB-4 / China,0,0,3479,-1102,-2377,0,catchall_60_65,primary,2027
-joint,EB-4 / ROW,0,0,-9351,2977,6374,0,catchall_60_65,primary,2027
-joint,EB-5 / India,0,0,-2014,194,1820,0,catchall_60_65,primary,2027
-joint,EB-5 / China,0,0,-6560,1301,5259,0,catchall_60_65,primary,2027
-joint,EB-5 / ROW,0,0,8115,-997,-7118,0,catchall_60_65,primary,2027
-overall,All,0,0,-4016,21784,-17768,0,catchall_60_65,primary,2028
-nationality,India,0,0,-475322,147711,327611,0,catchall_60_65,primary,2028
-nationality,China,0,0,-64484,9294,55190,0,catchall_60_65,primary,2028
-nationality,ROW,0,0,535790,-135221,-400569,0,catchall_60_65,primary,2028
-category,EB-1,0,0,-3364,-895,4259,0,catchall_60_65,primary,2028
-category,EB-2,0,0,-8583,26505,-17922,0,catchall_60_65,primary,2028
-category,EB-3,0,0,10648,-4223,-6425,0,catchall_60_65,primary,2028
-category,EB-4,0,0,-2170,-81,2251,0,catchall_60_65,primary,2028
-category,EB-5,0,0,-547,478,69,0,catchall_60_65,primary,2028
-joint,EB-1 / India,0,0,-39432,3898,35534,0,catchall_60_65,primary,2028
-joint,EB-1 / China,0,0,-28844,3706,25138,0,catchall_60_65,primary,2028
-joint,EB-1 / ROW,0,0,64912,-8499,-56413,0,catchall_60_65,primary,2028
-joint,EB-2 / India,0,0,-280831,92942,187889,0,catchall_60_65,primary,2028
-joint,EB-2 / China,0,0,-13803,520,13283,0,catchall_60_65,primary,2028
-joint,EB-2 / ROW,0,0,286051,-66957,-219094,0,catchall_60_65,primary,2028
-joint,EB-3 / India,0,0,-156393,51832,104561,0,catchall_60_65,primary,2028
-joint,EB-3 / China,0,0,-18420,4827,13593,0,catchall_60_65,primary,2028
-joint,EB-3 / ROW,0,0,185461,-60882,-124579,0,catchall_60_65,primary,2028
-joint,EB-4 / India,0,0,3467,-1185,-2282,0,catchall_60_65,primary,2028
-joint,EB-4 / China,0,0,3283,-1017,-2266,0,catchall_60_65,primary,2028
-joint,EB-4 / ROW,0,0,-8920,2121,6799,0,catchall_60_65,primary,2028
-joint,EB-5 / India,0,0,-2133,224,1909,0,catchall_60_65,primary,2028
-joint,EB-5 / China,0,0,-6700,1258,5442,0,catchall_60_65,primary,2028
-joint,EB-5 / ROW,0,0,8286,-1004,-7282,0,catchall_60_65,primary,2028
-overall,All,0,0,-4289,20910,-16621,0,catchall_60_65,primary,2029
-nationality,India,0,0,-474988,147646,327342,0,catchall_60_65,primary,2029
-nationality,China,0,0,-64070,9534,54536,0,catchall_60_65,primary,2029
-nationality,ROW,0,0,534769,-136270,-398499,0,catchall_60_65,primary,2029
-category,EB-1,0,0,-3196,-617,3813,0,catchall_60_65,primary,2029
-category,EB-2,0,0,-8793,26775,-17982,0,catchall_60_65,primary,2029
-category,EB-3,0,0,10581,-5501,-5080,0,catchall_60_65,primary,2029
-category,EB-4,0,0,-2406,-194,2600,0,catchall_60_65,primary,2029
-category,EB-5,0,0,-475,447,28,0,catchall_60_65,primary,2029
-joint,EB-1 / India,0,0,-39500,3747,35753,0,catchall_60_65,primary,2029
-joint,EB-1 / China,0,0,-28664,4108,24556,0,catchall_60_65,primary,2029
-joint,EB-1 / ROW,0,0,64968,-8472,-56496,0,catchall_60_65,primary,2029
-joint,EB-2 / India,0,0,-280228,93115,187113,0,catchall_60_65,primary,2029
-joint,EB-2 / China,0,0,-13731,799,12932,0,catchall_60_65,primary,2029
-joint,EB-2 / ROW,0,0,285166,-67139,-218027,0,catchall_60_65,primary,2029
-joint,EB-3 / India,0,0,-156650,51796,104854,0,catchall_60_65,primary,2029
-joint,EB-3 / China,0,0,-18681,4528,14153,0,catchall_60_65,primary,2029
-joint,EB-3 / ROW,0,0,185912,-61825,-124087,0,catchall_60_65,primary,2029
-joint,EB-4 / India,0,0,3543,-1262,-2281,0,catchall_60_65,primary,2029
-joint,EB-4 / China,0,0,3428,-1076,-2352,0,catchall_60_65,primary,2029
-joint,EB-4 / ROW,0,0,-9377,2144,7233,0,catchall_60_65,primary,2029
-joint,EB-5 / India,0,0,-2153,250,1903,0,catchall_60_65,primary,2029
-joint,EB-5 / China,0,0,-6422,1175,5247,0,catchall_60_65,primary,2029
-joint,EB-5 / ROW,0,0,8100,-978,-7122,0,catchall_60_65,primary,2029
-overall,All,0,0,-3666,20199,-16533,0,catchall_60_65,primary,2030
-nationality,India,0,0,-474914,146954,327960,0,catchall_60_65,primary,2030
-nationality,China,0,0,-63177,9613,53564,0,catchall_60_65,primary,2030
-nationality,ROW,0,0,534425,-136368,-398057,0,catchall_60_65,primary,2030
-category,EB-1,0,0,-3113,-655,3768,0,catchall_60_65,primary,2030
-category,EB-2,0,0,-8677,25823,-17146,0,catchall_60_65,primary,2030
-category,EB-3,0,0,10777,-5067,-5710,0,catchall_60_65,primary,2030
-category,EB-4,0,0,-2137,-395,2532,0,catchall_60_65,primary,2030
-category,EB-5,0,0,-516,493,23,0,catchall_60_65,primary,2030
-joint,EB-1 / India,0,0,-39431,3742,35689,0,catchall_60_65,primary,2030
-joint,EB-1 / China,0,0,-28372,3854,24518,0,catchall_60_65,primary,2030
-joint,EB-1 / ROW,0,0,64690,-8251,-56439,0,catchall_60_65,primary,2030
-joint,EB-2 / India,0,0,-280557,92265,188292,0,catchall_60_65,primary,2030
-joint,EB-2 / China,0,0,-13463,925,12538,0,catchall_60_65,primary,2030
-joint,EB-2 / ROW,0,0,285343,-67367,-217976,0,catchall_60_65,primary,2030
-joint,EB-3 / India,0,0,-156478,51941,104537,0,catchall_60_65,primary,2030
-joint,EB-3 / China,0,0,-18001,4534,13467,0,catchall_60_65,primary,2030
-joint,EB-3 / ROW,0,0,185256,-61542,-123714,0,catchall_60_65,primary,2030
-joint,EB-4 / India,0,0,3655,-1213,-2442,0,catchall_60_65,primary,2030
-joint,EB-4 / China,0,0,3323,-970,-2353,0,catchall_60_65,primary,2030
-joint,EB-4 / ROW,0,0,-9115,1788,7327,0,catchall_60_65,primary,2030
-joint,EB-5 / India,0,0,-2103,219,1884,0,catchall_60_65,primary,2030
-joint,EB-5 / China,0,0,-6664,1270,5394,0,catchall_60_65,primary,2030
-joint,EB-5 / ROW,0,0,8251,-996,-7255,0,catchall_60_65,primary,2030
-overall,All,0,0,-3256,21243,-17987,0,catchall_60_65,primary,2031
-nationality,India,0,0,-474997,147899,327098,0,catchall_60_65,primary,2031
-nationality,China,0,0,-63798,9665,54133,0,catchall_60_65,primary,2031
-nationality,ROW,0,0,535539,-136321,-399218,0,catchall_60_65,primary,2031
-category,EB-1,0,0,-3279,-641,3920,0,catchall_60_65,primary,2031
-category,EB-2,0,0,-8242,27369,-19127,0,catchall_60_65,primary,2031
-category,EB-3,0,0,11147,-5408,-5739,0,catchall_60_65,primary,2031
-category,EB-4,0,0,-2356,-442,2798,0,catchall_60_65,primary,2031
-category,EB-5,0,0,-526,365,161,0,catchall_60_65,primary,2031
-joint,EB-1 / India,0,0,-39787,3948,35839,0,catchall_60_65,primary,2031
-joint,EB-1 / China,0,0,-28700,3785,24915,0,catchall_60_65,primary,2031
-joint,EB-1 / ROW,0,0,65208,-8374,-56834,0,catchall_60_65,primary,2031
-joint,EB-2 / India,0,0,-280151,92899,187252,0,catchall_60_65,primary,2031
-joint,EB-2 / China,0,0,-13407,1219,12188,0,catchall_60_65,primary,2031
-joint,EB-2 / ROW,0,0,285316,-66749,-218567,0,catchall_60_65,primary,2031
-joint,EB-3 / India,0,0,-156413,52016,104397,0,catchall_60_65,primary,2031
-joint,EB-3 / China,0,0,-18523,4628,13895,0,catchall_60_65,primary,2031
-joint,EB-3 / ROW,0,0,186083,-62052,-124031,0,catchall_60_65,primary,2031
-joint,EB-4 / India,0,0,3439,-1182,-2257,0,catchall_60_65,primary,2031
-joint,EB-4 / China,0,0,3405,-1090,-2315,0,catchall_60_65,primary,2031
-joint,EB-4 / ROW,0,0,-9200,1830,7370,0,catchall_60_65,primary,2031
-joint,EB-5 / India,0,0,-2085,218,1867,0,catchall_60_65,primary,2031
-joint,EB-5 / China,0,0,-6573,1123,5450,0,catchall_60_65,primary,2031
-joint,EB-5 / ROW,0,0,8132,-976,-7156,0,catchall_60_65,primary,2031
-overall,All,0,0,-3634,21620,-17986,0,catchall_60_65,primary,2032
-nationality,India,0,0,-475433,148172,327261,0,catchall_60_65,primary,2032
-nationality,China,0,0,-64463,9555,54908,0,catchall_60_65,primary,2032
-nationality,ROW,0,0,536262,-136107,-400155,0,catchall_60_65,primary,2032
-category,EB-1,0,0,-3249,-760,4009,0,catchall_60_65,primary,2032
-category,EB-2,0,0,-8763,27113,-18350,0,catchall_60_65,primary,2032
-category,EB-3,0,0,10980,-5180,-5800,0,catchall_60_65,primary,2032
-category,EB-4,0,0,-2166,86,2080,0,catchall_60_65,primary,2032
-category,EB-5,0,0,-436,361,75,0,catchall_60_65,primary,2032
-joint,EB-1 / India,0,0,-39585,3686,35899,0,catchall_60_65,primary,2032
-joint,EB-1 / China,0,0,-28854,4010,24844,0,catchall_60_65,primary,2032
-joint,EB-1 / ROW,0,0,65190,-8456,-56734,0,catchall_60_65,primary,2032
-joint,EB-2 / India,0,0,-280320,93056,187264,0,catchall_60_65,primary,2032
-joint,EB-2 / China,0,0,-13680,1104,12576,0,catchall_60_65,primary,2032
-joint,EB-2 / ROW,0,0,285237,-67047,-218190,0,catchall_60_65,primary,2032
-joint,EB-3 / India,0,0,-156893,52327,104566,0,catchall_60_65,primary,2032
-joint,EB-3 / China,0,0,-18827,4390,14437,0,catchall_60_65,primary,2032
-joint,EB-3 / ROW,0,0,186700,-61897,-124803,0,catchall_60_65,primary,2032
-joint,EB-4 / India,0,0,3376,-1114,-2262,0,catchall_60_65,primary,2032
-joint,EB-4 / China,0,0,3336,-1067,-2269,0,catchall_60_65,primary,2032
-joint,EB-4 / ROW,0,0,-8878,2267,6611,0,catchall_60_65,primary,2032
-joint,EB-5 / India,0,0,-2011,217,1794,0,catchall_60_65,primary,2032
-joint,EB-5 / China,0,0,-6438,1118,5320,0,catchall_60_65,primary,2032
-joint,EB-5 / ROW,0,0,8013,-974,-7039,0,catchall_60_65,primary,2032
-overall,All,0,0,-3944,19463,-15519,0,catchall_60_65,primary,2033
-nationality,India,0,0,-475291,146788,328503,0,catchall_60_65,primary,2033
-nationality,China,0,0,-63477,8769,54708,0,catchall_60_65,primary,2033
-nationality,ROW,0,0,534824,-136094,-398730,0,catchall_60_65,primary,2033
-category,EB-1,0,0,-3133,-515,3648,0,catchall_60_65,primary,2033
-category,EB-2,0,0,-8750,25598,-16848,0,catchall_60_65,primary,2033
-category,EB-3,0,0,10630,-5348,-5282,0,catchall_60_65,primary,2033
-category,EB-4,0,0,-2278,-767,3045,0,catchall_60_65,primary,2033
-category,EB-5,0,0,-413,495,-82,0,catchall_60_65,primary,2033
-joint,EB-1 / India,0,0,-39628,4097,35531,0,catchall_60_65,primary,2033
-joint,EB-1 / China,0,0,-28599,3822,24777,0,catchall_60_65,primary,2033
-joint,EB-1 / ROW,0,0,65094,-8434,-56660,0,catchall_60_65,primary,2033
-joint,EB-2 / India,0,0,-280364,91998,188366,0,catchall_60_65,primary,2033
-joint,EB-2 / China,0,0,-13256,275,12981,0,catchall_60_65,primary,2033
-joint,EB-2 / ROW,0,0,284870,-66675,-218195,0,catchall_60_65,primary,2033
-joint,EB-3 / India,0,0,-156697,51643,105054,0,catchall_60_65,primary,2033
-joint,EB-3 / China,0,0,-18540,4524,14016,0,catchall_60_65,primary,2033
-joint,EB-3 / ROW,0,0,185867,-61515,-124352,0,catchall_60_65,primary,2033
-joint,EB-4 / India,0,0,3554,-1227,-2327,0,catchall_60_65,primary,2033
-joint,EB-4 / China,0,0,3469,-1053,-2416,0,catchall_60_65,primary,2033
-joint,EB-4 / ROW,0,0,-9301,1513,7788,0,catchall_60_65,primary,2033
-joint,EB-5 / India,0,0,-2156,277,1879,0,catchall_60_65,primary,2033
-joint,EB-5 / China,0,0,-6551,1201,5350,0,catchall_60_65,primary,2033
-joint,EB-5 / ROW,0,0,8294,-983,-7311,0,catchall_60_65,primary,2033
-overall,All,0,0,-4045,21231,-17186,0,catchall_60_65,primary,2034
-nationality,India,0,0,-476019,148325,327694,0,catchall_60_65,primary,2034
-nationality,China,0,0,-63405,9199,54206,0,catchall_60_65,primary,2034
-nationality,ROW,0,0,535379,-136293,-399086,0,catchall_60_65,primary,2034
-category,EB-1,0,0,-3407,-760,4167,0,catchall_60_65,primary,2034
-category,EB-2,0,0,-8509,26696,-18187,0,catchall_60_65,primary,2034
-category,EB-3,0,0,10455,-4329,-6126,0,catchall_60_65,primary,2034
-category,EB-4,0,0,-2230,-790,3020,0,catchall_60_65,primary,2034
-category,EB-5,0,0,-354,414,-60,0,catchall_60_65,primary,2034
-joint,EB-1 / India,0,0,-40004,3888,36116,0,catchall_60_65,primary,2034
-joint,EB-1 / China,0,0,-28562,3862,24700,0,catchall_60_65,primary,2034
-joint,EB-1 / ROW,0,0,65159,-8510,-56649,0,catchall_60_65,primary,2034
-joint,EB-2 / India,0,0,-280546,93460,187086,0,catchall_60_65,primary,2034
-joint,EB-2 / China,0,0,-13495,630,12865,0,catchall_60_65,primary,2034
-joint,EB-2 / ROW,0,0,285532,-67394,-218138,0,catchall_60_65,primary,2034
-joint,EB-3 / India,0,0,-156862,52105,104757,0,catchall_60_65,primary,2034
-joint,EB-3 / China,0,0,-18386,4636,13750,0,catchall_60_65,primary,2034
-joint,EB-3 / ROW,0,0,185703,-61070,-124633,0,catchall_60_65,primary,2034
-joint,EB-4 / India,0,0,3556,-1387,-2169,0,catchall_60_65,primary,2034
-joint,EB-4 / China,0,0,3369,-1057,-2312,0,catchall_60_65,primary,2034
-joint,EB-4 / ROW,0,0,-9155,1654,7501,0,catchall_60_65,primary,2034
-joint,EB-5 / India,0,0,-2163,259,1904,0,catchall_60_65,primary,2034
-joint,EB-5 / China,0,0,-6331,1128,5203,0,catchall_60_65,primary,2034
-joint,EB-5 / ROW,0,0,8140,-973,-7167,0,catchall_60_65,primary,2034
-overall,All,0,0,-3211,21744,-18533,0,catchall_60_65,primary,2035
-nationality,India,0,0,-475164,147641,327523,0,catchall_60_65,primary,2035
-nationality,China,0,0,-63850,8971,54879,0,catchall_60_65,primary,2035
-nationality,ROW,0,0,535803,-134868,-400935,0,catchall_60_65,primary,2035
-category,EB-1,0,0,-3283,-888,4171,0,catchall_60_65,primary,2035
-category,EB-2,0,0,-8537,27374,-18837,0,catchall_60_65,primary,2035
-category,EB-3,0,0,11555,-5525,-6030,0,catchall_60_65,primary,2035
-category,EB-4,0,0,-2448,316,2132,0,catchall_60_65,primary,2035
-category,EB-5,0,0,-498,467,31,0,catchall_60_65,primary,2035
-joint,EB-1 / India,0,0,-39706,3738,35968,0,catchall_60_65,primary,2035
-joint,EB-1 / China,0,0,-28387,3779,24608,0,catchall_60_65,primary,2035
-joint,EB-1 / ROW,0,0,64810,-8405,-56405,0,catchall_60_65,primary,2035
-joint,EB-2 / India,0,0,-280393,93789,186604,0,catchall_60_65,primary,2035
-joint,EB-2 / China,0,0,-13660,641,13019,0,catchall_60_65,primary,2035
-joint,EB-2 / ROW,0,0,285516,-67056,-218460,0,catchall_60_65,primary,2035
-joint,EB-3 / India,0,0,-156483,51259,105224,0,catchall_60_65,primary,2035
-joint,EB-3 / China,0,0,-18457,4324,14133,0,catchall_60_65,primary,2035
-joint,EB-3 / ROW,0,0,186495,-61108,-125387,0,catchall_60_65,primary,2035
-joint,EB-4 / India,0,0,3528,-1297,-2231,0,catchall_60_65,primary,2035
-joint,EB-4 / China,0,0,3320,-1063,-2257,0,catchall_60_65,primary,2035
-joint,EB-4 / ROW,0,0,-9296,2676,6620,0,catchall_60_65,primary,2035
-joint,EB-5 / India,0,0,-2110,152,1958,0,catchall_60_65,primary,2035
-joint,EB-5 / China,0,0,-6666,1290,5376,0,catchall_60_65,primary,2035
-joint,EB-5 / ROW,0,0,8278,-975,-7303,0,catchall_60_65,primary,2035
-overall,All,0,0,-4416,21173,-16757,0,catchall_60_65,primary,2036
-nationality,India,0,0,-476513,148053,328460,0,catchall_60_65,primary,2036
-nationality,China,0,0,-64168,8917,55251,0,catchall_60_65,primary,2036
-nationality,ROW,0,0,536265,-135797,-400468,0,catchall_60_65,primary,2036
-category,EB-1,0,0,-3220,-762,3982,0,catchall_60_65,primary,2036
-category,EB-2,0,0,-9071,26299,-17228,0,catchall_60_65,primary,2036
-category,EB-3,0,0,10700,-4916,-5784,0,catchall_60_65,primary,2036
-category,EB-4,0,0,-2288,113,2175,0,catchall_60_65,primary,2036
-category,EB-5,0,0,-537,439,98,0,catchall_60_65,primary,2036
-joint,EB-1 / India,0,0,-39833,3853,35980,0,catchall_60_65,primary,2036
-joint,EB-1 / China,0,0,-28856,3948,24908,0,catchall_60_65,primary,2036
-joint,EB-1 / ROW,0,0,65469,-8563,-56906,0,catchall_60_65,primary,2036
-joint,EB-2 / India,0,0,-280689,92564,188125,0,catchall_60_65,primary,2036
-joint,EB-2 / China,0,0,-13829,712,13117,0,catchall_60_65,primary,2036
-joint,EB-2 / ROW,0,0,285447,-66977,-218470,0,catchall_60_65,primary,2036
-joint,EB-3 / India,0,0,-157333,52540,104793,0,catchall_60_65,primary,2036
-joint,EB-3 / China,0,0,-18185,4135,14050,0,catchall_60_65,primary,2036
-joint,EB-3 / ROW,0,0,186218,-61591,-124627,0,catchall_60_65,primary,2036
-joint,EB-4 / India,0,0,3483,-1154,-2329,0,catchall_60_65,primary,2036
-joint,EB-4 / China,0,0,3391,-1037,-2354,0,catchall_60_65,primary,2036
-joint,EB-4 / ROW,0,0,-9162,2304,6858,0,catchall_60_65,primary,2036
-joint,EB-5 / India,0,0,-2141,250,1891,0,catchall_60_65,primary,2036
-joint,EB-5 / China,0,0,-6689,1159,5530,0,catchall_60_65,primary,2036
-joint,EB-5 / ROW,0,0,8293,-970,-7323,0,catchall_60_65,primary,2036
-overall,All,0,0,-3461,21594,-18133,0,catchall_60_65,primary,2037
-nationality,India,0,0,-475272,147151,328121,0,catchall_60_65,primary,2037
-nationality,China,0,0,-64594,9237,55357,0,catchall_60_65,primary,2037
-nationality,ROW,0,0,536405,-134794,-401611,0,catchall_60_65,primary,2037
-category,EB-1,0,0,-3282,-796,4078,0,catchall_60_65,primary,2037
-category,EB-2,0,0,-8487,25581,-17094,0,catchall_60_65,primary,2037
-category,EB-3,0,0,11228,-4350,-6878,0,catchall_60_65,primary,2037
-category,EB-4,0,0,-2443,816,1627,0,catchall_60_65,primary,2037
-category,EB-5,0,0,-477,343,134,0,catchall_60_65,primary,2037
-joint,EB-1 / India,0,0,-39880,3840,36040,0,catchall_60_65,primary,2037
-joint,EB-1 / China,0,0,-28675,3826,24849,0,catchall_60_65,primary,2037
-joint,EB-1 / ROW,0,0,65273,-8462,-56811,0,catchall_60_65,primary,2037
-joint,EB-2 / India,0,0,-280397,91941,188456,0,catchall_60_65,primary,2037
-joint,EB-2 / China,0,0,-13832,943,12889,0,catchall_60_65,primary,2037
-joint,EB-2 / ROW,0,0,285742,-67303,-218439,0,catchall_60_65,primary,2037
-joint,EB-3 / India,0,0,-156371,52170,104201,0,catchall_60_65,primary,2037
-joint,EB-3 / China,0,0,-18748,4401,14347,0,catchall_60_65,primary,2037
-joint,EB-3 / ROW,0,0,186347,-60921,-125426,0,catchall_60_65,primary,2037
-joint,EB-4 / India,0,0,3475,-1036,-2439,0,catchall_60_65,primary,2037
-joint,EB-4 / China,0,0,3392,-1091,-2301,0,catchall_60_65,primary,2037
-joint,EB-4 / ROW,0,0,-9310,2943,6367,0,catchall_60_65,primary,2037
-joint,EB-5 / India,0,0,-2099,236,1863,0,catchall_60_65,primary,2037
-joint,EB-5 / China,0,0,-6731,1158,5573,0,catchall_60_65,primary,2037
-joint,EB-5 / ROW,0,0,8353,-1051,-7302,0,catchall_60_65,primary,2037
-overall,All,0,0,-4539,21070,-16531,0,catchall_60_65,primary,2038
-nationality,India,0,0,-475369,147694,327675,0,catchall_60_65,primary,2038
-nationality,China,0,0,-64230,9090,55140,0,catchall_60_65,primary,2038
-nationality,ROW,0,0,535060,-135714,-399346,0,catchall_60_65,primary,2038
-category,EB-1,0,0,-3507,-832,4339,0,catchall_60_65,primary,2038
-category,EB-2,0,0,-8865,26187,-17322,0,catchall_60_65,primary,2038
-category,EB-3,0,0,10570,-4363,-6207,0,catchall_60_65,primary,2038
-category,EB-4,0,0,-2264,-317,2581,0,catchall_60_65,primary,2038
-category,EB-5,0,0,-473,395,78,0,catchall_60_65,primary,2038
-joint,EB-1 / India,0,0,-39664,3763,35901,0,catchall_60_65,primary,2038
-joint,EB-1 / China,0,0,-28554,3787,24767,0,catchall_60_65,primary,2038
-joint,EB-1 / ROW,0,0,64711,-8382,-56329,0,catchall_60_65,primary,2038
-joint,EB-2 / India,0,0,-280224,92460,187764,0,catchall_60_65,primary,2038
-joint,EB-2 / China,0,0,-13878,374,13504,0,catchall_60_65,primary,2038
-joint,EB-2 / ROW,0,0,285237,-66647,-218590,0,catchall_60_65,primary,2038
-joint,EB-3 / India,0,0,-156922,52409,104513,0,catchall_60_65,primary,2038
-joint,EB-3 / China,0,0,-18601,4786,13815,0,catchall_60_65,primary,2038
-joint,EB-3 / ROW,0,0,186093,-61558,-124535,0,catchall_60_65,primary,2038
-joint,EB-4 / India,0,0,3505,-1141,-2364,0,catchall_60_65,primary,2038
-joint,EB-4 / China,0,0,3399,-1062,-2337,0,catchall_60_65,primary,2038
-joint,EB-4 / ROW,0,0,-9168,1886,7282,0,catchall_60_65,primary,2038
-joint,EB-5 / India,0,0,-2064,203,1861,0,catchall_60_65,primary,2038
-joint,EB-5 / China,0,0,-6596,1205,5391,0,catchall_60_65,primary,2038
-joint,EB-5 / ROW,0,0,8187,-1013,-7174,0,catchall_60_65,primary,2038
-overall,All,0,0,-3294,19322,-16028,0,catchall_60_65,primary,2039
-nationality,India,0,0,-473937,146209,327728,0,catchall_60_65,primary,2039
-nationality,China,0,0,-63997,8861,55136,0,catchall_60_65,primary,2039
-nationality,ROW,0,0,534640,-135748,-398892,0,catchall_60_65,primary,2039
-category,EB-1,0,0,-3210,-835,4045,0,catchall_60_65,primary,2039
-category,EB-2,0,0,-8461,25076,-16615,0,catchall_60_65,primary,2039
-category,EB-3,0,0,11301,-5362,-5939,0,catchall_60_65,primary,2039
-category,EB-4,0,0,-2347,33,2314,0,catchall_60_65,primary,2039
-category,EB-5,0,0,-577,410,167,0,catchall_60_65,primary,2039
-joint,EB-1 / India,0,0,-39383,3895,35488,0,catchall_60_65,primary,2039
-joint,EB-1 / China,0,0,-28696,3861,24835,0,catchall_60_65,primary,2039
-joint,EB-1 / ROW,0,0,64869,-8591,-56278,0,catchall_60_65,primary,2039
-joint,EB-2 / India,0,0,-280100,91901,188199,0,catchall_60_65,primary,2039
-joint,EB-2 / China,0,0,-13703,441,13262,0,catchall_60_65,primary,2039
-joint,EB-2 / ROW,0,0,285342,-67266,-218076,0,catchall_60_65,primary,2039
-joint,EB-3 / India,0,0,-155792,51507,104285,0,catchall_60_65,primary,2039
-joint,EB-3 / China,0,0,-18372,4352,14020,0,catchall_60_65,primary,2039
-joint,EB-3 / ROW,0,0,185465,-61221,-124244,0,catchall_60_65,primary,2039
-joint,EB-4 / India,0,0,3436,-1291,-2145,0,catchall_60_65,primary,2039
-joint,EB-4 / China,0,0,3350,-1042,-2308,0,catchall_60_65,primary,2039
-joint,EB-4 / ROW,0,0,-9133,2366,6767,0,catchall_60_65,primary,2039
-joint,EB-5 / India,0,0,-2098,197,1901,0,catchall_60_65,primary,2039
-joint,EB-5 / China,0,0,-6576,1249,5327,0,catchall_60_65,primary,2039
-joint,EB-5 / ROW,0,0,8097,-1036,-7061,0,catchall_60_65,primary,2039
-overall,All,0,0,-3360,20982,-17622,0,catchall_60_65,primary,2040
-nationality,India,0,0,-475140,147159,327981,0,catchall_60_65,primary,2040
-nationality,China,0,0,-63436,8668,54768,0,catchall_60_65,primary,2040
-nationality,ROW,0,0,535216,-134845,-400371,0,catchall_60_65,primary,2040
-category,EB-1,0,0,-3155,-784,3939,0,catchall_60_65,primary,2040
-category,EB-2,0,0,-7666,25455,-17789,0,catchall_60_65,primary,2040
-category,EB-3,0,0,10241,-5033,-5208,0,catchall_60_65,primary,2040
-category,EB-4,0,0,-2203,932,1271,0,catchall_60_65,primary,2040
-category,EB-5,0,0,-577,412,165,0,catchall_60_65,primary,2040
-joint,EB-1 / India,0,0,-39969,3882,36087,0,catchall_60_65,primary,2040
-joint,EB-1 / China,0,0,-28541,3872,24669,0,catchall_60_65,primary,2040
-joint,EB-1 / ROW,0,0,65355,-8538,-56817,0,catchall_60_65,primary,2040
-joint,EB-2 / India,0,0,-280030,92132,187898,0,catchall_60_65,primary,2040
-joint,EB-2 / China,0,0,-13602,362,13240,0,catchall_60_65,primary,2040
-joint,EB-2 / ROW,0,0,285966,-67039,-218927,0,catchall_60_65,primary,2040
-joint,EB-3 / India,0,0,-156560,51985,104575,0,catchall_60_65,primary,2040
-joint,EB-3 / China,0,0,-18119,4280,13839,0,catchall_60_65,primary,2040
-joint,EB-3 / ROW,0,0,184920,-61298,-123622,0,catchall_60_65,primary,2040
-joint,EB-4 / India,0,0,3598,-1044,-2554,0,catchall_60_65,primary,2040
-joint,EB-4 / China,0,0,3444,-1088,-2356,0,catchall_60_65,primary,2040
-joint,EB-4 / ROW,0,0,-9245,3064,6181,0,catchall_60_65,primary,2040
-joint,EB-5 / India,0,0,-2179,204,1975,0,catchall_60_65,primary,2040
-joint,EB-5 / China,0,0,-6618,1242,5376,0,catchall_60_65,primary,2040
-joint,EB-5 / ROW,0,0,8220,-1034,-7186,0,catchall_60_65,primary,2040
-overall,All,0,0,-3163,21154,-17991,0,catchall_60_65,primary,2041
-nationality,India,0,0,-475172,147958,327214,0,catchall_60_65,primary,2041
-nationality,China,0,0,-63657,9378,54279,0,catchall_60_65,primary,2041
-nationality,ROW,0,0,535666,-136182,-399484,0,catchall_60_65,primary,2041
-category,EB-1,0,0,-3498,-657,4155,0,catchall_60_65,primary,2041
-category,EB-2,0,0,-8140,26587,-18447,0,catchall_60_65,primary,2041
-category,EB-3,0,0,11267,-5121,-6146,0,catchall_60_65,primary,2041
-category,EB-4,0,0,-2278,-93,2371,0,catchall_60_65,primary,2041
-category,EB-5,0,0,-514,438,76,0,catchall_60_65,primary,2041
-joint,EB-1 / India,0,0,-39403,3761,35642,0,catchall_60_65,primary,2041
-joint,EB-1 / China,0,0,-28728,4019,24709,0,catchall_60_65,primary,2041
-joint,EB-1 / ROW,0,0,64633,-8437,-56196,0,catchall_60_65,primary,2041
-joint,EB-2 / India,0,0,-280349,92985,187364,0,catchall_60_65,primary,2041
-joint,EB-2 / China,0,0,-13411,807,12604,0,catchall_60_65,primary,2041
-joint,EB-2 / ROW,0,0,285620,-67205,-218415,0,catchall_60_65,primary,2041
-joint,EB-3 / India,0,0,-156835,52179,104656,0,catchall_60_65,primary,2041
-joint,EB-3 / China,0,0,-18252,4376,13876,0,catchall_60_65,primary,2041
-joint,EB-3 / ROW,0,0,186354,-61676,-124678,0,catchall_60_65,primary,2041
-joint,EB-4 / India,0,0,3543,-1209,-2334,0,catchall_60_65,primary,2041
-joint,EB-4 / China,0,0,3427,-1073,-2354,0,catchall_60_65,primary,2041
-joint,EB-4 / ROW,0,0,-9248,2189,7059,0,catchall_60_65,primary,2041
-joint,EB-5 / India,0,0,-2128,242,1886,0,catchall_60_65,primary,2041
-joint,EB-5 / China,0,0,-6693,1249,5444,0,catchall_60_65,primary,2041
-joint,EB-5 / ROW,0,0,8307,-1053,-7254,0,catchall_60_65,primary,2041
-overall,All,0,0,-4070,20020,-15950,0,catchall_60_65,primary,2042
-nationality,India,0,0,-474538,146952,327586,0,catchall_60_65,primary,2042
-nationality,China,0,0,-64129,8910,55219,0,catchall_60_65,primary,2042
-nationality,ROW,0,0,534597,-135842,-398755,0,catchall_60_65,primary,2042
-category,EB-1,0,0,-3510,-683,4193,0,catchall_60_65,primary,2042
-category,EB-2,0,0,-8870,25912,-17042,0,catchall_60_65,primary,2042
-category,EB-3,0,0,11089,-5112,-5977,0,catchall_60_65,primary,2042
-category,EB-4,0,0,-2187,-523,2710,0,catchall_60_65,primary,2042
-category,EB-5,0,0,-592,426,166,0,catchall_60_65,primary,2042
-joint,EB-1 / India,0,0,-39334,3800,35534,0,catchall_60_65,primary,2042
-joint,EB-1 / China,0,0,-28798,4036,24762,0,catchall_60_65,primary,2042
-joint,EB-1 / ROW,0,0,64622,-8519,-56103,0,catchall_60_65,primary,2042
-joint,EB-2 / India,0,0,-280147,92384,187763,0,catchall_60_65,primary,2042
-joint,EB-2 / China,0,0,-13483,380,13103,0,catchall_60_65,primary,2042
-joint,EB-2 / ROW,0,0,284760,-66852,-217908,0,catchall_60_65,primary,2042
-joint,EB-3 / India,0,0,-156138,51722,104416,0,catchall_60_65,primary,2042
-joint,EB-3 / China,0,0,-18428,4289,14139,0,catchall_60_65,primary,2042
-joint,EB-3 / ROW,0,0,185655,-61123,-124532,0,catchall_60_65,primary,2042
-joint,EB-4 / India,0,0,3323,-1169,-2154,0,catchall_60_65,primary,2042
-joint,EB-4 / China,0,0,3256,-1012,-2244,0,catchall_60_65,primary,2042
-joint,EB-4 / ROW,0,0,-8766,1658,7108,0,catchall_60_65,primary,2042
-joint,EB-5 / India,0,0,-2242,215,2027,0,catchall_60_65,primary,2042
-joint,EB-5 / China,0,0,-6676,1217,5459,0,catchall_60_65,primary,2042
-joint,EB-5 / ROW,0,0,8326,-1006,-7320,0,catchall_60_65,primary,2042
-overall,All,0,0,-3795,22262,-18467,0,catchall_60_65,primary,2043
-nationality,India,0,0,-474719,147706,327013,0,catchall_60_65,primary,2043
-nationality,China,0,0,-64165,9320,54845,0,catchall_60_65,primary,2043
-nationality,ROW,0,0,535089,-134764,-400325,0,catchall_60_65,primary,2043
-category,EB-1,0,0,-3147,-897,4044,0,catchall_60_65,primary,2043
-category,EB-2,0,0,-8702,27315,-18613,0,catchall_60_65,primary,2043
-category,EB-3,0,0,10859,-4892,-5967,0,catchall_60_65,primary,2043
-category,EB-4,0,0,-2297,252,2045,0,catchall_60_65,primary,2043
-category,EB-5,0,0,-508,484,24,0,catchall_60_65,primary,2043
-joint,EB-1 / India,0,0,-39381,3798,35583,0,catchall_60_65,primary,2043
-joint,EB-1 / China,0,0,-28417,3803,24614,0,catchall_60_65,primary,2043
-joint,EB-1 / ROW,0,0,64651,-8498,-56153,0,catchall_60_65,primary,2043
-joint,EB-2 / India,0,0,-280314,92953,187361,0,catchall_60_65,primary,2043
-joint,EB-2 / China,0,0,-13714,819,12895,0,catchall_60_65,primary,2043
-joint,EB-2 / ROW,0,0,285326,-66457,-218869,0,catchall_60_65,primary,2043
-joint,EB-3 / India,0,0,-156447,51942,104505,0,catchall_60_65,primary,2043
-joint,EB-3 / China,0,0,-18631,4386,14245,0,catchall_60_65,primary,2043
-joint,EB-3 / ROW,0,0,185937,-61220,-124717,0,catchall_60_65,primary,2043
-joint,EB-4 / India,0,0,3532,-1243,-2289,0,catchall_60_65,primary,2043
-joint,EB-4 / China,0,0,3264,-972,-2292,0,catchall_60_65,primary,2043
-joint,EB-4 / ROW,0,0,-9093,2467,6626,0,catchall_60_65,primary,2043
-joint,EB-5 / India,0,0,-2109,256,1853,0,catchall_60_65,primary,2043
-joint,EB-5 / China,0,0,-6667,1284,5383,0,catchall_60_65,primary,2043
-joint,EB-5 / ROW,0,0,8268,-1056,-7212,0,catchall_60_65,primary,2043
-overall,All,0,0,-3976,20870,-16894,0,catchall_60_65,primary,2044
-nationality,India,0,0,-475180,147339,327841,0,catchall_60_65,primary,2044
-nationality,China,0,0,-64380,9028,55352,0,catchall_60_65,primary,2044
-nationality,ROW,0,0,535584,-135497,-400087,0,catchall_60_65,primary,2044
-category,EB-1,0,0,-3357,-910,4267,0,catchall_60_65,primary,2044
-category,EB-2,0,0,-9018,26308,-17290,0,catchall_60_65,primary,2044
-category,EB-3,0,0,11167,-5427,-5740,0,catchall_60_65,primary,2044
-category,EB-4,0,0,-2198,537,1661,0,catchall_60_65,primary,2044
-category,EB-5,0,0,-570,362,208,0,catchall_60_65,primary,2044
-joint,EB-1 / India,0,0,-39865,3791,36074,0,catchall_60_65,primary,2044
-joint,EB-1 / China,0,0,-28878,3915,24963,0,catchall_60_65,primary,2044
-joint,EB-1 / ROW,0,0,65386,-8616,-56770,0,catchall_60_65,primary,2044
-joint,EB-2 / India,0,0,-280100,92708,187392,0,catchall_60_65,primary,2044
-joint,EB-2 / China,0,0,-13667,379,13288,0,catchall_60_65,primary,2044
-joint,EB-2 / ROW,0,0,284749,-66779,-217970,0,catchall_60_65,primary,2044
-joint,EB-3 / India,0,0,-156579,51821,104758,0,catchall_60_65,primary,2044
-joint,EB-3 / China,0,0,-18396,4589,13807,0,catchall_60_65,primary,2044
-joint,EB-3 / ROW,0,0,186142,-61837,-124305,0,catchall_60_65,primary,2044
-joint,EB-4 / India,0,0,3582,-1190,-2392,0,catchall_60_65,primary,2044
-joint,EB-4 / China,0,0,3281,-1027,-2254,0,catchall_60_65,primary,2044
-joint,EB-4 / ROW,0,0,-9061,2754,6307,0,catchall_60_65,primary,2044
-joint,EB-5 / India,0,0,-2218,209,2009,0,catchall_60_65,primary,2044
-joint,EB-5 / China,0,0,-6720,1172,5548,0,catchall_60_65,primary,2044
-joint,EB-5 / ROW,0,0,8368,-1019,-7349,0,catchall_60_65,primary,2044
-overall,All,0,0,-3292,20620,-17328,0,catchall_60_65,primary,2045
-nationality,India,0,0,-476273,147362,328911,0,catchall_60_65,primary,2045
-nationality,China,0,0,-63938,9097,54841,0,catchall_60_65,primary,2045
-nationality,ROW,0,0,536919,-135839,-401080,0,catchall_60_65,primary,2045
-category,EB-1,0,0,-3030,-723,3753,0,catchall_60_65,primary,2045
-category,EB-2,0,0,-8951,25796,-16845,0,catchall_60_65,primary,2045
-category,EB-3,0,0,11467,-4856,-6611,0,catchall_60_65,primary,2045
-category,EB-4,0,0,-2294,-130,2424,0,catchall_60_65,primary,2045
-category,EB-5,0,0,-484,533,-49,0,catchall_60_65,primary,2045
-joint,EB-1 / India,0,0,-39247,3764,35483,0,catchall_60_65,primary,2045
-joint,EB-1 / China,0,0,-28576,3995,24581,0,catchall_60_65,primary,2045
-joint,EB-1 / ROW,0,0,64793,-8482,-56311,0,catchall_60_65,primary,2045
-joint,EB-2 / India,0,0,-280904,92386,188518,0,catchall_60_65,primary,2045
-joint,EB-2 / China,0,0,-13417,214,13203,0,catchall_60_65,primary,2045
-joint,EB-2 / ROW,0,0,285370,-66804,-218566,0,catchall_60_65,primary,2045
-joint,EB-3 / India,0,0,-157483,52109,105374,0,catchall_60_65,primary,2045
-joint,EB-3 / China,0,0,-18653,4641,14012,0,catchall_60_65,primary,2045
-joint,EB-3 / ROW,0,0,187603,-61606,-125997,0,catchall_60_65,primary,2045
-joint,EB-4 / India,0,0,3503,-1131,-2372,0,catchall_60_65,primary,2045
-joint,EB-4 / China,0,0,3409,-1057,-2352,0,catchall_60_65,primary,2045
-joint,EB-4 / ROW,0,0,-9206,2058,7148,0,catchall_60_65,primary,2045
-joint,EB-5 / India,0,0,-2142,234,1908,0,catchall_60_65,primary,2045
-joint,EB-5 / China,0,0,-6701,1304,5397,0,catchall_60_65,primary,2045
-joint,EB-5 / ROW,0,0,8359,-1005,-7354,0,catchall_60_65,primary,2045
-overall,All,0,0,-4833,21425,-16592,0,catchall_60_65,primary,2046
-nationality,India,0,0,-474599,147359,327240,0,catchall_60_65,primary,2046
-nationality,China,0,0,-64108,9608,54500,0,catchall_60_65,primary,2046
-nationality,ROW,0,0,533874,-135542,-398332,0,catchall_60_65,primary,2046
-category,EB-1,0,0,-3458,-969,4427,0,catchall_60_65,primary,2046
-category,EB-2,0,0,-8832,26917,-18085,0,catchall_60_65,primary,2046
-category,EB-3,0,0,10431,-5261,-5170,0,catchall_60_65,primary,2046
-category,EB-4,0,0,-2505,300,2205,0,catchall_60_65,primary,2046
-category,EB-5,0,0,-469,438,31,0,catchall_60_65,primary,2046
-joint,EB-1 / India,0,0,-39467,3646,35821,0,catchall_60_65,primary,2046
-joint,EB-1 / China,0,0,-28689,3956,24733,0,catchall_60_65,primary,2046
-joint,EB-1 / ROW,0,0,64698,-8571,-56127,0,catchall_60_65,primary,2046
-joint,EB-2 / India,0,0,-279861,92918,186943,0,catchall_60_65,primary,2046
-joint,EB-2 / China,0,0,-13996,945,13051,0,catchall_60_65,primary,2046
-joint,EB-2 / ROW,0,0,285025,-66946,-218079,0,catchall_60_65,primary,2046
-joint,EB-3 / India,0,0,-156768,51661,105107,0,catchall_60_65,primary,2046
-joint,EB-3 / China,0,0,-18148,4443,13705,0,catchall_60_65,primary,2046
-joint,EB-3 / ROW,0,0,185347,-61365,-123982,0,catchall_60_65,primary,2046
-joint,EB-4 / India,0,0,3502,-1068,-2434,0,catchall_60_65,primary,2046
-joint,EB-4 / China,0,0,3341,-1007,-2334,0,catchall_60_65,primary,2046
-joint,EB-4 / ROW,0,0,-9348,2375,6973,0,catchall_60_65,primary,2046
-joint,EB-5 / India,0,0,-2005,202,1803,0,catchall_60_65,primary,2046
-joint,EB-5 / China,0,0,-6616,1271,5345,0,catchall_60_65,primary,2046
-joint,EB-5 / ROW,0,0,8152,-1035,-7117,0,catchall_60_65,primary,2046
-overall,All,0,0,-4025,21930,-17905,0,catchall_60_65,primary,2047
-nationality,India,0,0,-476023,149074,326949,0,catchall_60_65,primary,2047
-nationality,China,0,0,-63335,8705,54630,0,catchall_60_65,primary,2047
-nationality,ROW,0,0,535333,-135849,-399484,0,catchall_60_65,primary,2047
-category,EB-1,0,0,-3211,-772,3983,0,catchall_60_65,primary,2047
-category,EB-2,0,0,-8760,27163,-18403,0,catchall_60_65,primary,2047
-category,EB-3,0,0,10805,-4570,-6235,0,catchall_60_65,primary,2047
-category,EB-4,0,0,-2363,-270,2633,0,catchall_60_65,primary,2047
-category,EB-5,0,0,-496,379,117,0,catchall_60_65,primary,2047
-joint,EB-1 / India,0,0,-39809,3939,35870,0,catchall_60_65,primary,2047
-joint,EB-1 / China,0,0,-28719,3822,24897,0,catchall_60_65,primary,2047
-joint,EB-1 / ROW,0,0,65317,-8533,-56784,0,catchall_60_65,primary,2047
-joint,EB-2 / India,0,0,-280794,93822,186972,0,catchall_60_65,primary,2047
-joint,EB-2 / China,0,0,-13268,226,13042,0,catchall_60_65,primary,2047
-joint,EB-2 / ROW,0,0,285302,-66885,-218417,0,catchall_60_65,primary,2047
-joint,EB-3 / India,0,0,-156727,52284,104443,0,catchall_60_65,primary,2047
-joint,EB-3 / China,0,0,-17986,4497,13489,0,catchall_60_65,primary,2047
-joint,EB-3 / ROW,0,0,185518,-61351,-124167,0,catchall_60_65,primary,2047
-joint,EB-4 / India,0,0,3513,-1162,-2351,0,catchall_60_65,primary,2047
-joint,EB-4 / China,0,0,3327,-1068,-2259,0,catchall_60_65,primary,2047
-joint,EB-4 / ROW,0,0,-9203,1960,7243,0,catchall_60_65,primary,2047
-joint,EB-5 / India,0,0,-2206,191,2015,0,catchall_60_65,primary,2047
-joint,EB-5 / China,0,0,-6689,1228,5461,0,catchall_60_65,primary,2047
-joint,EB-5 / ROW,0,0,8399,-1040,-7359,0,catchall_60_65,primary,2047
-overall,All,0,0,-3155,20533,-17378,0,catchall_60_65,primary,2048
-nationality,India,0,0,-474507,147889,326618,0,catchall_60_65,primary,2048
-nationality,China,0,0,-64491,8815,55676,0,catchall_60_65,primary,2048
-nationality,ROW,0,0,535843,-136171,-399672,0,catchall_60_65,primary,2048
-category,EB-1,0,0,-3237,-676,3913,0,catchall_60_65,primary,2048
-category,EB-2,0,0,-8345,25879,-17534,0,catchall_60_65,primary,2048
-category,EB-3,0,0,11257,-4778,-6479,0,catchall_60_65,primary,2048
-category,EB-4,0,0,-2380,-258,2638,0,catchall_60_65,primary,2048
-category,EB-5,0,0,-450,366,84,0,catchall_60_65,primary,2048
-joint,EB-1 / India,0,0,-39313,3918,35395,0,catchall_60_65,primary,2048
-joint,EB-1 / China,0,0,-28702,3879,24823,0,catchall_60_65,primary,2048
-joint,EB-1 / ROW,0,0,64778,-8473,-56305,0,catchall_60_65,primary,2048
-joint,EB-2 / India,0,0,-279850,92601,187249,0,catchall_60_65,primary,2048
-joint,EB-2 / China,0,0,-14101,404,13697,0,catchall_60_65,primary,2048
-joint,EB-2 / ROW,0,0,285606,-67126,-218480,0,catchall_60_65,primary,2048
-joint,EB-3 / India,0,0,-156759,52424,104335,0,catchall_60_65,primary,2048
-joint,EB-3 / China,0,0,-18333,4401,13932,0,catchall_60_65,primary,2048
-joint,EB-3 / ROW,0,0,186349,-61603,-124746,0,catchall_60_65,primary,2048
-joint,EB-4 / India,0,0,3503,-1270,-2233,0,catchall_60_65,primary,2048
-joint,EB-4 / China,0,0,3386,-1073,-2313,0,catchall_60_65,primary,2048
-joint,EB-4 / ROW,0,0,-9269,2085,7184,0,catchall_60_65,primary,2048
-joint,EB-5 / India,0,0,-2088,216,1872,0,catchall_60_65,primary,2048
-joint,EB-5 / China,0,0,-6741,1204,5537,0,catchall_60_65,primary,2048
-joint,EB-5 / ROW,0,0,8379,-1054,-7325,0,catchall_60_65,primary,2048
-overall,All,0,0,-3217,20757,-17540,0,catchall_60_65,primary,2049
-nationality,India,0,0,-474714,147713,327001,0,catchall_60_65,primary,2049
-nationality,China,0,0,-64356,9923,54433,0,catchall_60_65,primary,2049
-nationality,ROW,0,0,535853,-136879,-398974,0,catchall_60_65,primary,2049
-category,EB-1,0,0,-3340,-828,4168,0,catchall_60_65,primary,2049
-category,EB-2,0,0,-8048,26689,-18641,0,catchall_60_65,primary,2049
-category,EB-3,0,0,11067,-5362,-5705,0,catchall_60_65,primary,2049
-category,EB-4,0,0,-2358,-307,2665,0,catchall_60_65,primary,2049
-category,EB-5,0,0,-538,565,-27,0,catchall_60_65,primary,2049
-joint,EB-1 / India,0,0,-39338,3693,35645,0,catchall_60_65,primary,2049
-joint,EB-1 / China,0,0,-28905,4044,24861,0,catchall_60_65,primary,2049
-joint,EB-1 / ROW,0,0,64903,-8565,-56338,0,catchall_60_65,primary,2049
-joint,EB-2 / India,0,0,-280554,93083,187471,0,catchall_60_65,primary,2049
-joint,EB-2 / China,0,0,-13254,940,12314,0,catchall_60_65,primary,2049
-joint,EB-2 / ROW,0,0,285760,-67334,-218426,0,catchall_60_65,primary,2049
-joint,EB-3 / India,0,0,-156233,51826,104407,0,catchall_60_65,primary,2049
-joint,EB-3 / China,0,0,-18937,4713,14224,0,catchall_60_65,primary,2049
-joint,EB-3 / ROW,0,0,186237,-61901,-124336,0,catchall_60_65,primary,2049
-joint,EB-4 / India,0,0,3577,-1091,-2486,0,catchall_60_65,primary,2049
-joint,EB-4 / China,0,0,3449,-1079,-2370,0,catchall_60_65,primary,2049
-joint,EB-4 / ROW,0,0,-9384,1863,7521,0,catchall_60_65,primary,2049
-joint,EB-5 / India,0,0,-2166,202,1964,0,catchall_60_65,primary,2049
-joint,EB-5 / China,0,0,-6709,1305,5404,0,catchall_60_65,primary,2049
-joint,EB-5 / ROW,0,0,8337,-942,-7395,0,catchall_60_65,primary,2049
-overall,All,0,0,-3509,22111,-18602,0,catchall_60_65,primary,2050
-nationality,India,0,0,-474366,148385,325981,0,catchall_60_65,primary,2050
-nationality,China,0,0,-64555,9670,54885,0,catchall_60_65,primary,2050
-nationality,ROW,0,0,535412,-135944,-399468,0,catchall_60_65,primary,2050
-category,EB-1,0,0,-3295,-885,4180,0,catchall_60_65,primary,2050
-category,EB-2,0,0,-8303,27448,-19145,0,catchall_60_65,primary,2050
-category,EB-3,0,0,10568,-4242,-6326,0,catchall_60_65,primary,2050
-category,EB-4,0,0,-2011,-641,2652,0,catchall_60_65,primary,2050
-category,EB-5,0,0,-468,431,37,0,catchall_60_65,primary,2050
-joint,EB-1 / India,0,0,-39569,3837,35732,0,catchall_60_65,primary,2050
-joint,EB-1 / China,0,0,-28581,3772,24809,0,catchall_60_65,primary,2050
-joint,EB-1 / ROW,0,0,64855,-8494,-56361,0,catchall_60_65,primary,2050
-joint,EB-2 / India,0,0,-280075,93070,187005,0,catchall_60_65,primary,2050
-joint,EB-2 / China,0,0,-13634,879,12755,0,catchall_60_65,primary,2050
-joint,EB-2 / ROW,0,0,285406,-66501,-218905,0,catchall_60_65,primary,2050
-joint,EB-3 / India,0,0,-156059,52307,103752,0,catchall_60_65,primary,2050
-joint,EB-3 / China,0,0,-19117,4828,14289,0,catchall_60_65,primary,2050
-joint,EB-3 / ROW,0,0,185744,-61377,-124367,0,catchall_60_65,primary,2050
-joint,EB-4 / India,0,0,3442,-1028,-2414,0,catchall_60_65,primary,2050
-joint,EB-4 / China,0,0,3426,-1053,-2373,0,catchall_60_65,primary,2050
-joint,EB-4 / ROW,0,0,-8879,1440,7439,0,catchall_60_65,primary,2050
-joint,EB-5 / India,0,0,-2105,199,1906,0,catchall_60_65,primary,2050
-joint,EB-5 / China,0,0,-6649,1244,5405,0,catchall_60_65,primary,2050
-joint,EB-5 / ROW,0,0,8286,-1012,-7274,0,catchall_60_65,primary,2050
-overall,All,0,0,-3416,21541,-18125,0,catchall_60_65,primary,2051
-nationality,India,0,0,-475812,148272,327540,0,catchall_60_65,primary,2051
-nationality,China,0,0,-64110,9118,54992,0,catchall_60_65,primary,2051
-nationality,ROW,0,0,536506,-135849,-400657,0,catchall_60_65,primary,2051
-category,EB-1,0,0,-3300,-709,4009,0,catchall_60_65,primary,2051
-category,EB-2,0,0,-8618,26756,-18138,0,catchall_60_65,primary,2051
-category,EB-3,0,0,11077,-5578,-5499,0,catchall_60_65,primary,2051
-category,EB-4,0,0,-2103,664,1439,0,catchall_60_65,primary,2051
-category,EB-5,0,0,-472,408,64,0,catchall_60_65,primary,2051
-joint,EB-1 / India,0,0,-39657,3788,35869,0,catchall_60_65,primary,2051
-joint,EB-1 / China,0,0,-28723,3917,24806,0,catchall_60_65,primary,2051
-joint,EB-1 / ROW,0,0,65080,-8414,-56666,0,catchall_60_65,primary,2051
-joint,EB-2 / India,0,0,-280666,93118,187548,0,catchall_60_65,primary,2051
-joint,EB-2 / China,0,0,-13500,772,12728,0,catchall_60_65,primary,2051
-joint,EB-2 / ROW,0,0,285548,-67134,-218414,0,catchall_60_65,primary,2051
-joint,EB-3 / India,0,0,-156786,52368,104418,0,catchall_60_65,primary,2051
-joint,EB-3 / China,0,0,-18585,4273,14312,0,catchall_60_65,primary,2051
-joint,EB-3 / ROW,0,0,186448,-62219,-124229,0,catchall_60_65,primary,2051
-joint,EB-4 / India,0,0,3393,-1199,-2194,0,catchall_60_65,primary,2051
-joint,EB-4 / China,0,0,3365,-1030,-2335,0,catchall_60_65,primary,2051
-joint,EB-4 / ROW,0,0,-8861,2893,5968,0,catchall_60_65,primary,2051
-joint,EB-5 / India,0,0,-2096,197,1899,0,catchall_60_65,primary,2051
-joint,EB-5 / China,0,0,-6667,1186,5481,0,catchall_60_65,primary,2051
-joint,EB-5 / ROW,0,0,8291,-975,-7316,0,catchall_60_65,primary,2051
-overall,All,0,0,-4164,20596,-16432,0,catchall_60_65,primary,2052
-nationality,India,0,0,-474546,147881,326665,0,catchall_60_65,primary,2052
-nationality,China,0,0,-63798,9245,54553,0,catchall_60_65,primary,2052
-nationality,ROW,0,0,534180,-136530,-397650,0,catchall_60_65,primary,2052
-category,EB-1,0,0,-3034,-881,3915,0,catchall_60_65,primary,2052
-category,EB-2,0,0,-8943,27222,-18279,0,catchall_60_65,primary,2052
-category,EB-3,0,0,11041,-4888,-6153,0,catchall_60_65,primary,2052
-category,EB-4,0,0,-2658,-1236,3894,0,catchall_60_65,primary,2052
-category,EB-5,0,0,-570,379,191,0,catchall_60_65,primary,2052
-joint,EB-1 / India,0,0,-39423,3878,35545,0,catchall_60_65,primary,2052
-joint,EB-1 / China,0,0,-28581,3724,24857,0,catchall_60_65,primary,2052
-joint,EB-1 / ROW,0,0,64970,-8483,-56487,0,catchall_60_65,primary,2052
-joint,EB-2 / India,0,0,-280232,93215,187017,0,catchall_60_65,primary,2052
-joint,EB-2 / China,0,0,-13484,636,12848,0,catchall_60_65,primary,2052
-joint,EB-2 / ROW,0,0,284773,-66629,-218144,0,catchall_60_65,primary,2052
-joint,EB-3 / India,0,0,-156379,52007,104372,0,catchall_60_65,primary,2052
-joint,EB-3 / China,0,0,-18373,4741,13632,0,catchall_60_65,primary,2052
-joint,EB-3 / ROW,0,0,185793,-61636,-124157,0,catchall_60_65,primary,2052
-joint,EB-4 / India,0,0,3605,-1392,-2213,0,catchall_60_65,primary,2052
-joint,EB-4 / China,0,0,3439,-1080,-2359,0,catchall_60_65,primary,2052
-joint,EB-4 / ROW,0,0,-9702,1236,8466,0,catchall_60_65,primary,2052
-joint,EB-5 / India,0,0,-2117,173,1944,0,catchall_60_65,primary,2052
-joint,EB-5 / China,0,0,-6799,1224,5575,0,catchall_60_65,primary,2052
-joint,EB-5 / ROW,0,0,8346,-1018,-7328,0,catchall_60_65,primary,2052
-overall,All,0,0,-3865,21511,-17646,0,catchall_60_65,primary,2053
-nationality,India,0,0,-474194,146546,327648,0,catchall_60_65,primary,2053
-nationality,China,0,0,-64737,9434,55303,0,catchall_60_65,primary,2053
-nationality,ROW,0,0,535066,-134469,-400597,0,catchall_60_65,primary,2053
-category,EB-1,0,0,-3450,-851,4301,0,catchall_60_65,primary,2053
-category,EB-2,0,0,-8943,25426,-16483,0,catchall_60_65,primary,2053
-category,EB-3,0,0,11499,-4399,-7100,0,catchall_60_65,primary,2053
-category,EB-4,0,0,-2349,933,1416,0,catchall_60_65,primary,2053
-category,EB-5,0,0,-622,402,220,0,catchall_60_65,primary,2053
-joint,EB-1 / India,0,0,-39533,3746,35787,0,catchall_60_65,primary,2053
-joint,EB-1 / China,0,0,-29083,3919,25164,0,catchall_60_65,primary,2053
-joint,EB-1 / ROW,0,0,65166,-8516,-56650,0,catchall_60_65,primary,2053
-joint,EB-2 / India,0,0,-280236,91955,188281,0,catchall_60_65,primary,2053
-joint,EB-2 / China,0,0,-13712,741,12971,0,catchall_60_65,primary,2053
-joint,EB-2 / ROW,0,0,285005,-67270,-217735,0,catchall_60_65,primary,2053
-joint,EB-3 / India,0,0,-155711,51815,103896,0,catchall_60_65,primary,2053
-joint,EB-3 / China,0,0,-18622,4654,13968,0,catchall_60_65,primary,2053
-joint,EB-3 / ROW,0,0,185832,-60868,-124964,0,catchall_60_65,primary,2053
-joint,EB-4 / India,0,0,3364,-1165,-2199,0,catchall_60_65,primary,2053
-joint,EB-4 / China,0,0,3477,-1051,-2426,0,catchall_60_65,primary,2053
-joint,EB-4 / ROW,0,0,-9190,3149,6041,0,catchall_60_65,primary,2053
-joint,EB-5 / India,0,0,-2078,195,1883,0,catchall_60_65,primary,2053
-joint,EB-5 / China,0,0,-6797,1171,5626,0,catchall_60_65,primary,2053
-joint,EB-5 / ROW,0,0,8253,-964,-7289,0,catchall_60_65,primary,2053
-overall,All,0,0,-4671,20286,-15615,0,catchall_60_65,primary,2054
-nationality,India,0,0,-474665,147385,327280,0,catchall_60_65,primary,2054
-nationality,China,0,0,-64295,9056,55239,0,catchall_60_65,primary,2054
-nationality,ROW,0,0,534289,-136155,-398134,0,catchall_60_65,primary,2054
-category,EB-1,0,0,-3295,-922,4217,0,catchall_60_65,primary,2054
-category,EB-2,0,0,-9088,26141,-17053,0,catchall_60_65,primary,2054
-category,EB-3,0,0,10445,-5451,-4994,0,catchall_60_65,primary,2054
-category,EB-4,0,0,-2239,88,2151,0,catchall_60_65,primary,2054
-category,EB-5,0,0,-494,430,64,0,catchall_60_65,primary,2054
-joint,EB-1 / India,0,0,-39395,3729,35666,0,catchall_60_65,primary,2054
-joint,EB-1 / China,0,0,-28687,3833,24854,0,catchall_60_65,primary,2054
-joint,EB-1 / ROW,0,0,64787,-8484,-56303,0,catchall_60_65,primary,2054
-joint,EB-2 / India,0,0,-280179,92511,187668,0,catchall_60_65,primary,2054
-joint,EB-2 / China,0,0,-13775,696,13079,0,catchall_60_65,primary,2054
-joint,EB-2 / ROW,0,0,284866,-67066,-217800,0,catchall_60_65,primary,2054
-joint,EB-3 / India,0,0,-156589,52186,104403,0,catchall_60_65,primary,2054
-joint,EB-3 / China,0,0,-18653,4381,14272,0,catchall_60_65,primary,2054
-joint,EB-3 / ROW,0,0,185687,-62018,-123669,0,catchall_60_65,primary,2054
-joint,EB-4 / India,0,0,3587,-1245,-2342,0,catchall_60_65,primary,2054
-joint,EB-4 / China,0,0,3382,-1070,-2312,0,catchall_60_65,primary,2054
-joint,EB-4 / ROW,0,0,-9208,2403,6805,0,catchall_60_65,primary,2054
-joint,EB-5 / India,0,0,-2089,204,1885,0,catchall_60_65,primary,2054
-joint,EB-5 / China,0,0,-6562,1216,5346,0,catchall_60_65,primary,2054
-joint,EB-5 / ROW,0,0,8157,-990,-7167,0,catchall_60_65,primary,2054
-overall,All,0,0,-4025,20437,-16412,0,catchall_60_65,primary,2055
-nationality,India,0,0,-475052,147008,328044,0,catchall_60_65,primary,2055
-nationality,China,0,0,-63918,8864,55054,0,catchall_60_65,primary,2055
-nationality,ROW,0,0,534945,-135435,-399510,0,catchall_60_65,primary,2055
-category,EB-1,0,0,-3086,-856,3942,0,catchall_60_65,primary,2055
-category,EB-2,0,0,-8606,26830,-18224,0,catchall_60_65,primary,2055
-category,EB-3,0,0,10372,-5507,-4865,0,catchall_60_65,primary,2055
-category,EB-4,0,0,-2272,-346,2618,0,catchall_60_65,primary,2055
-category,EB-5,0,0,-433,316,117,0,catchall_60_65,primary,2055
-joint,EB-1 / India,0,0,-39746,3830,35916,0,catchall_60_65,primary,2055
-joint,EB-1 / China,0,0,-28672,3843,24829,0,catchall_60_65,primary,2055
-joint,EB-1 / ROW,0,0,65332,-8529,-56803,0,catchall_60_65,primary,2055
-joint,EB-2 / India,0,0,-280426,92902,187524,0,catchall_60_65,primary,2055
-joint,EB-2 / China,0,0,-13456,707,12749,0,catchall_60_65,primary,2055
-joint,EB-2 / ROW,0,0,285276,-66779,-218497,0,catchall_60_65,primary,2055
-joint,EB-3 / India,0,0,-156258,51414,104844,0,catchall_60_65,primary,2055
-joint,EB-3 / China,0,0,-18753,4293,14460,0,catchall_60_65,primary,2055
-joint,EB-3 / ROW,0,0,185383,-61214,-124169,0,catchall_60_65,primary,2055
-joint,EB-4 / India,0,0,3472,-1339,-2133,0,catchall_60_65,primary,2055
-joint,EB-4 / China,0,0,3407,-1085,-2322,0,catchall_60_65,primary,2055
-joint,EB-4 / ROW,0,0,-9151,2078,7073,0,catchall_60_65,primary,2055
-joint,EB-5 / India,0,0,-2094,201,1893,0,catchall_60_65,primary,2055
-joint,EB-5 / China,0,0,-6444,1106,5338,0,catchall_60_65,primary,2055
-joint,EB-5 / ROW,0,0,8105,-991,-7114,0,catchall_60_65,primary,2055
-overall,All,0,0,-3245,20758,-17513,0,catchall_60_65,primary,2056
-nationality,India,0,0,-475330,147902,327428,0,catchall_60_65,primary,2056
-nationality,China,0,0,-64319,9234,55085,0,catchall_60_65,primary,2056
-nationality,ROW,0,0,536404,-136378,-400026,0,catchall_60_65,primary,2056
-category,EB-1,0,0,-2996,-766,3762,0,catchall_60_65,primary,2056
-category,EB-2,0,0,-8363,27445,-19082,0,catchall_60_65,primary,2056
-category,EB-3,0,0,10772,-5256,-5516,0,catchall_60_65,primary,2056
-category,EB-4,0,0,-2123,-1162,3285,0,catchall_60_65,primary,2056
-category,EB-5,0,0,-535,497,38,0,catchall_60_65,primary,2056
-joint,EB-1 / India,0,0,-39546,3706,35840,0,catchall_60_65,primary,2056
-joint,EB-1 / China,0,0,-28747,3854,24893,0,catchall_60_65,primary,2056
-joint,EB-1 / ROW,0,0,65297,-8326,-56971,0,catchall_60_65,primary,2056
-joint,EB-2 / India,0,0,-280763,93750,187013,0,catchall_60_65,primary,2056
-joint,EB-2 / China,0,0,-13581,557,13024,0,catchall_60_65,primary,2056
-joint,EB-2 / ROW,0,0,285981,-66862,-219119,0,catchall_60_65,primary,2056
-joint,EB-3 / India,0,0,-156451,51396,105055,0,catchall_60_65,primary,2056
-joint,EB-3 / China,0,0,-18625,4540,14085,0,catchall_60_65,primary,2056
-joint,EB-3 / ROW,0,0,185848,-61192,-124656,0,catchall_60_65,primary,2056
-joint,EB-4 / India,0,0,3556,-1122,-2434,0,catchall_60_65,primary,2056
-joint,EB-4 / China,0,0,3338,-1051,-2287,0,catchall_60_65,primary,2056
-joint,EB-4 / ROW,0,0,-9017,1011,8006,0,catchall_60_65,primary,2056
-joint,EB-5 / India,0,0,-2126,172,1954,0,catchall_60_65,primary,2056
-joint,EB-5 / China,0,0,-6704,1334,5370,0,catchall_60_65,primary,2056
-joint,EB-5 / ROW,0,0,8295,-1009,-7286,0,catchall_60_65,primary,2056
-overall,All,0,0,-4016,21039,-17023,0,catchall_60_65,primary,2057
-nationality,India,0,0,-475852,147848,328004,0,catchall_60_65,primary,2057
-nationality,China,0,0,-63856,9621,54235,0,catchall_60_65,primary,2057
-nationality,ROW,0,0,535692,-136430,-399262,0,catchall_60_65,primary,2057
-category,EB-1,0,0,-3221,-821,4042,0,catchall_60_65,primary,2057
-category,EB-2,0,0,-8144,26121,-17977,0,catchall_60_65,primary,2057
-category,EB-3,0,0,10468,-4040,-6428,0,catchall_60_65,primary,2057
-category,EB-4,0,0,-2642,-615,3257,0,catchall_60_65,primary,2057
-category,EB-5,0,0,-477,394,83,0,catchall_60_65,primary,2057
-joint,EB-1 / India,0,0,-39453,3909,35544,0,catchall_60_65,primary,2057
-joint,EB-1 / China,0,0,-28601,3741,24860,0,catchall_60_65,primary,2057
-joint,EB-1 / ROW,0,0,64833,-8471,-56362,0,catchall_60_65,primary,2057
-joint,EB-2 / India,0,0,-280583,92401,188182,0,catchall_60_65,primary,2057
-joint,EB-2 / China,0,0,-13376,822,12554,0,catchall_60_65,primary,2057
-joint,EB-2 / ROW,0,0,285815,-67102,-218713,0,catchall_60_65,primary,2057
-joint,EB-3 / India,0,0,-157034,52535,104499,0,catchall_60_65,primary,2057
-joint,EB-3 / China,0,0,-18555,4903,13652,0,catchall_60_65,primary,2057
-joint,EB-3 / ROW,0,0,186057,-61478,-124579,0,catchall_60_65,primary,2057
-joint,EB-4 / India,0,0,3332,-1215,-2117,0,catchall_60_65,primary,2057
-joint,EB-4 / China,0,0,3373,-1029,-2344,0,catchall_60_65,primary,2057
-joint,EB-4 / ROW,0,0,-9347,1629,7718,0,catchall_60_65,primary,2057
-joint,EB-5 / India,0,0,-2114,218,1896,0,catchall_60_65,primary,2057
-joint,EB-5 / China,0,0,-6697,1184,5513,0,catchall_60_65,primary,2057
-joint,EB-5 / ROW,0,0,8334,-1008,-7326,0,catchall_60_65,primary,2057
-overall,All,0,0,-3773,20583,-16810,0,catchall_60_65,primary,2058
-nationality,India,0,0,-475276,147660,327616,0,catchall_60_65,primary,2058
-nationality,China,0,0,-63704,8755,54949,0,catchall_60_65,primary,2058
-nationality,ROW,0,0,535207,-135832,-399375,0,catchall_60_65,primary,2058
-category,EB-1,0,0,-3217,-746,3963,0,catchall_60_65,primary,2058
-category,EB-2,0,0,-8485,26347,-17862,0,catchall_60_65,primary,2058
-category,EB-3,0,0,10791,-5606,-5185,0,catchall_60_65,primary,2058
-category,EB-4,0,0,-2396,102,2294,0,catchall_60_65,primary,2058
-category,EB-5,0,0,-466,486,-20,0,catchall_60_65,primary,2058
-joint,EB-1 / India,0,0,-39375,3826,35549,0,catchall_60_65,primary,2058
-joint,EB-1 / China,0,0,-28492,3860,24632,0,catchall_60_65,primary,2058
-joint,EB-1 / ROW,0,0,64650,-8432,-56218,0,catchall_60_65,primary,2058
-joint,EB-2 / India,0,0,-280328,92852,187476,0,catchall_60_65,primary,2058
-joint,EB-2 / China,0,0,-13765,410,13355,0,catchall_60_65,primary,2058
-joint,EB-2 / ROW,0,0,285608,-66915,-218693,0,catchall_60_65,primary,2058
-joint,EB-3 / India,0,0,-156917,51908,105009,0,catchall_60_65,primary,2058
-joint,EB-3 / China,0,0,-18206,4277,13929,0,catchall_60_65,primary,2058
-joint,EB-3 / ROW,0,0,185914,-61791,-124123,0,catchall_60_65,primary,2058
-joint,EB-4 / India,0,0,3474,-1165,-2309,0,catchall_60_65,primary,2058
-joint,EB-4 / China,0,0,3379,-1047,-2332,0,catchall_60_65,primary,2058
-joint,EB-4 / ROW,0,0,-9249,2314,6935,0,catchall_60_65,primary,2058
-joint,EB-5 / India,0,0,-2130,239,1891,0,catchall_60_65,primary,2058
-joint,EB-5 / China,0,0,-6620,1255,5365,0,catchall_60_65,primary,2058
-joint,EB-5 / ROW,0,0,8284,-1008,-7276,0,catchall_60_65,primary,2058
-overall,All,0,0,-3368,21736,-18368,0,catchall_60_65,primary,2059
-nationality,India,0,0,-475445,147118,328327,0,catchall_60_65,primary,2059
-nationality,China,0,0,-64129,9218,54911,0,catchall_60_65,primary,2059
-nationality,ROW,0,0,536206,-134600,-401606,0,catchall_60_65,primary,2059
-category,EB-1,0,0,-3419,-776,4195,0,catchall_60_65,primary,2059
-category,EB-2,0,0,-8378,26386,-18008,0,catchall_60_65,primary,2059
-category,EB-3,0,0,11154,-4684,-6470,0,catchall_60_65,primary,2059
-category,EB-4,0,0,-2218,452,1766,0,catchall_60_65,primary,2059
-category,EB-5,0,0,-507,358,149,0,catchall_60_65,primary,2059
-joint,EB-1 / India,0,0,-39865,3951,35914,0,catchall_60_65,primary,2059
-joint,EB-1 / China,0,0,-28955,3876,25079,0,catchall_60_65,primary,2059
-joint,EB-1 / ROW,0,0,65401,-8603,-56798,0,catchall_60_65,primary,2059
-joint,EB-2 / India,0,0,-280376,92687,187689,0,catchall_60_65,primary,2059
-joint,EB-2 / China,0,0,-13625,826,12799,0,catchall_60_65,primary,2059
-joint,EB-2 / ROW,0,0,285623,-67127,-218496,0,catchall_60_65,primary,2059
-joint,EB-3 / India,0,0,-156526,51557,104969,0,catchall_60_65,primary,2059
-joint,EB-3 / China,0,0,-18416,4445,13971,0,catchall_60_65,primary,2059
-joint,EB-3 / ROW,0,0,186096,-60686,-125410,0,catchall_60_65,primary,2059
-joint,EB-4 / India,0,0,3529,-1265,-2264,0,catchall_60_65,primary,2059
-joint,EB-4 / China,0,0,3471,-1078,-2393,0,catchall_60_65,primary,2059
-joint,EB-4 / ROW,0,0,-9218,2795,6423,0,catchall_60_65,primary,2059
-joint,EB-5 / India,0,0,-2207,188,2019,0,catchall_60_65,primary,2059
-joint,EB-5 / China,0,0,-6604,1149,5455,0,catchall_60_65,primary,2059
-joint,EB-5 / ROW,0,0,8304,-979,-7325,0,catchall_60_65,primary,2059
-overall,All,0,0,-3555,21335,-17780,0,catchall_60_65,primary,2060
-nationality,India,0,0,-474770,146867,327903,0,catchall_60_65,primary,2060
-nationality,China,0,0,-64224,8893,55331,0,catchall_60_65,primary,2060
-nationality,ROW,0,0,535439,-134425,-401014,0,catchall_60_65,primary,2060
-category,EB-1,0,0,-2838,-674,3512,0,catchall_60_65,primary,2060
-category,EB-2,0,0,-8765,26466,-17701,0,catchall_60_65,primary,2060
-category,EB-3,0,0,10738,-5571,-5167,0,catchall_60_65,primary,2060
-category,EB-4,0,0,-2072,724,1348,0,catchall_60_65,primary,2060
-category,EB-5,0,0,-618,390,228,0,catchall_60_65,primary,2060
-joint,EB-1 / India,0,0,-39287,3835,35452,0,catchall_60_65,primary,2060
-joint,EB-1 / China,0,0,-28423,3988,24435,0,catchall_60_65,primary,2060
-joint,EB-1 / ROW,0,0,64872,-8497,-56375,0,catchall_60_65,primary,2060
-joint,EB-2 / India,0,0,-280432,92579,187853,0,catchall_60_65,primary,2060
-joint,EB-2 / China,0,0,-13861,577,13284,0,catchall_60_65,primary,2060
-joint,EB-2 / ROW,0,0,285528,-66690,-218838,0,catchall_60_65,primary,2060
-joint,EB-3 / India,0,0,-156311,51539,104772,0,catchall_60_65,primary,2060
-joint,EB-3 / China,0,0,-18506,4121,14385,0,catchall_60_65,primary,2060
-joint,EB-3 / ROW,0,0,185555,-61231,-124324,0,catchall_60_65,primary,2060
-joint,EB-4 / India,0,0,3449,-1263,-2186,0,catchall_60_65,primary,2060
-joint,EB-4 / China,0,0,3259,-1050,-2209,0,catchall_60_65,primary,2060
-joint,EB-4 / ROW,0,0,-8780,3037,5743,0,catchall_60_65,primary,2060
-joint,EB-5 / India,0,0,-2189,177,2012,0,catchall_60_65,primary,2060
-joint,EB-5 / China,0,0,-6693,1257,5436,0,catchall_60_65,primary,2060
-joint,EB-5 / ROW,0,0,8264,-1044,-7220,0,catchall_60_65,primary,2060
-overall,All,0,0,-3944,20864,-16920,0,catchall_60_65,primary,2061
-nationality,India,0,0,-474611,147578,327033,0,catchall_60_65,primary,2061
-nationality,China,0,0,-64230,8527,55703,0,catchall_60_65,primary,2061
-nationality,ROW,0,0,534897,-135241,-399656,0,catchall_60_65,primary,2061
-category,EB-1,0,0,-3351,-527,3878,0,catchall_60_65,primary,2061
-category,EB-2,0,0,-8506,25894,-17388,0,catchall_60_65,primary,2061
-category,EB-3,0,0,10743,-5278,-5465,0,catchall_60_65,primary,2061
-category,EB-4,0,0,-2288,349,1939,0,catchall_60_65,primary,2061
-category,EB-5,0,0,-542,426,116,0,catchall_60_65,primary,2061
-joint,EB-1 / India,0,0,-39741,4036,35705,0,catchall_60_65,primary,2061
-joint,EB-1 / China,0,0,-28713,3839,24874,0,catchall_60_65,primary,2061
-joint,EB-1 / ROW,0,0,65103,-8402,-56701,0,catchall_60_65,primary,2061
-joint,EB-2 / India,0,0,-279454,92433,187021,0,catchall_60_65,primary,2061
-joint,EB-2 / China,0,0,-13786,216,13570,0,catchall_60_65,primary,2061
-joint,EB-2 / ROW,0,0,284734,-66755,-217979,0,catchall_60_65,primary,2061
-joint,EB-3 / India,0,0,-156732,52089,104643,0,catchall_60_65,primary,2061
-joint,EB-3 / China,0,0,-18607,4323,14284,0,catchall_60_65,primary,2061
-joint,EB-3 / ROW,0,0,186082,-61690,-124392,0,catchall_60_65,primary,2061
-joint,EB-4 / India,0,0,3521,-1236,-2285,0,catchall_60_65,primary,2061
-joint,EB-4 / China,0,0,3463,-1020,-2443,0,catchall_60_65,primary,2061
-joint,EB-4 / ROW,0,0,-9272,2605,6667,0,catchall_60_65,primary,2061
-joint,EB-5 / India,0,0,-2205,256,1949,0,catchall_60_65,primary,2061
-joint,EB-5 / China,0,0,-6587,1169,5418,0,catchall_60_65,primary,2061
-joint,EB-5 / ROW,0,0,8250,-999,-7251,0,catchall_60_65,primary,2061
-overall,All,0,0,-2695,20981,-18286,0,catchall_60_65,primary,2062
-nationality,India,0,0,-475046,147768,327278,0,catchall_60_65,primary,2062
-nationality,China,0,0,-64306,9353,54953,0,catchall_60_65,primary,2062
-nationality,ROW,0,0,536657,-136140,-400517,0,catchall_60_65,primary,2062
-category,EB-1,0,0,-3465,-410,3875,0,catchall_60_65,primary,2062
-category,EB-2,0,0,-7733,26464,-18731,0,catchall_60_65,primary,2062
-category,EB-3,0,0,11256,-5212,-6044,0,catchall_60_65,primary,2062
-category,EB-4,0,0,-2259,-230,2489,0,catchall_60_65,primary,2062
-category,EB-5,0,0,-494,369,125,0,catchall_60_65,primary,2062
-joint,EB-1 / India,0,0,-39634,3851,35783,0,catchall_60_65,primary,2062
-joint,EB-1 / China,0,0,-28679,4069,24610,0,catchall_60_65,primary,2062
-joint,EB-1 / ROW,0,0,64848,-8330,-56518,0,catchall_60_65,primary,2062
-joint,EB-2 / India,0,0,-280442,93149,187293,0,catchall_60_65,primary,2062
-joint,EB-2 / China,0,0,-13565,513,13052,0,catchall_60_65,primary,2062
-joint,EB-2 / ROW,0,0,286274,-67198,-219076,0,catchall_60_65,primary,2062
-joint,EB-3 / India,0,0,-156354,51682,104672,0,catchall_60_65,primary,2062
-joint,EB-3 / China,0,0,-18744,4669,14075,0,catchall_60_65,primary,2062
-joint,EB-3 / ROW,0,0,186354,-61563,-124791,0,catchall_60_65,primary,2062
-joint,EB-4 / India,0,0,3559,-1152,-2407,0,catchall_60_65,primary,2062
-joint,EB-4 / China,0,0,3395,-1040,-2355,0,catchall_60_65,primary,2062
-joint,EB-4 / ROW,0,0,-9213,1962,7251,0,catchall_60_65,primary,2062
-joint,EB-5 / India,0,0,-2175,238,1937,0,catchall_60_65,primary,2062
-joint,EB-5 / China,0,0,-6713,1142,5571,0,catchall_60_65,primary,2062
-joint,EB-5 / ROW,0,0,8394,-1011,-7383,0,catchall_60_65,primary,2062
-overall,All,0,0,-3646,21214,-17568,0,catchall_60_65,primary,2063
-nationality,India,0,0,-475251,148683,326568,0,catchall_60_65,primary,2063
-nationality,China,0,0,-64428,9186,55242,0,catchall_60_65,primary,2063
-nationality,ROW,0,0,536033,-136655,-399378,0,catchall_60_65,primary,2063
-category,EB-1,0,0,-3155,-789,3944,0,catchall_60_65,primary,2063
-category,EB-2,0,0,-8401,27333,-18932,0,catchall_60_65,primary,2063
-category,EB-3,0,0,10673,-5092,-5581,0,catchall_60_65,primary,2063
-category,EB-4,0,0,-2221,-644,2865,0,catchall_60_65,primary,2063
-category,EB-5,0,0,-542,406,136,0,catchall_60_65,primary,2063
-joint,EB-1 / India,0,0,-39601,3775,35826,0,catchall_60_65,primary,2063
-joint,EB-1 / China,0,0,-28652,3810,24842,0,catchall_60_65,primary,2063
-joint,EB-1 / ROW,0,0,65098,-8374,-56724,0,catchall_60_65,primary,2063
-joint,EB-2 / India,0,0,-280218,93925,186293,0,catchall_60_65,primary,2063
-joint,EB-2 / China,0,0,-13676,803,12873,0,catchall_60_65,primary,2063
-joint,EB-2 / ROW,0,0,285493,-67395,-218098,0,catchall_60_65,primary,2063
-joint,EB-3 / India,0,0,-156734,51818,104916,0,catchall_60_65,primary,2063
-joint,EB-3 / China,0,0,-18705,4423,14282,0,catchall_60_65,primary,2063
-joint,EB-3 / ROW,0,0,186112,-61333,-124779,0,catchall_60_65,primary,2063
-joint,EB-4 / India,0,0,3479,-1056,-2423,0,catchall_60_65,primary,2063
-joint,EB-4 / China,0,0,3359,-1086,-2273,0,catchall_60_65,primary,2063
-joint,EB-4 / ROW,0,0,-9059,1498,7561,0,catchall_60_65,primary,2063
-joint,EB-5 / India,0,0,-2177,221,1956,0,catchall_60_65,primary,2063
-joint,EB-5 / China,0,0,-6754,1236,5518,0,catchall_60_65,primary,2063
-joint,EB-5 / ROW,0,0,8389,-1051,-7338,0,catchall_60_65,primary,2063
-overall,All,0,0,-2778,59932,-57154,0,catchall_55_60,sensitivity,2014
-nationality,India,0,0,-459986,226071,233915,0,catchall_55_60,sensitivity,2014
-nationality,China,0,0,-66410,14642,51768,0,catchall_55_60,sensitivity,2014
-nationality,ROW,0,0,523618,-180781,-342837,0,catchall_55_60,sensitivity,2014
-category,EB-1,0,0,-3575,-3081,6656,0,catchall_55_60,sensitivity,2014
-category,EB-2,0,0,-7318,56227,-48909,0,catchall_55_60,sensitivity,2014
-category,EB-3,0,0,11580,7618,-19198,0,catchall_55_60,sensitivity,2014
-category,EB-4,0,0,-2892,-664,3556,0,catchall_55_60,sensitivity,2014
-category,EB-5,0,0,-573,-168,741,0,catchall_55_60,sensitivity,2014
-joint,EB-1 / India,0,0,-40135,5940,34195,0,catchall_55_60,sensitivity,2014
-joint,EB-1 / China,0,0,-29642,6239,23403,0,catchall_55_60,sensitivity,2014
-joint,EB-1 / ROW,0,0,66202,-15260,-50942,0,catchall_55_60,sensitivity,2014
-joint,EB-2 / India,0,0,-269950,145194,124756,0,catchall_55_60,sensitivity,2014
-joint,EB-2 / China,0,0,-16189,2547,13642,0,catchall_55_60,sensitivity,2014
-joint,EB-2 / ROW,0,0,278821,-91514,-187307,0,catchall_55_60,sensitivity,2014
-joint,EB-3 / India,0,0,-152031,76172,75859,0,catchall_55_60,sensitivity,2014
-joint,EB-3 / China,0,0,-17557,4974,12583,0,catchall_55_60,sensitivity,2014
-joint,EB-3 / ROW,0,0,181168,-73528,-107640,0,catchall_55_60,sensitivity,2014
-joint,EB-4 / India,0,0,4052,-1609,-2443,0,catchall_55_60,sensitivity,2014
-joint,EB-4 / China,0,0,3346,-1182,-2164,0,catchall_55_60,sensitivity,2014
-joint,EB-4 / ROW,0,0,-10290,2127,8163,0,catchall_55_60,sensitivity,2014
-joint,EB-5 / India,0,0,-1922,374,1548,0,catchall_55_60,sensitivity,2014
-joint,EB-5 / China,0,0,-6368,2064,4304,0,catchall_55_60,sensitivity,2014
-joint,EB-5 / ROW,0,0,7717,-2606,-5111,0,catchall_55_60,sensitivity,2014
-overall,All,0,0,-4109,-14970,19079,0,catchall_65_70,sensitivity,2014
-nationality,India,0,0,-477458,83685,393773,0,catchall_65_70,sensitivity,2014
-nationality,China,0,0,-65656,6957,58699,0,catchall_65_70,sensitivity,2014
-nationality,ROW,0,0,539005,-105612,-433393,0,catchall_65_70,sensitivity,2014
-category,EB-1,0,0,-3467,-1540,5007,0,catchall_65_70,sensitivity,2014
-category,EB-2,0,0,-8568,-379,8947,0,catchall_65_70,sensitivity,2014
-category,EB-3,0,0,10399,-13041,2642,0,catchall_65_70,sensitivity,2014
-category,EB-4,0,0,-2051,159,1892,0,catchall_65_70,sensitivity,2014
-category,EB-5,0,0,-422,-169,591,0,catchall_65_70,sensitivity,2014
-joint,EB-1 / India,0,0,-39511,3059,36452,0,catchall_65_70,sensitivity,2014
-joint,EB-1 / China,0,0,-28607,2988,25619,0,catchall_65_70,sensitivity,2014
-joint,EB-1 / ROW,0,0,64651,-7587,-57064,0,catchall_65_70,sensitivity,2014
-joint,EB-2 / India,0,0,-282629,48235,234394,0,catchall_65_70,sensitivity,2014
-joint,EB-2 / China,0,0,-14084,583,13501,0,catchall_65_70,sensitivity,2014
-joint,EB-2 / ROW,0,0,288145,-49197,-238948,0,catchall_65_70,sensitivity,2014
-joint,EB-3 / India,0,0,-156344,33326,123018,0,catchall_65_70,sensitivity,2014
-joint,EB-3 / China,0,0,-19979,4015,15964,0,catchall_65_70,sensitivity,2014
-joint,EB-3 / ROW,0,0,186722,-50382,-136340,0,catchall_65_70,sensitivity,2014
-joint,EB-4 / India,0,0,3188,-983,-2205,0,catchall_65_70,sensitivity,2014
-joint,EB-4 / China,0,0,3346,-1012,-2334,0,catchall_65_70,sensitivity,2014
-joint,EB-4 / ROW,0,0,-8585,2154,6431,0,catchall_65_70,sensitivity,2014
-joint,EB-5 / India,0,0,-2162,48,2114,0,catchall_65_70,sensitivity,2014
-joint,EB-5 / China,0,0,-6332,383,5949,0,catchall_65_70,sensitivity,2014
-joint,EB-5 / ROW,0,0,8072,-600,-7472,0,catchall_65_70,sensitivity,2014
-overall,All,0,0,-1520,12372,-10852,0,historical_replay,replay,2014
-nationality,India,0,0,-458791,137649,321142,0,historical_replay,replay,2014
-nationality,China,0,0,-58605,7876,50729,0,historical_replay,replay,2014
-nationality,ROW,0,0,515876,-133153,-382723,0,historical_replay,replay,2014
-category,EB-1,0,0,-3433,-748,4181,0,historical_replay,replay,2014
-category,EB-2,0,0,-7055,20182,-13127,0,historical_replay,replay,2014
-category,EB-3,0,0,11494,-7493,-4001,0,historical_replay,replay,2014
-category,EB-4,0,0,-2101,-114,2215,0,historical_replay,replay,2014
-category,EB-5,0,0,-425,545,-120,0,historical_replay,replay,2014
-joint,EB-1 / India,0,0,-39798,3927,35871,0,historical_replay,replay,2014
-joint,EB-1 / China,0,0,-28743,3833,24910,0,historical_replay,replay,2014
-joint,EB-1 / ROW,0,0,65108,-8508,-56600,0,historical_replay,replay,2014
-joint,EB-2 / India,0,0,-269434,86361,183073,0,historical_replay,replay,2014
-joint,EB-2 / China,0,0,-11751,256,11495,0,historical_replay,replay,2014
-joint,EB-2 / ROW,0,0,274130,-66435,-207695,0,historical_replay,replay,2014
-joint,EB-3 / India,0,0,-150669,48266,102403,0,historical_replay,replay,2014
-joint,EB-3 / China,0,0,-14773,3484,11289,0,historical_replay,replay,2014
-joint,EB-3 / ROW,0,0,176936,-59243,-117693,0,historical_replay,replay,2014
-joint,EB-4 / India,0,0,3341,-1201,-2140,0,historical_replay,replay,2014
-joint,EB-4 / China,0,0,3525,-1129,-2396,0,historical_replay,replay,2014
-joint,EB-4 / ROW,0,0,-8967,2216,6751,0,historical_replay,replay,2014
-joint,EB-5 / India,0,0,-2231,296,1935,0,historical_replay,replay,2014
-joint,EB-5 / China,0,0,-6863,1432,5431,0,historical_replay,replay,2014
-joint,EB-5 / ROW,0,0,8669,-1183,-7486,0,historical_replay,replay,2014
+overall,All,0,0,-804,20781,-19977,0,catchall_60_65,primary,2014
+nationality,India,0,0,-476428,147976,328452,0,catchall_60_65,primary,2014
+nationality,China,0,0,-67087,10136,56951,0,catchall_60_65,primary,2014
+nationality,ROW,0,0,542711,-137331,-405380,0,catchall_60_65,primary,2014
+category,EB-1,0,0,-3184,-723,3907,0,catchall_60_65,primary,2014
+category,EB-2,0,0,-8216,25801,-17585,0,catchall_60_65,primary,2014
+category,EB-3,0,0,11260,-4846,-6414,0,catchall_60_65,primary,2014
+category,EB-4,0,0,-137,84,53,0,catchall_60_65,primary,2014
+category,EB-5,0,0,-527,465,62,0,catchall_60_65,primary,2014
+joint,EB-1 / India,0,0,-39275,3911,35364,0,catchall_60_65,primary,2014
+joint,EB-1 / China,0,0,-28355,3722,24633,0,catchall_60_65,primary,2014
+joint,EB-1 / ROW,0,0,64446,-8356,-56090,0,catchall_60_65,primary,2014
+joint,EB-2 / India,0,0,-279349,92372,186977,0,catchall_60_65,primary,2014
+joint,EB-2 / China,0,0,-13786,601,13185,0,catchall_60_65,primary,2014
+joint,EB-2 / ROW,0,0,284919,-67172,-217747,0,catchall_60_65,primary,2014
+joint,EB-3 / India,0,0,-155762,51450,104312,0,catchall_60_65,primary,2014
+joint,EB-3 / China,0,0,-18542,4642,13900,0,catchall_60_65,primary,2014
+joint,EB-3 / ROW,0,0,185564,-60938,-124626,0,catchall_60_65,primary,2014
+joint,EB-4 / India,0,0,27,16,-43,0,catchall_60_65,primary,2014
+joint,EB-4 / China,0,0,14,-13,-1,0,catchall_60_65,primary,2014
+joint,EB-4 / ROW,0,0,-178,81,97,0,catchall_60_65,primary,2014
+joint,EB-5 / India,0,0,-2069,227,1842,0,catchall_60_65,primary,2014
+joint,EB-5 / China,0,0,-6418,1184,5234,0,catchall_60_65,primary,2014
+joint,EB-5 / ROW,0,0,7960,-946,-7014,0,catchall_60_65,primary,2014
+overall,All,0,0,-688,19982,-19294,0,catchall_60_65,primary,2015
+nationality,India,0,0,-477971,147630,330341,0,catchall_60_65,primary,2015
+nationality,China,0,0,-67048,9557,57491,0,catchall_60_65,primary,2015
+nationality,ROW,0,0,544331,-137205,-407126,0,catchall_60_65,primary,2015
+category,EB-1,0,0,-3245,-699,3944,0,catchall_60_65,primary,2015
+category,EB-2,0,0,-8067,24781,-16714,0,catchall_60_65,primary,2015
+category,EB-3,0,0,11090,-4277,-6813,0,catchall_60_65,primary,2015
+category,EB-4,0,0,-33,-144,177,0,catchall_60_65,primary,2015
+category,EB-5,0,0,-433,321,112,0,catchall_60_65,primary,2015
+joint,EB-1 / India,0,0,-39361,3776,35585,0,catchall_60_65,primary,2015
+joint,EB-1 / China,0,0,-28631,3987,24644,0,catchall_60_65,primary,2015
+joint,EB-1 / ROW,0,0,64747,-8462,-56285,0,catchall_60_65,primary,2015
+joint,EB-2 / India,0,0,-279849,91400,188449,0,catchall_60_65,primary,2015
+joint,EB-2 / China,0,0,-13372,348,13024,0,catchall_60_65,primary,2015
+joint,EB-2 / ROW,0,0,285154,-66967,-218187,0,catchall_60_65,primary,2015
+joint,EB-3 / India,0,0,-156672,52228,104444,0,catchall_60_65,primary,2015
+joint,EB-3 / China,0,0,-18431,4137,14294,0,catchall_60_65,primary,2015
+joint,EB-3 / ROW,0,0,186193,-60642,-125551,0,catchall_60_65,primary,2015
+joint,EB-4 / India,0,0,-48,49,-1,0,catchall_60_65,primary,2015
+joint,EB-4 / China,0,0,2,-73,71,0,catchall_60_65,primary,2015
+joint,EB-4 / ROW,0,0,13,-120,107,0,catchall_60_65,primary,2015
+joint,EB-5 / India,0,0,-2041,177,1864,0,catchall_60_65,primary,2015
+joint,EB-5 / China,0,0,-6616,1158,5458,0,catchall_60_65,primary,2015
+joint,EB-5 / ROW,0,0,8224,-1014,-7210,0,catchall_60_65,primary,2015
+overall,All,0,0,-562,20490,-19928,0,catchall_60_65,primary,2016
+nationality,India,0,0,-477297,148337,328960,0,catchall_60_65,primary,2016
+nationality,China,0,0,-67128,9907,57221,0,catchall_60_65,primary,2016
+nationality,ROW,0,0,543863,-137754,-406109,0,catchall_60_65,primary,2016
+category,EB-1,0,0,-3286,-753,4039,0,catchall_60_65,primary,2016
+category,EB-2,0,0,-7723,25178,-17455,0,catchall_60_65,primary,2016
+category,EB-3,0,0,11007,-4545,-6462,0,catchall_60_65,primary,2016
+category,EB-4,0,0,-56,126,-70,0,catchall_60_65,primary,2016
+category,EB-5,0,0,-504,484,20,0,catchall_60_65,primary,2016
+joint,EB-1 / India,0,0,-39387,3758,35629,0,catchall_60_65,primary,2016
+joint,EB-1 / China,0,0,-28613,3889,24724,0,catchall_60_65,primary,2016
+joint,EB-1 / ROW,0,0,64714,-8400,-56314,0,catchall_60_65,primary,2016
+joint,EB-2 / India,0,0,-279247,92003,187244,0,catchall_60_65,primary,2016
+joint,EB-2 / China,0,0,-13550,148,13402,0,catchall_60_65,primary,2016
+joint,EB-2 / ROW,0,0,285074,-66973,-218101,0,catchall_60_65,primary,2016
+joint,EB-3 / India,0,0,-156538,52335,104203,0,catchall_60_65,primary,2016
+joint,EB-3 / China,0,0,-18374,4750,13624,0,catchall_60_65,primary,2016
+joint,EB-3 / ROW,0,0,185919,-61630,-124289,0,catchall_60_65,primary,2016
+joint,EB-4 / India,0,0,14,-30,16,0,catchall_60_65,primary,2016
+joint,EB-4 / China,0,0,10,-54,44,0,catchall_60_65,primary,2016
+joint,EB-4 / ROW,0,0,-80,210,-130,0,catchall_60_65,primary,2016
+joint,EB-5 / India,0,0,-2139,271,1868,0,catchall_60_65,primary,2016
+joint,EB-5 / China,0,0,-6601,1174,5427,0,catchall_60_65,primary,2016
+joint,EB-5 / ROW,0,0,8236,-961,-7275,0,catchall_60_65,primary,2016
+overall,All,0,0,-1094,20936,-19842,0,catchall_60_65,primary,2017
+nationality,India,0,0,-478165,147998,330167,0,catchall_60_65,primary,2017
+nationality,China,0,0,-67538,10637,56901,0,catchall_60_65,primary,2017
+nationality,ROW,0,0,544609,-137699,-406910,0,catchall_60_65,primary,2017
+category,EB-1,0,0,-3597,-789,4386,0,catchall_60_65,primary,2017
+category,EB-2,0,0,-7948,25812,-17864,0,catchall_60_65,primary,2017
+category,EB-3,0,0,10868,-4181,-6687,0,catchall_60_65,primary,2017
+category,EB-4,0,0,19,-327,308,0,catchall_60_65,primary,2017
+category,EB-5,0,0,-436,421,15,0,catchall_60_65,primary,2017
+joint,EB-1 / India,0,0,-39872,3788,36084,0,catchall_60_65,primary,2017
+joint,EB-1 / China,0,0,-28657,3733,24924,0,catchall_60_65,primary,2017
+joint,EB-1 / ROW,0,0,64932,-8310,-56622,0,catchall_60_65,primary,2017
+joint,EB-2 / India,0,0,-279766,92269,187497,0,catchall_60_65,primary,2017
+joint,EB-2 / China,0,0,-13754,850,12904,0,catchall_60_65,primary,2017
+joint,EB-2 / ROW,0,0,285572,-67307,-218265,0,catchall_60_65,primary,2017
+joint,EB-3 / India,0,0,-156554,51865,104689,0,catchall_60_65,primary,2017
+joint,EB-3 / China,0,0,-18597,4769,13828,0,catchall_60_65,primary,2017
+joint,EB-3 / ROW,0,0,186019,-60815,-125204,0,catchall_60_65,primary,2017
+joint,EB-4 / India,0,0,48,-82,34,0,catchall_60_65,primary,2017
+joint,EB-4 / China,0,0,-7,52,-45,0,catchall_60_65,primary,2017
+joint,EB-4 / ROW,0,0,-22,-297,319,0,catchall_60_65,primary,2017
+joint,EB-5 / India,0,0,-2021,158,1863,0,catchall_60_65,primary,2017
+joint,EB-5 / China,0,0,-6523,1233,5290,0,catchall_60_65,primary,2017
+joint,EB-5 / ROW,0,0,8108,-970,-7138,0,catchall_60_65,primary,2017
+overall,All,0,0,-597,21207,-20610,0,catchall_60_65,primary,2018
+nationality,India,0,0,-478806,149370,329436,0,catchall_60_65,primary,2018
+nationality,China,0,0,-66915,9870,57045,0,catchall_60_65,primary,2018
+nationality,ROW,0,0,545124,-138033,-407091,0,catchall_60_65,primary,2018
+category,EB-1,0,0,-3465,-975,4440,0,catchall_60_65,primary,2018
+category,EB-2,0,0,-8191,26241,-18050,0,catchall_60_65,primary,2018
+category,EB-3,0,0,11378,-4472,-6906,0,catchall_60_65,primary,2018
+category,EB-4,0,0,156,-197,41,0,catchall_60_65,primary,2018
+category,EB-5,0,0,-475,610,-135,0,catchall_60_65,primary,2018
+joint,EB-1 / India,0,0,-39389,3588,35801,0,catchall_60_65,primary,2018
+joint,EB-1 / China,0,0,-28823,3866,24957,0,catchall_60_65,primary,2018
+joint,EB-1 / ROW,0,0,64747,-8429,-56318,0,catchall_60_65,primary,2018
+joint,EB-2 / India,0,0,-280383,92861,187522,0,catchall_60_65,primary,2018
+joint,EB-2 / China,0,0,-13014,18,12996,0,catchall_60_65,primary,2018
+joint,EB-2 / ROW,0,0,285206,-66638,-218568,0,catchall_60_65,primary,2018
+joint,EB-3 / India,0,0,-156866,52506,104360,0,catchall_60_65,primary,2018
+joint,EB-3 / China,0,0,-18642,4649,13993,0,catchall_60_65,primary,2018
+joint,EB-3 / ROW,0,0,186886,-61627,-125259,0,catchall_60_65,primary,2018
+joint,EB-4 / India,0,0,12,153,-165,0,catchall_60_65,primary,2018
+joint,EB-4 / China,0,0,-17,-2,19,0,catchall_60_65,primary,2018
+joint,EB-4 / ROW,0,0,161,-348,187,0,catchall_60_65,primary,2018
+joint,EB-5 / India,0,0,-2180,262,1918,0,catchall_60_65,primary,2018
+joint,EB-5 / China,0,0,-6419,1339,5080,0,catchall_60_65,primary,2018
+joint,EB-5 / ROW,0,0,8124,-991,-7133,0,catchall_60_65,primary,2018
+overall,All,0,0,-675,20149,-19474,0,catchall_60_65,primary,2019
+nationality,India,0,0,-478574,148395,330179,0,catchall_60_65,primary,2019
+nationality,China,0,0,-67043,10360,56683,0,catchall_60_65,primary,2019
+nationality,ROW,0,0,544942,-138606,-406336,0,catchall_60_65,primary,2019
+category,EB-1,0,0,-3363,-777,4140,0,catchall_60_65,primary,2019
+category,EB-2,0,0,-8227,25939,-17712,0,catchall_60_65,primary,2019
+category,EB-3,0,0,11684,-5116,-6568,0,catchall_60_65,primary,2019
+category,EB-4,0,0,-223,-316,539,0,catchall_60_65,primary,2019
+category,EB-5,0,0,-546,419,127,0,catchall_60_65,primary,2019
+joint,EB-1 / India,0,0,-39241,3799,35442,0,catchall_60_65,primary,2019
+joint,EB-1 / China,0,0,-28778,3858,24920,0,catchall_60_65,primary,2019
+joint,EB-1 / ROW,0,0,64656,-8434,-56222,0,catchall_60_65,primary,2019
+joint,EB-2 / India,0,0,-280210,92266,187944,0,catchall_60_65,primary,2019
+joint,EB-2 / China,0,0,-13490,955,12535,0,catchall_60_65,primary,2019
+joint,EB-2 / ROW,0,0,285473,-67282,-218191,0,catchall_60_65,primary,2019
+joint,EB-3 / India,0,0,-156966,52161,104805,0,catchall_60_65,primary,2019
+joint,EB-3 / China,0,0,-18287,4316,13971,0,catchall_60_65,primary,2019
+joint,EB-3 / ROW,0,0,186937,-61593,-125344,0,catchall_60_65,primary,2019
+joint,EB-4 / India,0,0,38,-45,7,0,catchall_60_65,primary,2019
+joint,EB-4 / China,0,0,0,51,-51,0,catchall_60_65,primary,2019
+joint,EB-4 / ROW,0,0,-261,-322,583,0,catchall_60_65,primary,2019
+joint,EB-5 / India,0,0,-2195,214,1981,0,catchall_60_65,primary,2019
+joint,EB-5 / China,0,0,-6488,1180,5308,0,catchall_60_65,primary,2019
+joint,EB-5 / ROW,0,0,8137,-975,-7162,0,catchall_60_65,primary,2019
+overall,All,0,0,-847,20384,-19537,0,catchall_60_65,primary,2020
+nationality,India,0,0,-478462,147765,330697,0,catchall_60_65,primary,2020
+nationality,China,0,0,-66872,9999,56873,0,catchall_60_65,primary,2020
+nationality,ROW,0,0,544487,-137380,-407107,0,catchall_60_65,primary,2020
+category,EB-1,0,0,-3282,-505,3787,0,catchall_60_65,primary,2020
+category,EB-2,0,0,-8131,25670,-17539,0,catchall_60_65,primary,2020
+category,EB-3,0,0,11096,-5868,-5228,0,catchall_60_65,primary,2020
+category,EB-4,0,0,-57,732,-675,0,catchall_60_65,primary,2020
+category,EB-5,0,0,-473,355,118,0,catchall_60_65,primary,2020
+joint,EB-1 / India,0,0,-39473,3985,35488,0,catchall_60_65,primary,2020
+joint,EB-1 / China,0,0,-28578,4037,24541,0,catchall_60_65,primary,2020
+joint,EB-1 / ROW,0,0,64769,-8527,-56242,0,catchall_60_65,primary,2020
+joint,EB-2 / India,0,0,-280482,92216,188266,0,catchall_60_65,primary,2020
+joint,EB-2 / China,0,0,-13305,784,12521,0,catchall_60_65,primary,2020
+joint,EB-2 / ROW,0,0,285656,-67330,-218326,0,catchall_60_65,primary,2020
+joint,EB-3 / India,0,0,-156403,51353,105050,0,catchall_60_65,primary,2020
+joint,EB-3 / China,0,0,-18383,4055,14328,0,catchall_60_65,primary,2020
+joint,EB-3 / ROW,0,0,185882,-61276,-124606,0,catchall_60_65,primary,2020
+joint,EB-4 / India,0,0,-1,-9,10,0,catchall_60_65,primary,2020
+joint,EB-4 / China,0,0,-5,-23,28,0,catchall_60_65,primary,2020
+joint,EB-4 / ROW,0,0,-51,764,-713,0,catchall_60_65,primary,2020
+joint,EB-5 / India,0,0,-2103,220,1883,0,catchall_60_65,primary,2020
+joint,EB-5 / China,0,0,-6601,1146,5455,0,catchall_60_65,primary,2020
+joint,EB-5 / ROW,0,0,8231,-1011,-7220,0,catchall_60_65,primary,2020
+overall,All,0,0,-754,20825,-20071,0,catchall_60_65,primary,2021
+nationality,India,0,0,-478393,148493,329900,0,catchall_60_65,primary,2021
+nationality,China,0,0,-67665,10121,57544,0,catchall_60_65,primary,2021
+nationality,ROW,0,0,545304,-137789,-407515,0,catchall_60_65,primary,2021
+category,EB-1,0,0,-3561,-418,3979,0,catchall_60_65,primary,2021
+category,EB-2,0,0,-8109,25329,-17220,0,catchall_60_65,primary,2021
+category,EB-3,0,0,11275,-5002,-6273,0,catchall_60_65,primary,2021
+category,EB-4,0,0,191,547,-738,0,catchall_60_65,primary,2021
+category,EB-5,0,0,-550,369,181,0,catchall_60_65,primary,2021
+joint,EB-1 / India,0,0,-39550,3952,35598,0,catchall_60_65,primary,2021
+joint,EB-1 / China,0,0,-28687,4022,24665,0,catchall_60_65,primary,2021
+joint,EB-1 / ROW,0,0,64676,-8392,-56284,0,catchall_60_65,primary,2021
+joint,EB-2 / India,0,0,-279711,92207,187504,0,catchall_60_65,primary,2021
+joint,EB-2 / China,0,0,-13935,541,13394,0,catchall_60_65,primary,2021
+joint,EB-2 / ROW,0,0,285537,-67419,-218118,0,catchall_60_65,primary,2021
+joint,EB-3 / India,0,0,-156943,52076,104867,0,catchall_60_65,primary,2021
+joint,EB-3 / China,0,0,-18328,4414,13914,0,catchall_60_65,primary,2021
+joint,EB-3 / ROW,0,0,186546,-61492,-125054,0,catchall_60_65,primary,2021
+joint,EB-4 / India,0,0,-39,57,-18,0,catchall_60_65,primary,2021
+joint,EB-4 / China,0,0,3,-36,33,0,catchall_60_65,primary,2021
+joint,EB-4 / ROW,0,0,227,526,-753,0,catchall_60_65,primary,2021
+joint,EB-5 / India,0,0,-2150,201,1949,0,catchall_60_65,primary,2021
+joint,EB-5 / China,0,0,-6718,1180,5538,0,catchall_60_65,primary,2021
+joint,EB-5 / ROW,0,0,8318,-1012,-7306,0,catchall_60_65,primary,2021
+overall,All,0,0,149,21143,-21292,0,catchall_60_65,primary,2022
+nationality,India,0,0,-477383,147987,329396,0,catchall_60_65,primary,2022
+nationality,China,0,0,-67220,10118,57102,0,catchall_60_65,primary,2022
+nationality,ROW,0,0,544752,-136962,-407790,0,catchall_60_65,primary,2022
+category,EB-1,0,0,-3275,-409,3684,0,catchall_60_65,primary,2022
+category,EB-2,0,0,-7703,25919,-18216,0,catchall_60_65,primary,2022
+category,EB-3,0,0,11258,-4947,-6311,0,catchall_60_65,primary,2022
+category,EB-4,0,0,357,163,-520,0,catchall_60_65,primary,2022
+category,EB-5,0,0,-488,417,71,0,catchall_60_65,primary,2022
+joint,EB-1 / India,0,0,-39355,3915,35440,0,catchall_60_65,primary,2022
+joint,EB-1 / China,0,0,-28580,4040,24540,0,catchall_60_65,primary,2022
+joint,EB-1 / ROW,0,0,64660,-8364,-56296,0,catchall_60_65,primary,2022
+joint,EB-2 / India,0,0,-279954,92360,187594,0,catchall_60_65,primary,2022
+joint,EB-2 / China,0,0,-13270,397,12873,0,catchall_60_65,primary,2022
+joint,EB-2 / ROW,0,0,285521,-66838,-218683,0,catchall_60_65,primary,2022
+joint,EB-3 / India,0,0,-155956,51474,104482,0,catchall_60_65,primary,2022
+joint,EB-3 / China,0,0,-18705,4483,14222,0,catchall_60_65,primary,2022
+joint,EB-3 / ROW,0,0,185919,-60904,-125015,0,catchall_60_65,primary,2022
+joint,EB-4 / India,0,0,4,39,-43,0,catchall_60_65,primary,2022
+joint,EB-4 / China,0,0,-10,-7,17,0,catchall_60_65,primary,2022
+joint,EB-4 / ROW,0,0,363,131,-494,0,catchall_60_65,primary,2022
+joint,EB-5 / India,0,0,-2122,199,1923,0,catchall_60_65,primary,2022
+joint,EB-5 / China,0,0,-6655,1205,5450,0,catchall_60_65,primary,2022
+joint,EB-5 / ROW,0,0,8289,-987,-7302,0,catchall_60_65,primary,2022
+overall,All,0,0,40,19630,-19670,0,catchall_60_65,primary,2023
+nationality,India,0,0,-477695,148446,329249,0,catchall_60_65,primary,2023
+nationality,China,0,0,-67138,9735,57403,0,catchall_60_65,primary,2023
+nationality,ROW,0,0,544873,-138551,-406322,0,catchall_60_65,primary,2023
+category,EB-1,0,0,-3192,-700,3892,0,catchall_60_65,primary,2023
+category,EB-2,0,0,-7810,25984,-18174,0,catchall_60_65,primary,2023
+category,EB-3,0,0,11211,-5622,-5589,0,catchall_60_65,primary,2023
+category,EB-4,0,0,218,-574,356,0,catchall_60_65,primary,2023
+category,EB-5,0,0,-387,542,-155,0,catchall_60_65,primary,2023
+joint,EB-1 / India,0,0,-39290,3666,35624,0,catchall_60_65,primary,2023
+joint,EB-1 / China,0,0,-28384,3820,24564,0,catchall_60_65,primary,2023
+joint,EB-1 / ROW,0,0,64482,-8186,-56296,0,catchall_60_65,primary,2023
+joint,EB-2 / India,0,0,-279637,92754,186883,0,catchall_60_65,primary,2023
+joint,EB-2 / China,0,0,-13635,404,13231,0,catchall_60_65,primary,2023
+joint,EB-2 / ROW,0,0,285462,-67174,-218288,0,catchall_60_65,primary,2023
+joint,EB-3 / India,0,0,-156620,51846,104774,0,catchall_60_65,primary,2023
+joint,EB-3 / China,0,0,-18571,4249,14322,0,catchall_60_65,primary,2023
+joint,EB-3 / ROW,0,0,186402,-61717,-124685,0,catchall_60_65,primary,2023
+joint,EB-4 / India,0,0,-14,-40,54,0,catchall_60_65,primary,2023
+joint,EB-4 / China,0,0,-28,-15,43,0,catchall_60_65,primary,2023
+joint,EB-4 / ROW,0,0,260,-519,259,0,catchall_60_65,primary,2023
+joint,EB-5 / India,0,0,-2134,220,1914,0,catchall_60_65,primary,2023
+joint,EB-5 / China,0,0,-6520,1277,5243,0,catchall_60_65,primary,2023
+joint,EB-5 / ROW,0,0,8267,-955,-7312,0,catchall_60_65,primary,2023
+overall,All,0,0,-1002,20368,-19366,0,catchall_60_65,primary,2024
+nationality,India,0,0,-477346,147760,329586,0,catchall_60_65,primary,2024
+nationality,China,0,0,-67262,10189,57073,0,catchall_60_65,primary,2024
+nationality,ROW,0,0,543606,-137581,-406025,0,catchall_60_65,primary,2024
+category,EB-1,0,0,-3212,-888,4100,0,catchall_60_65,primary,2024
+category,EB-2,0,0,-8316,26638,-18322,0,catchall_60_65,primary,2024
+category,EB-3,0,0,11008,-6005,-5003,0,catchall_60_65,primary,2024
+category,EB-4,0,0,-20,237,-217,0,catchall_60_65,primary,2024
+category,EB-5,0,0,-462,386,76,0,catchall_60_65,primary,2024
+joint,EB-1 / India,0,0,-39235,3786,35449,0,catchall_60_65,primary,2024
+joint,EB-1 / China,0,0,-28532,3689,24843,0,catchall_60_65,primary,2024
+joint,EB-1 / ROW,0,0,64555,-8363,-56192,0,catchall_60_65,primary,2024
+joint,EB-2 / India,0,0,-280004,92684,187320,0,catchall_60_65,primary,2024
+joint,EB-2 / China,0,0,-13548,964,12584,0,catchall_60_65,primary,2024
+joint,EB-2 / ROW,0,0,285236,-67010,-218226,0,catchall_60_65,primary,2024
+joint,EB-3 / India,0,0,-155967,51071,104896,0,catchall_60_65,primary,2024
+joint,EB-3 / China,0,0,-18598,4322,14276,0,catchall_60_65,primary,2024
+joint,EB-3 / ROW,0,0,185573,-61398,-124175,0,catchall_60_65,primary,2024
+joint,EB-4 / India,0,0,-32,29,3,0,catchall_60_65,primary,2024
+joint,EB-4 / China,0,0,-4,12,-8,0,catchall_60_65,primary,2024
+joint,EB-4 / ROW,0,0,16,196,-212,0,catchall_60_65,primary,2024
+joint,EB-5 / India,0,0,-2108,190,1918,0,catchall_60_65,primary,2024
+joint,EB-5 / China,0,0,-6580,1202,5378,0,catchall_60_65,primary,2024
+joint,EB-5 / ROW,0,0,8226,-1006,-7220,0,catchall_60_65,primary,2024
+overall,All,0,0,-935,20703,-19768,0,catchall_60_65,primary,2025
+nationality,India,0,0,-477861,147950,329911,0,catchall_60_65,primary,2025
+nationality,China,0,0,-67522,11058,56464,0,catchall_60_65,primary,2025
+nationality,ROW,0,0,544448,-138305,-406143,0,catchall_60_65,primary,2025
+category,EB-1,0,0,-3044,-586,3630,0,catchall_60_65,primary,2025
+category,EB-2,0,0,-8383,25711,-17328,0,catchall_60_65,primary,2025
+category,EB-3,0,0,10895,-4948,-5947,0,catchall_60_65,primary,2025
+category,EB-4,0,0,44,56,-100,0,catchall_60_65,primary,2025
+category,EB-5,0,0,-447,470,-23,0,catchall_60_65,primary,2025
+joint,EB-1 / India,0,0,-39443,3890,35553,0,catchall_60_65,primary,2025
+joint,EB-1 / China,0,0,-28490,3957,24533,0,catchall_60_65,primary,2025
+joint,EB-1 / ROW,0,0,64889,-8433,-56456,0,catchall_60_65,primary,2025
+joint,EB-2 / India,0,0,-279819,91972,187847,0,catchall_60_65,primary,2025
+joint,EB-2 / China,0,0,-13757,1106,12651,0,catchall_60_65,primary,2025
+joint,EB-2 / ROW,0,0,285193,-67367,-217826,0,catchall_60_65,primary,2025
+joint,EB-3 / India,0,0,-156502,52025,104477,0,catchall_60_65,primary,2025
+joint,EB-3 / China,0,0,-18670,4727,13943,0,catchall_60_65,primary,2025
+joint,EB-3 / ROW,0,0,186067,-61700,-124367,0,catchall_60_65,primary,2025
+joint,EB-4 / India,0,0,19,-121,102,0,catchall_60_65,primary,2025
+joint,EB-4 / China,0,0,12,-3,-9,0,catchall_60_65,primary,2025
+joint,EB-4 / ROW,0,0,13,180,-193,0,catchall_60_65,primary,2025
+joint,EB-5 / India,0,0,-2116,184,1932,0,catchall_60_65,primary,2025
+joint,EB-5 / China,0,0,-6617,1271,5346,0,catchall_60_65,primary,2025
+joint,EB-5 / ROW,0,0,8286,-985,-7301,0,catchall_60_65,primary,2025
+overall,All,0,0,-425,20028,-19603,0,catchall_60_65,primary,2026
+nationality,India,0,0,-477929,148881,329048,0,catchall_60_65,primary,2026
+nationality,China,0,0,-67216,10510,56706,0,catchall_60_65,primary,2026
+nationality,ROW,0,0,544720,-139363,-405357,0,catchall_60_65,primary,2026
+category,EB-1,0,0,-3036,-722,3758,0,catchall_60_65,primary,2026
+category,EB-2,0,0,-7803,26022,-18219,0,catchall_60_65,primary,2026
+category,EB-3,0,0,11039,-3945,-7094,0,catchall_60_65,primary,2026
+category,EB-4,0,0,-155,-1656,1811,0,catchall_60_65,primary,2026
+category,EB-5,0,0,-470,329,141,0,catchall_60_65,primary,2026
+joint,EB-1 / India,0,0,-39166,3831,35335,0,catchall_60_65,primary,2026
+joint,EB-1 / China,0,0,-28563,3927,24636,0,catchall_60_65,primary,2026
+joint,EB-1 / ROW,0,0,64693,-8480,-56213,0,catchall_60_65,primary,2026
+joint,EB-2 / India,0,0,-280055,92304,187751,0,catchall_60_65,primary,2026
+joint,EB-2 / China,0,0,-13430,964,12466,0,catchall_60_65,primary,2026
+joint,EB-2 / ROW,0,0,285682,-67246,-218436,0,catchall_60_65,primary,2026
+joint,EB-3 / India,0,0,-156600,52547,104053,0,catchall_60_65,primary,2026
+joint,EB-3 / China,0,0,-18671,4399,14272,0,catchall_60_65,primary,2026
+joint,EB-3 / ROW,0,0,186310,-60891,-125419,0,catchall_60_65,primary,2026
+joint,EB-4 / India,0,0,30,-9,-21,0,catchall_60_65,primary,2026
+joint,EB-4 / China,0,0,-23,67,-44,0,catchall_60_65,primary,2026
+joint,EB-4 / ROW,0,0,-162,-1714,1876,0,catchall_60_65,primary,2026
+joint,EB-5 / India,0,0,-2138,208,1930,0,catchall_60_65,primary,2026
+joint,EB-5 / China,0,0,-6529,1153,5376,0,catchall_60_65,primary,2026
+joint,EB-5 / ROW,0,0,8197,-1032,-7165,0,catchall_60_65,primary,2026
+overall,All,0,0,404,20215,-20619,0,catchall_60_65,primary,2027
+nationality,India,0,0,-478059,147765,330294,0,catchall_60_65,primary,2027
+nationality,China,0,0,-67152,10116,57036,0,catchall_60_65,primary,2027
+nationality,ROW,0,0,545615,-137666,-407949,0,catchall_60_65,primary,2027
+category,EB-1,0,0,-3376,-746,4122,0,catchall_60_65,primary,2027
+category,EB-2,0,0,-7475,25865,-18390,0,catchall_60_65,primary,2027
+category,EB-3,0,0,11806,-6266,-5540,0,catchall_60_65,primary,2027
+category,EB-4,0,0,-77,849,-772,0,catchall_60_65,primary,2027
+category,EB-5,0,0,-474,513,-39,0,catchall_60_65,primary,2027
+joint,EB-1 / India,0,0,-39668,3797,35871,0,catchall_60_65,primary,2027
+joint,EB-1 / China,0,0,-28645,3941,24704,0,catchall_60_65,primary,2027
+joint,EB-1 / ROW,0,0,64937,-8484,-56453,0,catchall_60_65,primary,2027
+joint,EB-2 / India,0,0,-280212,92439,187773,0,catchall_60_65,primary,2027
+joint,EB-2 / China,0,0,-13380,503,12877,0,catchall_60_65,primary,2027
+joint,EB-2 / ROW,0,0,286117,-67077,-219040,0,catchall_60_65,primary,2027
+joint,EB-3 / India,0,0,-156008,51264,104744,0,catchall_60_65,primary,2027
+joint,EB-3 / China,0,0,-18647,4415,14232,0,catchall_60_65,primary,2027
+joint,EB-3 / ROW,0,0,186461,-61945,-124516,0,catchall_60_65,primary,2027
+joint,EB-4 / India,0,0,-50,14,36,0,catchall_60_65,primary,2027
+joint,EB-4 / China,0,0,-7,31,-24,0,catchall_60_65,primary,2027
+joint,EB-4 / ROW,0,0,-20,804,-784,0,catchall_60_65,primary,2027
+joint,EB-5 / India,0,0,-2121,251,1870,0,catchall_60_65,primary,2027
+joint,EB-5 / China,0,0,-6473,1226,5247,0,catchall_60_65,primary,2027
+joint,EB-5 / ROW,0,0,8120,-964,-7156,0,catchall_60_65,primary,2027
+overall,All,0,0,-2114,21477,-19363,0,catchall_60_65,primary,2028
+nationality,India,0,0,-478839,148535,330304,0,catchall_60_65,primary,2028
+nationality,China,0,0,-67174,10498,56676,0,catchall_60_65,primary,2028
+nationality,ROW,0,0,543899,-137556,-406343,0,catchall_60_65,primary,2028
+category,EB-1,0,0,-3749,-811,4560,0,catchall_60_65,primary,2028
+category,EB-2,0,0,-8634,26506,-17872,0,catchall_60_65,primary,2028
+category,EB-3,0,0,10849,-4781,-6068,0,catchall_60_65,primary,2028
+category,EB-4,0,0,-59,70,-11,0,catchall_60_65,primary,2028
+category,EB-5,0,0,-521,493,28,0,catchall_60_65,primary,2028
+joint,EB-1 / India,0,0,-39443,3655,35788,0,catchall_60_65,primary,2028
+joint,EB-1 / China,0,0,-28912,3905,25007,0,catchall_60_65,primary,2028
+joint,EB-1 / ROW,0,0,64606,-8371,-56235,0,catchall_60_65,primary,2028
+joint,EB-2 / India,0,0,-280461,92537,187924,0,catchall_60_65,primary,2028
+joint,EB-2 / China,0,0,-13189,625,12564,0,catchall_60_65,primary,2028
+joint,EB-2 / ROW,0,0,285016,-66656,-218360,0,catchall_60_65,primary,2028
+joint,EB-3 / India,0,0,-156783,52041,104742,0,catchall_60_65,primary,2028
+joint,EB-3 / China,0,0,-18389,4715,13674,0,catchall_60_65,primary,2028
+joint,EB-3 / ROW,0,0,186021,-61537,-124484,0,catchall_60_65,primary,2028
+joint,EB-4 / India,0,0,-16,64,-48,0,catchall_60_65,primary,2028
+joint,EB-4 / China,0,0,-18,18,0,0,catchall_60_65,primary,2028
+joint,EB-4 / ROW,0,0,-25,-12,37,0,catchall_60_65,primary,2028
+joint,EB-5 / India,0,0,-2136,238,1898,0,catchall_60_65,primary,2028
+joint,EB-5 / China,0,0,-6666,1235,5431,0,catchall_60_65,primary,2028
+joint,EB-5 / ROW,0,0,8281,-980,-7301,0,catchall_60_65,primary,2028
+overall,All,0,0,-936,21228,-20292,0,catchall_60_65,primary,2029
+nationality,India,0,0,-478628,148890,329738,0,catchall_60_65,primary,2029
+nationality,China,0,0,-66383,10140,56243,0,catchall_60_65,primary,2029
+nationality,ROW,0,0,544075,-137802,-406273,0,catchall_60_65,primary,2029
+category,EB-1,0,0,-3247,-881,4128,0,catchall_60_65,primary,2029
+category,EB-2,0,0,-8056,25967,-17911,0,catchall_60_65,primary,2029
+category,EB-3,0,0,10978,-4848,-6130,0,catchall_60_65,primary,2029
+category,EB-4,0,0,-112,560,-448,0,catchall_60_65,primary,2029
+category,EB-5,0,0,-499,430,69,0,catchall_60_65,primary,2029
+joint,EB-1 / India,0,0,-39526,3845,35681,0,catchall_60_65,primary,2029
+joint,EB-1 / China,0,0,-28297,3749,24548,0,catchall_60_65,primary,2029
+joint,EB-1 / ROW,0,0,64576,-8475,-56101,0,catchall_60_65,primary,2029
+joint,EB-2 / India,0,0,-280187,92600,187587,0,catchall_60_65,primary,2029
+joint,EB-2 / China,0,0,-13374,593,12781,0,catchall_60_65,primary,2029
+joint,EB-2 / ROW,0,0,285505,-67226,-218279,0,catchall_60_65,primary,2029
+joint,EB-3 / India,0,0,-156783,52204,104579,0,catchall_60_65,primary,2029
+joint,EB-3 / China,0,0,-18291,4604,13687,0,catchall_60_65,primary,2029
+joint,EB-3 / ROW,0,0,186052,-61656,-124396,0,catchall_60_65,primary,2029
+joint,EB-4 / India,0,0,-10,25,-15,0,catchall_60_65,primary,2029
+joint,EB-4 / China,0,0,-4,-8,12,0,catchall_60_65,primary,2029
+joint,EB-4 / ROW,0,0,-98,543,-445,0,catchall_60_65,primary,2029
+joint,EB-5 / India,0,0,-2122,216,1906,0,catchall_60_65,primary,2029
+joint,EB-5 / China,0,0,-6417,1202,5215,0,catchall_60_65,primary,2029
+joint,EB-5 / ROW,0,0,8040,-988,-7052,0,catchall_60_65,primary,2029
+overall,All,0,0,-952,20132,-19180,0,catchall_60_65,primary,2030
+nationality,India,0,0,-478936,147885,331051,0,catchall_60_65,primary,2030
+nationality,China,0,0,-65988,9904,56084,0,catchall_60_65,primary,2030
+nationality,ROW,0,0,543972,-137657,-406315,0,catchall_60_65,primary,2030
+category,EB-1,0,0,-3321,-984,4305,0,catchall_60_65,primary,2030
+category,EB-2,0,0,-8324,25571,-17247,0,catchall_60_65,primary,2030
+category,EB-3,0,0,11123,-5190,-5933,0,catchall_60_65,primary,2030
+category,EB-4,0,0,-5,315,-310,0,catchall_60_65,primary,2030
+category,EB-5,0,0,-425,420,5,0,catchall_60_65,primary,2030
+joint,EB-1 / India,0,0,-39387,3658,35729,0,catchall_60_65,primary,2030
+joint,EB-1 / China,0,0,-28399,3780,24619,0,catchall_60_65,primary,2030
+joint,EB-1 / ROW,0,0,64465,-8422,-56043,0,catchall_60_65,primary,2030
+joint,EB-2 / India,0,0,-280553,92221,188332,0,catchall_60_65,primary,2030
+joint,EB-2 / China,0,0,-13091,420,12671,0,catchall_60_65,primary,2030
+joint,EB-2 / ROW,0,0,285320,-67070,-218250,0,catchall_60_65,primary,2030
+joint,EB-3 / India,0,0,-156918,51855,105063,0,catchall_60_65,primary,2030
+joint,EB-3 / China,0,0,-17975,4532,13443,0,catchall_60_65,primary,2030
+joint,EB-3 / ROW,0,0,186016,-61577,-124439,0,catchall_60_65,primary,2030
+joint,EB-4 / India,0,0,12,-50,38,0,catchall_60_65,primary,2030
+joint,EB-4 / China,0,0,-5,-7,12,0,catchall_60_65,primary,2030
+joint,EB-4 / ROW,0,0,-12,372,-360,0,catchall_60_65,primary,2030
+joint,EB-5 / India,0,0,-2090,201,1889,0,catchall_60_65,primary,2030
+joint,EB-5 / China,0,0,-6518,1179,5339,0,catchall_60_65,primary,2030
+joint,EB-5 / ROW,0,0,8183,-960,-7223,0,catchall_60_65,primary,2030
+overall,All,0,0,-1636,21074,-19438,0,catchall_60_65,primary,2031
+nationality,India,0,0,-477892,147964,329928,0,catchall_60_65,primary,2031
+nationality,China,0,0,-66719,10107,56612,0,catchall_60_65,primary,2031
+nationality,ROW,0,0,542975,-136997,-405978,0,catchall_60_65,primary,2031
+category,EB-1,0,0,-3536,-910,4446,0,catchall_60_65,primary,2031
+category,EB-2,0,0,-8437,26353,-17916,0,catchall_60_65,primary,2031
+category,EB-3,0,0,10936,-5162,-5774,0,catchall_60_65,primary,2031
+category,EB-4,0,0,-70,527,-457,0,catchall_60_65,primary,2031
+category,EB-5,0,0,-529,266,263,0,catchall_60_65,primary,2031
+joint,EB-1 / India,0,0,-39743,3707,36036,0,catchall_60_65,primary,2031
+joint,EB-1 / China,0,0,-28775,3859,24916,0,catchall_60_65,primary,2031
+joint,EB-1 / ROW,0,0,64982,-8476,-56506,0,catchall_60_65,primary,2031
+joint,EB-2 / India,0,0,-280015,92586,187429,0,catchall_60_65,primary,2031
+joint,EB-2 / China,0,0,-13099,637,12462,0,catchall_60_65,primary,2031
+joint,EB-2 / ROW,0,0,284677,-66870,-217807,0,catchall_60_65,primary,2031
+joint,EB-3 / India,0,0,-156156,51522,104634,0,catchall_60_65,primary,2031
+joint,EB-3 / China,0,0,-18283,4474,13809,0,catchall_60_65,primary,2031
+joint,EB-3 / ROW,0,0,185375,-61158,-124217,0,catchall_60_65,primary,2031
+joint,EB-4 / India,0,0,31,-28,-3,0,catchall_60_65,primary,2031
+joint,EB-4 / China,0,0,3,37,-40,0,catchall_60_65,primary,2031
+joint,EB-4 / ROW,0,0,-104,518,-414,0,catchall_60_65,primary,2031
+joint,EB-5 / India,0,0,-2009,177,1832,0,catchall_60_65,primary,2031
+joint,EB-5 / China,0,0,-6565,1100,5465,0,catchall_60_65,primary,2031
+joint,EB-5 / ROW,0,0,8045,-1011,-7034,0,catchall_60_65,primary,2031
+overall,All,0,0,-708,20389,-19681,0,catchall_60_65,primary,2032
+nationality,India,0,0,-478571,148457,330114,0,catchall_60_65,primary,2032
+nationality,China,0,0,-67233,10648,56585,0,catchall_60_65,primary,2032
+nationality,ROW,0,0,545096,-138716,-406380,0,catchall_60_65,primary,2032
+category,EB-1,0,0,-3321,-565,3886,0,catchall_60_65,primary,2032
+category,EB-2,0,0,-8191,26331,-18140,0,catchall_60_65,primary,2032
+category,EB-3,0,0,11259,-5513,-5746,0,catchall_60_65,primary,2032
+category,EB-4,0,0,-20,-429,449,0,catchall_60_65,primary,2032
+category,EB-5,0,0,-435,565,-130,0,catchall_60_65,primary,2032
+joint,EB-1 / India,0,0,-39483,3748,35735,0,catchall_60_65,primary,2032
+joint,EB-1 / China,0,0,-28707,3987,24720,0,catchall_60_65,primary,2032
+joint,EB-1 / ROW,0,0,64869,-8300,-56569,0,catchall_60_65,primary,2032
+joint,EB-2 / India,0,0,-280024,92356,187668,0,catchall_60_65,primary,2032
+joint,EB-2 / China,0,0,-13447,811,12636,0,catchall_60_65,primary,2032
+joint,EB-2 / ROW,0,0,285280,-66836,-218444,0,catchall_60_65,primary,2032
+joint,EB-3 / India,0,0,-156998,52122,104876,0,catchall_60_65,primary,2032
+joint,EB-3 / China,0,0,-18602,4586,14016,0,catchall_60_65,primary,2032
+joint,EB-3 / ROW,0,0,186859,-62221,-124638,0,catchall_60_65,primary,2032
+joint,EB-4 / India,0,0,-16,-26,42,0,catchall_60_65,primary,2032
+joint,EB-4 / China,0,0,1,-14,13,0,catchall_60_65,primary,2032
+joint,EB-4 / ROW,0,0,-5,-389,394,0,catchall_60_65,primary,2032
+joint,EB-5 / India,0,0,-2050,257,1793,0,catchall_60_65,primary,2032
+joint,EB-5 / China,0,0,-6478,1278,5200,0,catchall_60_65,primary,2032
+joint,EB-5 / ROW,0,0,8093,-970,-7123,0,catchall_60_65,primary,2032
+overall,All,0,0,-840,20603,-19763,0,catchall_60_65,primary,2033
+nationality,India,0,0,-477995,147824,330171,0,catchall_60_65,primary,2033
+nationality,China,0,0,-67231,10092,57139,0,catchall_60_65,primary,2033
+nationality,ROW,0,0,544386,-137313,-407073,0,catchall_60_65,primary,2033
+category,EB-1,0,0,-3341,-599,3940,0,catchall_60_65,primary,2033
+category,EB-2,0,0,-7946,25987,-18041,0,catchall_60_65,primary,2033
+category,EB-3,0,0,10908,-5192,-5716,0,catchall_60_65,primary,2033
+category,EB-4,0,0,45,-129,84,0,catchall_60_65,primary,2033
+category,EB-5,0,0,-506,536,-30,0,catchall_60_65,primary,2033
+joint,EB-1 / India,0,0,-39524,3821,35703,0,catchall_60_65,primary,2033
+joint,EB-1 / China,0,0,-28624,3872,24752,0,catchall_60_65,primary,2033
+joint,EB-1 / ROW,0,0,64807,-8292,-56515,0,catchall_60_65,primary,2033
+joint,EB-2 / India,0,0,-279709,92295,187414,0,catchall_60_65,primary,2033
+joint,EB-2 / China,0,0,-13599,399,13200,0,catchall_60_65,primary,2033
+joint,EB-2 / ROW,0,0,285362,-66707,-218655,0,catchall_60_65,primary,2033
+joint,EB-3 / India,0,0,-156592,51460,105132,0,catchall_60_65,primary,2033
+joint,EB-3 / China,0,0,-18439,4577,13862,0,catchall_60_65,primary,2033
+joint,EB-3 / ROW,0,0,185939,-61229,-124710,0,catchall_60_65,primary,2033
+joint,EB-4 / India,0,0,17,-29,12,0,catchall_60_65,primary,2033
+joint,EB-4 / China,0,0,17,-3,-14,0,catchall_60_65,primary,2033
+joint,EB-4 / ROW,0,0,11,-97,86,0,catchall_60_65,primary,2033
+joint,EB-5 / India,0,0,-2187,277,1910,0,catchall_60_65,primary,2033
+joint,EB-5 / China,0,0,-6586,1247,5339,0,catchall_60_65,primary,2033
+joint,EB-5 / ROW,0,0,8267,-988,-7279,0,catchall_60_65,primary,2033
+overall,All,0,0,-939,20209,-19270,0,catchall_60_65,primary,2034
+nationality,India,0,0,-479075,148870,330205,0,catchall_60_65,primary,2034
+nationality,China,0,0,-66850,9860,56990,0,catchall_60_65,primary,2034
+nationality,ROW,0,0,544986,-138521,-406465,0,catchall_60_65,primary,2034
+category,EB-1,0,0,-3480,-873,4353,0,catchall_60_65,primary,2034
+category,EB-2,0,0,-8004,26682,-18678,0,catchall_60_65,primary,2034
+category,EB-3,0,0,11025,-5670,-5355,0,catchall_60_65,primary,2034
+category,EB-4,0,0,-24,-484,508,0,catchall_60_65,primary,2034
+category,EB-5,0,0,-456,554,-98,0,catchall_60_65,primary,2034
+joint,EB-1 / India,0,0,-39688,3774,35914,0,catchall_60_65,primary,2034
+joint,EB-1 / China,0,0,-28576,3673,24903,0,catchall_60_65,primary,2034
+joint,EB-1 / ROW,0,0,64784,-8320,-56464,0,catchall_60_65,primary,2034
+joint,EB-2 / India,0,0,-280066,92720,187346,0,catchall_60_65,primary,2034
+joint,EB-2 / China,0,0,-13436,804,12632,0,catchall_60_65,primary,2034
+joint,EB-2 / ROW,0,0,285498,-66842,-218656,0,catchall_60_65,primary,2034
+joint,EB-3 / India,0,0,-157166,52010,105156,0,catchall_60_65,primary,2034
+joint,EB-3 / China,0,0,-18381,4152,14229,0,catchall_60_65,primary,2034
+joint,EB-3 / ROW,0,0,186572,-61832,-124740,0,catchall_60_65,primary,2034
+joint,EB-4 / India,0,0,-58,102,-44,0,catchall_60_65,primary,2034
+joint,EB-4 / China,0,0,18,-14,-4,0,catchall_60_65,primary,2034
+joint,EB-4 / ROW,0,0,16,-572,556,0,catchall_60_65,primary,2034
+joint,EB-5 / India,0,0,-2097,264,1833,0,catchall_60_65,primary,2034
+joint,EB-5 / China,0,0,-6475,1245,5230,0,catchall_60_65,primary,2034
+joint,EB-5 / ROW,0,0,8116,-955,-7161,0,catchall_60_65,primary,2034
+overall,All,0,0,-863,20762,-19899,0,catchall_60_65,primary,2035
+nationality,India,0,0,-478388,147981,330407,0,catchall_60_65,primary,2035
+nationality,China,0,0,-66580,9862,56718,0,catchall_60_65,primary,2035
+nationality,ROW,0,0,544105,-137081,-407024,0,catchall_60_65,primary,2035
+category,EB-1,0,0,-3231,-844,4075,0,catchall_60_65,primary,2035
+category,EB-2,0,0,-8100,26807,-18707,0,catchall_60_65,primary,2035
+category,EB-3,0,0,11067,-5639,-5428,0,catchall_60_65,primary,2035
+category,EB-4,0,0,-48,94,-46,0,catchall_60_65,primary,2035
+category,EB-5,0,0,-551,344,207,0,catchall_60_65,primary,2035
+joint,EB-1 / India,0,0,-39464,3759,35705,0,catchall_60_65,primary,2035
+joint,EB-1 / China,0,0,-28439,3829,24610,0,catchall_60_65,primary,2035
+joint,EB-1 / ROW,0,0,64672,-8432,-56240,0,catchall_60_65,primary,2035
+joint,EB-2 / India,0,0,-280179,92699,187480,0,catchall_60_65,primary,2035
+joint,EB-2 / China,0,0,-13317,751,12566,0,catchall_60_65,primary,2035
+joint,EB-2 / ROW,0,0,285396,-66643,-218753,0,catchall_60_65,primary,2035
+joint,EB-3 / India,0,0,-156645,51454,105191,0,catchall_60_65,primary,2035
+joint,EB-3 / China,0,0,-18314,4116,14198,0,catchall_60_65,primary,2035
+joint,EB-3 / ROW,0,0,186026,-61209,-124817,0,catchall_60_65,primary,2035
+joint,EB-4 / India,0,0,68,-123,55,0,catchall_60_65,primary,2035
+joint,EB-4 / China,0,0,3,46,-49,0,catchall_60_65,primary,2035
+joint,EB-4 / ROW,0,0,-119,171,-52,0,catchall_60_65,primary,2035
+joint,EB-5 / India,0,0,-2168,192,1976,0,catchall_60_65,primary,2035
+joint,EB-5 / China,0,0,-6513,1120,5393,0,catchall_60_65,primary,2035
+joint,EB-5 / ROW,0,0,8130,-968,-7162,0,catchall_60_65,primary,2035
+overall,All,0,0,-2224,20562,-18338,0,catchall_60_65,primary,2036
+nationality,India,0,0,-479526,148256,331270,0,catchall_60_65,primary,2036
+nationality,China,0,0,-67421,10472,56949,0,catchall_60_65,primary,2036
+nationality,ROW,0,0,544723,-138166,-406557,0,catchall_60_65,primary,2036
+category,EB-1,0,0,-3578,-556,4134,0,catchall_60_65,primary,2036
+category,EB-2,0,0,-8406,26019,-17613,0,catchall_60_65,primary,2036
+category,EB-3,0,0,10546,-5535,-5011,0,catchall_60_65,primary,2036
+category,EB-4,0,0,-179,337,-158,0,catchall_60_65,primary,2036
+category,EB-5,0,0,-607,297,310,0,catchall_60_65,primary,2036
+joint,EB-1 / India,0,0,-39851,3847,36004,0,catchall_60_65,primary,2036
+joint,EB-1 / China,0,0,-28990,4027,24963,0,catchall_60_65,primary,2036
+joint,EB-1 / ROW,0,0,65263,-8430,-56833,0,catchall_60_65,primary,2036
+joint,EB-2 / India,0,0,-280570,92379,188191,0,catchall_60_65,primary,2036
+joint,EB-2 / China,0,0,-13486,951,12535,0,catchall_60_65,primary,2036
+joint,EB-2 / ROW,0,0,285650,-67311,-218339,0,catchall_60_65,primary,2036
+joint,EB-3 / India,0,0,-157004,51810,105194,0,catchall_60_65,primary,2036
+joint,EB-3 / China,0,0,-18251,4337,13914,0,catchall_60_65,primary,2036
+joint,EB-3 / ROW,0,0,185801,-61682,-124119,0,catchall_60_65,primary,2036
+joint,EB-4 / India,0,0,15,2,-17,0,catchall_60_65,primary,2036
+joint,EB-4 / China,0,0,-8,57,-49,0,catchall_60_65,primary,2036
+joint,EB-4 / ROW,0,0,-186,278,-92,0,catchall_60_65,primary,2036
+joint,EB-5 / India,0,0,-2116,218,1898,0,catchall_60_65,primary,2036
+joint,EB-5 / China,0,0,-6686,1100,5586,0,catchall_60_65,primary,2036
+joint,EB-5 / ROW,0,0,8195,-1021,-7174,0,catchall_60_65,primary,2036
+overall,All,0,0,-1040,20775,-19735,0,catchall_60_65,primary,2037
+nationality,India,0,0,-478646,148026,330620,0,catchall_60_65,primary,2037
+nationality,China,0,0,-67221,10283,56938,0,catchall_60_65,primary,2037
+nationality,ROW,0,0,544827,-137534,-407293,0,catchall_60_65,primary,2037
+category,EB-1,0,0,-3460,-600,4060,0,catchall_60_65,primary,2037
+category,EB-2,0,0,-8459,25680,-17221,0,catchall_60_65,primary,2037
+category,EB-3,0,0,11399,-5109,-6290,0,catchall_60_65,primary,2037
+category,EB-4,0,0,121,510,-631,0,catchall_60_65,primary,2037
+category,EB-5,0,0,-641,294,347,0,catchall_60_65,primary,2037
+joint,EB-1 / India,0,0,-39918,3941,35977,0,catchall_60_65,primary,2037
+joint,EB-1 / China,0,0,-28615,3797,24818,0,catchall_60_65,primary,2037
+joint,EB-1 / ROW,0,0,65073,-8338,-56735,0,catchall_60_65,primary,2037
+joint,EB-2 / India,0,0,-280280,91862,188418,0,catchall_60_65,primary,2037
+joint,EB-2 / China,0,0,-13218,1036,12182,0,catchall_60_65,primary,2037
+joint,EB-2 / ROW,0,0,285039,-67218,-217821,0,catchall_60_65,primary,2037
+joint,EB-3 / India,0,0,-156374,52021,104353,0,catchall_60_65,primary,2037
+joint,EB-3 / China,0,0,-18568,4269,14299,0,catchall_60_65,primary,2037
+joint,EB-3 / ROW,0,0,186341,-61399,-124942,0,catchall_60_65,primary,2037
+joint,EB-4 / India,0,0,18,37,-55,0,catchall_60_65,primary,2037
+joint,EB-4 / China,0,0,-4,33,-29,0,catchall_60_65,primary,2037
+joint,EB-4 / ROW,0,0,107,440,-547,0,catchall_60_65,primary,2037
+joint,EB-5 / India,0,0,-2092,165,1927,0,catchall_60_65,primary,2037
+joint,EB-5 / China,0,0,-6816,1148,5668,0,catchall_60_65,primary,2037
+joint,EB-5 / ROW,0,0,8267,-1019,-7248,0,catchall_60_65,primary,2037
+overall,All,0,0,-1368,20229,-18861,0,catchall_60_65,primary,2038
+nationality,India,0,0,-478079,148362,329717,0,catchall_60_65,primary,2038
+nationality,China,0,0,-67214,10201,57013,0,catchall_60_65,primary,2038
+nationality,ROW,0,0,543925,-138334,-405591,0,catchall_60_65,primary,2038
+category,EB-1,0,0,-3265,-835,4100,0,catchall_60_65,primary,2038
+category,EB-2,0,0,-8562,26499,-17937,0,catchall_60_65,primary,2038
+category,EB-3,0,0,10976,-5595,-5381,0,catchall_60_65,primary,2038
+category,EB-4,0,0,-48,-296,344,0,catchall_60_65,primary,2038
+category,EB-5,0,0,-469,456,13,0,catchall_60_65,primary,2038
+joint,EB-1 / India,0,0,-39458,3704,35754,0,catchall_60_65,primary,2038
+joint,EB-1 / China,0,0,-28442,3803,24639,0,catchall_60_65,primary,2038
+joint,EB-1 / ROW,0,0,64635,-8342,-56293,0,catchall_60_65,primary,2038
+joint,EB-2 / India,0,0,-279904,92539,187365,0,catchall_60_65,primary,2038
+joint,EB-2 / China,0,0,-13690,596,13094,0,catchall_60_65,primary,2038
+joint,EB-2 / ROW,0,0,285032,-66636,-218396,0,catchall_60_65,primary,2038
+joint,EB-3 / India,0,0,-156692,51921,104771,0,catchall_60_65,primary,2038
+joint,EB-3 / China,0,0,-18562,4541,14021,0,catchall_60_65,primary,2038
+joint,EB-3 / ROW,0,0,186230,-62057,-124173,0,catchall_60_65,primary,2038
+joint,EB-4 / India,0,0,11,46,-57,0,catchall_60_65,primary,2038
+joint,EB-4 / China,0,0,10,-25,15,0,catchall_60_65,primary,2038
+joint,EB-4 / ROW,0,0,-69,-317,386,0,catchall_60_65,primary,2038
+joint,EB-5 / India,0,0,-2036,152,1884,0,catchall_60_65,primary,2038
+joint,EB-5 / China,0,0,-6530,1286,5244,0,catchall_60_65,primary,2038
+joint,EB-5 / ROW,0,0,8097,-982,-7115,0,catchall_60_65,primary,2038
+overall,All,0,0,35,19391,-19426,0,catchall_60_65,primary,2039
+nationality,India,0,0,-476913,148048,328865,0,catchall_60_65,primary,2039
+nationality,China,0,0,-66626,9649,56977,0,catchall_60_65,primary,2039
+nationality,ROW,0,0,543574,-138306,-405268,0,catchall_60_65,primary,2039
+category,EB-1,0,0,-3067,-709,3776,0,catchall_60_65,primary,2039
+category,EB-2,0,0,-7692,25920,-18228,0,catchall_60_65,primary,2039
+category,EB-3,0,0,11119,-6080,-5039,0,catchall_60_65,primary,2039
+category,EB-4,0,0,170,-104,-66,0,catchall_60_65,primary,2039
+category,EB-5,0,0,-495,364,131,0,catchall_60_65,primary,2039
+joint,EB-1 / India,0,0,-39162,3814,35348,0,catchall_60_65,primary,2039
+joint,EB-1 / China,0,0,-28507,3957,24550,0,catchall_60_65,primary,2039
+joint,EB-1 / ROW,0,0,64602,-8480,-56122,0,catchall_60_65,primary,2039
+joint,EB-2 / India,0,0,-279726,92702,187024,0,catchall_60_65,primary,2039
+joint,EB-2 / China,0,0,-13414,455,12959,0,catchall_60_65,primary,2039
+joint,EB-2 / ROW,0,0,285448,-67237,-218211,0,catchall_60_65,primary,2039
+joint,EB-3 / India,0,0,-155928,51218,104710,0,catchall_60_65,primary,2039
+joint,EB-3 / China,0,0,-18241,4090,14151,0,catchall_60_65,primary,2039
+joint,EB-3 / ROW,0,0,185288,-61388,-123900,0,catchall_60_65,primary,2039
+joint,EB-4 / India,0,0,-12,129,-117,0,catchall_60_65,primary,2039
+joint,EB-4 / China,0,0,-4,-2,6,0,catchall_60_65,primary,2039
+joint,EB-4 / ROW,0,0,186,-231,45,0,catchall_60_65,primary,2039
+joint,EB-5 / India,0,0,-2085,185,1900,0,catchall_60_65,primary,2039
+joint,EB-5 / China,0,0,-6460,1149,5311,0,catchall_60_65,primary,2039
+joint,EB-5 / ROW,0,0,8050,-970,-7080,0,catchall_60_65,primary,2039
+overall,All,0,0,-425,19913,-19488,0,catchall_60_65,primary,2040
+nationality,India,0,0,-478467,148494,329973,0,catchall_60_65,primary,2040
+nationality,China,0,0,-66717,10032,56685,0,catchall_60_65,primary,2040
+nationality,ROW,0,0,544759,-138613,-406146,0,catchall_60_65,primary,2040
+category,EB-1,0,0,-3240,-731,3971,0,catchall_60_65,primary,2040
+category,EB-2,0,0,-7742,25613,-17871,0,catchall_60_65,primary,2040
+category,EB-3,0,0,10969,-5312,-5657,0,catchall_60_65,primary,2040
+category,EB-4,0,0,214,-60,-154,0,catchall_60_65,primary,2040
+category,EB-5,0,0,-626,403,223,0,catchall_60_65,primary,2040
+joint,EB-1 / India,0,0,-39661,3701,35960,0,catchall_60_65,primary,2040
+joint,EB-1 / China,0,0,-28371,3789,24582,0,catchall_60_65,primary,2040
+joint,EB-1 / ROW,0,0,64792,-8221,-56571,0,catchall_60_65,primary,2040
+joint,EB-2 / India,0,0,-279897,91997,187900,0,catchall_60_65,primary,2040
+joint,EB-2 / China,0,0,-13636,986,12650,0,catchall_60_65,primary,2040
+joint,EB-2 / ROW,0,0,285791,-67370,-218421,0,catchall_60_65,primary,2040
+joint,EB-3 / India,0,0,-156712,52404,104308,0,catchall_60_65,primary,2040
+joint,EB-3 / China,0,0,-18194,4137,14057,0,catchall_60_65,primary,2040
+joint,EB-3 / ROW,0,0,185875,-61853,-124022,0,catchall_60_65,primary,2040
+joint,EB-4 / India,0,0,6,99,-105,0,catchall_60_65,primary,2040
+joint,EB-4 / China,0,0,8,5,-13,0,catchall_60_65,primary,2040
+joint,EB-4 / ROW,0,0,200,-164,-36,0,catchall_60_65,primary,2040
+joint,EB-5 / India,0,0,-2203,293,1910,0,catchall_60_65,primary,2040
+joint,EB-5 / China,0,0,-6524,1115,5409,0,catchall_60_65,primary,2040
+joint,EB-5 / ROW,0,0,8101,-1005,-7096,0,catchall_60_65,primary,2040
+overall,All,0,0,-1259,20680,-19421,0,catchall_60_65,primary,2041
+nationality,India,0,0,-478776,149270,329506,0,catchall_60_65,primary,2041
+nationality,China,0,0,-66143,9205,56938,0,catchall_60_65,primary,2041
+nationality,ROW,0,0,543660,-137795,-405865,0,catchall_60_65,primary,2041
+category,EB-1,0,0,-3227,-741,3968,0,catchall_60_65,primary,2041
+category,EB-2,0,0,-8232,25634,-17402,0,catchall_60_65,primary,2041
+category,EB-3,0,0,10634,-4157,-6477,0,catchall_60_65,primary,2041
+category,EB-4,0,0,32,-571,539,0,catchall_60_65,primary,2041
+category,EB-5,0,0,-466,515,-49,0,catchall_60_65,primary,2041
+joint,EB-1 / India,0,0,-39396,3843,35553,0,catchall_60_65,primary,2041
+joint,EB-1 / China,0,0,-28398,3847,24551,0,catchall_60_65,primary,2041
+joint,EB-1 / ROW,0,0,64567,-8431,-56136,0,catchall_60_65,primary,2041
+joint,EB-2 / India,0,0,-280368,92620,187748,0,catchall_60_65,primary,2041
+joint,EB-2 / China,0,0,-13254,-106,13360,0,catchall_60_65,primary,2041
+joint,EB-2 / ROW,0,0,285390,-66880,-218510,0,catchall_60_65,primary,2041
+joint,EB-3 / India,0,0,-157041,52635,104406,0,catchall_60_65,primary,2041
+joint,EB-3 / China,0,0,-17909,4198,13711,0,catchall_60_65,primary,2041
+joint,EB-3 / ROW,0,0,185584,-60990,-124594,0,catchall_60_65,primary,2041
+joint,EB-4 / India,0,0,78,-23,-55,0,catchall_60_65,primary,2041
+joint,EB-4 / China,0,0,9,-68,59,0,catchall_60_65,primary,2041
+joint,EB-4 / ROW,0,0,-55,-480,535,0,catchall_60_65,primary,2041
+joint,EB-5 / India,0,0,-2049,195,1854,0,catchall_60_65,primary,2041
+joint,EB-5 / China,0,0,-6591,1334,5257,0,catchall_60_65,primary,2041
+joint,EB-5 / ROW,0,0,8174,-1014,-7160,0,catchall_60_65,primary,2041
+overall,All,0,0,-864,20876,-20012,0,catchall_60_65,primary,2042
+nationality,India,0,0,-477517,148205,329312,0,catchall_60_65,primary,2042
+nationality,China,0,0,-66577,10150,56427,0,catchall_60_65,primary,2042
+nationality,ROW,0,0,543230,-137479,-405751,0,catchall_60_65,primary,2042
+category,EB-1,0,0,-3380,-491,3871,0,catchall_60_65,primary,2042
+category,EB-2,0,0,-8141,25847,-17706,0,catchall_60_65,primary,2042
+category,EB-3,0,0,11139,-5158,-5981,0,catchall_60_65,primary,2042
+category,EB-4,0,0,13,254,-267,0,catchall_60_65,primary,2042
+category,EB-5,0,0,-495,424,71,0,catchall_60_65,primary,2042
+joint,EB-1 / India,0,0,-39375,3977,35398,0,catchall_60_65,primary,2042
+joint,EB-1 / China,0,0,-28576,3964,24612,0,catchall_60_65,primary,2042
+joint,EB-1 / ROW,0,0,64571,-8432,-56139,0,catchall_60_65,primary,2042
+joint,EB-2 / India,0,0,-279734,92293,187441,0,catchall_60_65,primary,2042
+joint,EB-2 / China,0,0,-13226,762,12464,0,catchall_60_65,primary,2042
+joint,EB-2 / ROW,0,0,284819,-67208,-217611,0,catchall_60_65,primary,2042
+joint,EB-3 / India,0,0,-156209,51827,104382,0,catchall_60_65,primary,2042
+joint,EB-3 / China,0,0,-18243,4252,13991,0,catchall_60_65,primary,2042
+joint,EB-3 / ROW,0,0,185591,-61237,-124354,0,catchall_60_65,primary,2042
+joint,EB-4 / India,0,0,10,-122,112,0,catchall_60_65,primary,2042
+joint,EB-4 / China,0,0,-14,-6,20,0,catchall_60_65,primary,2042
+joint,EB-4 / ROW,0,0,17,382,-399,0,catchall_60_65,primary,2042
+joint,EB-5 / India,0,0,-2209,230,1979,0,catchall_60_65,primary,2042
+joint,EB-5 / China,0,0,-6518,1178,5340,0,catchall_60_65,primary,2042
+joint,EB-5 / ROW,0,0,8232,-984,-7248,0,catchall_60_65,primary,2042
+overall,All,0,0,-1867,21316,-19449,0,catchall_60_65,primary,2043
+nationality,India,0,0,-477678,148451,329227,0,catchall_60_65,primary,2043
+nationality,China,0,0,-67040,9929,57111,0,catchall_60_65,primary,2043
+nationality,ROW,0,0,542851,-137064,-405787,0,catchall_60_65,primary,2043
+category,EB-1,0,0,-3250,-724,3974,0,catchall_60_65,primary,2043
+category,EB-2,0,0,-8813,26129,-17316,0,catchall_60_65,primary,2043
+category,EB-3,0,0,10931,-4850,-6081,0,catchall_60_65,primary,2043
+category,EB-4,0,0,-119,534,-415,0,catchall_60_65,primary,2043
+category,EB-5,0,0,-616,227,389,0,catchall_60_65,primary,2043
+joint,EB-1 / India,0,0,-39279,3899,35380,0,catchall_60_65,primary,2043
+joint,EB-1 / China,0,0,-28255,3720,24535,0,catchall_60_65,primary,2043
+joint,EB-1 / ROW,0,0,64284,-8343,-55941,0,catchall_60_65,primary,2043
+joint,EB-2 / India,0,0,-279916,92372,187544,0,catchall_60_65,primary,2043
+joint,EB-2 / China,0,0,-13647,579,13068,0,catchall_60_65,primary,2043
+joint,EB-2 / ROW,0,0,284750,-66822,-217928,0,catchall_60_65,primary,2043
+joint,EB-3 / India,0,0,-156336,52060,104276,0,catchall_60_65,primary,2043
+joint,EB-3 / China,0,0,-18521,4592,13929,0,catchall_60_65,primary,2043
+joint,EB-3 / ROW,0,0,185788,-61502,-124286,0,catchall_60_65,primary,2043
+joint,EB-4 / India,0,0,1,-55,54,0,catchall_60_65,primary,2043
+joint,EB-4 / China,0,0,8,-31,23,0,catchall_60_65,primary,2043
+joint,EB-4 / ROW,0,0,-128,620,-492,0,catchall_60_65,primary,2043
+joint,EB-5 / India,0,0,-2148,175,1973,0,catchall_60_65,primary,2043
+joint,EB-5 / China,0,0,-6625,1069,5556,0,catchall_60_65,primary,2043
+joint,EB-5 / ROW,0,0,8157,-1017,-7140,0,catchall_60_65,primary,2043
+overall,All,0,0,-635,20224,-19589,0,catchall_60_65,primary,2044
+nationality,India,0,0,-477967,148145,329822,0,catchall_60_65,primary,2044
+nationality,China,0,0,-67225,10322,56903,0,catchall_60_65,primary,2044
+nationality,ROW,0,0,544557,-138243,-406314,0,catchall_60_65,primary,2044
+category,EB-1,0,0,-3439,-663,4102,0,catchall_60_65,primary,2044
+category,EB-2,0,0,-8162,25564,-17402,0,catchall_60_65,primary,2044
+category,EB-3,0,0,11136,-5423,-5713,0,catchall_60_65,primary,2044
+category,EB-4,0,0,296,414,-710,0,catchall_60_65,primary,2044
+category,EB-5,0,0,-466,332,134,0,catchall_60_65,primary,2044
+joint,EB-1 / India,0,0,-39836,3894,35942,0,catchall_60_65,primary,2044
+joint,EB-1 / China,0,0,-28891,3991,24900,0,catchall_60_65,primary,2044
+joint,EB-1 / ROW,0,0,65288,-8548,-56740,0,catchall_60_65,primary,2044
+joint,EB-2 / India,0,0,-279641,92584,187057,0,catchall_60_65,primary,2044
+joint,EB-2 / China,0,0,-13330,461,12869,0,catchall_60_65,primary,2044
+joint,EB-2 / ROW,0,0,284809,-67481,-217328,0,catchall_60_65,primary,2044
+joint,EB-3 / India,0,0,-156283,51482,104801,0,catchall_60_65,primary,2044
+joint,EB-3 / China,0,0,-18423,4666,13757,0,catchall_60_65,primary,2044
+joint,EB-3 / ROW,0,0,185842,-61571,-124271,0,catchall_60_65,primary,2044
+joint,EB-4 / India,0,0,-5,18,-13,0,catchall_60_65,primary,2044
+joint,EB-4 / China,0,0,-17,36,-19,0,catchall_60_65,primary,2044
+joint,EB-4 / ROW,0,0,318,360,-678,0,catchall_60_65,primary,2044
+joint,EB-5 / India,0,0,-2202,167,2035,0,catchall_60_65,primary,2044
+joint,EB-5 / China,0,0,-6564,1168,5396,0,catchall_60_65,primary,2044
+joint,EB-5 / ROW,0,0,8300,-1003,-7297,0,catchall_60_65,primary,2044
+overall,All,0,0,-341,19555,-19214,0,catchall_60_65,primary,2045
+nationality,India,0,0,-479211,148083,331128,0,catchall_60_65,primary,2045
+nationality,China,0,0,-66790,9968,56822,0,catchall_60_65,primary,2045
+nationality,ROW,0,0,545660,-138496,-407164,0,catchall_60_65,primary,2045
+category,EB-1,0,0,-3188,-421,3609,0,catchall_60_65,primary,2045
+category,EB-2,0,0,-7936,25335,-17399,0,catchall_60_65,primary,2045
+category,EB-3,0,0,11307,-5333,-5974,0,catchall_60_65,primary,2045
+category,EB-4,0,0,-44,-407,451,0,catchall_60_65,primary,2045
+category,EB-5,0,0,-480,381,99,0,catchall_60_65,primary,2045
+joint,EB-1 / India,0,0,-39332,4073,35259,0,catchall_60_65,primary,2045
+joint,EB-1 / China,0,0,-28294,3821,24473,0,catchall_60_65,primary,2045
+joint,EB-1 / ROW,0,0,64438,-8315,-56123,0,catchall_60_65,primary,2045
+joint,EB-2 / India,0,0,-280663,91957,188706,0,catchall_60_65,primary,2045
+joint,EB-2 / China,0,0,-13270,455,12815,0,catchall_60_65,primary,2045
+joint,EB-2 / ROW,0,0,285997,-67077,-218920,0,catchall_60_65,primary,2045
+joint,EB-3 / India,0,0,-157050,51815,105235,0,catchall_60_65,primary,2045
+joint,EB-3 / China,0,0,-18636,4567,14069,0,catchall_60_65,primary,2045
+joint,EB-3 / ROW,0,0,186993,-61715,-125278,0,catchall_60_65,primary,2045
+joint,EB-4 / India,0,0,14,-12,-2,0,catchall_60_65,primary,2045
+joint,EB-4 / China,0,0,-26,-26,52,0,catchall_60_65,primary,2045
+joint,EB-4 / ROW,0,0,-32,-369,401,0,catchall_60_65,primary,2045
+joint,EB-5 / India,0,0,-2180,250,1930,0,catchall_60_65,primary,2045
+joint,EB-5 / China,0,0,-6564,1151,5413,0,catchall_60_65,primary,2045
+joint,EB-5 / ROW,0,0,8264,-1020,-7244,0,catchall_60_65,primary,2045
+overall,All,0,0,-1564,19753,-18189,0,catchall_60_65,primary,2046
+nationality,India,0,0,-478526,148420,330106,0,catchall_60_65,primary,2046
+nationality,China,0,0,-67134,9696,57438,0,catchall_60_65,primary,2046
+nationality,ROW,0,0,544096,-138363,-405733,0,catchall_60_65,primary,2046
+category,EB-1,0,0,-3553,-1040,4593,0,catchall_60_65,primary,2046
+category,EB-2,0,0,-8540,25515,-16975,0,catchall_60_65,primary,2046
+category,EB-3,0,0,11146,-5007,-6139,0,catchall_60_65,primary,2046
+category,EB-4,0,0,-127,-96,223,0,catchall_60_65,primary,2046
+category,EB-5,0,0,-490,381,109,0,catchall_60_65,primary,2046
+joint,EB-1 / India,0,0,-39602,3788,35814,0,catchall_60_65,primary,2046
+joint,EB-1 / China,0,0,-28521,3725,24796,0,catchall_60_65,primary,2046
+joint,EB-1 / ROW,0,0,64570,-8553,-56017,0,catchall_60_65,primary,2046
+joint,EB-2 / India,0,0,-279703,92302,187401,0,catchall_60_65,primary,2046
+joint,EB-2 / China,0,0,-13627,297,13330,0,catchall_60_65,primary,2046
+joint,EB-2 / ROW,0,0,284790,-67084,-217706,0,catchall_60_65,primary,2046
+joint,EB-3 / India,0,0,-157149,52155,104994,0,catchall_60_65,primary,2046
+joint,EB-3 / China,0,0,-18383,4463,13920,0,catchall_60_65,primary,2046
+joint,EB-3 / ROW,0,0,186678,-61625,-125053,0,catchall_60_65,primary,2046
+joint,EB-4 / India,0,0,16,-13,-3,0,catchall_60_65,primary,2046
+joint,EB-4 / China,0,0,-4,9,-5,0,catchall_60_65,primary,2046
+joint,EB-4 / ROW,0,0,-139,-92,231,0,catchall_60_65,primary,2046
+joint,EB-5 / India,0,0,-2088,188,1900,0,catchall_60_65,primary,2046
+joint,EB-5 / China,0,0,-6599,1202,5397,0,catchall_60_65,primary,2046
+joint,EB-5 / ROW,0,0,8197,-1009,-7188,0,catchall_60_65,primary,2046
+overall,All,0,0,-784,22231,-21447,0,catchall_60_65,primary,2047
+nationality,India,0,0,-479054,149268,329786,0,catchall_60_65,primary,2047
+nationality,China,0,0,-66696,10455,56241,0,catchall_60_65,primary,2047
+nationality,ROW,0,0,544966,-137492,-407474,0,catchall_60_65,primary,2047
+category,EB-1,0,0,-3000,-574,3574,0,catchall_60_65,primary,2047
+category,EB-2,0,0,-8510,26967,-18457,0,catchall_60_65,primary,2047
+category,EB-3,0,0,11203,-4773,-6430,0,catchall_60_65,primary,2047
+category,EB-4,0,0,92,30,-122,0,catchall_60_65,primary,2047
+category,EB-5,0,0,-569,581,-12,0,catchall_60_65,primary,2047
+joint,EB-1 / India,0,0,-39381,3726,35655,0,catchall_60_65,primary,2047
+joint,EB-1 / China,0,0,-28693,4106,24587,0,catchall_60_65,primary,2047
+joint,EB-1 / ROW,0,0,65074,-8406,-56668,0,catchall_60_65,primary,2047
+joint,EB-2 / India,0,0,-280565,93178,187387,0,catchall_60_65,primary,2047
+joint,EB-2 / China,0,0,-13221,568,12653,0,catchall_60_65,primary,2047
+joint,EB-2 / ROW,0,0,285276,-66779,-218497,0,catchall_60_65,primary,2047
+joint,EB-3 / India,0,0,-156844,52074,104770,0,catchall_60_65,primary,2047
+joint,EB-3 / China,0,0,-18119,4422,13697,0,catchall_60_65,primary,2047
+joint,EB-3 / ROW,0,0,186166,-61269,-124897,0,catchall_60_65,primary,2047
+joint,EB-4 / India,0,0,-102,85,17,0,catchall_60_65,primary,2047
+joint,EB-4 / China,0,0,0,-1,1,0,catchall_60_65,primary,2047
+joint,EB-4 / ROW,0,0,194,-54,-140,0,catchall_60_65,primary,2047
+joint,EB-5 / India,0,0,-2162,205,1957,0,catchall_60_65,primary,2047
+joint,EB-5 / China,0,0,-6663,1360,5303,0,catchall_60_65,primary,2047
+joint,EB-5 / ROW,0,0,8256,-984,-7272,0,catchall_60_65,primary,2047
+overall,All,0,0,-347,19798,-19451,0,catchall_60_65,primary,2048
+nationality,India,0,0,-476740,147071,329669,0,catchall_60_65,primary,2048
+nationality,China,0,0,-67350,10223,57127,0,catchall_60_65,primary,2048
+nationality,ROW,0,0,543743,-137496,-406247,0,catchall_60_65,primary,2048
+category,EB-1,0,0,-3344,-921,4265,0,catchall_60_65,primary,2048
+category,EB-2,0,0,-7974,25755,-17781,0,catchall_60_65,primary,2048
+category,EB-3,0,0,11311,-5737,-5574,0,catchall_60_65,primary,2048
+category,EB-4,0,0,112,387,-499,0,catchall_60_65,primary,2048
+category,EB-5,0,0,-452,314,138,0,catchall_60_65,primary,2048
+joint,EB-1 / India,0,0,-39049,3711,35338,0,catchall_60_65,primary,2048
+joint,EB-1 / China,0,0,-28566,3748,24818,0,catchall_60_65,primary,2048
+joint,EB-1 / ROW,0,0,64271,-8380,-55891,0,catchall_60_65,primary,2048
+joint,EB-2 / India,0,0,-279433,91569,187864,0,catchall_60_65,primary,2048
+joint,EB-2 / China,0,0,-13898,1044,12854,0,catchall_60_65,primary,2048
+joint,EB-2 / ROW,0,0,285357,-66858,-218499,0,catchall_60_65,primary,2048
+joint,EB-3 / India,0,0,-156229,51685,104544,0,catchall_60_65,primary,2048
+joint,EB-3 / China,0,0,-18208,4297,13911,0,catchall_60_65,primary,2048
+joint,EB-3 / ROW,0,0,185748,-61719,-124029,0,catchall_60_65,primary,2048
+joint,EB-4 / India,0,0,-9,-39,48,0,catchall_60_65,primary,2048
+joint,EB-4 / China,0,0,-1,-12,13,0,catchall_60_65,primary,2048
+joint,EB-4 / ROW,0,0,122,438,-560,0,catchall_60_65,primary,2048
+joint,EB-5 / India,0,0,-2020,145,1875,0,catchall_60_65,primary,2048
+joint,EB-5 / China,0,0,-6677,1146,5531,0,catchall_60_65,primary,2048
+joint,EB-5 / ROW,0,0,8245,-977,-7268,0,catchall_60_65,primary,2048
+overall,All,0,0,236,19937,-20173,0,catchall_60_65,primary,2049
+nationality,India,0,0,-477888,147381,330507,0,catchall_60_65,primary,2049
+nationality,China,0,0,-67470,10654,56816,0,catchall_60_65,primary,2049
+nationality,ROW,0,0,545594,-138098,-407496,0,catchall_60_65,primary,2049
+category,EB-1,0,0,-3454,-584,4038,0,catchall_60_65,primary,2049
+category,EB-2,0,0,-7445,25261,-17816,0,catchall_60_65,primary,2049
+category,EB-3,0,0,11441,-5398,-6043,0,catchall_60_65,primary,2049
+category,EB-4,0,0,238,267,-505,0,catchall_60_65,primary,2049
+category,EB-5,0,0,-544,391,153,0,catchall_60_65,primary,2049
+joint,EB-1 / India,0,0,-39476,3779,35697,0,catchall_60_65,primary,2049
+joint,EB-1 / China,0,0,-28935,3921,25014,0,catchall_60_65,primary,2049
+joint,EB-1 / ROW,0,0,64957,-8284,-56673,0,catchall_60_65,primary,2049
+joint,EB-2 / India,0,0,-279890,91742,188148,0,catchall_60_65,primary,2049
+joint,EB-2 / China,0,0,-13297,973,12324,0,catchall_60_65,primary,2049
+joint,EB-2 / ROW,0,0,285742,-67454,-218288,0,catchall_60_65,primary,2049
+joint,EB-3 / India,0,0,-156403,51637,104766,0,catchall_60_65,primary,2049
+joint,EB-3 / China,0,0,-18467,4538,13929,0,catchall_60_65,primary,2049
+joint,EB-3 / ROW,0,0,186311,-61573,-124738,0,catchall_60_65,primary,2049
+joint,EB-4 / India,0,0,31,-27,-4,0,catchall_60_65,primary,2049
+joint,EB-4 / China,0,0,-18,31,-13,0,catchall_60_65,primary,2049
+joint,EB-4 / ROW,0,0,225,263,-488,0,catchall_60_65,primary,2049
+joint,EB-5 / India,0,0,-2150,250,1900,0,catchall_60_65,primary,2049
+joint,EB-5 / China,0,0,-6753,1191,5562,0,catchall_60_65,primary,2049
+joint,EB-5 / ROW,0,0,8359,-1050,-7309,0,catchall_60_65,primary,2049
+overall,All,0,0,-936,21141,-20205,0,catchall_60_65,primary,2050
+nationality,India,0,0,-477773,147647,330126,0,catchall_60_65,primary,2050
+nationality,China,0,0,-67384,10713,56671,0,catchall_60_65,primary,2050
+nationality,ROW,0,0,544221,-137219,-407002,0,catchall_60_65,primary,2050
+category,EB-1,0,0,-3497,-668,4165,0,catchall_60_65,primary,2050
+category,EB-2,0,0,-7926,26279,-18353,0,catchall_60_65,primary,2050
+category,EB-3,0,0,11120,-5979,-5141,0,catchall_60_65,primary,2050
+category,EB-4,0,0,-86,1032,-946,0,catchall_60_65,primary,2050
+category,EB-5,0,0,-547,477,70,0,catchall_60_65,primary,2050
+joint,EB-1 / India,0,0,-39649,3927,35722,0,catchall_60_65,primary,2050
+joint,EB-1 / China,0,0,-28574,3834,24740,0,catchall_60_65,primary,2050
+joint,EB-1 / ROW,0,0,64726,-8429,-56297,0,catchall_60_65,primary,2050
+joint,EB-2 / India,0,0,-279995,92185,187810,0,catchall_60_65,primary,2050
+joint,EB-2 / China,0,0,-13295,899,12396,0,catchall_60_65,primary,2050
+joint,EB-2 / ROW,0,0,285364,-66805,-218559,0,catchall_60_65,primary,2050
+joint,EB-3 / India,0,0,-155935,51308,104627,0,catchall_60_65,primary,2050
+joint,EB-3 / China,0,0,-18833,4743,14090,0,catchall_60_65,primary,2050
+joint,EB-3 / ROW,0,0,185888,-62030,-123858,0,catchall_60_65,primary,2050
+joint,EB-4 / India,0,0,-24,-19,43,0,catchall_60_65,primary,2050
+joint,EB-4 / China,0,0,3,10,-13,0,catchall_60_65,primary,2050
+joint,EB-4 / ROW,0,0,-65,1041,-976,0,catchall_60_65,primary,2050
+joint,EB-5 / India,0,0,-2170,246,1924,0,catchall_60_65,primary,2050
+joint,EB-5 / China,0,0,-6685,1227,5458,0,catchall_60_65,primary,2050
+joint,EB-5 / ROW,0,0,8308,-996,-7312,0,catchall_60_65,primary,2050
+overall,All,0,0,-2056,20897,-18841,0,catchall_60_65,primary,2051
+nationality,India,0,0,-478382,149284,329098,0,catchall_60_65,primary,2051
+nationality,China,0,0,-67744,9915,57829,0,catchall_60_65,primary,2051
+nationality,ROW,0,0,544070,-138302,-405768,0,catchall_60_65,primary,2051
+category,EB-1,0,0,-3720,-958,4678,0,catchall_60_65,primary,2051
+category,EB-2,0,0,-8771,27267,-18496,0,catchall_60_65,primary,2051
+category,EB-3,0,0,11199,-5509,-5690,0,catchall_60_65,primary,2051
+category,EB-4,0,0,-255,-364,619,0,catchall_60_65,primary,2051
+category,EB-5,0,0,-509,461,48,0,catchall_60_65,primary,2051
+joint,EB-1 / India,0,0,-39502,3834,35668,0,catchall_60_65,primary,2051
+joint,EB-1 / China,0,0,-28747,3716,25031,0,catchall_60_65,primary,2051
+joint,EB-1 / ROW,0,0,64529,-8508,-56021,0,catchall_60_65,primary,2051
+joint,EB-2 / India,0,0,-280147,93286,186861,0,catchall_60_65,primary,2051
+joint,EB-2 / China,0,0,-13613,557,13056,0,catchall_60_65,primary,2051
+joint,EB-2 / ROW,0,0,284989,-66576,-218413,0,catchall_60_65,primary,2051
+joint,EB-3 / India,0,0,-156607,51980,104627,0,catchall_60_65,primary,2051
+joint,EB-3 / China,0,0,-18632,4373,14259,0,catchall_60_65,primary,2051
+joint,EB-3 / ROW,0,0,186438,-61862,-124576,0,catchall_60_65,primary,2051
+joint,EB-4 / India,0,0,-3,-34,37,0,catchall_60_65,primary,2051
+joint,EB-4 / China,0,0,-18,5,13,0,catchall_60_65,primary,2051
+joint,EB-4 / ROW,0,0,-234,-335,569,0,catchall_60_65,primary,2051
+joint,EB-5 / India,0,0,-2123,218,1905,0,catchall_60_65,primary,2051
+joint,EB-5 / China,0,0,-6734,1264,5470,0,catchall_60_65,primary,2051
+joint,EB-5 / ROW,0,0,8348,-1021,-7327,0,catchall_60_65,primary,2051
+overall,All,0,0,-1793,20916,-19123,0,catchall_60_65,primary,2052
+nationality,India,0,0,-478443,148243,330200,0,catchall_60_65,primary,2052
+nationality,China,0,0,-67551,10426,57125,0,catchall_60_65,primary,2052
+nationality,ROW,0,0,544201,-137753,-406448,0,catchall_60_65,primary,2052
+category,EB-1,0,0,-3686,-633,4319,0,catchall_60_65,primary,2052
+category,EB-2,0,0,-8044,25966,-17922,0,catchall_60_65,primary,2052
+category,EB-3,0,0,10530,-5115,-5415,0,catchall_60_65,primary,2052
+category,EB-4,0,0,-18,163,-145,0,catchall_60_65,primary,2052
+category,EB-5,0,0,-575,535,40,0,catchall_60_65,primary,2052
+joint,EB-1 / India,0,0,-39507,3735,35772,0,catchall_60_65,primary,2052
+joint,EB-1 / China,0,0,-28817,3883,24934,0,catchall_60_65,primary,2052
+joint,EB-1 / ROW,0,0,64638,-8251,-56387,0,catchall_60_65,primary,2052
+joint,EB-2 / India,0,0,-280343,92036,188307,0,catchall_60_65,primary,2052
+joint,EB-2 / China,0,0,-13420,905,12515,0,catchall_60_65,primary,2052
+joint,EB-2 / ROW,0,0,285719,-66975,-218744,0,catchall_60_65,primary,2052
+joint,EB-3 / India,0,0,-156374,52164,104210,0,catchall_60_65,primary,2052
+joint,EB-3 / China,0,0,-18654,4347,14307,0,catchall_60_65,primary,2052
+joint,EB-3 / ROW,0,0,185558,-61626,-123932,0,catchall_60_65,primary,2052
+joint,EB-4 / India,0,0,-24,47,-23,0,catchall_60_65,primary,2052
+joint,EB-4 / China,0,0,-14,31,-17,0,catchall_60_65,primary,2052
+joint,EB-4 / ROW,0,0,20,85,-105,0,catchall_60_65,primary,2052
+joint,EB-5 / India,0,0,-2195,261,1934,0,catchall_60_65,primary,2052
+joint,EB-5 / China,0,0,-6646,1260,5386,0,catchall_60_65,primary,2052
+joint,EB-5 / ROW,0,0,8266,-986,-7280,0,catchall_60_65,primary,2052
+overall,All,0,0,-895,20510,-19615,0,catchall_60_65,primary,2053
+nationality,India,0,0,-477719,147646,330073,0,catchall_60_65,primary,2053
+nationality,China,0,0,-67334,10096,57238,0,catchall_60_65,primary,2053
+nationality,ROW,0,0,544158,-137232,-406926,0,catchall_60_65,primary,2053
+category,EB-1,0,0,-3305,-738,4043,0,catchall_60_65,primary,2053
+category,EB-2,0,0,-8873,25495,-16622,0,catchall_60_65,primary,2053
+category,EB-3,0,0,11767,-5004,-6763,0,catchall_60_65,primary,2053
+category,EB-4,0,0,77,292,-369,0,catchall_60_65,primary,2053
+category,EB-5,0,0,-561,465,96,0,catchall_60_65,primary,2053
+joint,EB-1 / India,0,0,-39479,3763,35716,0,catchall_60_65,primary,2053
+joint,EB-1 / China,0,0,-28972,4002,24970,0,catchall_60_65,primary,2053
+joint,EB-1 / ROW,0,0,65146,-8503,-56643,0,catchall_60_65,primary,2053
+joint,EB-2 / India,0,0,-280209,92009,188200,0,catchall_60_65,primary,2053
+joint,EB-2 / China,0,0,-13396,717,12679,0,catchall_60_65,primary,2053
+joint,EB-2 / ROW,0,0,284732,-67231,-217501,0,catchall_60_65,primary,2053
+joint,EB-3 / India,0,0,-155963,51611,104352,0,catchall_60_65,primary,2053
+joint,EB-3 / China,0,0,-18302,4224,14078,0,catchall_60_65,primary,2053
+joint,EB-3 / ROW,0,0,186032,-60839,-125193,0,catchall_60_65,primary,2053
+joint,EB-4 / India,0,0,38,-12,-26,0,catchall_60_65,primary,2053
+joint,EB-4 / China,0,0,10,-46,36,0,catchall_60_65,primary,2053
+joint,EB-4 / ROW,0,0,29,350,-379,0,catchall_60_65,primary,2053
+joint,EB-5 / India,0,0,-2106,275,1831,0,catchall_60_65,primary,2053
+joint,EB-5 / China,0,0,-6674,1199,5475,0,catchall_60_65,primary,2053
+joint,EB-5 / ROW,0,0,8219,-1009,-7210,0,catchall_60_65,primary,2053
+overall,All,0,0,-1554,21212,-19658,0,catchall_60_65,primary,2054
+nationality,India,0,0,-477476,147835,329641,0,catchall_60_65,primary,2054
+nationality,China,0,0,-67488,10294,57194,0,catchall_60_65,primary,2054
+nationality,ROW,0,0,543410,-136917,-406493,0,catchall_60_65,primary,2054
+category,EB-1,0,0,-3400,-816,4216,0,catchall_60_65,primary,2054
+category,EB-2,0,0,-8292,26618,-18326,0,catchall_60_65,primary,2054
+category,EB-3,0,0,10865,-5034,-5831,0,catchall_60_65,primary,2054
+category,EB-4,0,0,-161,86,75,0,catchall_60_65,primary,2054
+category,EB-5,0,0,-566,358,208,0,catchall_60_65,primary,2054
+joint,EB-1 / India,0,0,-39227,3664,35563,0,catchall_60_65,primary,2054
+joint,EB-1 / China,0,0,-28759,3939,24820,0,catchall_60_65,primary,2054
+joint,EB-1 / ROW,0,0,64586,-8419,-56167,0,catchall_60_65,primary,2054
+joint,EB-2 / India,0,0,-279486,92252,187234,0,catchall_60_65,primary,2054
+joint,EB-2 / China,0,0,-13865,929,12936,0,catchall_60_65,primary,2054
+joint,EB-2 / ROW,0,0,285059,-66563,-218496,0,catchall_60_65,primary,2054
+joint,EB-3 / India,0,0,-156639,51774,104865,0,catchall_60_65,primary,2054
+joint,EB-3 / China,0,0,-18372,4252,14120,0,catchall_60_65,primary,2054
+joint,EB-3 / ROW,0,0,185876,-61060,-124816,0,catchall_60_65,primary,2054
+joint,EB-4 / India,0,0,-5,-67,72,0,catchall_60_65,primary,2054
+joint,EB-4 / China,0,0,-20,15,5,0,catchall_60_65,primary,2054
+joint,EB-4 / ROW,0,0,-136,138,-2,0,catchall_60_65,primary,2054
+joint,EB-5 / India,0,0,-2119,212,1907,0,catchall_60_65,primary,2054
+joint,EB-5 / China,0,0,-6472,1159,5313,0,catchall_60_65,primary,2054
+joint,EB-5 / ROW,0,0,8025,-1013,-7012,0,catchall_60_65,primary,2054
+overall,All,0,0,-993,20624,-19631,0,catchall_60_65,primary,2055
+nationality,India,0,0,-477966,149171,328795,0,catchall_60_65,primary,2055
+nationality,China,0,0,-66974,10120,56854,0,catchall_60_65,primary,2055
+nationality,ROW,0,0,543947,-138667,-405280,0,catchall_60_65,primary,2055
+category,EB-1,0,0,-3243,-574,3817,0,catchall_60_65,primary,2055
+category,EB-2,0,0,-8080,26638,-18558,0,catchall_60_65,primary,2055
+category,EB-3,0,0,10766,-4924,-5842,0,catchall_60_65,primary,2055
+category,EB-4,0,0,42,-956,914,0,catchall_60_65,primary,2055
+category,EB-5,0,0,-478,440,38,0,catchall_60_65,primary,2055
+joint,EB-1 / India,0,0,-39667,3944,35723,0,catchall_60_65,primary,2055
+joint,EB-1 / China,0,0,-28630,3936,24694,0,catchall_60_65,primary,2055
+joint,EB-1 / ROW,0,0,65054,-8454,-56600,0,catchall_60_65,primary,2055
+joint,EB-2 / India,0,0,-280037,93010,187027,0,catchall_60_65,primary,2055
+joint,EB-2 / China,0,0,-13219,387,12832,0,catchall_60_65,primary,2055
+joint,EB-2 / ROW,0,0,285176,-66759,-218417,0,catchall_60_65,primary,2055
+joint,EB-3 / India,0,0,-156130,51879,104251,0,catchall_60_65,primary,2055
+joint,EB-3 / China,0,0,-18647,4623,14024,0,catchall_60_65,primary,2055
+joint,EB-3 / ROW,0,0,185543,-61426,-124117,0,catchall_60_65,primary,2055
+joint,EB-4 / India,0,0,-3,92,-89,0,catchall_60_65,primary,2055
+joint,EB-4 / China,0,0,7,0,-7,0,catchall_60_65,primary,2055
+joint,EB-4 / ROW,0,0,38,-1048,1010,0,catchall_60_65,primary,2055
+joint,EB-5 / India,0,0,-2129,246,1883,0,catchall_60_65,primary,2055
+joint,EB-5 / China,0,0,-6485,1174,5311,0,catchall_60_65,primary,2055
+joint,EB-5 / ROW,0,0,8136,-980,-7156,0,catchall_60_65,primary,2055
+overall,All,0,0,-894,21109,-20215,0,catchall_60_65,primary,2056
+nationality,India,0,0,-477730,147834,329896,0,catchall_60_65,primary,2056
+nationality,China,0,0,-67420,10148,57272,0,catchall_60_65,primary,2056
+nationality,ROW,0,0,544256,-136873,-407383,0,catchall_60_65,primary,2056
+category,EB-1,0,0,-3013,-698,3711,0,catchall_60_65,primary,2056
+category,EB-2,0,0,-8379,26111,-17732,0,catchall_60_65,primary,2056
+category,EB-3,0,0,11046,-4623,-6423,0,catchall_60_65,primary,2056
+category,EB-4,0,0,-5,-133,138,0,catchall_60_65,primary,2056
+category,EB-5,0,0,-543,452,91,0,catchall_60_65,primary,2056
+joint,EB-1 / India,0,0,-39228,3679,35549,0,catchall_60_65,primary,2056
+joint,EB-1 / China,0,0,-28584,3861,24723,0,catchall_60_65,primary,2056
+joint,EB-1 / ROW,0,0,64799,-8238,-56561,0,catchall_60_65,primary,2056
+joint,EB-2 / India,0,0,-279943,92179,187764,0,catchall_60_65,primary,2056
+joint,EB-2 / China,0,0,-13779,881,12898,0,catchall_60_65,primary,2056
+joint,EB-2 / ROW,0,0,285343,-66949,-218394,0,catchall_60_65,primary,2056
+joint,EB-3 / India,0,0,-156364,51714,104650,0,catchall_60_65,primary,2056
+joint,EB-3 / China,0,0,-18522,4219,14303,0,catchall_60_65,primary,2056
+joint,EB-3 / ROW,0,0,185932,-60556,-125376,0,catchall_60_65,primary,2056
+joint,EB-4 / India,0,0,-49,12,37,0,catchall_60_65,primary,2056
+joint,EB-4 / China,0,0,-10,-6,16,0,catchall_60_65,primary,2056
+joint,EB-4 / ROW,0,0,54,-139,85,0,catchall_60_65,primary,2056
+joint,EB-5 / India,0,0,-2146,250,1896,0,catchall_60_65,primary,2056
+joint,EB-5 / China,0,0,-6525,1193,5332,0,catchall_60_65,primary,2056
+joint,EB-5 / ROW,0,0,8128,-991,-7137,0,catchall_60_65,primary,2056
+overall,All,0,0,-1661,21035,-19374,0,catchall_60_65,primary,2057
+nationality,India,0,0,-478945,148438,330507,0,catchall_60_65,primary,2057
+nationality,China,0,0,-67517,10472,57045,0,catchall_60_65,primary,2057
+nationality,ROW,0,0,544801,-137875,-406926,0,catchall_60_65,primary,2057
+category,EB-1,0,0,-3565,-652,4217,0,catchall_60_65,primary,2057
+category,EB-2,0,0,-8171,26495,-18324,0,catchall_60_65,primary,2057
+category,EB-3,0,0,10690,-5313,-5377,0,catchall_60_65,primary,2057
+category,EB-4,0,0,-113,65,48,0,catchall_60_65,primary,2057
+category,EB-5,0,0,-502,440,62,0,catchall_60_65,primary,2057
+joint,EB-1 / India,0,0,-39501,3809,35692,0,catchall_60_65,primary,2057
+joint,EB-1 / China,0,0,-28799,3864,24935,0,catchall_60_65,primary,2057
+joint,EB-1 / ROW,0,0,64735,-8325,-56410,0,catchall_60_65,primary,2057
+joint,EB-2 / India,0,0,-280244,92968,187276,0,catchall_60_65,primary,2057
+joint,EB-2 / China,0,0,-13372,971,12401,0,catchall_60_65,primary,2057
+joint,EB-2 / ROW,0,0,285445,-67444,-218001,0,catchall_60_65,primary,2057
+joint,EB-3 / India,0,0,-157150,51508,105642,0,catchall_60_65,primary,2057
+joint,EB-3 / China,0,0,-18685,4350,14335,0,catchall_60_65,primary,2057
+joint,EB-3 / ROW,0,0,186525,-61171,-125354,0,catchall_60_65,primary,2057
+joint,EB-4 / India,0,0,67,-40,-27,0,catchall_60_65,primary,2057
+joint,EB-4 / China,0,0,-27,60,-33,0,catchall_60_65,primary,2057
+joint,EB-4 / ROW,0,0,-153,45,108,0,catchall_60_65,primary,2057
+joint,EB-5 / India,0,0,-2117,193,1924,0,catchall_60_65,primary,2057
+joint,EB-5 / China,0,0,-6634,1227,5407,0,catchall_60_65,primary,2057
+joint,EB-5 / ROW,0,0,8249,-980,-7269,0,catchall_60_65,primary,2057
+overall,All,0,0,-1243,20301,-19058,0,catchall_60_65,primary,2058
+nationality,India,0,0,-478611,148214,330397,0,catchall_60_65,primary,2058
+nationality,China,0,0,-67158,9867,57291,0,catchall_60_65,primary,2058
+nationality,ROW,0,0,544526,-137780,-406746,0,catchall_60_65,primary,2058
+category,EB-1,0,0,-3438,-849,4287,0,catchall_60_65,primary,2058
+category,EB-2,0,0,-8421,26131,-17710,0,catchall_60_65,primary,2058
+category,EB-3,0,0,11023,-5435,-5588,0,catchall_60_65,primary,2058
+category,EB-4,0,0,18,7,-25,0,catchall_60_65,primary,2058
+category,EB-5,0,0,-425,447,-22,0,catchall_60_65,primary,2058
+joint,EB-1 / India,0,0,-39500,3971,35529,0,catchall_60_65,primary,2058
+joint,EB-1 / China,0,0,-28639,3731,24908,0,catchall_60_65,primary,2058
+joint,EB-1 / ROW,0,0,64701,-8551,-56150,0,catchall_60_65,primary,2058
+joint,EB-2 / India,0,0,-280102,92223,187879,0,catchall_60_65,primary,2058
+joint,EB-2 / China,0,0,-14005,683,13322,0,catchall_60_65,primary,2058
+joint,EB-2 / ROW,0,0,285686,-66775,-218911,0,catchall_60_65,primary,2058
+joint,EB-3 / India,0,0,-156947,51791,105156,0,catchall_60_65,primary,2058
+joint,EB-3 / China,0,0,-18078,4211,13867,0,catchall_60_65,primary,2058
+joint,EB-3 / ROW,0,0,186048,-61437,-124611,0,catchall_60_65,primary,2058
+joint,EB-4 / India,0,0,66,-30,-36,0,catchall_60_65,primary,2058
+joint,EB-4 / China,0,0,8,24,-32,0,catchall_60_65,primary,2058
+joint,EB-4 / ROW,0,0,-56,13,43,0,catchall_60_65,primary,2058
+joint,EB-5 / India,0,0,-2128,259,1869,0,catchall_60_65,primary,2058
+joint,EB-5 / China,0,0,-6444,1218,5226,0,catchall_60_65,primary,2058
+joint,EB-5 / ROW,0,0,8147,-1030,-7117,0,catchall_60_65,primary,2058
+overall,All,0,0,-382,21526,-21144,0,catchall_60_65,primary,2059
+nationality,India,0,0,-478021,148996,329025,0,catchall_60_65,primary,2059
+nationality,China,0,0,-66934,9667,57267,0,catchall_60_65,primary,2059
+nationality,ROW,0,0,544573,-137137,-407436,0,catchall_60_65,primary,2059
+category,EB-1,0,0,-3380,-1077,4457,0,catchall_60_65,primary,2059
+category,EB-2,0,0,-8189,27165,-18976,0,catchall_60_65,primary,2059
+category,EB-3,0,0,11852,-4822,-7030,0,catchall_60_65,primary,2059
+category,EB-4,0,0,-144,-187,331,0,catchall_60_65,primary,2059
+category,EB-5,0,0,-521,447,74,0,catchall_60_65,primary,2059
+joint,EB-1 / India,0,0,-39393,3654,35739,0,catchall_60_65,primary,2059
+joint,EB-1 / China,0,0,-28817,3661,25156,0,catchall_60_65,primary,2059
+joint,EB-1 / ROW,0,0,64830,-8392,-56438,0,catchall_60_65,primary,2059
+joint,EB-2 / India,0,0,-280093,93157,186936,0,catchall_60_65,primary,2059
+joint,EB-2 / China,0,0,-13366,816,12550,0,catchall_60_65,primary,2059
+joint,EB-2 / ROW,0,0,285270,-66808,-218462,0,catchall_60_65,primary,2059
+joint,EB-3 / India,0,0,-156421,51972,104449,0,catchall_60_65,primary,2059
+joint,EB-3 / China,0,0,-18199,4038,14161,0,catchall_60_65,primary,2059
+joint,EB-3 / ROW,0,0,186472,-60832,-125640,0,catchall_60_65,primary,2059
+joint,EB-4 / India,0,0,-10,7,3,0,catchall_60_65,primary,2059
+joint,EB-4 / China,0,0,-4,-51,55,0,catchall_60_65,primary,2059
+joint,EB-4 / ROW,0,0,-130,-143,273,0,catchall_60_65,primary,2059
+joint,EB-5 / India,0,0,-2104,206,1898,0,catchall_60_65,primary,2059
+joint,EB-5 / China,0,0,-6548,1203,5345,0,catchall_60_65,primary,2059
+joint,EB-5 / ROW,0,0,8131,-962,-7169,0,catchall_60_65,primary,2059
+overall,All,0,0,-1042,20430,-19388,0,catchall_60_65,primary,2060
+nationality,India,0,0,-477677,147269,330408,0,catchall_60_65,primary,2060
+nationality,China,0,0,-67589,10368,57221,0,catchall_60_65,primary,2060
+nationality,ROW,0,0,544224,-137207,-407017,0,catchall_60_65,primary,2060
+category,EB-1,0,0,-3183,-829,4012,0,catchall_60_65,primary,2060
+category,EB-2,0,0,-8066,25610,-17544,0,catchall_60_65,primary,2060
+category,EB-3,0,0,10874,-5164,-5710,0,catchall_60_65,primary,2060
+category,EB-4,0,0,-49,303,-254,0,catchall_60_65,primary,2060
+category,EB-5,0,0,-618,510,108,0,catchall_60_65,primary,2060
+joint,EB-1 / India,0,0,-39543,3702,35841,0,catchall_60_65,primary,2060
+joint,EB-1 / China,0,0,-28546,3930,24616,0,catchall_60_65,primary,2060
+joint,EB-1 / ROW,0,0,64906,-8461,-56445,0,catchall_60_65,primary,2060
+joint,EB-2 / India,0,0,-279792,91795,187997,0,catchall_60_65,primary,2060
+joint,EB-2 / China,0,0,-13600,534,13066,0,catchall_60_65,primary,2060
+joint,EB-2 / ROW,0,0,285326,-66719,-218607,0,catchall_60_65,primary,2060
+joint,EB-3 / India,0,0,-156175,51618,104557,0,catchall_60_65,primary,2060
+joint,EB-3 / China,0,0,-18741,4611,14130,0,catchall_60_65,primary,2060
+joint,EB-3 / ROW,0,0,185790,-61393,-124397,0,catchall_60_65,primary,2060
+joint,EB-4 / India,0,0,-2,-66,68,0,catchall_60_65,primary,2060
+joint,EB-4 / China,0,0,-2,-21,23,0,catchall_60_65,primary,2060
+joint,EB-4 / ROW,0,0,-45,390,-345,0,catchall_60_65,primary,2060
+joint,EB-5 / India,0,0,-2165,220,1945,0,catchall_60_65,primary,2060
+joint,EB-5 / China,0,0,-6700,1314,5386,0,catchall_60_65,primary,2060
+joint,EB-5 / ROW,0,0,8247,-1024,-7223,0,catchall_60_65,primary,2060
+overall,All,0,0,-2046,20258,-18212,0,catchall_60_65,primary,2061
+nationality,India,0,0,-477781,148870,328911,0,catchall_60_65,primary,2061
+nationality,China,0,0,-67236,9824,57412,0,catchall_60_65,primary,2061
+nationality,ROW,0,0,542971,-138436,-404535,0,catchall_60_65,primary,2061
+category,EB-1,0,0,-3330,-767,4097,0,catchall_60_65,primary,2061
+category,EB-2,0,0,-8780,26240,-17460,0,catchall_60_65,primary,2061
+category,EB-3,0,0,10681,-4747,-5934,0,catchall_60_65,primary,2061
+category,EB-4,0,0,-37,-891,928,0,catchall_60_65,primary,2061
+category,EB-5,0,0,-580,423,157,0,catchall_60_65,primary,2061
+joint,EB-1 / India,0,0,-39516,3748,35768,0,catchall_60_65,primary,2061
+joint,EB-1 / China,0,0,-28568,3786,24782,0,catchall_60_65,primary,2061
+joint,EB-1 / ROW,0,0,64754,-8301,-56453,0,catchall_60_65,primary,2061
+joint,EB-2 / India,0,0,-279540,92334,187206,0,catchall_60_65,primary,2061
+joint,EB-2 / China,0,0,-13534,579,12955,0,catchall_60_65,primary,2061
+joint,EB-2 / ROW,0,0,284294,-66673,-217621,0,catchall_60_65,primary,2061
+joint,EB-3 / India,0,0,-156546,52489,104057,0,catchall_60_65,primary,2061
+joint,EB-3 / China,0,0,-18588,4331,14257,0,catchall_60_65,primary,2061
+joint,EB-3 / ROW,0,0,185815,-61567,-124248,0,catchall_60_65,primary,2061
+joint,EB-4 / India,0,0,-18,55,-37,0,catchall_60_65,primary,2061
+joint,EB-4 / China,0,0,10,-20,10,0,catchall_60_65,primary,2061
+joint,EB-4 / ROW,0,0,-29,-926,955,0,catchall_60_65,primary,2061
+joint,EB-5 / India,0,0,-2161,244,1917,0,catchall_60_65,primary,2061
+joint,EB-5 / China,0,0,-6556,1148,5408,0,catchall_60_65,primary,2061
+joint,EB-5 / ROW,0,0,8137,-969,-7168,0,catchall_60_65,primary,2061
+overall,All,0,0,-637,20689,-20052,0,catchall_60_65,primary,2062
+nationality,India,0,0,-478731,148498,330233,0,catchall_60_65,primary,2062
+nationality,China,0,0,-67017,10431,56586,0,catchall_60_65,primary,2062
+nationality,ROW,0,0,545111,-138240,-406871,0,catchall_60_65,primary,2062
+category,EB-1,0,0,-3295,-928,4223,0,catchall_60_65,primary,2062
+category,EB-2,0,0,-7564,25886,-18322,0,catchall_60_65,primary,2062
+category,EB-3,0,0,10941,-5248,-5693,0,catchall_60_65,primary,2062
+category,EB-4,0,0,-147,438,-291,0,catchall_60_65,primary,2062
+category,EB-5,0,0,-572,541,31,0,catchall_60_65,primary,2062
+joint,EB-1 / India,0,0,-39690,3991,35699,0,catchall_60_65,primary,2062
+joint,EB-1 / China,0,0,-28411,3736,24675,0,catchall_60_65,primary,2062
+joint,EB-1 / ROW,0,0,64806,-8655,-56151,0,catchall_60_65,primary,2062
+joint,EB-2 / India,0,0,-279919,92229,187690,0,catchall_60_65,primary,2062
+joint,EB-2 / China,0,0,-13521,1134,12387,0,catchall_60_65,primary,2062
+joint,EB-2 / ROW,0,0,285876,-67477,-218399,0,catchall_60_65,primary,2062
+joint,EB-3 / India,0,0,-156977,51959,105018,0,catchall_60_65,primary,2062
+joint,EB-3 / China,0,0,-18327,4239,14088,0,catchall_60_65,primary,2062
+joint,EB-3 / ROW,0,0,186245,-61446,-124799,0,catchall_60_65,primary,2062
+joint,EB-4 / India,0,0,-41,99,-58,0,catchall_60_65,primary,2062
+joint,EB-4 / China,0,0,-8,-8,16,0,catchall_60_65,primary,2062
+joint,EB-4 / ROW,0,0,-98,347,-249,0,catchall_60_65,primary,2062
+joint,EB-5 / India,0,0,-2104,220,1884,0,catchall_60_65,primary,2062
+joint,EB-5 / China,0,0,-6750,1330,5420,0,catchall_60_65,primary,2062
+joint,EB-5 / ROW,0,0,8282,-1009,-7273,0,catchall_60_65,primary,2062
+overall,All,0,0,-756,19300,-18544,0,catchall_60_65,primary,2063
+nationality,India,0,0,-478653,149498,329155,0,catchall_60_65,primary,2063
+nationality,China,0,0,-67721,10085,57636,0,catchall_60_65,primary,2063
+nationality,ROW,0,0,545618,-140283,-405335,0,catchall_60_65,primary,2063
+category,EB-1,0,0,-3375,-694,4069,0,catchall_60_65,primary,2063
+category,EB-2,0,0,-7961,26219,-18258,0,catchall_60_65,primary,2063
+category,EB-3,0,0,11030,-4891,-6139,0,catchall_60_65,primary,2063
+category,EB-4,0,0,79,-1770,1691,0,catchall_60_65,primary,2063
+category,EB-5,0,0,-529,436,93,0,catchall_60_65,primary,2063
+joint,EB-1 / India,0,0,-39881,3986,35895,0,catchall_60_65,primary,2063
+joint,EB-1 / China,0,0,-28682,3770,24912,0,catchall_60_65,primary,2063
+joint,EB-1 / ROW,0,0,65188,-8450,-56738,0,catchall_60_65,primary,2063
+joint,EB-2 / India,0,0,-279549,92849,186700,0,catchall_60_65,primary,2063
+joint,EB-2 / China,0,0,-13679,717,12962,0,catchall_60_65,primary,2063
+joint,EB-2 / ROW,0,0,285267,-67347,-217920,0,catchall_60_65,primary,2063
+joint,EB-3 / India,0,0,-157052,52469,104583,0,catchall_60_65,primary,2063
+joint,EB-3 / China,0,0,-18832,4452,14380,0,catchall_60_65,primary,2063
+joint,EB-3 / ROW,0,0,186914,-61812,-125102,0,catchall_60_65,primary,2063
+joint,EB-4 / India,0,0,44,-55,11,0,catchall_60_65,primary,2063
+joint,EB-4 / China,0,0,0,-11,11,0,catchall_60_65,primary,2063
+joint,EB-4 / ROW,0,0,35,-1704,1669,0,catchall_60_65,primary,2063
+joint,EB-5 / India,0,0,-2215,249,1966,0,catchall_60_65,primary,2063
+joint,EB-5 / China,0,0,-6528,1157,5371,0,catchall_60_65,primary,2063
+joint,EB-5 / ROW,0,0,8214,-970,-7244,0,catchall_60_65,primary,2063
+overall,All,0,0,764,59168,-59932,0,catchall_55_60,sensitivity,2014
+nationality,India,0,0,-463558,226368,237190,0,catchall_55_60,sensitivity,2014
+nationality,China,0,0,-69255,15379,53876,0,catchall_55_60,sensitivity,2014
+nationality,ROW,0,0,533577,-182579,-350998,0,catchall_55_60,sensitivity,2014
+category,EB-1,0,0,-3341,-3145,6486,0,catchall_55_60,sensitivity,2014
+category,EB-2,0,0,-7613,54342,-46729,0,catchall_55_60,sensitivity,2014
+category,EB-3,0,0,12407,7976,-20383,0,catchall_55_60,sensitivity,2014
+category,EB-4,0,0,-118,24,94,0,catchall_55_60,sensitivity,2014
+category,EB-5,0,0,-571,-29,600,0,catchall_55_60,sensitivity,2014
+joint,EB-1 / India,0,0,-39788,5907,33881,0,catchall_55_60,sensitivity,2014
+joint,EB-1 / China,0,0,-29339,6090,23249,0,catchall_55_60,sensitivity,2014
+joint,EB-1 / ROW,0,0,65786,-15142,-50644,0,catchall_55_60,sensitivity,2014
+joint,EB-2 / India,0,0,-269950,143848,126102,0,catchall_55_60,sensitivity,2014
+joint,EB-2 / China,0,0,-16083,2106,13977,0,catchall_55_60,sensitivity,2014
+joint,EB-2 / ROW,0,0,278420,-91612,-186808,0,catchall_55_60,sensitivity,2014
+joint,EB-3 / India,0,0,-151873,76297,75576,0,catchall_55_60,sensitivity,2014
+joint,EB-3 / China,0,0,-17547,5046,12501,0,catchall_55_60,sensitivity,2014
+joint,EB-3 / ROW,0,0,181827,-73367,-108460,0,catchall_55_60,sensitivity,2014
+joint,EB-4 / India,0,0,3,-100,97,0,catchall_55_60,sensitivity,2014
+joint,EB-4 / China,0,0,-3,34,-31,0,catchall_55_60,sensitivity,2014
+joint,EB-4 / ROW,0,0,-118,90,28,0,catchall_55_60,sensitivity,2014
+joint,EB-5 / India,0,0,-1950,416,1534,0,catchall_55_60,sensitivity,2014
+joint,EB-5 / China,0,0,-6283,2103,4180,0,catchall_55_60,sensitivity,2014
+joint,EB-5 / ROW,0,0,7662,-2548,-5114,0,catchall_55_60,sensitivity,2014
+overall,All,0,0,-1452,-16078,17530,0,catchall_65_70,sensitivity,2014
+nationality,India,0,0,-479793,83386,396407,0,catchall_65_70,sensitivity,2014
+nationality,China,0,0,-68873,7803,61070,0,catchall_65_70,sensitivity,2014
+nationality,ROW,0,0,547214,-107267,-439947,0,catchall_65_70,sensitivity,2014
+category,EB-1,0,0,-3256,-1583,4839,0,catchall_65_70,sensitivity,2014
+category,EB-2,0,0,-8888,-1013,9901,0,catchall_65_70,sensitivity,2014
+category,EB-3,0,0,10991,-13448,2457,0,catchall_65_70,sensitivity,2014
+category,EB-4,0,0,147,44,-191,0,catchall_65_70,sensitivity,2014
+category,EB-5,0,0,-446,-78,524,0,catchall_65_70,sensitivity,2014
+joint,EB-1 / India,0,0,-39194,3021,36173,0,catchall_65_70,sensitivity,2014
+joint,EB-1 / China,0,0,-28351,2823,25528,0,catchall_65_70,sensitivity,2014
+joint,EB-1 / ROW,0,0,64289,-7427,-56862,0,catchall_65_70,sensitivity,2014
+joint,EB-2 / India,0,0,-282343,47708,234635,0,catchall_65_70,sensitivity,2014
+joint,EB-2 / China,0,0,-13985,520,13465,0,catchall_65_70,sensitivity,2014
+joint,EB-2 / ROW,0,0,287440,-49241,-238199,0,catchall_65_70,sensitivity,2014
+joint,EB-3 / India,0,0,-156081,32570,123511,0,catchall_65_70,sensitivity,2014
+joint,EB-3 / China,0,0,-20140,3982,16158,0,catchall_65_70,sensitivity,2014
+joint,EB-3 / ROW,0,0,187212,-50000,-137212,0,catchall_65_70,sensitivity,2014
+joint,EB-4 / India,0,0,-5,-5,10,0,catchall_65_70,sensitivity,2014
+joint,EB-4 / China,0,0,-22,23,-1,0,catchall_65_70,sensitivity,2014
+joint,EB-4 / ROW,0,0,174,26,-200,0,catchall_65_70,sensitivity,2014
+joint,EB-5 / India,0,0,-2170,92,2078,0,catchall_65_70,sensitivity,2014
+joint,EB-5 / China,0,0,-6375,455,5920,0,catchall_65_70,sensitivity,2014
+joint,EB-5 / ROW,0,0,8099,-625,-7474,0,catchall_65_70,sensitivity,2014
+overall,All,0,0,659,12055,-12714,0,historical_replay,replay,2014
+nationality,India,0,0,-461712,137985,323727,0,historical_replay,replay,2014
+nationality,China,0,0,-62374,9105,53269,0,historical_replay,replay,2014
+nationality,ROW,0,0,524745,-135035,-389710,0,historical_replay,replay,2014
+category,EB-1,0,0,-3240,-972,4212,0,historical_replay,replay,2014
+category,EB-2,0,0,-7297,19860,-12563,0,historical_replay,replay,2014
+category,EB-3,0,0,11676,-6726,-4950,0,historical_replay,replay,2014
+category,EB-4,0,0,-57,-655,712,0,historical_replay,replay,2014
+category,EB-5,0,0,-423,548,-125,0,historical_replay,replay,2014
+joint,EB-1 / India,0,0,-39396,3718,35678,0,historical_replay,replay,2014
+joint,EB-1 / China,0,0,-28602,3869,24733,0,historical_replay,replay,2014
+joint,EB-1 / ROW,0,0,64758,-8559,-56199,0,historical_replay,replay,2014
+joint,EB-2 / India,0,0,-269511,86186,183325,0,historical_replay,replay,2014
+joint,EB-2 / China,0,0,-12140,372,11768,0,historical_replay,replay,2014
+joint,EB-2 / ROW,0,0,274354,-66698,-207656,0,historical_replay,replay,2014
+joint,EB-3 / India,0,0,-150555,47784,102771,0,historical_replay,replay,2014
+joint,EB-3 / China,0,0,-14724,3470,11254,0,historical_replay,replay,2014
+joint,EB-3 / ROW,0,0,176955,-57980,-118975,0,historical_replay,replay,2014
+joint,EB-4 / India,0,0,-22,15,7,0,historical_replay,replay,2014
+joint,EB-4 / China,0,0,-2,-59,61,0,historical_replay,replay,2014
+joint,EB-4 / ROW,0,0,-33,-611,644,0,historical_replay,replay,2014
+joint,EB-5 / India,0,0,-2228,282,1946,0,historical_replay,replay,2014
+joint,EB-5 / China,0,0,-6906,1453,5453,0,historical_replay,replay,2014
+joint,EB-5 / ROW,0,0,8711,-1187,-7524,0,historical_replay,replay,2014

@@ -742,9 +742,10 @@ class VisaProcessor:
         """
         Two-pass allocation for a single EB category.
 
-        Pass 1: Enforce 7% per-country cap
+        Pass 1: Apply the supplied nationality-group ceilings
         - Process applicants by priority date
-        - Stop each country at its 7% limit
+        - Stop India and China at their first-pass limits
+        - EB-4 has no aggregate ROW stopping point below its category budget
         - Collect rejected applicants from oversubscribed countries
 
         Pass 2: Process oversubscribed overflow without country cap

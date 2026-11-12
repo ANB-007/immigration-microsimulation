@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "immigration-microsimulation"
-version = "2.1.0"
+version = "2.2.0"
 description = "A petitioner-level microsimulation of United States employment-based immigration that quantifies how the 7% per-country cap redistributes wait times and child age-out risk across nationalities and EB preference categories."
 readme = "README.md"
 requires-python = ">=3.10"

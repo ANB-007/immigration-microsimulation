@@ -521,7 +521,15 @@ def calculate_per_country_caps_by_category(
     annual_eb_caps: Dict[EBCategory, int],
 ) -> Dict[EBCategory, Dict[str, int]]:
     """
-    Calculate per-country visa caps within each EB category.
+    Calculate first-pass nationality-group ceilings within each EB category.
+
+    India and China retain their 7% ceilings. EB-4 has no aggregate ROW
+    stopping point: its common chronological list can continue serving older
+    ROW applicants rather than protecting slots for newer India/China cases.
+    Category and annual budgets still limit total service, and the existing
+    second pass distributes otherwise unused numbers. This applies throughout
+    reconstruction and projection; other categories retain the residual ROW
+    allowance.
 
     Args:
         annual_eb_caps: Base EB category allocations (before cascade)
@@ -532,11 +540,14 @@ def calculate_per_country_caps_by_category(
     per_country_caps = {}
 
     for category, total_cap in annual_eb_caps.items():
-        # Each country gets 7% of category total
+        # Country ceilings are not guaranteed allocations.
         country_cap = max(1, round(total_cap * PER_COUNTRY_CAP_SHARE))
 
-        # ROW gets remaining allocation
-        row_cap = max(1, total_cap - (2 * country_cap))
+        # ROW pools many chargeabilities. In EB-4 it has no bloc ceiling
+        # below the category budget; the existing allocator already considers
+        # all applicants together in synthetic entry-year order.
+        row_cap = max(1, total_cap if category == EBCategory.EB4
+                      else total_cap - (2 * country_cap))
 
         per_country_caps[category] = {
             "India": country_cap,

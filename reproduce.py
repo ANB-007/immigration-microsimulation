@@ -168,7 +168,6 @@ def build(records_path, *, compile_pdfs=True, update_manuscript_tables=False):
     if missing:
         raise ValueError("Complete all declared pairs before rebuilding the manuscript")
     primary = next(case for case in plan["cases"] if case["role"] == "primary")
-    cohorts = next(case for case in plan["cases"] if case["role"] == "cohorts")
     main, sensitivity = SCRATCH / "main", SCRATCH / "sensitivity"
     observed = ROOT / "data/validation/dos_visa_consumption_reconciled.csv"
     if digest(observed) != plan["observed_sha256"]:
@@ -185,10 +184,10 @@ def build(records_path, *, compile_pdfs=True, update_manuscript_tables=False):
         + f", midpoint {settings['catchall_median_age']} and "
         + f"{100 * settings['catchall_tail_probability']:g}% age-only retention at {settings['catchall_near_zero_age']}")
     refresh = build_refresh(
-        PAPER / "revised-paper.tex", records_path, records_path, observed, main,
+        PAPER / "revised-paper.tex", records_path, None, observed, main,
         expected_runs=primary["pairs"], expected_seeds=primary["seeds"],
         selection_label=selection_label,
-        projection_records=records[primary["name"]], cohort_records=records[cohorts["name"]],
+        projection_records=records[primary["name"]],
     )
     narrative_values(main / "narrative-values.json", main, PAPER / "revised-paper.tex")
     evidence = publication_evidence(records_path, ROOT / "data/validation", sensitivity, campaign_data=data)
@@ -206,7 +205,15 @@ def build(records_path, *, compile_pdfs=True, update_manuscript_tables=False):
 
     typesetting = SCRATCH / "typesetting"
     typesetting.mkdir(exist_ok=True)
-    for name in ("thebib.tex", "response-to-reviewer.tex"):
+    if (PAPER / "current-round-reviewer-response.md").exists():
+        response_markdown = "current-round-reviewer-response.md"
+        response_document = "current-round-reviewer-response"
+        response_body = "current-round-response-body.tex"
+    else:
+        response_markdown = "point-by-point-reviewer-response.md"
+        response_document = "response-to-reviewer"
+        response_body = "response-body.tex"
+    for name in ("thebib.tex", response_document + ".tex"):
         shutil.copyfile(PAPER / name, typesetting / name)
     shutil.copytree(generated, typesetting / "generated", dirs_exist_ok=True)
     # Typesetting uses the refreshed cells. Optional source integration below
@@ -220,16 +227,19 @@ def build(records_path, *, compile_pdfs=True, update_manuscript_tables=False):
     if compile_pdfs:
         print("Compiling manuscript and response...", flush=True)
         compile_document(typesetting, "revised-paper")
-        response = response_values((PAPER / "point-by-point-reviewer-response.md").read_text(), evidence["macros"])
+        response = response_values((PAPER / response_markdown).read_text(), evidence["macros"])
         response = response_locations(response, typesetting / "revised-paper.aux")
-        (PAPER / "point-by-point-reviewer-response.md").write_text(response)
-        (typesetting / "point-by-point-reviewer-response.md").write_text(response)
+        (PAPER / response_markdown).write_text(response)
+        (typesetting / response_markdown).write_text(response)
         subprocess.run(["pandoc", "--from", "markdown", "--to", "latex", "--top-level-division=section",
-                        "point-by-point-reviewer-response.md", "-o", "response-body.tex"], cwd=typesetting, check=True)
-        compile_document(typesetting, "response-to-reviewer")
+                        response_markdown, "-o", response_body], cwd=typesetting, check=True)
+        compile_document(typesetting, response_document)
     for name, expected in before.items():
         if digest(PAPER / name) != expected:
             raise ValueError(f"Authored manuscript source changed during build: {name}")
+    if compile_pdfs:
+        # Synchronize derived source only after checking authored TeX files.
+        shutil.copyfile(typesetting / response_body, PAPER / response_body)
     integrated_cells = 0
     if update_manuscript_tables:
         integrated_cells = integrate_table_cells(PAPER / "revised-paper.tex", main / "refreshed-tables.tex",

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 import re
 
@@ -16,15 +17,22 @@ def group_name(value):
             "Capped - Uncapped": "Diff", "Capped−Uncapped": "Diff"}.get(value, value)
 
 
-def cohort_date_claims(cohort_runs):
-    """Check the stated entry dates in every observed run, not just the mean."""
+def cohort_date_claims(cohort_runs, *, row_eb4_first_year=None):
+    """Check saved shares by FY2040 in every observed run, not just the mean."""
+    if "observation_end_year" in cohort_runs and not cohort_runs.observation_end_year.eq(2040).all():
+        raise ValueError("Cohort date claims require outcomes observed by FY2040")
+    if row_eb4_first_year is not None and (
+            not isinstance(row_eb4_first_year, int) or isinstance(row_eb4_first_year, bool)
+            or not 2025 <= row_eb4_first_year <= 2040):
+        raise ValueError("ROW EB-4 cutoff must be an integer from 2025 through 2040")
+    row_first_year = 2025 if row_eb4_first_year is None else row_eb4_first_year
     saved = cohort_runs[cohort_runs.fate == "saved"]
     seeds = set(saved.seed)
     checks, evidence = {}, {}
     for country, category, policy, first_year in (
-        ("India", "EB-2", "Capped", 2016), ("India", "EB-3", "Capped", 2016),
-        ("China", "EB-2", "Capped", 2025), ("ROW", "EB-4", "Uncapped", 2025),
-        ("ROW", "EB-4", "Capped", 2025),
+        ("India", "EB-2", "Capped", 2015), ("India", "EB-3", "Capped", 2016),
+        ("China", "EB-2", "Capped", 2025), ("ROW", "EB-4", "Uncapped", row_first_year),
+        ("ROW", "EB-4", "Capped", row_first_year),
     ):
         part = saved[(saved.nationality == country) & (saved.eb_category == category)
                      & (saved.scenario == policy) & saved.entry_year.between(first_year, 2040)]
@@ -33,15 +41,98 @@ def cohort_date_claims(cohort_runs):
         key = f"every_cohort_near_zero_{country}_{category}_{policy}_from_{first_year}"
         checks[key] = bool(expected and observed == expected and part.value.lt(1).all())
         evidence[key] = {"maximum_save_share_pct": float(part.value.max()) if len(part) else None,
+                         "observation_end_year": 2040,
                          "missing_seed_years": sorted(expected - observed),
                          "cohorts_at_or_above_one_percent": part.loc[part.value.ge(1), ["seed", "entry_year", "value"]].to_dict("records")}
     return checks, evidence
 
 
+
+ROW_EB4_CUTOFF_KEY = "cohort.near_zero.from.ROW.EbFour.Both"
+ANNUAL_ENDPOINT_WORDING = "annual age-outs are higher in FY2040 than in FY2025 in both scenarios"
+ANNUAL_MONOTONIC_WORDING = "the number of age-outs per year continues to rise in both scenarios"
+OLD_ROW_EB4_WORDING = (
+    "from approximately the FY2025 entry cohort onward, the save rate by FY2040 for ROW children "
+    "falls to and remains near zero in both the uncapped and capped scenarios")
+
+
+def active_manuscript_text(text):
+    """Do not enable revised claims through a macro or sentence in a TeX comment."""
+    return re.sub(r"(?<!\\)%[^\n]*", "", text)
+
+
+def row_eb4_near_zero_cutoff(cohort_runs, expected_seeds):
+    """Earliest common projection cohort below 1% in every selected policy/run."""
+    if ("observation_end_year" not in cohort_runs
+            or not cohort_runs.observation_end_year.eq(2040).all()):
+        raise ValueError("Derived cohort cutoff requires outcomes observed by FY2040")
+    seeds = list(expected_seeds)
+    if not seeds or len(set(seeds)) != len(seeds):
+        raise ValueError("Derived cohort cutoff requires nonempty, unique primary seeds")
+    part = cohort_runs[(cohort_runs.fate == "saved") & (cohort_runs.nationality == "ROW")
+                       & (cohort_runs.eb_category == "EB-4")
+                       & cohort_runs.scenario.isin(("Uncapped", "Capped"))
+                       & cohort_runs.entry_year.between(2025, 2040)]
+    expected = {(policy, seed, year) for policy in ("Uncapped", "Capped")
+                for seed in seeds for year in range(2025, 2041)}
+    observed = set(zip(part.scenario, part.seed, part.entry_year))
+    if observed != expected or len(part) != len(expected):
+        raise ValueError("Derived ROW EB-4 cutoff requires exactly one saved share for every "
+                         "primary seed, policy and FY2025-FY2040 entry year")
+    if not part.value.between(0, 100).all():
+        raise ValueError("Derived ROW EB-4 cutoff requires finite saved shares from 0 through 100")
+    violating = part[part.value.ge(1)]
+    first_year = 2025 if violating.empty else int(violating.entry_year.max()) + 1
+    if first_year > 2040:
+        raise ValueError("No common ROW EB-4 near-zero cutoff exists within FY2040")
+    tail = part[part.entry_year >= first_year]
+    assert tail.value.lt(1).all()
+    return first_year, {
+        "first_entry_year": first_year, "observation_end_year": 2040,
+        "threshold_percent_strictly_below": 1, "expected_primary_seeds": seeds,
+        "covered_entry_years": [2025, 2040], "covered_policy_seed_years": len(part),
+        "maximum_save_share_pct_from_cutoff": float(tail.value.max()),
+        "cohorts_at_or_above_one_percent_before_cutoff": violating[
+            ["scenario", "seed", "entry_year", "value"]].to_dict("records"),
+    }
+
+
+def revised_direction_claims(values, manuscript_text):
+    """Check the exact retained prose; revised prose does not waive legacy claims."""
+    normalized = " ".join(active_manuscript_text(manuscript_text).split())
+    value = lambda key: values[key]["value"]
+    checks = {}
+    directions = set(re.findall(
+        r"EB--4 exits are \\Mval\{exits\.projection\.EbFour\.Diff\.Abs\} (fewer|more)\b",
+        normalized)) or {"fewer"}
+    for direction in directions:
+        delta = value("exits.projection.EbFour.Diff")
+        checks[f"EbFour_exits_{direction}_under_cap"] = delta < 0 if direction == "fewer" else delta > 0
+    endpoint_wording = ANNUAL_ENDPOINT_WORDING in normalized
+    for policy in ("Uncapped", "Capped"):
+        counts = [value(f"annual.{year}.All.{policy}") for year in range(2025, 2041)]
+        if endpoint_wording:
+            checks[f"annual_ageouts_higher_2040_than_2025_{policy}"] = (
+                all(math.isfinite(count) for count in counts) and counts[-1] > counts[0])
+        if not endpoint_wording or ANNUAL_MONOTONIC_WORDING in normalized:
+            checks[f"annual_ageouts_increase_each_projection_year_{policy}"] = all(
+                b > a for a, b in zip(counts, counts[1:]))
+    return checks
+
+
 def generate(source: Path, output: Path, manuscript: Path) -> dict:
     """Generate numbers only; retain the author's prose and verify every use."""
     source, output, manuscript = Path(source), Path(output), Path(manuscript)
+    manuscript_text = manuscript.read_text()
+    active_text = active_manuscript_text(manuscript_text)
+    active_keys = set(re.findall(r"\\Mval\{([^}]+)\}", active_text))
     data = json.loads(source.read_text())
+    selection = data["selection"]
+    if selection.get("cohort_observation_end") != 2040:
+        raise ValueError("Narrative cohort values must be observed by FY2040")
+    if (selection.get("cohort_n") != selection.get("annual_n")
+            or selection.get("cohort_seeds") != selection.get("annual_seeds")):
+        raise ValueError("Narrative cohort and annual values must use the same primary pairs")
     values = {}
 
     def add(key, value, digits=0):
@@ -115,6 +206,8 @@ def generate(source: Path, output: Path, manuscript: Path) -> dict:
     # the specific qualitative statements retained in the manuscript.
     value = lambda key: values[key]["value"]
     claims = {
+        "cohort_outcomes_observed_by_2040": selection["cohort_observation_end"] == 2040,
+        "cohort_and_annual_exhibits_use_same_primary_pairs": selection["cohort_seeds"] == selection["annual_seeds"],
         "equal_total_visas_across_policies": value("visas.full.All.Capped") == value("visas.full.All.Uncapped"),
         "capped_backlog_smaller": value("backlog.end2040.All.Diff") < 0,
         "capped_principal_conversions_fewer": value("conversions.projection.All.Diff") < 0,
@@ -146,7 +239,7 @@ def generate(source: Path, output: Path, manuscript: Path) -> dict:
         key = f"cohort.zero.from.{country}.{category}.{policy}"
         if key in values:
             claims[f"observed_zero_projection_cohort_saves_{country}_{category}_{policy}"] = value(key) <= 2025
-    for category in ("EbOne", "EbThree", "EbFour"):
+    for category in ("EbOne", "EbThree"):
         claims[f"{category}_exits_fewer_under_cap"] = value(f"exits.projection.{category}.Diff") < 0
     claims["EbFive_exits_more_under_cap"] = value("exits.projection.EbFive.Diff") > 0
     core_categories = ("EbOne", "EbTwo", "EbThree", "EbFour")
@@ -154,13 +247,28 @@ def generate(source: Path, output: Path, manuscript: Path) -> dict:
     correlations = [value(f"fit.{category}.correlation") for category in core_categories]
     claims["category_one_to_four_correlation_range_093_to_099"] = (
         round(min(correlations), 2) == .93 and round(max(correlations), 2) == .99)
-    for policy in ("Uncapped", "Capped"):
-        counts = [value(f"annual.{year}.All.{policy}") for year in range(2025, 2041)]
-        claims[f"annual_ageouts_increase_each_projection_year_{policy}"] = all(b > a for a, b in zip(counts, counts[1:]))
+    claims.update(revised_direction_claims(values, manuscript_text))
     claims["annual_gap_peaks_early_or_mid_2030s"] = 2030 <= value("annual.peak.year") <= 2036
     claims["annual_gap_narrows_by_2040"] = value("annual.2040.All.Diff") < value("annual.peak.difference")
-    cohort_checks, cohort_evidence = cohort_date_claims(pd.read_csv(source.parent / "cohort_share_runs.csv"))
+    cohort_runs = pd.read_csv(source.parent / "cohort_share_runs.csv")
+    row_first_year, cutoff_evidence = None, None
+    if ROW_EB4_CUTOFF_KEY in active_keys:
+        if len(selection["cohort_seeds"]) != selection["cohort_n"]:
+            raise ValueError("Derived cohort cutoff requires every declared primary seed")
+        row_first_year, cutoff_evidence = row_eb4_near_zero_cutoff(
+            cohort_runs, selection["cohort_seeds"])
+        add(ROW_EB4_CUTOFF_KEY, row_first_year)
+        values[ROW_EB4_CUTOFF_KEY]["formatted"] = str(row_first_year)
+    cohort_checks, cohort_evidence = cohort_date_claims(
+        cohort_runs, row_eb4_first_year=row_first_year)
     claims.update(cohort_checks)
+    if cutoff_evidence is not None:
+        cohort_evidence["derived_ROW_EB4_common_cutoff"] = cutoff_evidence
+        # A new macro elsewhere cannot excuse the old fixed-FY2025 sentence.
+        if OLD_ROW_EB4_WORDING in " ".join(active_text.split()):
+            legacy_checks, legacy_evidence = cohort_date_claims(cohort_runs)
+            claims.update(legacy_checks)
+            cohort_evidence.update(legacy_evidence)
     failed = [key for key, passed in claims.items() if not passed]
     if failed:
         output.mkdir(parents=True, exist_ok=True)
@@ -172,7 +280,7 @@ def generate(source: Path, output: Path, manuscript: Path) -> dict:
 
     # Undefined TeX control sequences otherwise silently produce empty text
     # through csname. Fail the build rather than drop a missing result number.
-    required = set(re.findall(r"\\Mval\{([^}]+)\}", manuscript.read_text()))
+    required = set(re.findall(r"\\Mval\{([^}]+)\}", manuscript_text))
     missing = required - set(values)
     if missing:
         raise ValueError("Unresolved manuscript narrative values: " + ", ".join(sorted(missing)))

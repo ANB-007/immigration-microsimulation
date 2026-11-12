@@ -3,8 +3,8 @@
 This module never runs simulations or edits the authored manuscript. It emits a
 candidate containing only table-cell replacements, a reviewable patch ledger,
 numeric values for the author's prose, and figures with their plotting data.
-Annual events end in 2040; eventual entry-cohort outcomes require separate
-same-model records followed through 2061, including subsequent arrivals.
+Annual events and entry-cohort outcomes are observed through FY2040 in the
+same primary records. Extended follow-ups remain separate archived diagnostics.
 """
 from __future__ import annotations
 
@@ -28,7 +28,6 @@ NATIONALITIES = ("India", "China", "ROW")
 CATEGORIES = tuple(f"EB-{i}" for i in range(1, 6))
 POLICIES = ("Uncapped", "Capped", "Capped minus uncapped")
 FATES = ("saved", "aged_out", "exited", "still_dependent")
-RESOLVED_FATES = ("saved", "aged_out", "exited")
 PERIODS = {"historical": (2009, 2024), "projection": (2025, 2040), "full": (2009, 2040)}
 COHORT_ASSETS = {
     "eb2_india_capped": ("EB-2", "India", "Capped"),
@@ -252,11 +251,17 @@ def summarize_projection(records: list[dict], *, allow_partial=False) -> tuple[d
 
 
 def summarize_cohorts(records: list[dict]) -> dict[str, pd.DataFrame]:
+    """Summarize all four child states at the primary FY2040 observation cutoff.
+
+    Figure shares average each run's cohort percentages. Table 14 retains the
+    existing equal-entry-year average within each run, then averages the runs.
+    Empty cohorts have no percentage and do not enter that average.
+    """
     counts, shares, rates = [], [], []
     for record in records:
         raw = record["raw"]
-        if raw["years"] != list(range(2009, 2062)):
-            raise ValueError("Eventual cohort outcomes require follow-up through FY2061")
+        if raw["years"] != list(YEARS):
+            raise ValueError("Cohort exhibits require primary records ending in FY2040")
         frame = pd.DataFrame(record["cohorts"])
         frame["nationality"] = frame.nationality.map(_country)
         keys = ["scenario", "entry_year", "nationality", "eb_category"]
@@ -267,22 +272,23 @@ def summarize_cohorts(records: list[dict]) -> dict[str, pd.DataFrame]:
             raise ValueError("Invalid child cohort counts")
         if not frame.total_created.eq(frame[list(FATES)].sum(axis=1)).all():
             raise ValueError("Child cohort conservation failed")
+        if not frame.entry_year.isin(YEARS).all():
+            raise ValueError("Cohort entry years fall outside FY2009--FY2040")
+        created = frame.pivot(index=keys[1:], columns="scenario", values="total_created")
+        if created.isna().any().any() or not created.Capped.eq(created.Uncapped).all():
+            raise ValueError("Policies have different created-child cohort denominators")
         for policy, suffix in zip(POLICIES[:2], ("unc", "cap")):
             policy_frame = frame[frame.scenario == policy]
             if policy_frame.aged_out.sum() != sum(raw[f"annual_aged_out_{suffix}"]):
-                raise ValueError("Long-horizon cohort age-outs disagree with annual events")
+                raise ValueError("FY2040 cohort age-outs disagree with annual events")
             if f"annual_children_saved_{suffix}" in raw and policy_frame.saved.sum() != sum(raw[f"annual_children_saved_{suffix}"]):
-                raise ValueError("Long-horizon cohort saves disagree with annual conversions")
-            if policy_frame.loc[policy_frame.entry_year > 2040, "total_created"].sum() <= 0:
-                raise ValueError("Cohort follow-up must retain post-2040 entrants")
+                raise ValueError("FY2040 cohort saves disagree with annual conversions")
         selected = frame[(frame.entry_year <= 2040) & (frame.total_created > 0)].copy()
-        if selected.still_dependent.sum() != 0:
-            raise ValueError("Entry cohorts through 2040 retain unresolved children at 2061")
         for row in selected.to_dict("records"):
-            counts.append({**row, "seed": record["seed"], "observation_end_year": 2061})
+            counts.append({**row, "seed": record["seed"], "observation_end_year": 2040})
             shares.extend({**{key: row[key] for key in keys}, "seed": record["seed"],
                            "fate": fate, "value": 100 * row[fate] / row["total_created"],
-                           "observation_end_year": 2061} for fate in FATES)
+                           "observation_end_year": 2040} for fate in FATES)
         for (policy, nationality, category), group in selected.groupby(["scenario", "nationality", "eb_category"]):
             for period in ("full", "projection"):
                 start, end = PERIODS[period]
@@ -290,16 +296,16 @@ def summarize_cohorts(records: list[dict]) -> dict[str, pd.DataFrame]:
                 if len(part):
                     rates.append({"seed": record["seed"], "scenario": policy, "nationality": nationality,
                                   "category": category, "period": period, "nonempty_entry_cohorts": len(part),
+                                  "observation_end_year": 2040,
                                   "value": float((100 * part.saved / part.total_created).mean())})
     s, r = pd.DataFrame(shares), pd.DataFrame(rates)
     share_summary = summarize(s, ["scenario", "entry_year", "nationality", "eb_category", "fate", "observation_end_year"])
-    rate_summary = summarize(r, ["scenario", "nationality", "category", "period"])
-    # The separately declared two-run follow-up is descriptive. Preserve means
-    # and across-run dispersion, without exporting apparent cohort probability
-    # bounds from two observations.
+    rate_summary = summarize(r, ["scenario", "nationality", "category", "period", "observation_end_year"])
+    # Keep the exhibits' existing mean-only presentation; uncertainty in the
+    # primary event means is reported separately.
     for frame in (share_summary, rate_summary):
         frame.drop(columns=["mean_ci95_low", "mean_ci95_high", "p025", "p975"], inplace=True)
-        frame["interval_scope"] = "No interval: descriptive long-follow-up comparison"
+        frame["interval_scope"] = "No interval shown: cohort outcomes observed by FY2040"
     return {"cohort_counts": pd.DataFrame(counts), "cohort_share_runs": s, "cohort_save_rate_runs": r,
             "cohort_share_summary": share_summary, "cohort_save_rates": rate_summary}
 
@@ -545,7 +551,11 @@ def draw_figures(output: Path, frames: dict) -> dict:
         ax.set(xlabel=xlabel, ylabel=ylabel, xlim=(x.min(), x.max()), ylim=(0, 100) if percent else (0, None))
         ax.set_xticks([2009, 2020, 2030, 2040] if x.min() == 2009 else [2025, 2030, 2035, 2040])
         ax.yaxis.set_major_formatter(PercentFormatter(100, decimals=0) if percent else StrMethodFormatter("{x:,.0f}"))
-        ax.legend(loc="upper center", bbox_to_anchor=(.5, 1.26), ncol=legend_columns,
+        handles, legend_labels = ax.get_legend_handles_labels()
+        if len(handles) == 4 and legend_columns == 2:
+            order = (0, 2, 1, 3)  # Read the two legend rows in stacked-state order.
+            handles, legend_labels = [handles[i] for i in order], [legend_labels[i] for i in order]
+        ax.legend(handles, legend_labels, loc="upper center", bbox_to_anchor=(.5, 1.26), ncol=legend_columns,
                   frameon=False, handlelength=1.3, columnspacing=.8)
         save(fig, stem, fraction, data)
 
@@ -587,12 +597,12 @@ def draw_figures(output: Path, frames: dict) -> dict:
                 data = part.pivot(index="entry_year", columns="fate", values="mean").reset_index()
                 if data.empty or data[list(FATES)].isna().any().any():
                     raise ValueError(f"Incomplete cohort figure data: {stem}")
-                if not data["still_dependent"].eq(0).all():
-                    raise ValueError(f"Unresolved children in cohort figure data: {stem}")
-                data = data[["entry_year", *RESOLVED_FATES]]
-                stacked(data, RESOLVED_FATES, ("Saved", "Aged out", "Exited queue"),
+                if not np.allclose(data[list(FATES)].sum(axis=1), 100):
+                    raise ValueError(f"Cohort figure shares do not sum to 100 percent: {stem}")
+                data = data[["entry_year", *FATES]]
+                stacked(data, FATES, ("Saved", "Aged out", "Exited queue", "Unresolved"),
                         OUTCOME_COLORS, stem, .8, "Queue-entry year", "Share of children",
-                        percent=True, legend_columns=3)
+                        percent=True, legend_columns=2)
     return figures
 
 
@@ -605,7 +615,7 @@ def coverage(source: str, refreshed: set[str], figures: dict) -> dict:
     return {"tables": [{"label": label, "status": "pending_rerun" if label in pending else
                         "refreshed" if label in refreshed else
                         "retained_historical_sensitivity" if label in HISTORICAL_SENSITIVITY_TABLES else
-                        "requires_long_followup" if label == "tab:save_rates" else "retained_input_or_demography"}
+                        "requires_primary_cohort_counts" if label == "tab:save_rates" else "retained_input_or_demography"}
                        for label in tables],
             "figure_assets": [{"original_path": asset, "generated_stem": Path(asset).stem.removeprefix("current-"),
                                "status": "refreshed" if Path(asset).stem.removeprefix("current-") in figures else
@@ -639,6 +649,11 @@ def _clear_prior_generated(output: Path) -> None:
 def build_refresh(manuscript: Path, projection_dir: Path, cohort_dir: Path | None,
                   observed_csv: Path, output: Path, *, expected_runs=None, expected_seeds=None,
                   selection_label: str, allow_partial=False, projection_records=None, cohort_records=None) -> dict:
+    """Refresh primary exhibits; legacy follow-up arguments no longer select cohorts.
+
+    ``cohort_dir`` and ``cohort_records`` remain accepted for existing callers.
+    Both annual and cohort exhibits always use the selected FY2040 primary pairs.
+    """
     manuscript, output, observed_csv = Path(manuscript), Path(output), Path(observed_csv)
     output.mkdir(parents=True, exist_ok=True)
     inputs = {str(manuscript.resolve()): digest(manuscript), str(observed_csv.resolve()): digest(observed_csv),
@@ -650,19 +665,8 @@ def build_refresh(manuscript: Path, projection_dir: Path, cohort_dir: Path | Non
     if len(records) < 2 and not allow_partial:
         raise ValueError("Final numerical uncertainty summaries require at least two paired records")
     frames, missing = summarize_projection(records, allow_partial=allow_partial)
-    cohort_seeds = []
-    if cohort_dir is not None:
-        cohorts, hashes, cohort_identity = load_records(Path(cohort_dir), 2061, supplied_records=cohort_records)
-        inputs.update(hashes)
-        if cohort_identity != identity:
-            raise ValueError("Cohort and annual-event records use different scientific sources or assumptions")
-        verify_followup_prefix(records, cohorts)
-        frames.update(summarize_cohorts(cohorts))
-        cohort_seeds = [r["seed"] for r in cohorts]
-    elif not allow_partial:
-        raise MissingExportError("Current-engine FY2061 cohort records are required; FY2040 outcomes cannot substitute")
-    else:
-        missing.append("Current-engine FY2061 cohort records")
+    frames.update(summarize_cohorts(records))
+    cohort_seeds = [r["seed"] for r in records]
     frames["historical_fit"], frames["historical_fit_annual"] = historical_fit(frames["historical_cells"], pd.read_csv(observed_csv), len(records))
     source, ledger = manuscript.read_text(), []
     replacements = table_replacements(frames)
@@ -690,7 +694,9 @@ def build_refresh(manuscript: Path, projection_dir: Path, cohort_dir: Path | Non
               if name.endswith("summary") or name in {"historical_fit", "cohort_save_rates"}}
     values["selection"] = {"label": selection_label, "annual_n": len(records), "annual_seeds": [r["seed"] for r in records],
                            "cohort_n": len(cohort_seeds), "cohort_seeds": cohort_seeds,
-                           "event_window": [2025, 2040], "cohort_entry_window": [2009, 2040], "cohort_observation_end": 2061,
+                           "event_window": [2025, 2040], "cohort_entry_window": [2009, 2040], "cohort_observation_end": 2040,
+                           "cohort_source": "same primary pairs as annual outcomes",
+                           "cohort_save_rate_weighting": "equal weight for nonempty entry-year cohort rates within each run, then equal weight across runs",
                            "table_interval": "conditional 95% Student-t confidence interval for the mean",
                            "interval_formula": "mean +/- t.ppf(0.975, n-1) * sample_sd / sqrt(n)",
                            "empirical_p025_p975": "retained separately; not the printed mean confidence interval"}
@@ -706,7 +712,7 @@ def build_refresh(manuscript: Path, projection_dir: Path, cohort_dir: Path | Non
               "generated_artifacts": generated, "figures": figures, "missing_exports": missing,
               "prose_changed": False, "requires_author_integration": [
                   "Use narrative-values.json for Abstract, Results, Discussion and captions; prose was not rewritten.",
-                  "State actual annual and long-follow-up run counts and the selected exit specification.",
+                  "State the shared primary run count and FY2040 observation cutoff for annual and cohort exhibits.",
                   "Label refreshed interval columns as 95% confidence intervals for conditional means, not simulation percentiles.",
                   "Label retained original sensitivity tables as historical or replace them from matching new experiments.",
                   "Refresh the added federal stock/timing diagnostic separately from current historical inventories.",
